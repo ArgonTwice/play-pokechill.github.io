@@ -747,23 +747,23 @@
    },
    "timeCandy": {
     "fr": "Bonbon Temps",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "timeCandyXL": {
     "fr": "Bonbon Temps XL",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "neutralMint": {
     "fr": "Menthe Neutre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "autoRefightTicket": {
     "fr": "Ticket Revanche Auto",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "megaShard": {
     "fr": "Méga-Fragment",
@@ -787,88 +787,88 @@
    },
    "primalEarth": {
     "fr": "Terre Primordiale",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "thunderousRock": {
     "fr": "Roche Tonnerre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "articRock": {
     "fr": "Roche Arctique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ancientOrchid": {
     "fr": "Orchidée Antique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "futureDisk": {
     "fr": "Disque du Futur",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ancientKeystone": {
     "fr": "Clé de Voûte Antique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "steelKeystone": {
     "fr": "Clé de Voûte d’Acier",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "frozenKeystone": {
     "fr": "Clé de Voûte Gelée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "aetherKeycard": {
     "fr": "Carte d’Accès Æther",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "wormholeResidue": {
     "fr": "Résidu d’Ultra-Brèche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "futureContraption": {
     "fr": "Engin du Futur",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "wisdomPetal": {
     "fr": "Pétale de Sagesse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "epochFeather": {
     "fr": "Plume des Époques",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "magazineSubscription": {
     "fr": "Abonnement Magazine",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "battlePass": {
     "fr": "Pass de Combat",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "replicatorUpgradeS": {
     "fr": "Amélioration Réplicateur S",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "replicatorUpgradeE": {
     "fr": "Amélioration Réplicateur E",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "tmDummy": {
     "fr": "CT Factice",
@@ -891,199 +891,199 @@
     "statut": "à valider"
    },
    "blueBarrette": {
-    "fr": "Barrette Bleue",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Nœud Bleu",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "pinkBarrette": {
-    "fr": "Barrette Rose",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Nœud Rose",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "greenBarrette": {
-    "fr": "Barrette Verte",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Nœud Vert",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "blueFlower": {
     "fr": "Fleur Bleue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
    },
    "purpleFlower": {
     "fr": "Fleur Violette",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "redFlower": {
     "fr": "Fleur Rouge",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
    },
    "blueBalloon": {
-    "fr": "Ballon Bleu",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Ballons Bleus",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "redBalloon": {
-    "fr": "Ballon Rouge",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Ballons Rouges",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "greenBalloon": {
-    "fr": "Ballon Vert",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Ballons Verts",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "professorHat": {
-    "fr": "Chapeau de Professeur",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Chapeau Lauréat",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
    },
    "academicHat": {
     "fr": "Toque Universitaire",
-    "source": "proposition",
+    "source": "proposition (aucun équivalent DPPt, pokepedia.fr/Accessoire)",
     "statut": "à valider"
    },
    "redBall": {
     "fr": "Boule Rouge",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "greenBall": {
     "fr": "Boule Verte",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blueBall": {
     "fr": "Boule Bleue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "redHeaddress": {
     "fr": "Coiffe Rouge",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "purpleHeaddress": {
     "fr": "Coiffe Violette",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "tealHeaddress": {
     "fr": "Coiffe Turquoise",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blackTie": {
     "fr": "Cravate Noire",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "whiteTie": {
     "fr": "Cravate Blanche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "stripedTie": {
     "fr": "Cravate Rayée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "greenTie": {
     "fr": "Cravate Verte",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "orangeTie": {
     "fr": "Cravate Orange",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blueTie": {
     "fr": "Cravate Bleue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blackBowtie": {
     "fr": "Nœud Papillon Noir",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "pinkBowtie": {
     "fr": "Nœud Papillon Rose",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blueBowtie": {
     "fr": "Nœud Papillon Bleu",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "yellowBowtie": {
     "fr": "Nœud Papillon Jaune",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "tealHeadband": {
     "fr": "Bandeau Turquoise",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "greenHeadband": {
     "fr": "Bandeau Vert",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "yellowHeadband": {
     "fr": "Bandeau Jaune",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blackScarf": {
     "fr": "Écharpe Noire",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "whiteScarf": {
     "fr": "Écharpe Blanche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "yellowStar": {
     "fr": "Étoile Jaune",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "tealStar": {
     "fr": "Étoile Turquoise",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "redStar": {
     "fr": "Étoile Rouge",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blackMoustache": {
     "fr": "Moustache Noire",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
    },
    "whiteMoustache": {
     "fr": "Moustache Blanche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
    },
    "microphone": {
     "fr": "Micro",
-    "source": "proposition",
+    "source": "proposition (EN officiel DPPt = Standing Mike → Micro sur Pied, serebii.net ; nom EN différent, non confirmé)",
     "statut": "à valider"
    },
    "oldUmbrella": {
-    "fr": "Vieux Parapluie",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Ombrelle Chine",
+    "source": "web:pokepedia.fr/Floraville (Baie Palma ×50) + strategywiki.org/wiki/Pokémon_Diamond_and_Pearl/Floaroma_Town (Pamtre ×50) + serebii.net (nom EN)",
+    "statut": "ok"
    },
    "coloredParasol": {
     "fr": "Ombrelle Colorée",
