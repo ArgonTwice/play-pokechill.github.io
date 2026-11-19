@@ -1484,8 +1484,8 @@
    },
    "vsClownDuck": {
     "fr": "Clown Duck",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsGymLeaderPhoebe": {
     "fr": "Championne d’Arène Spectra",
@@ -1509,8 +1509,8 @@
    },
    "vsEliteTrainerCynthia": {
     "fr": "Dresseuse d’Élite Cynthia",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsEliteFourLorelei": {
     "fr": "Conseil 4 Olga",
@@ -1534,98 +1534,98 @@
    },
    "vsTeamLeaderColress": {
     "fr": "Boss Nikolaï",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsTeamLeaderArchie": {
     "fr": "Boss Arthur",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsTeamLeaderMaxie": {
     "fr": "Boss Max",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsTeamLeaderGiovanni": {
     "fr": "Boss Giovanni",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsTeamLeaderCyrus": {
     "fr": "Boss Hélio",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsTeamLeaderGhetsis": {
     "fr": "Boss Ghetis",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsMasterTrainerSteven": {
     "fr": "Dresseur Expert Pierre Rochard",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsMasterTrainerGeeta": {
     "fr": "Dresseuse Experte Alisma",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsMasterTrainerNemona": {
     "fr": "Dresseuse Experte Menzi",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsMasterTrainerAlder": {
     "fr": "Dresseur Expert Goyah",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsMasterTrainerWallace": {
     "fr": "Dresseur Expert Marc",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsUltraEntityLusamine": {
     "fr": "Ultra-Entité Elsa-Mina",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerLillie": {
     "fr": "Dresseuse Légendaire Lilie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerDawn": {
     "fr": "Dresseuse Légendaire Aurore",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerSilver": {
     "fr": "Dresseur Légendaire Silver",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerBrendan": {
     "fr": "Dresseur Légendaire Brice",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerAZ": {
     "fr": "Dresseur Légendaire A",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerAsh": {
     "fr": "Dresseur Légendaire Sacha",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsLegendTrainerBlue": {
     "fr": "Dresseur Légendaire Blue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsPokemonProfessorOak": {
     "fr": "Professeur Pokémon Chen",
@@ -2379,8 +2379,8 @@
    },
    "primalFissure": {
     "fr": "Faille Primordiale",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "exoticPond": {
     "fr": "Étang Exotique",
@@ -2464,43 +2464,43 @@
    },
    "dimensionRift1": {
     "fr": "Faille Dimensionnelle Faible",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRaid1": {
-    "fr": "Étrange Trou de Ver",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRift2": {
     "fr": "Faille Dimensionnelle",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRaid2": {
-    "fr": "Étrange Trou de Ver",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRift3": {
     "fr": "Faille Dimensionnelle Sauvage",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRaid3": {
-    "fr": "Étrange Trou de Ver",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRift4": {
     "fr": "Faille Dimensionnelle Critique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dimensionRaid4": {
-    "fr": "Étrange Trou de Ver",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "missingArea": {
     "fr": "Zone Manquante",

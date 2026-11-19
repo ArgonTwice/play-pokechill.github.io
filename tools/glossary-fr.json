@@ -20700,8 +20700,8 @@
   "fr": "Faille Primordiale",
   "categorie": "area",
   "cle": "primalFissure",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Garchomp Mega-Showdown",
@@ -21404,8 +21404,8 @@
   "fr": "Clown Duck",
   "categorie": "area",
   "cle": "vsClownDuck",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Gym Leader Phoebe",
@@ -21444,8 +21444,8 @@
   "fr": "Dresseuse d’Élite Cynthia",
   "categorie": "area",
   "cle": "vsEliteTrainerCynthia",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Elite Four Lorelei",
@@ -21484,152 +21484,152 @@
   "fr": "Boss Nikolaï",
   "categorie": "area",
   "cle": "vsTeamLeaderColress",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Team Leader Archie",
   "fr": "Boss Arthur",
   "categorie": "area",
   "cle": "vsTeamLeaderArchie",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Team Leader Maxie",
   "fr": "Boss Max",
   "categorie": "area",
   "cle": "vsTeamLeaderMaxie",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Team Leader Giovanni",
   "fr": "Boss Giovanni",
   "categorie": "area",
   "cle": "vsTeamLeaderGiovanni",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Team Leader Cyrus",
   "fr": "Boss Hélio",
   "categorie": "area",
   "cle": "vsTeamLeaderCyrus",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Team Leader Ghetsis",
   "fr": "Boss Ghetis",
   "categorie": "area",
   "cle": "vsTeamLeaderGhetsis",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Master Trainer Steven",
   "fr": "Dresseur Expert Pierre Rochard",
   "categorie": "area",
   "cle": "vsMasterTrainerSteven",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Master Trainer Geeta",
   "fr": "Dresseuse Experte Alisma",
   "categorie": "area",
   "cle": "vsMasterTrainerGeeta",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Master Trainer Nemona",
   "fr": "Dresseuse Experte Menzi",
   "categorie": "area",
   "cle": "vsMasterTrainerNemona",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Master Trainer Alder",
   "fr": "Dresseur Expert Goyah",
   "categorie": "area",
   "cle": "vsMasterTrainerAlder",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Master Trainer Wallace",
   "fr": "Dresseur Expert Marc",
   "categorie": "area",
   "cle": "vsMasterTrainerWallace",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ultra Entity Lusamine",
   "fr": "Ultra-Entité Elsa-Mina",
   "categorie": "area",
   "cle": "vsUltraEntityLusamine",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer Lillie",
   "fr": "Dresseuse Légendaire Lilie",
   "categorie": "area",
   "cle": "vsLegendTrainerLillie",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer Dawn",
   "fr": "Dresseuse Légendaire Aurore",
   "categorie": "area",
   "cle": "vsLegendTrainerDawn",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer Silver",
   "fr": "Dresseur Légendaire Silver",
   "categorie": "area",
   "cle": "vsLegendTrainerSilver",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer Brendan",
   "fr": "Dresseur Légendaire Brice",
   "categorie": "area",
   "cle": "vsLegendTrainerBrendan",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer AZ",
   "fr": "Dresseur Légendaire A",
   "categorie": "area",
   "cle": "vsLegendTrainerAZ",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer Ash",
   "fr": "Dresseur Légendaire Sacha",
   "categorie": "area",
   "cle": "vsLegendTrainerAsh",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Legend Trainer Blue",
   "fr": "Dresseur Légendaire Blue",
   "categorie": "area",
   "cle": "vsLegendTrainerBlue",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Pokemon Professor Oak",
@@ -22228,64 +22228,64 @@
   "fr": "Faille Dimensionnelle Faible",
   "categorie": "area",
   "cle": "dimensionRift1",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strange Wormhole",
-  "fr": "Étrange Trou de Ver",
+  "fr": "Trou de Ver Étrange",
   "categorie": "area",
   "cle": "dimensionRaid1",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dimensional Rift",
   "fr": "Faille Dimensionnelle",
   "categorie": "area",
   "cle": "dimensionRift2",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strange Wormhole",
-  "fr": "Étrange Trou de Ver",
+  "fr": "Trou de Ver Étrange",
   "categorie": "area",
   "cle": "dimensionRaid2",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Savage Dimensional Rift",
   "fr": "Faille Dimensionnelle Sauvage",
   "categorie": "area",
   "cle": "dimensionRift3",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strange Wormhole",
-  "fr": "Étrange Trou de Ver",
+  "fr": "Trou de Ver Étrange",
   "categorie": "area",
   "cle": "dimensionRaid3",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Critical Dimensional Rift",
   "fr": "Faille Dimensionnelle Critique",
   "categorie": "area",
   "cle": "dimensionRift4",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strange Wormhole",
-  "fr": "Étrange Trou de Ver",
+  "fr": "Trou de Ver Étrange",
   "categorie": "area",
   "cle": "dimensionRaid4",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dimension Palkia",
