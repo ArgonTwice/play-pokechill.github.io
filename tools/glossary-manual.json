@@ -439,39 +439,39 @@
     "statut": "ok"
    },
    "flareAbsorb": {
-    "fr": "Absorb Flamme",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Flamme",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "curseAbsorb": {
-    "fr": "Absorb Maléfice",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Maléfice",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "poisonAbsorb": {
-    "fr": "Absorb Poison",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Poison",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "frostAbsorb": {
-    "fr": "Absorb Givre",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Givre",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "psychicAbsorb": {
-    "fr": "Absorb Psy",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Psy",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "lightAbsorb": {
-    "fr": "Absorb Lumière",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Lumière",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "growthAbsorb": {
-    "fr": "Absorb Sève",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Absorbe-Sève",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
    },
    "brittleArmor": {
     "fr": "Armure Friable",
@@ -485,38 +485,38 @@
    },
    "sandyPelt": {
     "fr": "Toison Sableuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "icyPelt": {
     "fr": "Toison Glacée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "moistPelt": {
     "fr": "Toison Humide",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fieryPelt": {
     "fr": "Toison Ardente",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "pixiePelt": {
     "fr": "Toison Duveteuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "blackPelt": {
     "fr": "Toison Noire",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "spikyPelt": {
     "fr": "Toison Hérissée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "climaTact": {
     "fr": "Tact Climatique",
@@ -560,48 +560,48 @@
    },
    "flashElectro": {
     "fr": "Torche Électro",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashAqua": {
     "fr": "Torche Aqua",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashPyro": {
     "fr": "Torche Pyro",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashUmbra": {
     "fr": "Torche Umbra",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashVenum": {
-    "fr": "Torche Venin",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Torche Venum",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashCryo": {
     "fr": "Torche Cryo",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashPsycha": {
-    "fr": "Torche Psycho",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Torche Psycha",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashFae": {
-    "fr": "Torche Féerique",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Torche Fae",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashHerba": {
     "fr": "Torche Herba",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "stoned": {
     "fr": "Pétrification",

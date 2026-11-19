@@ -14857,59 +14857,59 @@
  },
  {
   "en": "Flare Absorb",
-  "fr": "Absorb Flamme",
+  "fr": "Absorbe-Flamme",
   "categorie": "ability",
   "cle": "flareAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Curse Absorb",
-  "fr": "Absorb Maléfice",
+  "fr": "Absorbe-Maléfice",
   "categorie": "ability",
   "cle": "curseAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Poison Absorb",
-  "fr": "Absorb Poison",
+  "fr": "Absorbe-Poison",
   "categorie": "ability",
   "cle": "poisonAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Frost Absorb",
-  "fr": "Absorb Givre",
+  "fr": "Absorbe-Givre",
   "categorie": "ability",
   "cle": "frostAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Psychic Absorb",
-  "fr": "Absorb Psy",
+  "fr": "Absorbe-Psy",
   "categorie": "ability",
   "cle": "psychicAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Light Absorb",
-  "fr": "Absorb Lumière",
+  "fr": "Absorbe-Lumière",
   "categorie": "ability",
   "cle": "lightAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Growth Absorb",
-  "fr": "Absorb Sève",
+  "fr": "Absorbe-Sève",
   "categorie": "ability",
   "cle": "growthAbsorb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strong Jaw",
@@ -14980,56 +14980,56 @@
   "fr": "Toison Sableuse",
   "categorie": "ability",
   "cle": "sandyPelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Icy Pelt",
   "fr": "Toison Glacée",
   "categorie": "ability",
   "cle": "icyPelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Moist Pelt",
   "fr": "Toison Humide",
   "categorie": "ability",
   "cle": "moistPelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fiery Pelt",
   "fr": "Toison Ardente",
   "categorie": "ability",
   "cle": "fieryPelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fuzzy Pelt",
   "fr": "Toison Duveteuse",
   "categorie": "ability",
   "cle": "pixiePelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Black Pelt",
   "fr": "Toison Noire",
   "categorie": "ability",
   "cle": "blackPelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Spiky Pelt",
   "fr": "Toison Hérissée",
   "categorie": "ability",
   "cle": "spikyPelt",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Clima Tact",
@@ -15260,72 +15260,72 @@
   "fr": "Torche Électro",
   "categorie": "ability",
   "cle": "flashElectro",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Aqua",
   "fr": "Torche Aqua",
   "categorie": "ability",
   "cle": "flashAqua",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Pyro",
   "fr": "Torche Pyro",
   "categorie": "ability",
   "cle": "flashPyro",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Umbra",
   "fr": "Torche Umbra",
   "categorie": "ability",
   "cle": "flashUmbra",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Venum",
-  "fr": "Torche Venin",
+  "fr": "Torche Venum",
   "categorie": "ability",
   "cle": "flashVenum",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Cryo",
   "fr": "Torche Cryo",
   "categorie": "ability",
   "cle": "flashCryo",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Psycha",
-  "fr": "Torche Psycho",
+  "fr": "Torche Psycha",
   "categorie": "ability",
   "cle": "flashPsycha",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Fae",
-  "fr": "Torche Féerique",
+  "fr": "Torche Fae",
   "categorie": "ability",
   "cle": "flashFae",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Herba",
   "fr": "Torche Herba",
   "categorie": "ability",
   "cle": "flashHerba",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Stoned",
@@ -19229,23 +19229,23 @@
   "categorie": "item",
   "cle": "flashHerbaMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Fae Memory",
-  "fr": "ROM Torche Féerique",
+  "fr": "ROM Torche Fae",
   "categorie": "item",
   "cle": "flashFaeMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Psycha Memory",
-  "fr": "ROM Torche Psycho",
+  "fr": "ROM Torche Psycha",
   "categorie": "item",
   "cle": "flashPsychaMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Cryo Memory",
@@ -19253,15 +19253,15 @@
   "categorie": "item",
   "cle": "flashCryoMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Venum Memory",
-  "fr": "ROM Torche Venin",
+  "fr": "ROM Torche Venum",
   "categorie": "item",
   "cle": "flashVenumMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Umbra Memory",
@@ -19269,7 +19269,7 @@
   "categorie": "item",
   "cle": "flashUmbraMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Pyro Memory",
@@ -19277,7 +19277,7 @@
   "categorie": "item",
   "cle": "flashPyroMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Aqua Memory",
@@ -19285,7 +19285,7 @@
   "categorie": "item",
   "cle": "flashAquaMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Flash Electro Memory",
@@ -19293,7 +19293,7 @@
   "categorie": "item",
   "cle": "flashElectroMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Libero Memory",
@@ -19517,7 +19517,7 @@
   "categorie": "item",
   "cle": "spikyPeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Black Pelt Memory",
@@ -19525,7 +19525,7 @@
   "categorie": "item",
   "cle": "blackPeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Fuzzy Pelt Memory",
@@ -19533,7 +19533,7 @@
   "categorie": "item",
   "cle": "pixiePeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Fiery Pelt Memory",
@@ -19541,7 +19541,7 @@
   "categorie": "item",
   "cle": "fieryPeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Moist Pelt Memory",
@@ -19549,7 +19549,7 @@
   "categorie": "item",
   "cle": "moistPeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Icy Pelt Memory",
@@ -19557,7 +19557,7 @@
   "categorie": "item",
   "cle": "icyPeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Sandy Pelt Memory",
@@ -19565,7 +19565,7 @@
   "categorie": "item",
   "cle": "sandyPeltMemory",
   "source": "motif:ROM",
-  "statut": "à valider"
+  "statut": "ok"
  },
  {
   "en": "Grassy Pelt Memory",
