@@ -20316,24 +20316,24 @@
   "fr": "Dojo Débutant I",
   "categorie": "area",
   "cle": "beginnerDojoI",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Advanced Dojo I",
   "fr": "Dojo Avancé I",
   "categorie": "area",
   "cle": "advancedDojoI",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Expert Dojo I",
   "fr": "Dojo Expert I",
   "categorie": "area",
   "cle": "expertDojoI",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Victory Road I",
@@ -20348,16 +20348,16 @@
   "fr": "Grotte Scintillante I",
   "categorie": "area",
   "cle": "glisteringCaveI",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sunken Temple I",
   "fr": "Temple Englouti I",
   "categorie": "area",
   "cle": "sunkenTempleI",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sinnoh Underground II",
@@ -20372,24 +20372,24 @@
   "fr": "Dojo Débutant II",
   "categorie": "area",
   "cle": "beginnerDojoII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Advanced Dojo II",
   "fr": "Dojo Avancé II",
   "categorie": "area",
   "cle": "advancedDojoII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Expert Dojo II",
   "fr": "Dojo Expert II",
   "categorie": "area",
   "cle": "expertDojoII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Victory Road II",
@@ -20404,16 +20404,16 @@
   "fr": "Grotte Scintillante II",
   "categorie": "area",
   "cle": "glisteringCaveII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sunken Temple II",
   "fr": "Temple Englouti II",
   "categorie": "area",
   "cle": "sunkenTempleII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sinnoh Underground III",
@@ -20428,24 +20428,24 @@
   "fr": "Dojo Débutant III",
   "categorie": "area",
   "cle": "beginnerDojoIII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Advanced Dojo III",
   "fr": "Dojo Avancé III",
   "categorie": "area",
   "cle": "advancedDojoIII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Expert Dojo III",
   "fr": "Dojo Expert III",
   "categorie": "area",
   "cle": "expertDojoIII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Victory Road III",
@@ -20460,16 +20460,16 @@
   "fr": "Grotte Scintillante III",
   "categorie": "area",
   "cle": "glisteringCaveIII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sunken Temple III",
   "fr": "Temple Englouti III",
   "categorie": "area",
   "cle": "sunkenTempleIII",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Cosplay Convention",
@@ -20620,56 +20620,56 @@
   "fr": "Résurrection de Fort-Ivoire",
   "categorie": "area",
   "cle": "eventGreatTusk",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Scream Tail Revival",
   "fr": "Résurrection de Hurle-Queue",
   "categorie": "area",
   "cle": "eventScreamTail",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Slither Wing Revival",
   "fr": "Résurrection de Rampe-Ailes",
   "categorie": "area",
   "cle": "eventSlitherWing",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Brute Bonnet Revival",
   "fr": "Résurrection de Fongus-Furie",
   "categorie": "area",
   "cle": "eventBruteBonnet",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flutter Mane Revival",
   "fr": "Résurrection de Flotte-Mèche",
   "categorie": "area",
   "cle": "eventFlutterMane",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sandy Shocks Revival",
   "fr": "Résurrection de Pelage-Sablé",
   "categorie": "area",
   "cle": "eventSandyShocks",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Roaring Moon Revival",
   "fr": "Résurrection de Rugit-Lune",
   "categorie": "area",
   "cle": "eventRoaringMoon",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Aerodactyl Mega-Showdown",
@@ -21100,56 +21100,56 @@
   "fr": "Résurrection d’Épine-de-Fer",
   "categorie": "area",
   "cle": "eventIronThorns",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Hands Revival",
   "fr": "Résurrection de Paume-de-Fer",
   "categorie": "area",
   "cle": "eventIronHands",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Jugulis Revival",
   "fr": "Résurrection de Têtes-de-Fer",
   "categorie": "area",
   "cle": "eventIronJugulis",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Treads Revival",
   "fr": "Résurrection de Roue-de-Fer",
   "categorie": "area",
   "cle": "eventIronTreads",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Bundle Revival",
   "fr": "Résurrection de Hotte-de-Fer",
   "categorie": "area",
   "cle": "eventIronBundle",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Moth Revival",
   "fr": "Résurrection de Mite-de-Fer",
   "categorie": "area",
   "cle": "eventIronMoth",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Valiant Revival",
   "fr": "Résurrection de Garde-de-Fer",
   "categorie": "area",
   "cle": "eventIronValiant",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Scizor Mega-Showdown",

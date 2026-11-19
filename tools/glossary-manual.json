@@ -1254,38 +1254,38 @@
    },
    "eventGreatTusk": {
     "fr": "Résurrection de Fort-Ivoire",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventScreamTail": {
     "fr": "Résurrection de Hurle-Queue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventSlitherWing": {
     "fr": "Résurrection de Rampe-Ailes",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventBruteBonnet": {
     "fr": "Résurrection de Fongus-Furie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventFlutterMane": {
     "fr": "Résurrection de Flotte-Mèche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventSandyShocks": {
     "fr": "Résurrection de Pelage-Sablé",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventRoaringMoon": {
     "fr": "Résurrection de Rugit-Lune",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventMegaAerodactly": {
     "fr": "Méga-Duel de Ptéra",
@@ -1359,38 +1359,38 @@
    },
    "eventIronThorns": {
     "fr": "Résurrection d’Épine-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventIronHands": {
     "fr": "Résurrection de Paume-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventIronJugulis": {
     "fr": "Résurrection de Têtes-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventIronTreads": {
     "fr": "Résurrection de Roue-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventIronBundle": {
     "fr": "Résurrection de Hotte-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventIronMoth": {
     "fr": "Résurrection de Mite-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventIronValiant": {
     "fr": "Résurrection de Garde-de-Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventMegaScizor": {
     "fr": "Méga-Duel de Cizayox",
@@ -2014,48 +2014,48 @@
    },
    "beginnerDojoI": {
     "fr": "Dojo Débutant I",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "beginnerDojoII": {
     "fr": "Dojo Débutant II",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "beginnerDojoIII": {
     "fr": "Dojo Débutant III",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "advancedDojoI": {
     "fr": "Dojo Avancé I",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "advancedDojoII": {
     "fr": "Dojo Avancé II",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "advancedDojoIII": {
     "fr": "Dojo Avancé III",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "expertDojoI": {
     "fr": "Dojo Expert I",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "expertDojoII": {
     "fr": "Dojo Expert II",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "expertDojoIII": {
     "fr": "Dojo Expert III",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "victoryRoadI": {
     "fr": "Route Victoire I",
@@ -2074,33 +2074,33 @@
    },
    "glisteringCaveI": {
     "fr": "Grotte Scintillante I",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "glisteringCaveII": {
     "fr": "Grotte Scintillante II",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "glisteringCaveIII": {
     "fr": "Grotte Scintillante III",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "sunkenTempleI": {
     "fr": "Temple Englouti I",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "sunkenTempleII": {
     "fr": "Temple Englouti II",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "sunkenTempleIII": {
     "fr": "Temple Englouti III",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "verdantForest": {
     "fr": "Forêt Verdoyante",
