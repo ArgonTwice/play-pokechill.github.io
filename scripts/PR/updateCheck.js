@@ -13,7 +13,7 @@ async function getLatestCommit() {
   try {
     const res = await fetch(
       "https://api.github.com/repos/play-pokechill/play-pokechill.github.io/commits/main",
-      { cache: "no-cache" }
+      { cache: 'no-cache' }
     );
 
     if (!res.ok) {
@@ -40,7 +40,7 @@ async function checkForUpdates() {
   } else if (initialCommit !== latest) {
     // Update detected — stop polling and notify listeners
     clearInterval(updateInterval);
-    window.dispatchEvent(new Event("app-update-available"));
+    window.dispatchEvent(new Event('app-update-available'));
   }
 }
 
@@ -60,7 +60,7 @@ window.addEventListener("app-update-available", () => {
   updateShown = true;
   saveGame();
   const banner = document.createElement("div");
-  banner.textContent = "A new update is available";
+  banner.textContent = t('ui.new_update_is_available');
   banner.style.position = "fixed";  
   banner.style.top = "0";  
   banner.style.left = "0";  
@@ -71,7 +71,7 @@ window.addEventListener("app-update-available", () => {
   banner.style.textAlign = "center";  
   banner.style.cursor = "pointer";  
   banner.style.zIndex = "9999";
-  banner.classList = "update-banner"
+  banner.classList = 'update-banner'
   banner.onclick = () => {saveGame(); location.reload()};
   document.body.appendChild(banner);
 });

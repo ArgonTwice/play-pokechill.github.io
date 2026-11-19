@@ -1,0 +1,13 @@
+{
+ "_note": "Exceptions justifiées au contrôle « terme FR hors glossaire » : le mot anglais y est un nom commun, pas le nom du jeu.",
+ "terme FR hors glossaire": {
+  "move.facade.info": "Poisoned = adjectif « empoisonné », pas le badge de statut",
+  "pkmn.zapdos.lore": "thunder = tonnerre (nom commun), pas la capacité Fatal-Foudre",
+  "ui.dark_theme": "Dark = sombre (thème), pas le type Ténèbres",
+  "ui.nothing_but_time_will_be_lost": "Nothing = rien (nom commun), pas l'objet"
+ },
+ "typographie": {
+  "ui.operators_keyword_exclude_from_search_keyworda": "« ![mot-clé] » est la syntaxe de l’opérateur d’exclusion, à taper telle quelle",
+  "ui.operators_keyword_exclude_from_search_keyworda_2": "idem"
+ }
+}

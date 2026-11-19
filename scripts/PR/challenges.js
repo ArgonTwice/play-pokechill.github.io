@@ -306,7 +306,7 @@
         if (!moveId) {
           result.errors.push(`Unknown move: ${moveName}`);
         } else if (current.moves.length >= 4) {
-          result.errors.push(`Too many moves for ${format(current.id)}.`);
+          result.errors.push(`Too many moves for ${format(current.id, 'pkmn')}.`);
         } else {
           current.moves.push(moveId);
         }
@@ -321,7 +321,7 @@
     }
     [...result.playerTeam, ...result.enemyTeam].forEach(mon => {
       if (mon.moves.length === 0) {
-        result.errors.push(`${format(mon.id)} needs at least one move.`);
+        result.errors.push(`${format(mon.id, 'pkmn')} needs at least one move.`);
       }
     });
 
@@ -330,7 +330,7 @@
 
   // ============= UI Functions =============
   const formatTeamPreview = (team) => 
-    team.length ? team.map(mon => `${format(mon.id)} (Lv ${mon.level})`).join(", ") : "None";
+    team.length ? team.map(mon => `${format(mon.id, 'pkmn')} (Lv ${mon.level})`).join(", ") : "None";
 
   const renderPreview = (parseResult) => {
     const preview = document.getElementById("custom-challenge-preview");
@@ -680,21 +680,21 @@ IVs: 0 HP / 0 Atk / 0 Def / 6 SpA / 6 SpD / 6 Spe
       
       // Build moves display
       const movesDisplay = mon.moves
-        .map(moveId => format(moveId))
+        .map(moveId => format(moveId, 'move'))
         .join(", ");
       
       // Item icon if exists
       const itemIcon = mon.item 
-        ? `<img src="img/items/${mon.item}.png" class="custom-challenge-item-icon" title="${format(mon.item)}" alt="${format(mon.item)}">` 
+        ? `<img src="img/items/${mon.item}.png" class="custom-challenge-item-icon" title="${format(mon.item, 'item')}" alt="${format(mon.item, 'item')}">` 
         : '';
       
       entry.innerHTML = `
         ${itemIcon}
         <img class="custom-challenge-select-sprite" src="${sprite}">
         <div class="custom-challenge-select-info">
-          <span class="custom-challenge-select-name">${format(mon.id)}</span>
+          <span class="custom-challenge-select-name">${format(mon.id, 'pkmn')}</span>
           <span class="custom-challenge-select-level">Level ${mon.level}</span>
-          ${mon.ability ? `<span class="custom-challenge-select-ability">Ability: ${format(mon.ability)}</span>` : ''}
+          ${mon.ability ? `<span class="custom-challenge-select-ability">Ability: ${format(mon.ability, 'ability')}</span>` : ''}
           <span class="custom-challenge-select-ivs">${ivDisplay}</span>
           <span class="custom-challenge-select-moves">${movesDisplay}</span>
         </div>
@@ -801,14 +801,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 6 SpA / 6 SpD / 6 Spe
 
         const rewardItem = document.createElement("div");
         rewardItem.className = "custom-challenge-reward-item";
-        rewardItem.title = format(rewardId);
+        rewardItem.title = format(rewardId, item[rewardId] !== undefined ? 'item' : 'pkmn');
 
         if (item[rewardId] !== undefined) {
           rewardItem.dataset.item = rewardId;
-          rewardItem.innerHTML = `<img src="img/items/${rewardId}.png" alt="${format(rewardId)}">`;
+          rewardItem.innerHTML = `<img src="img/items/${rewardId}.png" alt="${format(rewardId, 'item')}">`;
         } else {
           rewardItem.dataset.pkmn = rewardId;
-          rewardItem.innerHTML = `<img src="img/pkmn/sprite/${rewardId}.png" alt="${format(rewardId)}">`;
+          rewardItem.innerHTML = `<img src="img/pkmn/sprite/${rewardId}.png" alt="${format(rewardId, 'pkmn')}">`;
         }
 
         rewards.appendChild(rewardItem);

@@ -107,7 +107,7 @@ function updateDictionary(){
 
         if (document.getElementById("dictionary-search").value!="" && !searchedDictionary.includes(ability[i])) continue
 
-        div.innerHTML = ` ${icon} ${format(i)} `
+        div.innerHTML = ` ${icon} ${format(i, 'ability')} `
 
         document.getElementById("dictionary-list").appendChild(div)
         
@@ -132,7 +132,7 @@ function updateDictionary(){
 
         if (document.getElementById("dictionary-search").value!="" && !searchedDictionary.includes(item[i])) continue
 
-        div.innerHTML = ` ${icon} ${format(i)} `
+        div.innerHTML = ` ${icon} ${format(i, 'item')} `
 
          document.getElementById("dictionary-list").appendChild(div)
     }
@@ -152,7 +152,7 @@ function updateDictionary(){
 
         if (document.getElementById("dictionary-search").value!="" && !searchedDictionary.includes(move[i])) continue
 
-        div.innerHTML = ` ${icon} ${format(i)} `
+        div.innerHTML = ` ${icon} ${format(i, 'move')} `
 
         document.getElementById("dictionary-list").appendChild(div)
     }
@@ -179,7 +179,7 @@ function updateDictionary(){
 
         if (document.getElementById("dictionary-search").value!="" && !searchedDictionary.includes(pkmn[i])) continue
 
-        div.innerHTML = ` ${icon} ${format(i)} `
+        div.innerHTML = ` ${icon} ${format(i, 'pkmn')} `
 
         document.getElementById("dictionary-list").appendChild(div)
     }
@@ -188,7 +188,7 @@ function updateDictionary(){
 
 fuseDictionary = new Fuse(dictionaryItems, {
   keys: [ 
-    { name: 'name', getFn: obj => obj.id }, 
+    { name: 'name', getFn: obj => searchNames(obj) },
     'type', 
     'hiddenAbility.id', 
     'split', 
@@ -409,7 +409,7 @@ function getAbilityPoolByTier(poke) {
 
         abilities.forEach(id => {
             list.push(
-                `<div class="dictionary-overview-data" style="cursor:help" data-ability="${id}"><span>${format(id)}</span><div></div><span>${perAbilityChance}</span></div>`
+                `<div class="dictionary-overview-data" style="cursor:help" data-ability="${id}"><span>${format(id, 'ability')}</span><div></div><span>${perAbilityChance}</span></div>`
             );
         });
     });

@@ -688,6 +688,11 @@ flex-direction: column;
     border-radius: 0.3rem;
 }
 
+/* libellés français plus longs (Entraînement, Dictionnaire) */
+html[lang="fr"] .menu-item span{
+    font-size: 0.9em;
+}
+
 .menu-item img{
     height: 4rem;
     width: 4rem;

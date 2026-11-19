@@ -8,7 +8,7 @@ const shop = {}
 
 shop.exchange1 = {
     icon: item.bottleCap.id,
-    name: `Bottle Cap x2`,
+    name: t('ui.bottle_cap'),
     price: 1,
     currency: item.goldenBottleCap.id,
     category: `all`,
@@ -59,7 +59,7 @@ shop.shoptimeCandyXL = {
 
 shop.shoptimeCandy = {
     icon: item.timeCandy.id,
-    name: `Time Candy x3`,
+    name: t('ui.time_candy'),
     price: 1,
     currency: item.timeCandyXL.id,
     category: `goods`,
@@ -68,7 +68,7 @@ shop.shoptimeCandy = {
 
 shop.shopepochFeather = {
     icon: item.epochFeather.id,
-    name: `Epoch Feather x25`,
+    name: t('ui.epoch_feather'),
     price: 10,
     currency: item.pokeflute.id,
     category: `goods`,
@@ -78,7 +78,7 @@ shop.shopepochFeather = {
 
 shop.shopancientOrchid = {
     icon: item.ancientOrchid.id,
-    name: `Ancient Orchid x25`,
+    name: t('ui.ancient_orchid'),
     price: 10,
     currency: item.primalEarth.id,
     category: `goods`,
@@ -88,7 +88,7 @@ shop.shopancientOrchid = {
 
 shop.shopancientKeystone = {
     icon: item.ancientKeystone.id,
-    name: `Ancient Keystone x25`,
+    name: t('ui.ancient_keystone'),
     price: 10,
     currency: item.steelKeystone.id,
     category: `goods`,
@@ -98,7 +98,7 @@ shop.shopancientKeystone = {
 
 shop.shopaetherKeycard = {
     icon: item.aetherKeycard.id,
-    name: `Aether Keycard x25`,
+    name: t('ui.aether_keycard'),
     price: 10,
     currency: item.wormholeResidue.id,
     category: `goods`,
@@ -108,7 +108,7 @@ shop.shopaetherKeycard = {
 
 shop.shopfutureDisk = {
     icon: item.futureDisk.id,
-    name: `Future Disk x25`,
+    name: t('ui.future_disk'),
     price: 10,
     currency: item.futureContraption.id,
     category: `goods`,
@@ -118,7 +118,7 @@ shop.shopfutureDisk = {
 
 shop.shopwisdomPetal = {
     icon: item.wisdomPetal.id,
-    name: `Wisdom Petal x25`,
+    name: t('ui.wisdom_petal'),
     price: 10,
     currency: item.redChain.id,
     category: `goods`,
@@ -468,7 +468,7 @@ shop.shoplinkStone = {
 
 shop.shopbarbaracite = {
     icon: item.barbaracite.id,
-    name: `Barbaracite x21`,
+    name: t('ui.barbaracite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -478,7 +478,7 @@ shop.shopbarbaracite = {
 
 shop.shophawluchanite = {
     icon: item.hawluchanite.id,
-    name: `Hawluchanite x21`,
+    name: t('ui.hawluchanite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -487,7 +487,7 @@ shop.shophawluchanite = {
 
 shop.shoppyroarite = {
     icon: item.pyroarite.id,
-    name: `Pyroarite x21`,
+    name: t('ui.pyroarite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -496,7 +496,7 @@ shop.shoppyroarite = {
 
 shop.shopfalinksite = {
     icon: item.falinksite.id,
-    name: `Falinksite x21`,
+    name: t('ui.falinksite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -1159,7 +1159,7 @@ shop.shoppickPocketMemory = {
 saved.halloweenThemeUnlocked = false
 shop.eventhalloweenTheme = {
     icon: item.oldGateau.id,
-    name: `Permanent Seasonal Theme`,
+    name: t('ui.permanent_seasonal_theme'),
     price: 50,
     stock: 1,
     currency: item.oldGateau.id,
@@ -1226,7 +1226,7 @@ shop.event3 = {
 
 shop.eventhalloweenCaps = {
     icon: item.bottleCap.id,
-    name: `Bottle Cap x5`,
+    name: t('ui.bottle_cap_2'),
     effect: function() {item.bottleCap.got+=5},
     price: 50,
     currency: item.oldGateau.id,
@@ -1676,7 +1676,7 @@ function updateItemShop(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `Defeat Legend Trainer Brendan in VS mode to unlock`
+        document.getElementById("tooltipMid").innerHTML = t('ui.defeat_legend_trainer_brendan_in_vs')
         openTooltip()
         return
         }
@@ -1689,7 +1689,7 @@ function updateItemShop(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `Defeat Legend Trainer Brendan in VS mode to unlock`
+        document.getElementById("tooltipMid").innerHTML = t('ui.defeat_legend_trainer_brendan_in_vs')
         openTooltip()
         return
         }
@@ -1719,7 +1719,7 @@ function updateItemShop(){
     goBack.id = "shop-back"
     goBack.innerHTML =`
     <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><g fill="currentColor"><path d="M224 56v144a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8V56a8 8 0 0 1 8-8h176a8 8 0 0 1 8 8" opacity="0.2"/><path d="M184 104v32a8 8 0 0 1-8 8H99.31l10.35 10.34a8 8 0 0 1-11.32 11.32l-24-24a8 8 0 0 1 0-11.32l24-24a8 8 0 0 1 11.32 11.32L99.31 128H168v-24a8 8 0 0 1 16 0m48-48v144a16 16 0 0 1-16 16H40a16 16 0 0 1-16-16V56a16 16 0 0 1 16-16h176a16 16 0 0 1 16 16m-16 144V56H40v144z"/></g></svg>
-    Go Back`
+    ${t('ui.go_back')}`
     document.getElementById("shop-listing").appendChild(goBack);
     goBack.addEventListener("click", () => {
     shopCategory = undefined
@@ -1740,7 +1740,7 @@ function updateItemShop(){
     decorTimer.style.border = "none"
     decorTimer.innerHTML =`
     <svg style="scale:0.7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21Z"/><rect width="2" height="7" x="11" y="6" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="450s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect><rect width="2" height="9" x="11" y="11" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="37.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect></svg>
-    Available decor will rotate in <font style="margin-left:0.3rem" class="time-counter-event">...</font>`
+    ${t('ui.available_decor_will_rotate_in')}</font>`
     document.getElementById("shop-listing").appendChild(decorTimer);
     }
 
@@ -1752,7 +1752,7 @@ function updateItemShop(){
     decorTimer.style.border = "none"
     decorTimer.innerHTML =`
     <svg style="scale:0.7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21Z"/><rect width="2" height="7" x="11" y="6" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="450s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect><rect width="2" height="9" x="11" y="11" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="37.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect></svg>
-    Available items will rotate in <font style="margin-left:0.3rem" class="time-counter-daily">...</font>`
+    ${t('ui.available_items_will_rotate_in')}</font>`
     document.getElementById("shop-listing").appendChild(decorTimer);
     }
 
@@ -1811,11 +1811,11 @@ function updateItemShop(){
 
 
 
-    name = format(shop[i].icon)
+    name = format(shop[i].icon, 'item')
     if (shop[i].name) name = shop[i].name
 
     let stockTag = ""
-    if (shop[i].stock) stockTag = ` (Stock: ${shop[i].stock})`
+    if (shop[i].stock) stockTag = ` ${t('ui.stock', { v: shop[i].stock })}`
 
 
     div.dataset.item = shop[i].icon
@@ -1823,7 +1823,7 @@ function updateItemShop(){
     const shopItem = shop[i].icon
 
     if (item[shopItem] && item[shopItem].type=="tm"){ div.innerHTML = `
-    <img src="img/items/tm${format(move[item[shopItem].move].type)}.png">
+    <img src="img/items/tm${format(move[item[shopItem].move].type, 'raw')}.png">
         <span>${name}${stockTag}</span>
     <strong id="shop-currency-${i}">
         <img src="img/items/${currency}.png">
@@ -1874,7 +1874,7 @@ function updateItemShop(){
     if (shop[i].pkmn) {
 
 
-    name = format(shop[i].pkmn)
+    name = format(shop[i].pkmn, 'pkmn')
     div.dataset.pkmn = shop[i].pkmn
 
 
@@ -1903,7 +1903,7 @@ function updateItemShop(){
 div.addEventListener("click", () => {
 
     document.getElementById("tooltipTop").style.display = "none"
-    document.getElementById("tooltipTitle").innerHTML = "How many will you buy?"
+    document.getElementById("tooltipTitle").innerHTML = t('ui.how_many_will_you_buy')
     document.getElementById("tooltipMid").style.display = "none"
 
     document.getElementById("tooltipBottom").innerHTML = `
@@ -1977,11 +1977,11 @@ div.addEventListener("click", () => {
             updateItemShop()
             closeTooltip()
         } else{
-            document.getElementById("tooltipTitle").innerHTML = "Cant afford";
+            document.getElementById("tooltipTitle").innerHTML = t('ui.cant_afford');
             document.getElementById("tooltipTop").style.display = "none"    
             document.getElementById("tooltipTop").style.display = "none"    
             document.getElementById("tooltipMid").style.display = "none"
-            document.getElementById("tooltipBottom").innerHTML = `You cant afford to purchase this<span id="prevent-tooltip-exit"></span>`
+            document.getElementById("tooltipBottom").innerHTML = `${t('ui.you_cant_afford_to_purchase_this')}<span id="prevent-tooltip-exit"></span>`
         }
     }
 
@@ -2025,7 +2025,7 @@ function updateIngredientShop(){
 
     div.innerHTML = `
         <img src="img/items/${i}.png">
-            <span>${format(i)} (${format(ingredient[i].ability)})</span>
+            <span>${format(i, 'item')} (${format(ingredient[i].ability, 'ability')})</span>
         <strong id="shop-currency-${i}">
             <img src="img/items/goldenBottleCap.png">
             x${ingredient[i].price}
@@ -2062,7 +2062,7 @@ function updateCurry(){
         document.getElementById("curry-buttons").style.display = `none`
         document.getElementById("curry-ingredients").style.display = `none`
         document.getElementById("curry-effects").style.display = `none`
-        document.getElementById(`curry-title`).innerHTML = `Come back in <span class="time-counter-daily"></span>`
+        document.getElementById(`curry-title`).innerHTML = `${t('ui.come_back_in')} <span class="time-counter-daily"></span>`
         updateDailyCounters()
         return
     } else {
@@ -2074,7 +2074,7 @@ function updateCurry(){
 
 
     document.getElementById(`curry-ingredients`).innerHTML = ``
-    document.getElementById(`curry-title`).innerHTML = `Select ingredients to add to the curry! [${curryIngredientList.length}/3]`
+    document.getElementById(`curry-title`).innerHTML = t('ui.select_ingredients_to_add_to_the', { length: curryIngredientList.length })
     
     
     
@@ -2084,11 +2084,11 @@ function updateCurry(){
         totalPrice += ingredient[i].price
     }
     
-    document.getElementById(`curry-pay`).innerHTML = `Pay and cook (${totalPrice} <img src="img/items/goldenBottleCap.png">)`
+    document.getElementById(`curry-pay`).innerHTML = `${t('ui.pay_and_cook_totalprice', { totalPrice: totalPrice })} <img src="img/items/goldenBottleCap.png">)`
 
     document.getElementById(`curry-effects`).innerHTML = `
     <svg data-help="curry" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M10 8.484C10.5 7.494 11 7 12 7c1.246 0 2 .989 2 1.978s-.5 1.483-2 2.473V13m0 3.5v.5"/></g></svg>
-    <span>~ Current Effects ~</span>
+    <span>${t('ui.current_effects')}</span>
     `
 
 
@@ -2100,7 +2100,7 @@ function updateCurry(){
         document.getElementById(`curry-ingredients`).appendChild(ingr)
 
         const effect = document.createElement(`div`)
-        effect.innerHTML = format(ingredient[i].ability)
+        effect.innerHTML = format(ingredient[i].ability, 'ability')
         document.getElementById(`curry-effects`).appendChild(effect)
 
     }
@@ -2132,7 +2132,7 @@ function makeCurry(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `Select at least one ingredient first`
+        document.getElementById("tooltipMid").innerHTML = t('ui.select_at_least_one_ingredient_first')
         openTooltip()
         return
     }
@@ -2152,7 +2152,7 @@ function makeCurry(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `You can't afford this`
+        document.getElementById("tooltipMid").innerHTML = t('ui.you_cant_afford_this')
         openTooltip()
         return
     }
@@ -2175,8 +2175,8 @@ function makeCurry(){
         document.getElementById(`curry-pot`).style.animation = ``
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `During raids: Temporarily gained the next abilities for everyone in your team:`
-        document.getElementById("tooltipBottom").innerHTML = joinWithAnd(curryAbilities)
+        document.getElementById("tooltipMid").innerHTML = t('ui.during_raids_temporarily_gained_the_next')
+        document.getElementById("tooltipBottom").innerHTML = joinWithAnd(curryAbilities, 'ability')
         openTooltip()
         item.goldenBottleCap.got -= totalPrice
             document.getElementById("shop-currency-gold").innerHTML = `<img src="img/items/goldenBottleCap.png"> x${item.goldenBottleCap.got}`

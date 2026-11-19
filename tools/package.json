@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "description": "Outils i18n de Pokechill (non chargés par le jeu)",
+  "devDependencies": {
+    "acorn": "^8.19.0",
+    "acorn-walk": "^8.3.5",
+    "parse5": "^8.1.1"
+  }
+}

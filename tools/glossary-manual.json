@@ -1,0 +1,3406 @@
+{
+ "formPattern": {
+  "": "{n} {f}",
+  "mega": "Méga-{n} {f}",
+  "alolan": "{n} d’Alola {f}",
+  "galarian": "{n} de Galar {f}",
+  "hisuian": "{n} de Hisui {f}",
+  "paldean": "{n} de Paldea {f}"
+ },
+ "formSuffix": {
+  "": "",
+  "Gmax": "Gigamax",
+  "X": "X",
+  "Y": "Y"
+ },
+ "extraTerms": {
+  "status": {
+   "burn": "Burn",
+   "freeze": "Freeze",
+   "paralysis": "Paralysis",
+   "poisoned": "Poisoned",
+   "sleep": "Sleep",
+   "confused": "Confused",
+   "embargo": "Embargo",
+   "sunny": "Sunny",
+   "rainy": "Rainy",
+   "sandstorm": "Sandstorm",
+   "hail": "Hail",
+   "foggy": "Foggy",
+   "electricTerrain": "Electric Terrain",
+   "grassyTerrain": "Grassy Terrain",
+   "mistyTerrain": "Misty Terrain",
+   "trickRoom": "Trick Room",
+   "weirdRoom": "Weird Room",
+   "crossRoom": "Cross Room",
+   "reflect": "Reflect",
+   "lightScreen": "Light Screen",
+   "safeguard": "Safeguard"
+  },
+  "nature": {
+   "adamant": "Adamant",
+   "modest": "Modest",
+   "jolly": "Jolly",
+   "relaxed": "Relaxed",
+   "quiet": "Quiet",
+   "bold": "Bold"
+  },
+  "split": {
+   "physical": "Physical",
+   "special": "Special",
+   "status": "Status"
+  },
+  "starsign": {
+   "sol": "Sol",
+   "luna": "Luna",
+   "pluto": "Pluto",
+   "ceres": "Ceres",
+   "terra": "Terra",
+   "eris": "Eris"
+  },
+  "season": {
+   "halloween": "Halloween"
+  }
+ },
+ "overrides": {
+  "pkmn": {
+   "nidoranF": {
+    "fr": "Nidoran♀",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "nidoranM": {
+    "fr": "Nidoran♂",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "unownExclamation": {
+    "fr": "Zarbi !",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "unownQuestion": {
+    "fr": "Zarbi ?",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "venusaurClone": {
+    "fr": "Clone de Florizarre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
+   },
+   "charizardClone": {
+    "fr": "Clone de Dracaufeu",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
+   },
+   "blastoiseClone": {
+    "fr": "Clone de Tortank",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
+   },
+   "spikyPichu": {
+    "fr": "Pichu Troizépi",
+    "source": "web:pokepedia.fr/Pichu",
+    "statut": "ok"
+   },
+   "pikachuAsh": {
+    "fr": "Pikachu de Sacha",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "formulation Poképédia « Pikachu de Sacha » ; pas de forme officielle (cf. Amphinobi Forme Sacha)"
+   },
+   "greninjaAsh": {
+    "fr": "Amphinobi Sacha",
+    "source": "web:pokepedia.fr/Amphinobi",
+    "statut": "ok"
+   },
+   "urshifuSingle": {
+    "fr": "Shifours Style Poing Final",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "urshifuRapid": {
+    "fr": "Shifours Style Mille Poings",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "ogerponTeal": {
+    "fr": "Ogerpon Turquoise",
+    "source": "web:pokepedia.fr/Ogerpon",
+    "statut": "ok"
+   },
+   "magikarpKoi": {
+    "fr": "Magicarpe Koï",
+    "source": "web",
+    "statut": "ok",
+    "note": "officiel : motifs n° 3-6 « Koï », pokebip.com/page/jeux-video/magicarpe-jump/motifs-magicarpe"
+   },
+   "magikarpRegal": {
+    "fr": "Magicarpe Royal",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "magikarpSakura": {
+    "fr": "Magicarpe Sakura",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "magikarpSkelly": {
+    "fr": "Magicarpe Squelette",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "magikarpSoar": {
+    "fr": "Magicarpe Envol",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "magikarpTiger": {
+    "fr": "Magicarpe Tigre",
+    "source": "web",
+    "statut": "ok",
+    "note": "officiel : motifs n° 19/22 « Tigre », pokebip.com/page/jeux-video/magicarpe-jump/motifs-magicarpe"
+   },
+   "missingno": {
+    "fr": "MissingNo.",
+    "source": "web:pokepedia.fr/MissingNo.",
+    "statut": "ok"
+   },
+   "ghost": {
+    "fr": "Spectre",
+    "source": "web:pokepedia.fr/Spectre_(Pokémon)",
+    "statut": "ok"
+   },
+   "kabutopsB": {
+    "fr": "Kabutops-B",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction (tiret comme l’EN), forme cachée custom"
+   },
+   "aerodactylB": {
+    "fr": "Ptéra-B",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction (tiret comme l’EN), forme cachée custom"
+   },
+   "crystalOnix": {
+    "fr": "Onix de Cristal",
+    "source": "web",
+    "statut": "ok",
+    "note": "officiel : pokepedia.fr/Onix_de_Cristal (épisode 87 « L’Onix de cristal »)"
+   },
+   "f00": {
+    "fr": "F-00",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "humanoid": {
+    "fr": "Humanoïde",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   }
+  },
+  "move": {
+   "sharkJaws": {
+    "fr": "Crocs Requin",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ironSlug": {
+    "fr": "Grenaille de Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "razorTalons": {
+    "fr": "Serres Tranchantes",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "poisonClaw": {
+    "fr": "Griffe Venin",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "weirdRoom": {
+    "fr": "Zone Bizarre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "savageStinger": {
+    "fr": "Dard Sauvage",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "foamShot": {
+    "fr": "Tir d’Écume",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "crossRoom": {
+    "fr": "Zone Croisée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "gemstoneCrush": {
+    "fr": "Broyage de Gemme",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wrathOfTheLand": {
+    "fr": "Courroux Tellurique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fog": {
+    "fr": "Brouillard",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "mirrorShrapnel": {
+    "fr": "Éclats de Miroir",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "auroraPunch": {
+    "fr": "Poing Aurore",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ionise": {
+    "fr": "Ionisation",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "brutalClaw": {
+    "fr": "Griffe Brutale",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "forestCurse": {
+    "fr": "Maléfice Sylvain",
+    "source": "web:pokeapi.co/move/forests-curse",
+    "statut": "ok"
+   },
+   "fireLash": {
+    "fr": "Fouet Nocif",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   }
+  },
+  "ability": {
+   "grabGuard": {
+    "fr": "Garde Poigne",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "waterGuard": {
+    "fr": "Garde Aqua",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flameGuard": {
+    "fr": "Garde Flamme",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "curseGuard": {
+    "fr": "Garde Maudite",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "poisonGuard": {
+    "fr": "Garde Toxique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "iceGuard": {
+    "fr": "Garde Glace",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "psychicGuard": {
+    "fr": "Garde Psy",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fairyGuard": {
+    "fr": "Garde Féerique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "plainGuard": {
+    "fr": "Garde Simple",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "sinisterGuard": {
+    "fr": "Garde Sinistre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "steelGuard": {
+    "fr": "Garde Acier",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dragonGuard": {
+    "fr": "Garde Draco",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "bugGuard": {
+    "fr": "Garde Insecte",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "rockGuard": {
+    "fr": "Garde Roche",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "groundGuard": {
+    "fr": "Garde Sol",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flyingGuard": {
+    "fr": "Garde Céleste",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "livingShield": {
+    "fr": "Bouclier Vivant",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "bastion": {
+    "fr": "Bastion",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "average": {
+    "fr": "Banalité",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "resolve": {
+    "fr": "Résolution",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "mistify": {
+    "fr": "Mysticisme",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "hexerei": {
+    "fr": "Sorcellerie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "glimmer": {
+    "fr": "Miroitement",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "skyward": {
+    "fr": "Envolée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "draconic": {
+    "fr": "Draconique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "noxious": {
+    "fr": "Virulence",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "solid": {
+    "fr": "Solidité",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "rime": {
+    "fr": "Frimas",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "voltage": {
+    "fr": "Survoltage",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "strangeCharm": {
+    "fr": "Charme Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "glacialBody": {
+    "fr": "Corps Glacial",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flareAbsorb": {
+    "fr": "Absorbe-Flamme",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "curseAbsorb": {
+    "fr": "Absorbe-Maléfice",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "poisonAbsorb": {
+    "fr": "Absorbe-Poison",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "frostAbsorb": {
+    "fr": "Absorbe-Givre",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "psychicAbsorb": {
+    "fr": "Absorbe-Psy",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "lightAbsorb": {
+    "fr": "Absorbe-Lumière",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "growthAbsorb": {
+    "fr": "Absorbe-Sève",
+    "source": "motif Absorbe-<élément> (officiel Absorbe-Volt/Absorbe-Eau, pokepedia.fr/Absorbe-Volt) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "brittleArmor": {
+    "fr": "Armure Friable",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "grassyPelt": {
+    "fr": "Toison Herbue",
+    "source": "web:pokeapi.co/ability/grass-pelt",
+    "statut": "ok"
+   },
+   "sandyPelt": {
+    "fr": "Toison Sableuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "icyPelt": {
+    "fr": "Toison Glacée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "moistPelt": {
+    "fr": "Toison Humide",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fieryPelt": {
+    "fr": "Toison Ardente",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "pixiePelt": {
+    "fr": "Toison Duveteuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blackPelt": {
+    "fr": "Toison Noire",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "spikyPelt": {
+    "fr": "Toison Hérissée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "climaTact": {
+    "fr": "Tact Climatique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "intangible": {
+    "fr": "Intangible",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "hyperconductor": {
+    "fr": "Hyperconducteur",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "faeRush": {
+    "fr": "Ruée Féerique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "moltShed": {
+    "fr": "Mue Express",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dauntingLook": {
+    "fr": "Regard Intimidant",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "strategist": {
+    "fr": "Stratège",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ambidextrous": {
+    "fr": "Ambidextre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashElectro": {
+    "fr": "Torche Électro",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashAqua": {
+    "fr": "Torche Aqua",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashPyro": {
+    "fr": "Torche Pyro",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashUmbra": {
+    "fr": "Torche Umbra",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashVenum": {
+    "fr": "Torche Venum",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashCryo": {
+    "fr": "Torche Cryo",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashPsycha": {
+    "fr": "Torche Psycha",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashFae": {
+    "fr": "Torche Fae",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flashHerba": {
+    "fr": "Torche Herba",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "stoned": {
+    "fr": "Pétrification",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "colorSpore": {
+    "fr": "Spore Colorée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "treasureOfRuin": {
+    "fr": "Trésor du Fléau",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "thousandArms": {
+    "fr": "Mille Bras",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "scorch": {
+    "fr": "Calcination",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "cacophony": {
+    "fr": "Cacophonie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "iaido": {
+    "fr": "Iaido",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "metalhead": {
+    "fr": "Tête de Métal",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "somberField": {
+    "fr": "Champ Sombre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "soulAsterism": {
+    "fr": "Astérisme des Âmes",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ferrilate": {
+    "fr": "Peau Métallique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "terralate": {
+    "fr": "Peau Tellurique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "toxilate": {
+    "fr": "Peau Toxique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "hydrolate": {
+    "fr": "Peau Aqueuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "pyrolate": {
+    "fr": "Peau Ardente",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "chrysilate": {
+    "fr": "Peau Insectoïde",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "gloomilate": {
+    "fr": "Peau Ténébreuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "espilate": {
+    "fr": "Peau Psychique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "verdify": {
+    "fr": "Peau Végétale",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dragonMaw": {
+    "fr": "Peau Draconique",
+    "source": "proposition validée par l’utilisateur (≠ Dragon’s Maw officiel = Dent de Dragon : effet -late Normal → Dragon)",
+    "statut": "ok"
+   }
+  },
+  "item": {
+   "dragonitite": {
+    "fr": "Dracolossite",
+    "source": "web:pokepedia.fr/Dracolossite",
+    "statut": "ok"
+   },
+   "baxcaliburite": {
+    "fr": "Glaivodite",
+    "source": "web:pokepedia.fr/Glaivodite",
+    "statut": "ok"
+   },
+   "raichutiteX": {
+    "fr": "Raichuïte X",
+    "source": "web:pokepedia.fr/Raichuïte_X",
+    "statut": "ok"
+   },
+   "raichutiteY": {
+    "fr": "Raichuïte Y",
+    "source": "web:pokepedia.fr/Méga-Gemme",
+    "statut": "ok"
+   },
+   "everstone": {
+    "fr": "Pierre Stase",
+    "source": "web:pokeapi.co/item/everstone",
+    "statut": "ok"
+   },
+   "oddRock": {
+    "fr": "Pierre Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "foggySeed": {
+    "fr": "Graine Brouillard",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "goldenBottleCap": {
+    "fr": "Capsule d’Or",
+    "source": "web:pokeapi.co/item/gold-bottle-cap",
+    "statut": "ok"
+   },
+   "timeCandy": {
+    "fr": "Bonbon Temps",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "timeCandyXL": {
+    "fr": "Bonbon Temps XL",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "neutralMint": {
+    "fr": "Menthe Neutre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "autoRefightTicket": {
+    "fr": "Ticket Revanche Auto",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "megaShard": {
+    "fr": "Méga-Fragment",
+    "source": "web:pokepedia.fr/Méga-Fragment + pokebip.com (Légendes Z-A)",
+    "statut": "ok"
+   },
+   "megaPiece": {
+    "fr": "Méga-Éclat",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "megaChunk": {
+    "fr": "Méga-Bloc",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "megaCluster": {
+    "fr": "Méga-Amas",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "primalEarth": {
+    "fr": "Terre Primordiale",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "thunderousRock": {
+    "fr": "Roche Tonnerre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "articRock": {
+    "fr": "Roche Arctique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ancientOrchid": {
+    "fr": "Orchidée Antique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "futureDisk": {
+    "fr": "Disque du Futur",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ancientKeystone": {
+    "fr": "Clé de Voûte Antique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "steelKeystone": {
+    "fr": "Clé de Voûte d’Acier",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "frozenKeystone": {
+    "fr": "Clé de Voûte Gelée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "aetherKeycard": {
+    "fr": "Carte d’Accès Æther",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wormholeResidue": {
+    "fr": "Résidu d’Ultra-Brèche",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "futureContraption": {
+    "fr": "Engin du Futur",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wisdomPetal": {
+    "fr": "Pétale de Sagesse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "epochFeather": {
+    "fr": "Plume des Époques",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "magazineSubscription": {
+    "fr": "Abonnement Magazine",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "battlePass": {
+    "fr": "Pass de Combat",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "replicatorUpgradeS": {
+    "fr": "Amélioration Réplicateur S",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "replicatorUpgradeE": {
+    "fr": "Amélioration Réplicateur E",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "tmDummy": {
+    "fr": "CT Factice",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "nothing": {
+    "fr": "Rien",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wealthyCoins": {
+    "fr": "Tas de Pièces",
+    "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+    "statut": "ok"
+   },
+   "witchyHat": {
+    "fr": "Chapeau de Sorcière",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "blueBarrette": {
+    "fr": "Nœud Bleu",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "pinkBarrette": {
+    "fr": "Nœud Rose",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "greenBarrette": {
+    "fr": "Nœud Vert",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "blueFlower": {
+    "fr": "Fleur Bleue",
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
+   },
+   "purpleFlower": {
+    "fr": "Fleur Violette",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "redFlower": {
+    "fr": "Fleur Rouge",
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
+   },
+   "blueBalloon": {
+    "fr": "Ballons Bleus",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "redBalloon": {
+    "fr": "Ballons Rouges",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "greenBalloon": {
+    "fr": "Ballons Verts",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "professorHat": {
+    "fr": "Chapeau Lauréat",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia.bulbagarden.net/wiki/Walkthrough:Pokémon_Diamond_and_Pearl/Super_Contest (même récompense catégorie/rang) + serebii.net/diamondpearl/accessories.shtml (nom EN)",
+    "statut": "ok"
+   },
+   "academicHat": {
+    "fr": "Toque Universitaire",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "proposition (aucun équivalent DPPt, pokepedia.fr/Accessoire)"
+   },
+   "redBall": {
+    "fr": "Boule Rouge",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "greenBall": {
+    "fr": "Boule Verte",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blueBall": {
+    "fr": "Boule Bleue",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "redHeaddress": {
+    "fr": "Coiffe Rouge",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "purpleHeaddress": {
+    "fr": "Coiffe Violette",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "tealHeaddress": {
+    "fr": "Coiffe Turquoise",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blackTie": {
+    "fr": "Cravate Noire",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "whiteTie": {
+    "fr": "Cravate Blanche",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "stripedTie": {
+    "fr": "Cravate Rayée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "greenTie": {
+    "fr": "Cravate Verte",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "orangeTie": {
+    "fr": "Cravate Orange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blueTie": {
+    "fr": "Cravate Bleue",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blackBowtie": {
+    "fr": "Nœud Papillon Noir",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "pinkBowtie": {
+    "fr": "Nœud Papillon Rose",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blueBowtie": {
+    "fr": "Nœud Papillon Bleu",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "yellowBowtie": {
+    "fr": "Nœud Papillon Jaune",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "tealHeadband": {
+    "fr": "Bandeau Turquoise",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "greenHeadband": {
+    "fr": "Bandeau Vert",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "yellowHeadband": {
+    "fr": "Bandeau Jaune",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blackScarf": {
+    "fr": "Écharpe Noire",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "whiteScarf": {
+    "fr": "Écharpe Blanche",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "yellowStar": {
+    "fr": "Étoile Jaune",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "tealStar": {
+    "fr": "Étoile Turquoise",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "redStar": {
+    "fr": "Étoile Rouge",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "blackMoustache": {
+    "fr": "Moustache Noire",
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
+   },
+   "whiteMoustache": {
+    "fr": "Moustache Blanche",
+    "source": "web:pokepedia.fr/Accessoire (nom officiel identique)",
+    "statut": "ok"
+   },
+   "microphone": {
+    "fr": "Micro",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "proposition (EN officiel DPPt = Standing Mike → Micro sur Pied, serebii.net ; nom EN différent, non confirmé)"
+   },
+   "oldUmbrella": {
+    "fr": "Ombrelle Chine",
+    "source": "web:pokepedia.fr/Floraville (Baie Palma ×50) + strategywiki.org/wiki/Pokémon_Diamond_and_Pearl/Floaroma_Town (Pamtre ×50) + serebii.net (nom EN)",
+    "statut": "ok"
+   },
+   "coloredParasol": {
+    "fr": "Parasol Coloré",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé"
+   },
+   "pokeballFlag": {
+    "fr": "Drapeau Poké Ball",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "pinkMushroom": {
+    "fr": "Champignon Rose",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "yellowStarBalloon": {
+    "fr": "Ballon Étoile Jaune",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "blackSpecs": {
+    "fr": "Lunettes Soleil",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Wepear ×20 = Repoi ×20",
+    "statut": "ok"
+   },
+   "googlySpecs": {
+    "fr": "Lunettes Bizarres",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Nomel ×20 = Tronci ×20",
+    "statut": "ok"
+   },
+   "topHat": {
+    "fr": "Haut de Forme",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia Super Contest (Cool/Ultra = Sang-froid/Ultra) + serebii.net (nom EN)",
+    "statut": "ok"
+   },
+   "gentlemanHat": {
+    "fr": "Chapeau de Gentleman",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "silverTiara": {
+    "fr": "Diadème d’Argent",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "frillyApron": {
+    "fr": "Tablier à Froufrous",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "chefHat": {
+    "fr": "Toque de Chef",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "fluffyBeard": {
+    "fr": "Barbe Touffue",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "hummingNote": {
+    "fr": "Note Fredonnée",
+    "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+    "statut": "ok"
+   },
+   "prettyDewdrop": {
+    "fr": "Perle de Rosée",
+    "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+    "statut": "ok"
+   },
+   "spotlight": {
+    "fr": "Projecteur",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Nomel ×80 = Tronci ×80",
+    "statut": "ok"
+   },
+   "glitterPowder": {
+    "fr": "Poudre Pailletée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)"
+   },
+   "confetti": {
+    "fr": "Confettis",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Razz ×30 = Framby ×30",
+    "statut": "ok"
+   },
+   "comet": {
+    "fr": "Comète",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "gorgeousSpecs": {
+    "fr": "Lunettes Star",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Pinap ×40 = Nanana ×40",
+    "statut": "ok"
+   },
+   "mysticSmoke": {
+    "fr": "Fumée Mystique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
+   },
+   "assaultVest": {
+    "fr": "Veste de Combat",
+    "source": "web:pokeapi.co/item/assault-vest (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "miracleSeed": {
+    "fr": "Graine Miracle",
+    "source": "web:pokeapi.co/item/miracle-seed (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "kebiaBerry": {
+    "fr": "Baie Kébia",
+    "source": "web:pokeapi.co/item/kebia-berry (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "fashionCase": {
+    "fr": "Coffret Mode",
+    "source": "web:pokeapi.co/item/fashion-case (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "fogTm": {
+    "fr": "CT Brouillard",
+    "source": "motif:CT validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "crossRoomTm": {
+    "fr": "CT Zone Croisée",
+    "source": "motif:CT validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "weirdRoomTm": {
+    "fr": "CT Zone Bizarre",
+    "source": "motif:CT validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "hydratationMemory": {
+    "fr": "ROM Hydratation",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandVeilMemory": {
+    "fr": "ROM Voile Sable",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "snowCloakMemory": {
+    "fr": "ROM Rideau Neige",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "marvelScaleMemory": {
+    "fr": "ROM Écaille Spéciale",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "bigPecksMemory": {
+    "fr": "ROM Cœur de Coq",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "hyperCutterMemory": {
+    "fr": "ROM Hyper Cutter",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "synchronizeMemory": {
+    "fr": "ROM Synchro",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "iceBodyMemory": {
+    "fr": "ROM Corps Gel",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "rainDishMemory": {
+    "fr": "ROM Cuvette",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "solarPowerMemory": {
+    "fr": "ROM Force Soleil",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandForceMemory": {
+    "fr": "ROM Force Sable",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "scrappyMemory": {
+    "fr": "ROM Querelleur",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "strongJawMemory": {
+    "fr": "ROM Prognathe",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "toughClawsMemory": {
+    "fr": "ROM Griffe Dure",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "ironFistMemory": {
+    "fr": "ROM Poing de Fer",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "magicGuardMemory": {
+    "fr": "ROM Garde Magik",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "pickPocketMemory": {
+    "fr": "ROM Pickpocket",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "liberoMemory": {
+    "fr": "ROM Libéro",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "recklessMemory": {
+    "fr": "ROM Téméraire",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "filterMemory": {
+    "fr": "ROM Filtre",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "justifiedMemory": {
+    "fr": "ROM Cœur Noble",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "angerPointMemory": {
+    "fr": "ROM Colérique",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sharpnessMemory": {
+    "fr": "ROM Incisif",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "gutsMemory": {
+    "fr": "ROM Cran",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "multiscaleMemory": {
+    "fr": "ROM Multiécaille",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "noGuardMemory": {
+    "fr": "ROM Annule Garde",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "adaptabilityMemory": {
+    "fr": "ROM Adaptabilité",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "thickFatMemory": {
+    "fr": "ROM Isograisse",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "levitateMemory": {
+    "fr": "ROM Lévitation",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sheerForceMemory": {
+    "fr": "ROM Sans Limite",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "moxieMemory": {
+    "fr": "ROM Impudence",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "unburdenMemory": {
+    "fr": "ROM Délestage",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "intimidateMemory": {
+    "fr": "ROM Intimidation",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandRushMemory": {
+    "fr": "ROM Baigne Sable",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "swiftSwimMemory": {
+    "fr": "ROM Glissade",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "slushRushMemory": {
+    "fr": "ROM Chasse-Neige",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   }
+  },
+  "area": {
+   "eventMegaBlastoise": {
+    "fr": "Méga-Duel de Tortank",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaCharizardY": {
+    "fr": "Méga-Duel de Dracaufeu Y",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaVenusaur": {
+    "fr": "Méga-Duel de Florizarre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaCamerupt": {
+    "fr": "Méga-Duel de Camérupt",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaManectric": {
+    "fr": "Méga-Duel d’Élecsprint",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaAbomasnow": {
+    "fr": "Méga-Duel de Blizzaroi",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaRaichuX": {
+    "fr": "Méga-Duel de Raichu X",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaRaichuY": {
+    "fr": "Méga-Duel de Raichu Y",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaCharizardX": {
+    "fr": "Méga-Duel de Dracaufeu X",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventGreatTusk": {
+    "fr": "Résurrection de Fort-Ivoire",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventScreamTail": {
+    "fr": "Résurrection de Hurle-Queue",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventSlitherWing": {
+    "fr": "Résurrection de Rampe-Ailes",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventBruteBonnet": {
+    "fr": "Résurrection de Fongus-Furie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventFlutterMane": {
+    "fr": "Résurrection de Flotte-Mèche",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventSandyShocks": {
+    "fr": "Résurrection de Pelage-Sablé",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventRoaringMoon": {
+    "fr": "Résurrection de Rugit-Lune",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaAerodactly": {
+    "fr": "Méga-Duel de Ptéra",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaGyarados": {
+    "fr": "Méga-Duel de Léviator",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaGarchomp": {
+    "fr": "Méga-Duel de Carchacrok",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaTyranitar": {
+    "fr": "Méga-Duel de Tyranocif",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaPinsir": {
+    "fr": "Méga-Duel de Scarabrute",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaSceptile": {
+    "fr": "Méga-Duel de Jungko",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaSwampert": {
+    "fr": "Méga-Duel de Laggron",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaBlaziken": {
+    "fr": "Méga-Duel de Braségali",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaMawile": {
+    "fr": "Méga-Duel de Mysdibule",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaGlalie": {
+    "fr": "Méga-Duel d’Oniglali",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaSteelix": {
+    "fr": "Méga-Duel de Steelix",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaMetagross": {
+    "fr": "Méga-Duel de Métalosse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaDragonite": {
+    "fr": "Méga-Duel de Dracolosse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaGengar": {
+    "fr": "Méga-Duel d’Ectoplasma",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronThorns": {
+    "fr": "Résurrection d’Épine-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronHands": {
+    "fr": "Résurrection de Paume-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronJugulis": {
+    "fr": "Résurrection de Têtes-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronTreads": {
+    "fr": "Résurrection de Roue-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronBundle": {
+    "fr": "Résurrection de Hotte-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronMoth": {
+    "fr": "Résurrection de Mite-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventIronValiant": {
+    "fr": "Résurrection de Garde-de-Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaScizor": {
+    "fr": "Méga-Duel de Cizayox",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaAggron": {
+    "fr": "Méga-Duel de Galeking",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaBaxcalibur": {
+    "fr": "Méga-Duel de Glaivodo",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaGallade": {
+    "fr": "Méga-Duel de Gallame",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaLucario": {
+    "fr": "Méga-Duel de Lucario",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaHeracross": {
+    "fr": "Méga-Duel de Scarhino",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaPidgeot": {
+    "fr": "Méga-Duel de Roucarnage",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaBeedrill": {
+    "fr": "Méga-Duel de Dardargnan",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMegaAlakazam": {
+    "fr": "Méga-Duel d’Alakazam",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsYounsterBilly": {
+    "fr": "Gamin Billy",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsAromaLadyCatherine": {
+    "fr": "Aromadame Jana",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsBugCatcherMilo": {
+    "fr": "Scout Milo",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsGymLeaderBrock": {
+    "fr": "Champion d’Arène Pierre",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "vsBlackBeltRyan": {
+    "fr": "Karatéka Ryan",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsSchoolKidAaron": {
+    "fr": "Écolier Aaron",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsGymLeaderMisty": {
+    "fr": "Championne d’Arène Ondine",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "vsSwimmerDan": {
+    "fr": "Nageur Dan",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsVeteranToshiro": {
+    "fr": "Vétéran Toshiro",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsClownDuck": {
+    "fr": "Clown Duck",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsGymLeaderPhoebe": {
+    "fr": "Championne d’Arène Spectra",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/ligue",
+    "statut": "ok"
+   },
+   "vsTwinTrainersBellisse": {
+    "fr": "Jumelles Bellise",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsAceTrainerRicardo": {
+    "fr": "Topdresseur Ricardo",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsAceTrainerLily": {
+    "fr": "Topdresseuse Lily",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsEliteTrainerCynthia": {
+    "fr": "Dresseuse d’Élite Cynthia",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsEliteFourLorelei": {
+    "fr": "Conseil 4 Olga",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/ligue-pokemon",
+    "statut": "ok"
+   },
+   "vsEliteFourFlint": {
+    "fr": "Conseil 4 Adrien",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-platine/ligue-pokemon ; https://eternia.fr/fr/site/article/3889-guide-des-lieux-a-sinnoh-ligue-pokemon/",
+    "statut": "ok"
+   },
+   "vsEliteFourPoppy": {
+    "fr": "Conseil 4 Popi",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://eternia.fr/fr/site/article/4560-pokemon-ecarlate-et-pokemon-violet-popi-la-conseil-4-de-type-acier/",
+    "statut": "ok"
+   },
+   "vsEliteFourLance": {
+    "fr": "Conseil 4 Peter",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/ligue-pokemon",
+    "statut": "ok"
+   },
+   "vsTeamLeaderColress": {
+    "fr": "Boss Nikolaï",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsTeamLeaderArchie": {
+    "fr": "Boss Arthur",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsTeamLeaderMaxie": {
+    "fr": "Boss Max",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsTeamLeaderGiovanni": {
+    "fr": "Boss Giovanni",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsTeamLeaderCyrus": {
+    "fr": "Boss Hélio",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsTeamLeaderGhetsis": {
+    "fr": "Boss Ghetis",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsMasterTrainerSteven": {
+    "fr": "Dresseur Expert Pierre Rochard",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsMasterTrainerGeeta": {
+    "fr": "Dresseuse Experte Alisma",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsMasterTrainerNemona": {
+    "fr": "Dresseuse Experte Menzi",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsMasterTrainerAlder": {
+    "fr": "Dresseur Expert Goyah",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsMasterTrainerWallace": {
+    "fr": "Dresseur Expert Marc",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsUltraEntityLusamine": {
+    "fr": "Ultra-Entité Elsa-Mina",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerLillie": {
+    "fr": "Dresseuse Légendaire Lilie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerDawn": {
+    "fr": "Dresseuse Légendaire Aurore",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerSilver": {
+    "fr": "Dresseur Légendaire Silver",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerBrendan": {
+    "fr": "Dresseur Légendaire Brice",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerAZ": {
+    "fr": "Dresseur Légendaire A",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerAsh": {
+    "fr": "Dresseur Légendaire Sacha",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsLegendTrainerBlue": {
+    "fr": "Dresseur Légendaire Blue",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsPokemonProfessorOak": {
+    "fr": "Professeur Pokémon Chen",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "frontierMorty": {
+    "fr": "Zone de Combat : Mortimer",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierHamburg": {
+    "fr": "Zone de Combat : Hamburg",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierLaila": {
+    "fr": "Zone de Combat : Laila",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierBianque": {
+    "fr": "Zone de Combat : Bianque",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMiguel": {
+    "fr": "Zone de Combat : Miguel",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMistica": {
+    "fr": "Zone de Combat : Mistica",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierPierro": {
+    "fr": "Zone de Combat : Pierro",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMauro": {
+    "fr": "Zone de Combat : Mauro",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierKiro": {
+    "fr": "Zone de Combat : Kiro",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierKatarina": {
+    "fr": "Zone de Combat : Katarina",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierFausto": {
+    "fr": "Zone de Combat : Fausto",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMomo": {
+    "fr": "Zone de Combat : Momo",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierJairo": {
+    "fr": "Zone de Combat : Jairo",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierJunimo": {
+    "fr": "Zone de Combat : Junimo",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierLion": {
+    "fr": "Zone de Combat : Lion",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierGordon": {
+    "fr": "Zone de Combat : Gordon",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierTaria": {
+    "fr": "Zone de Combat : Taria",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierIota": {
+    "fr": "Zone de Combat : Iota",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierRoark": {
+    "fr": "Zone de Combat : Pierrick",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierNessa": {
+    "fr": "Zone de Combat : Donna",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierLtSurge": {
+    "fr": "Zone de Combat : Major Bob",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierErika": {
+    "fr": "Zone de Combat : Erika",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierRoxie": {
+    "fr": "Zone de Combat : Strykna",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierSabrina": {
+    "fr": "Zone de Combat : Morgane",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierBlaine": {
+    "fr": "Zone de Combat : Auguste",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierNorman": {
+    "fr": "Zone de Combat : Norman",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierMarnie": {
+    "fr": "Zone de Combat : Rosemary",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierSkyla": {
+    "fr": "Zone de Combat : Carolina",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierIris": {
+    "fr": "Zone de Combat : Iris",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierOpal": {
+    "fr": "Zone de Combat : Sally",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierBurgh": {
+    "fr": "Zone de Combat : Artie",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierCandice": {
+    "fr": "Zone de Combat : Gladys",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierJasmine": {
+    "fr": "Zone de Combat : Jasmine",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierClay": {
+    "fr": "Zone de Combat : Bardane",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierKorrina": {
+    "fr": "Zone de Combat : Cornélia",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierOlivia": {
+    "fr": "Zone de Combat : Alyxia",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.eternia.fr/dossier/soluce-pokemon-soleil-et-lune-20eme-partie-la-ligue-pokemon",
+    "statut": "ok"
+   },
+   "frontierSiebold": {
+    "fr": "Zone de Combat : Narcisse",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://eternia.fr/fr/site/article/101-pokemon-x-y-guide-du-conseil-4-narcisse-le-specialiste-des-pokemon-de-type-eau/",
+    "statut": "ok"
+   },
+   "frontierDiamant": {
+    "fr": "Zone de Combat : Diamant",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMatron": {
+    "fr": "Zone de Combat : Matron",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierKoga": {
+    "fr": "Zone de Combat : Koga",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierLucian": {
+    "fr": "Zone de Combat : Lucio",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://eternia.fr/fr/site/article/3889-guide-des-lieux-a-sinnoh-ligue-pokemon/",
+    "statut": "ok"
+   },
+   "frontierCrispin": {
+    "fr": "Zone de Combat : Rubépin",
+    "source": "web:pokepedia.fr/Ligue_Myrtille",
+    "statut": "ok"
+   },
+   "frontierLarry": {
+    "fr": "Zone de Combat : Okuba",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierSidney": {
+    "fr": "Zone de Combat : Damien",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/ligue",
+    "statut": "ok"
+   },
+   "frontierKahili": {
+    "fr": "Zone de Combat : Kahili",
+    "source": "web:pokepedia.fr/Conseil_4",
+    "statut": "ok"
+   },
+   "frontierDrake": {
+    "fr": "Zone de Combat : Aragon",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/ligue",
+    "statut": "ok"
+   },
+   "frontierLacey": {
+    "fr": "Zone de Combat : Nérine",
+    "source": "web:pokepedia.fr/Ligue_Myrtille",
+    "statut": "ok"
+   },
+   "frontierAaron": {
+    "fr": "Zone de Combat : Aaron",
+    "source": "web:pokepedia.fr/Conseil_4",
+    "statut": "ok"
+   },
+   "frontierGlacia": {
+    "fr": "Zone de Combat : Glacia",
+    "source": "web:pokepedia.fr/Conseil_4",
+    "statut": "ok"
+   },
+   "frontierWikstrom": {
+    "fr": "Zone de Combat : Thyméo",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-x-y/ligue-pokemon",
+    "statut": "ok"
+   },
+   "frontierBertha": {
+    "fr": "Zone de Combat : Terry",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-platine/ligue-pokemon",
+    "statut": "ok"
+   },
+   "frontierBruno": {
+    "fr": "Zone de Combat : Aldo",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/ligue-pokemon",
+    "statut": "ok"
+   },
+   "frontierAcerola": {
+    "fr": "Zone de Combat : Margie",
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.eternia.fr/dossier/soluce-pokemon-soleil-et-lune-20eme-partie-la-ligue-pokemon",
+    "statut": "ok"
+   },
+   "frontierPeony": {
+    "fr": "Zone de Combat : Dhilan",
+    "source": "web:https://www.pokepedia.fr/Dhilan ; https://www.eternia.fr/dossier/pokemon-epee-et-pokemon-bouclier-les-terres-enneigees-de-la-couronne-dhilan-l-explorateur-de-courroneige",
+    "statut": "ok"
+   },
+   "frontierArchie": {
+    "fr": "Zone de Combat : Arthur",
+    "source": "web:https://www.pokepedia.fr/Arthur_(Team_Aqua) ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/combats-team-magma-aqua",
+    "statut": "ok"
+   },
+   "frontierColress": {
+    "fr": "Zone de Combat : Nikolaï",
+    "source": "web:https://www.pokepedia.fr/Nikolaï ; https://eternia.fr/fr/site/article/660-soluce-pokemon-noire-2-et-blanche-2-partie-12-un-plan-demoniaque/",
+    "statut": "ok"
+   },
+   "frontierNemona": {
+    "fr": "Zone de Combat : Menzi",
+    "source": "web:https://www.pokepedia.fr/Menzi ; https://eternia.fr/fr/site/article/4421-pokemon-ecarlate-et-pokemon-violet-menzi-votre-amie-et-rivale",
+    "statut": "ok"
+   },
+   "frontierGuzma": {
+    "fr": "Zone de Combat : Guzma",
+    "source": "web:https://www.pokepedia.fr/Guzma ; https://eternia.fr/fr/site/article/1546-guide-de-la-ligue-pokemon-guzma-le-dresseur/",
+    "statut": "ok"
+   },
+   "frontierKieran": {
+    "fr": "Zone de Combat : Kassis",
+    "source": "web:pokepedia.fr/Ligue_Myrtille",
+    "statut": "ok"
+   },
+   "frontierMaxie": {
+    "fr": "Zone de Combat : Max",
+    "source": "web:https://www.pokepedia.fr/Max_(Team_Magma) ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/combats-team-magma-aqua ; https://eternia.fr/fr/site/article/2-pokemon-rubis-omega-et-saphir-alpha-les-differents-personnages-des-jeux/",
+    "statut": "ok"
+   },
+   "frontierPenny": {
+    "fr": "Zone de Combat : Pania",
+    "source": "web:pokepedia.fr/Pania",
+    "statut": "ok"
+   },
+   "frontierGiovanni": {
+    "fr": "Zone de Combat : Giovanni",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierWallace": {
+    "fr": "Zone de Combat : Marc",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierCyrus": {
+    "fr": "Zone de Combat : Hélio",
+    "source": "web:https://www.pokepedia.fr/Hélio ; https://www.eternia.fr/dossier/pokemon-platine-les-differents-personnages-du-jeu",
+    "statut": "ok"
+   },
+   "frontierDiantha": {
+    "fr": "Zone de Combat : Dianthéa",
+    "source": "web:pokepedia.fr/Dianthéa",
+    "statut": "ok"
+   },
+   "frontierTrace": {
+    "fr": "Zone de Combat : Trace",
+    "source": "web:https://www.pokepedia.fr/Trace ; https://eternia.fr/fr/site/article/1652-pokemon-lets-go-pikachu-et-lets-go-evoli-trace-le-rival/",
+    "statut": "ok"
+   },
+   "frontierGhetsis": {
+    "fr": "Zone de Combat : Ghetis",
+    "source": "web:https://www.pokepedia.fr/Ghetis ; https://eternia.fr/fr/site/article/461-soluce-pokemon-noire-et-blanche-partie-14-les-4-fantastiques/",
+    "statut": "ok"
+   },
+   "frontierSteven": {
+    "fr": "Zone de Combat : Pierre Rochard",
+    "source": "web:https://www.pokepedia.fr/Pierre_Rochard ; https://www.eternia.fr/dossier/guide-du-conseil-4-maitre-de-la-ligue-pokemon-pierre-rochard-l-homme-aux-poings-d-acier",
+    "statut": "ok"
+   },
+   "frontierLeon": {
+    "fr": "Zone de Combat : Tarak",
+    "source": "web:https://www.pokepedia.fr/Tarak ; https://eternia.fr/fr/site/article/1898-pokemon-epee-et-pokemon-bouclier-tarak-le-maitre-de-la-ligue/",
+    "statut": "ok"
+   },
+   "frontierAlder": {
+    "fr": "Zone de Combat : Goyah",
+    "source": "web:https://www.pokepedia.fr/Goyah ; https://eternia.fr/fr/site/article/461-soluce-pokemon-noire-et-blanche-partie-14-les-4-fantastiques/",
+    "statut": "ok"
+   },
+   "frontierGeeta": {
+    "fr": "Zone de Combat : Alisma",
+    "source": "web:https://www.pokepedia.fr/Alisma ; https://eternia.fr/fr/site/article/4625-guide-des-lieux-de-pokemon-ecarlate-et-violet-paldea-ligue-pokemon/",
+    "statut": "ok"
+   },
+   "frontierSpiralingTower": {
+    "fr": "Zone de Combat : Tour Spirale",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "frontierBattleFactory": {
+    "fr": "Zone de Combat : Usine de Combat",
+    "source": "web:https://www.pokepedia.fr/Usine_de_Combat_(Troisi%C3%A8me_g%C3%A9n%C3%A9ration) ; https://www.pokebip.com/page/jeuxvideo/emeraude/zone-de-combat/usine-de-combat ; https://eternia.fr/fr/site/article/1569-pokemon-emeraude-usine-de-combat/",
+    "statut": "ok"
+   },
+   "sinnohUndergroundI": {
+    "fr": "Souterrain de Sinnoh I",
+    "source": "web:https://www.pokepedia.fr/Souterrain_de_Sinnoh ; https://www.pokebip.com/page/jeux-video/pokemon-diamant-perle/wifi-souterrains",
+    "statut": "ok"
+   },
+   "sinnohUndergroundII": {
+    "fr": "Souterrain de Sinnoh II",
+    "source": "web:https://www.pokepedia.fr/Souterrain_de_Sinnoh ; https://www.pokebip.com/page/jeux-video/pokemon-diamant-perle/wifi-souterrains",
+    "statut": "ok"
+   },
+   "sinnohUndergroundIII": {
+    "fr": "Souterrain de Sinnoh III",
+    "source": "web:https://www.pokepedia.fr/Souterrain_de_Sinnoh ; https://www.pokebip.com/page/jeux-video/pokemon-diamant-perle/wifi-souterrains",
+    "statut": "ok"
+   },
+   "beginnerDojoI": {
+    "fr": "Dojo Débutant I",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "beginnerDojoII": {
+    "fr": "Dojo Débutant II",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "beginnerDojoIII": {
+    "fr": "Dojo Débutant III",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "advancedDojoI": {
+    "fr": "Dojo Avancé I",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "advancedDojoII": {
+    "fr": "Dojo Avancé II",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "advancedDojoIII": {
+    "fr": "Dojo Avancé III",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "expertDojoI": {
+    "fr": "Dojo Expert I",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "expertDojoII": {
+    "fr": "Dojo Expert II",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "expertDojoIII": {
+    "fr": "Dojo Expert III",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "victoryRoadI": {
+    "fr": "Route Victoire I",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "victoryRoadII": {
+    "fr": "Route Victoire II",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "victoryRoadIII": {
+    "fr": "Route Victoire III",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "glisteringCaveI": {
+    "fr": "Grotte Scintillante I",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "glisteringCaveII": {
+    "fr": "Grotte Scintillante II",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "glisteringCaveIII": {
+    "fr": "Grotte Scintillante III",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "sunkenTempleI": {
+    "fr": "Temple Englouti I",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "sunkenTempleII": {
+    "fr": "Temple Englouti II",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "sunkenTempleIII": {
+    "fr": "Temple Englouti III",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "verdantForest": {
+    "fr": "Forêt Verdoyante",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "foggyGraveyard": {
+    "fr": "Cimetière Brumeux",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "woodlandConcert": {
+    "fr": "Concert Sylvestre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "mantleCore": {
+    "fr": "Noyau du Manteau",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fidoPark": {
+    "fr": "Parc Toutou",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "citySewers": {
+    "fr": "Égouts de la Ville",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "activeVolcano": {
+    "fr": "Volcan Actif",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "powerPlant": {
+    "fr": "Centrale",
+    "source": "web:pokepedia.fr/Centrale",
+    "statut": "ok"
+   },
+   "quietMeadow": {
+    "fr": "Prairie Paisible",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "urbanWalkway": {
+    "fr": "Promenade Urbaine",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandyDunes": {
+    "fr": "Dunes de Sable",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "sunkenShip": {
+    "fr": "Navire Englouti",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "offshoreRigger": {
+    "fr": "Plateforme en Mer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "safariZone": {
+    "fr": "Parc Safari",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "coolBeach": {
+    "fr": "Plage Détente",
+    "source": "proposition validée par l’utilisateur (Plage Détente : zone sans type Glace, décor tropical — scripts/areasDictionary.js areas.coolBeach)",
+    "statut": "ok"
+   },
+   "computeringLab": {
+    "fr": "Labo Informatique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "gemstoneCavern": {
+    "fr": "Caverne des Gemmes",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "frozenLake": {
+    "fr": "Lac Gelé",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "abandonedManor": {
+    "fr": "Manoir Abandonné",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dracoLair": {
+    "fr": "Antre Draco",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "mountainTrail": {
+    "fr": "Sentier de Montagne",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "teaParlor": {
+    "fr": "Salon de Thé",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "pokemonDojo": {
+    "fr": "Dojo Pokémon",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "skyHigh": {
+    "fr": "Haut des Cieux",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dankCave": {
+    "fr": "Grotte Humide",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "forestShrine": {
+    "fr": "Sanctuaire Sylvestre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "streetCircus": {
+    "fr": "Cirque de Rue",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "weaponsFacility": {
+    "fr": "Usine d’Armement",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "scorchingBadlands": {
+    "fr": "Terres Brûlées",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "lavaLake": {
+    "fr": "Lac de Lave",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "crashingSeaside": {
+    "fr": "Côte Déchaînée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "strangeSpace": {
+    "fr": "Espace Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "chargestoneCave": {
+    "fr": "Grotte Électrolithe",
+    "source": "web:https://www.pokepedia.fr/Grotte_Électrolithe ; https://www.pokebip.com/page/jeux-video/pokemon-noir-blanc/guide-des-lieux/grotte-electrolithe",
+    "statut": "ok"
+   },
+   "seafoamCurrents": {
+    "fr": "Courants d’Écume",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "valorLakeside": {
+    "fr": "Rive du Lac Courage",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "thornwoodForest": {
+    "fr": "Forêt Épineuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "unovaWorks": {
+    "fr": "Ateliers d’Unys",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "snowpointCliff": {
+    "fr": "Falaise de Frimapic",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "hollowNest": {
+    "fr": "Nid Creux",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "poniCanyon": {
+    "fr": "Grand Canyon de Poni",
+    "source": "web:https://www.pokepedia.fr/Grand_Canyon_de_Poni ; https://www.eternia.fr/1116 ; https://www.pokebip.com/page/jeux-video/pokemon-ultra-soleil-ultra-lune/guide-des-lieux/plage-de-poni",
+    "statut": "ok"
+   },
+   "seaBed": {
+    "fr": "Fond Marin",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "lonLonRanch": {
+    "fr": "Ranch Lon Lon",
+    "source": "web:https://zelda.fandom.com/fr/wiki/Ranch_Lon_Lon ; https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+    "statut": "ok"
+   },
+   "saruTemple": {
+    "fr": "Temple Saru",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "evilSummit": {
+    "fr": "Sommet Maléfique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fuegoIronworks": {
+    "fr": "Forge Fuego",
+    "source": "web:https://www.pokepedia.fr/Forge_Fuego ; https://www.pokebip.com/page/jeux-video/pokemon-platine/guide-des-lieux/forge-fuego ; https://eternia.fr/fr/site/article/3811-guide-des-lieux-a-sinnoh-forge-fuego/ ; https://www.pokebip.com/news/1166/les-noms-des-lieux-de-sinnoh-en-francais",
+    "statut": "ok"
+   },
+   "permafrostGrotto": {
+    "fr": "Grotte du Permafrost",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "berryForest": {
+    "fr": "Bois Baies",
+    "source": "web:https://www.pokepedia.fr/Bois_Baies ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/traduction-lieux",
+    "statut": "ok"
+   },
+   "relicPassage": {
+    "fr": "Passage des Reliques",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "cosplayConvention": {
+    "fr": "Convention Cosplay",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "suspiciousManor": {
+    "fr": "Manoir Suspect",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "summitOfSeasons": {
+    "fr": "Sommet des Saisons",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ceruleanCave": {
+    "fr": "Caverne Azurée",
+    "source": "web:https://www.pokepedia.fr/Caverne_Azurée ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/traduction-lieux",
+    "statut": "ok"
+   },
+   "lamodeDogwalk": {
+    "fr": "Promenade Canine à la Mode",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "primitiveGrove": {
+    "fr": "Bosquet Primitif",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "zoologyLab": {
+    "fr": "Labo de Zoologie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "primalFissure": {
+    "fr": "Faille Primordiale",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "exoticPond": {
+    "fr": "Étang Exotique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "meteorCave": {
+    "fr": "Caverne Météore",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ancientTomb": {
+    "fr": "Tombeau Ancien",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "steelTomb": {
+    "fr": "Tombeau d’Acier",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "paupauFestival": {
+    "fr": "Festival Hula",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "flowerMeadow": {
+    "fr": "Prairie Fleurie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "aetherHeadquarters": {
+    "fr": "Siège de la Fondation Æther",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wormholeSpace": {
+    "fr": "Ultra-Brèche",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ecosphere": {
+    "fr": "Écosphère",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "protonCity": {
+    "fr": "Ville Proton",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "climatologyLab": {
+    "fr": "Labo de Climatologie",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fusionPlant": {
+    "fr": "Centrale à Fusion",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "alphaRuins": {
+    "fr": "Ruines d’Alpha",
+    "source": "web:https://www.pokepedia.fr/Ruines_d%27Alpha ; https://www.pokebip.com/pokedex/or-argent/localisations/johto/ruines-alpha ; https://www.eternia.fr/dossier/pokemon-or-argent-soluce-partie-3-les-ruines-d-alpha",
+    "statut": "ok"
+   },
+   "lakeValor": {
+    "fr": "Lac Courage",
+    "source": "web:https://www.pokepedia.fr/Lac_Courage ; https://www.pokebip.com/news/1166/les-noms-des-lieux-de-sinnoh-en-francais",
+    "statut": "ok"
+   },
+   "galacticWarehouse": {
+    "fr": "Hangar Galaxie",
+    "source": "web:https://www.pokepedia.fr/Hangar_Galaxie ; https://www.pokebip.com/page__jeuxvideo__platine__soluce__partie4.html ; https://www.eternia.fr/dossier/soluce-pokemon-platine-13eme-partie-a-l-assaut-du-qg-de-la-team-galaxie",
+    "statut": "ok"
+   },
+   "galacticHeadquarters": {
+    "fr": "Centre Galaxie de Voilaroc",
+    "source": "web:pokepedia.fr/Centre_Galaxie_de_Voilaroc (nom DEPS)",
+    "statut": "ok"
+   },
+   "dimensionRift1": {
+    "fr": "Faille Dimensionnelle Faible",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRaid1": {
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRift2": {
+    "fr": "Faille Dimensionnelle",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRaid2": {
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRift3": {
+    "fr": "Faille Dimensionnelle Sauvage",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRaid3": {
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRift4": {
+    "fr": "Faille Dimensionnelle Critique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionRaid4": {
+    "fr": "Trou de Ver Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "missingArea": {
+    "fr": "Zone Manquante",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "studioA": {
+    "fr": "Studio A",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "secretGhost": {
+    "fr": "Secret : Spectre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "secretOnix": {
+    "fr": "Secret : Onix",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "secretHumanoid": {
+    "fr": "Secret : Humanoïde",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "secretAerodactly": {
+    "fr": "Secret : Ptéra",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "secretKabutops": {
+    "fr": "Secret : Kabutops",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wildlifePark": {
+    "fr": "Parc Animalier",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "training": {
+    "fr": "Entraînement",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "trickyForest": {
+    "fr": "Forêt Farceuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "seasonMarshadow": {
+    "fr": "Rencontre Effrayante",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventZapdos": {
+    "fr": "Antre d’Électhor",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventArticuno": {
+    "fr": "Tanière d’Artikodin",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventMoltres": {
+    "fr": "Perchoir de Sulfura",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventTapuBulu": {
+    "fr": "Prairie Vierge",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventGalarianZapdos": {
+    "fr": "Perchoir des Terres Arides",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventTingLu": {
+    "fr": "Sanctuaire du Fléau Tellurique",
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
+   },
+   "eventRegirock": {
+    "fr": "Tombeau de Regirock",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventRegisteel": {
+    "fr": "Tombeau de Registeel",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventRegice": {
+    "fr": "Tombeau de Regice",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventRegieleki": {
+    "fr": "Ruines Transistor",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventRegidrago": {
+    "fr": "Ruines Draco",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventGougingFire": {
+    "fr": "Volcan Primitif",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventNaganadel": {
+    "fr": "Chambre-00",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventSilvally": {
+    "fr": "Labo Expérimental",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventCosmoem": {
+    "fr": "Nébuleuse Lointaine",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventGuzzlord": {
+    "fr": "Réalité Vide",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventXurkitree": {
+    "fr": "Réalité Lumineuse",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventNihilego": {
+    "fr": "Chambre-01",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventKartana": {
+    "fr": "Chambre-02",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventBuzzwole": {
+    "fr": "Réalité Tropicale",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventPheromosa": {
+    "fr": "Chambre-03",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventBlacephalon": {
+    "fr": "Chambre-04",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventTapuFini": {
+    "fr": "Fosse Tempête",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventTapuLele": {
+    "fr": "Espace Étrange",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventChienPao": {
+    "fr": "Sanctuaire du Fléau Glacial",
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
+   },
+   "eventGalarianMoltres": {
+    "fr": "Perchoir Maléfique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventThundurusTherian": {
+    "fr": "Nuées Lointaines",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventTapuKoko": {
+    "fr": "Tour Condensateur",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventChiYu": {
+    "fr": "Sanctuaire du Fléau Ardent",
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
+   },
+   "eventGalarianArticuno": {
+    "fr": "Perchoir Gelé",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventCresselia": {
+    "fr": "Plaine des Rêves",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventHeatran": {
+    "fr": "Mont Abrupt",
+    "source": "web:https://www.pokepedia.fr/Mont_Abrupt ; https://www.pokebip.com/news/1166/les-noms-des-lieux-de-sinnoh-en-francais",
+    "statut": "ok"
+   },
+   "eventWoChien": {
+    "fr": "Sanctuaire du Fléau Végétal",
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
+   },
+   "eventMesprit": {
+    "fr": "Caverne de Créfollet",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventAzelf": {
+    "fr": "Caverne de Créfadet",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "eventUxie": {
+    "fr": "Caverne de Créhelf",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "vsRocketGrunt1": {
+    "fr": "Sbire Rocket",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "dimensionPalkia": {
+    "fr": "Dimension : Palkia",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionPikachuGmax": {
+    "fr": "Dimension : Pikachu Gigamax",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionKyuremWhite": {
+    "fr": "Dimension : Kyurem Blanc",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "dimensionMegaRayquaza": {
+    "fr": "Dimension : Méga-Rayquaza",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   }
+  },
+  "field": {
+   "fightingPledge": {
+    "fr": "Aire de Combat",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "darkPledge": {
+    "fr": "Aire de Ténèbres",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "dragonPledge": {
+    "fr": "Aire de Dragon",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "fairyPledge": {
+    "fr": "Aire de Fée",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "rockPledge": {
+    "fr": "Aire de Roche",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "electricPledge": {
+    "fr": "Aire d’Électrik",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "steelPledge": {
+    "fr": "Aire d’Acier",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "IcePledge": {
+    "fr": "Aire de Glace",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "poisonPledge": {
+    "fr": "Aire de Poison",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "flyingPledge": {
+    "fr": "Aire de Vol",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "normalPledge": {
+    "fr": "Aire Normale",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "bugPledge": {
+    "fr": "Aire d’Insecte",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "groundPledge": {
+    "fr": "Aire de Sol",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "ghostPledge": {
+    "fr": "Aire de Spectre",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "psychicPledge": {
+    "fr": "Aire de Psy",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "simpleAura": {
+    "fr": "Aura Simple",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "moodyAura": {
+    "fr": "Aura Lunatique",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "serendipity": {
+    "fr": "Sérendipité",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "harshSun": {
+    "fr": "Soleil Écrasant",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "thickFog": {
+    "fr": "Brouillard Épais",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fierceHail": {
+    "fr": "Grêle Violente",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "coarseSandstorm": {
+    "fr": "Tempête de Sable Âpre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "heavyRain": {
+    "fr": "Pluie Battante",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "mistyField": {
+    "fr": "Champ Brumeux",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "grassyField": {
+    "fr": "Champ Herbu",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "electricField": {
+    "fr": "Champ Électrifié",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "trickField": {
+    "fr": "Champ Distorsion",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "reverseField": {
+    "fr": "Champ Inversé",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "averageTime": {
+    "fr": "Temps Moyen",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "noMercy": {
+    "fr": "Sans Pitié",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "stealthRocks": {
+    "fr": "Piège de Roc",
+    "source": "web:pokeapi.co/move/stealth-rock",
+    "statut": "ok"
+   },
+   "heavyWeather": {
+    "fr": "Météo Extrême",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "ironBody": {
+    "fr": "Corps de Fer",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "wonderWard": {
+    "fr": "Protection Mystik",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "neutralisingGas": {
+    "fr": "Gaz Inhibiteur",
+    "source": "web:pokeapi.co/ability/neutralizing-gas",
+    "statut": "ok"
+   },
+   "weakeningCurse": {
+    "fr": "Malédiction Débilitante",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   },
+   "fatiguingCurse": {
+    "fr": "Malédiction Épuisante",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
+   }
+  },
+  "status": {
+   "burn": {
+    "fr": "Brûlure",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "freeze": {
+    "fr": "Gel",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "paralysis": {
+    "fr": "Paralysie",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "poisoned": {
+    "fr": "Poison",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "sleep": {
+    "fr": "Sommeil",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "confused": {
+    "fr": "Confusion",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "embargo": {
+    "fr": "Embargo",
+    "source": "web:pokeapi.co/move/embargo",
+    "statut": "ok"
+   },
+   "sunny": {
+    "fr": "Soleil",
+    "source": "web:pokepedia.fr/Météo",
+    "statut": "ok"
+   },
+   "rainy": {
+    "fr": "Pluie",
+    "source": "web:pokepedia.fr/Météo",
+    "statut": "ok"
+   },
+   "sandstorm": {
+    "fr": "Tempête de Sable",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "hail": {
+    "fr": "Grêle",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "foggy": {
+    "fr": "Brouillard",
+    "source": "web:pokepedia.fr/Météo",
+    "statut": "ok"
+   },
+   "electricTerrain": {
+    "fr": "Champ Électrifié",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "grassyTerrain": {
+    "fr": "Champ Herbu",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "mistyTerrain": {
+    "fr": "Champ Brumeux",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "trickRoom": {
+    "fr": "Distorsion",
+    "source": "web:pokeapi.co/move/trick-room",
+    "statut": "ok"
+   },
+   "weirdRoom": {
+    "fr": "Zone Bizarre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "même nom que la capacité validée (lot 10)"
+   },
+   "crossRoom": {
+    "fr": "Zone Croisée",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "même nom que la capacité validée (lot 10)"
+   },
+   "reflect": {
+    "fr": "Protection",
+    "source": "web:pokeapi.co/move/reflect",
+    "statut": "ok"
+   },
+   "lightScreen": {
+    "fr": "Mur Lumière",
+    "source": "web:pokeapi.co/move/light-screen",
+    "statut": "ok"
+   },
+   "safeguard": {
+    "fr": "Rune Protect",
+    "source": "web:pokeapi.co/move/safeguard",
+    "statut": "ok"
+   }
+  },
+  "nature": {
+   "adamant": {
+    "fr": "Rigide",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "modest": {
+    "fr": "Modeste",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "jolly": {
+    "fr": "Jovial",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "relaxed": {
+    "fr": "Relax",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "quiet": {
+    "fr": "Discret",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "bold": {
+    "fr": "Assuré",
+    "source": "bible",
+    "statut": "ok"
+   }
+  },
+  "split": {
+   "physical": {
+    "fr": "Physique",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "special": {
+    "fr": "Spécial",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "status": {
+    "fr": "Statut",
+    "source": "bible",
+    "statut": "ok"
+   }
+  },
+  "starsign": {
+   "sol": {
+    "fr": "Sol",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
+   },
+   "luna": {
+    "fr": "Luna",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
+   },
+   "pluto": {
+    "fr": "Pluton",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
+   },
+   "ceres": {
+    "fr": "Cérès",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
+   },
+   "terra": {
+    "fr": "Terra",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
+   },
+   "eris": {
+    "fr": "Éris",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
+   }
+  },
+  "season": {
+   "halloween": {
+    "fr": "Halloween",
+    "source": "proposition",
+    "statut": "ok"
+   }
+  }
+ },
+ "memoryPrefix": "ROM ",
+ "apiAlias": {
+  "pkmn": {
+   "zygarde100": "zygarde-complete",
+   "furfrouReine": "furfrou-la-reine",
+   "taurosCombat": "tauros-paldea-combat-breed",
+   "taurosBlaze": "tauros-paldea-blaze-breed",
+   "taurosAqua": "tauros-paldea-aqua-breed",
+   "necrozmaDawnWings": "necrozma-dawn",
+   "necrozmaDuskMane": "necrozma-dusk",
+   "urshifuSingleGmax": "urshifu-single-strike-gmax",
+   "urshifuRapidGmax": "urshifu-rapid-strike-gmax",
+   "dududunsparce": "dudunsparce-three-segment",
+   "basculegionM": "basculegion-male",
+   "basculegionF": "basculegion-female",
+   "nidoranF": "nidoran-f",
+   "nidoranM": "nidoran-m"
+  },
+  "move": {
+   "hiJumpKick": "high-jump-kick"
+  },
+  "ability": {},
+  "item": {}
+ }
+}

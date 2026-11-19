@@ -12,7 +12,7 @@
 
 function openAutoTeam(){
     document.getElementById("tooltipTop").style.display = "none"
-    document.getElementById("tooltipTitle").innerHTML = "Team Auto-Build"
+    document.getElementById("tooltipTitle").innerHTML = t('ui.team_auto_build')
 
     const currentTeam = saved.previewTeams[saved.currentPreviewTeam]
     let itemCheckboxesHTML = ''
@@ -20,22 +20,22 @@ function openAutoTeam(){
         const slotKey = `slot${i}`
 
         //PR-EDIT
-        const itemName = currentTeam[slotKey].item || 'No item'
-        if (itemName == "No item") continue
+        const itemName = currentTeam[slotKey].item
+        if (!itemName) continue
         itemCheckboxesHTML += `
               <label style="display:flex; align-items:center; gap:.5rem; font-size:0.9rem;">
                 <input id="settings-auto-team-lock-item-${i}" type="checkbox" />
-                Lock ${format(itemName)} (Slot ${i})
+                ${t('ui.lock_slot', { v: format(itemName, 'item'), v2: i })}
               </label>`
     }
 
-    document.getElementById("tooltipMid").innerHTML = `Select your preference for the team (Your current team will be replaced by it)`
+    document.getElementById("tooltipMid").innerHTML = t('ui.select_your_preference_for_the_team')
     document.getElementById("tooltipBottom").innerHTML = `
     <span id="prevent-tooltip-exit"></span>
         <div style="display:flex; flex-direction:column; gap:.35rem;">
 
               <span style="opacity:.8;">
-                Left = Defensive, Right = Offensive
+                ${t('ui.left_defensive_right_offensive')}
               </span>
 
               <input
@@ -56,7 +56,7 @@ function openAutoTeam(){
         closeTooltip()
 
 
-        ' style="cursor:pointer; font-size:1.5rem; width:100%;" class="auto-build-confirm" id="prevent-tooltip-exit">Auto-Build
+        ' style="cursor:pointer; font-size:1.5rem; width:100%;" class="auto-build-confirm" id="prevent-tooltip-exit">${t('ui.auto_build')}
     </div>
     
     ` 
@@ -79,7 +79,7 @@ function setAutoTeamBiasFromPercent(pct){
   window.autoTeamWeights.defense = def;
 
   const label = document.getElementById("settings-auto-team-label");
-  if (label) label.textContent = `Offense ${Math.round(off*100)}% / Defense ${Math.round(def*100)}%`;
+  if (label) label.textContent = t('ui.offense_defense', { v: Math.round(off*100), v2: Math.round(def*100) });
 }
 
 let autoTeamWeights = { offense: 0.6, defense: 0.4 } // scoring weights, bias slightly toward offense
