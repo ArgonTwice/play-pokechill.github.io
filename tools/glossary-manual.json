@@ -1489,8 +1489,8 @@
    },
    "vsGymLeaderPhoebe": {
     "fr": "Championne d’Arène Spectra",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/ligue",
+    "statut": "ok"
    },
    "vsTwinTrainersBellisse": {
     "fr": "Jumelles Bellise",
@@ -1514,23 +1514,23 @@
    },
    "vsEliteFourLorelei": {
     "fr": "Conseil 4 Olga",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/ligue-pokemon",
+    "statut": "ok"
    },
    "vsEliteFourFlint": {
     "fr": "Conseil 4 Adrien",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-platine/ligue-pokemon ; https://eternia.fr/fr/site/article/3889-guide-des-lieux-a-sinnoh-ligue-pokemon/",
+    "statut": "ok"
    },
    "vsEliteFourPoppy": {
     "fr": "Conseil 4 Popi",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://eternia.fr/fr/site/article/4560-pokemon-ecarlate-et-pokemon-violet-popi-la-conseil-4-de-type-acier/",
+    "statut": "ok"
    },
    "vsEliteFourLance": {
     "fr": "Conseil 4 Peter",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/ligue-pokemon",
+    "statut": "ok"
    },
    "vsTeamLeaderColress": {
     "fr": "Boss Nikolaï",
@@ -1809,13 +1809,13 @@
    },
    "frontierOlivia": {
     "fr": "Zone de Combat : Alyxia",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.eternia.fr/dossier/soluce-pokemon-soleil-et-lune-20eme-partie-la-ligue-pokemon",
+    "statut": "ok"
    },
    "frontierSiebold": {
     "fr": "Zone de Combat : Narcisse",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://eternia.fr/fr/site/article/101-pokemon-x-y-guide-du-conseil-4-narcisse-le-specialiste-des-pokemon-de-type-eau/",
+    "statut": "ok"
    },
    "frontierDiamant": {
     "fr": "Zone de Combat : Diamant",
@@ -1834,8 +1834,8 @@
    },
    "frontierLucian": {
     "fr": "Zone de Combat : Lucio",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://eternia.fr/fr/site/article/3889-guide-des-lieux-a-sinnoh-ligue-pokemon/",
+    "statut": "ok"
    },
    "frontierCrispin": {
     "fr": "Zone de Combat : Rubépin",
@@ -1849,8 +1849,8 @@
    },
    "frontierSidney": {
     "fr": "Zone de Combat : Damien",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/ligue",
+    "statut": "ok"
    },
    "frontierKahili": {
     "fr": "Zone de Combat : Kahili",
@@ -1859,8 +1859,8 @@
    },
    "frontierDrake": {
     "fr": "Zone de Combat : Aragon",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/ligue",
+    "statut": "ok"
    },
    "frontierLacey": {
     "fr": "Zone de Combat : Nérine",
@@ -1879,48 +1879,48 @@
    },
    "frontierWikstrom": {
     "fr": "Zone de Combat : Thyméo",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-x-y/ligue-pokemon",
+    "statut": "ok"
    },
    "frontierBertha": {
     "fr": "Zone de Combat : Terry",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-platine/ligue-pokemon",
+    "statut": "ok"
    },
    "frontierBruno": {
     "fr": "Zone de Combat : Aldo",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/ligue-pokemon",
+    "statut": "ok"
    },
    "frontierAcerola": {
     "fr": "Zone de Combat : Margie",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Conseil_4 ; https://www.eternia.fr/dossier/soluce-pokemon-soleil-et-lune-20eme-partie-la-ligue-pokemon",
+    "statut": "ok"
    },
    "frontierPeony": {
-    "fr": "Zone de Combat : Pivoine",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "fr": "Zone de Combat : Dhilan",
+    "source": "web:https://www.pokepedia.fr/Dhilan ; https://www.eternia.fr/dossier/pokemon-epee-et-pokemon-bouclier-les-terres-enneigees-de-la-couronne-dhilan-l-explorateur-de-courroneige",
+    "statut": "ok"
    },
    "frontierArchie": {
     "fr": "Zone de Combat : Arthur",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Arthur_(Team_Aqua) ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/combats-team-magma-aqua",
+    "statut": "ok"
    },
    "frontierColress": {
     "fr": "Zone de Combat : Nikolaï",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Nikolaï ; https://eternia.fr/fr/site/article/660-soluce-pokemon-noire-2-et-blanche-2-partie-12-un-plan-demoniaque/",
+    "statut": "ok"
    },
    "frontierNemona": {
     "fr": "Zone de Combat : Menzi",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Menzi ; https://eternia.fr/fr/site/article/4421-pokemon-ecarlate-et-pokemon-violet-menzi-votre-amie-et-rivale",
+    "statut": "ok"
    },
    "frontierGuzma": {
     "fr": "Zone de Combat : Guzma",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Guzma ; https://eternia.fr/fr/site/article/1546-guide-de-la-ligue-pokemon-guzma-le-dresseur/",
+    "statut": "ok"
    },
    "frontierKieran": {
     "fr": "Zone de Combat : Kassis",
@@ -1929,8 +1929,8 @@
    },
    "frontierMaxie": {
     "fr": "Zone de Combat : Max",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Max_(Team_Magma) ; https://www.pokebip.com/page/jeux-video/pokemon-rubis-omega-saphir-alpha/combats-team-magma-aqua ; https://eternia.fr/fr/site/article/2-pokemon-rubis-omega-et-saphir-alpha-les-differents-personnages-des-jeux/",
+    "statut": "ok"
    },
    "frontierPenny": {
     "fr": "Zone de Combat : Pania",
@@ -1949,8 +1949,8 @@
    },
    "frontierCyrus": {
     "fr": "Zone de Combat : Hélio",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Hélio ; https://www.eternia.fr/dossier/pokemon-platine-les-differents-personnages-du-jeu",
+    "statut": "ok"
    },
    "frontierDiantha": {
     "fr": "Zone de Combat : Dianthéa",
@@ -1959,33 +1959,33 @@
    },
    "frontierTrace": {
     "fr": "Zone de Combat : Trace",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Trace ; https://eternia.fr/fr/site/article/1652-pokemon-lets-go-pikachu-et-lets-go-evoli-trace-le-rival/",
+    "statut": "ok"
    },
    "frontierGhetsis": {
     "fr": "Zone de Combat : Ghetis",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Ghetis ; https://eternia.fr/fr/site/article/461-soluce-pokemon-noire-et-blanche-partie-14-les-4-fantastiques/",
+    "statut": "ok"
    },
    "frontierSteven": {
     "fr": "Zone de Combat : Pierre Rochard",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Pierre_Rochard ; https://www.eternia.fr/dossier/guide-du-conseil-4-maitre-de-la-ligue-pokemon-pierre-rochard-l-homme-aux-poings-d-acier",
+    "statut": "ok"
    },
    "frontierLeon": {
     "fr": "Zone de Combat : Tarak",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Tarak ; https://eternia.fr/fr/site/article/1898-pokemon-epee-et-pokemon-bouclier-tarak-le-maitre-de-la-ligue/",
+    "statut": "ok"
    },
    "frontierAlder": {
     "fr": "Zone de Combat : Goyah",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Goyah ; https://eternia.fr/fr/site/article/461-soluce-pokemon-noire-et-blanche-partie-14-les-4-fantastiques/",
+    "statut": "ok"
    },
    "frontierGeeta": {
     "fr": "Zone de Combat : Alisma",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Alisma ; https://eternia.fr/fr/site/article/4625-guide-des-lieux-de-pokemon-ecarlate-et-violet-paldea-ligue-pokemon/",
+    "statut": "ok"
    },
    "frontierSpiralingTower": {
     "fr": "Zone de Combat : Tour Spirale",
@@ -1994,23 +1994,23 @@
    },
    "frontierBattleFactory": {
     "fr": "Zone de Combat : Usine de Combat",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Usine_de_Combat_(Troisi%C3%A8me_g%C3%A9n%C3%A9ration) ; https://www.pokebip.com/page/jeuxvideo/emeraude/zone-de-combat/usine-de-combat ; https://eternia.fr/fr/site/article/1569-pokemon-emeraude-usine-de-combat/",
+    "statut": "ok"
    },
    "sinnohUndergroundI": {
     "fr": "Souterrain de Sinnoh I",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Souterrain_de_Sinnoh ; https://www.pokebip.com/page/jeux-video/pokemon-diamant-perle/wifi-souterrains",
+    "statut": "ok"
    },
    "sinnohUndergroundII": {
     "fr": "Souterrain de Sinnoh II",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Souterrain_de_Sinnoh ; https://www.pokebip.com/page/jeux-video/pokemon-diamant-perle/wifi-souterrains",
+    "statut": "ok"
    },
    "sinnohUndergroundIII": {
     "fr": "Souterrain de Sinnoh III",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Souterrain_de_Sinnoh ; https://www.pokebip.com/page/jeux-video/pokemon-diamant-perle/wifi-souterrains",
+    "statut": "ok"
    },
    "beginnerDojoI": {
     "fr": "Dojo Débutant I",
@@ -2264,8 +2264,8 @@
    },
    "chargestoneCave": {
     "fr": "Grotte Électrolithe",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Grotte_Électrolithe ; https://www.pokebip.com/page/jeux-video/pokemon-noir-blanc/guide-des-lieux/grotte-electrolithe",
+    "statut": "ok"
    },
    "seafoamCurrents": {
     "fr": "Courants Écume",
@@ -2298,9 +2298,9 @@
     "statut": "à valider"
    },
    "poniCanyon": {
-    "fr": "Canyon de Poni",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "fr": "Grand Canyon de Poni",
+    "source": "web:https://www.pokepedia.fr/Grand_Canyon_de_Poni ; https://www.eternia.fr/1116 ; https://www.pokebip.com/page/jeux-video/pokemon-ultra-soleil-ultra-lune/guide-des-lieux/plage-de-poni",
+    "statut": "ok"
    },
    "seaBed": {
     "fr": "Fond Marin",
@@ -2309,7 +2309,7 @@
    },
    "lonLonRanch": {
     "fr": "Ranch Lon Lon",
-    "source": "officiel Zelda (non recoupé)",
+    "source": "web:https://zelda.fandom.com/fr/wiki/Ranch_Lon_Lon ; https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
     "statut": "ok"
    },
    "saruTemple": {
@@ -2323,9 +2323,9 @@
     "statut": "à valider"
    },
    "fuegoIronworks": {
-    "fr": "Fonderie Fuego",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "fr": "Forge Fuego",
+    "source": "web:https://www.pokepedia.fr/Forge_Fuego ; https://www.pokebip.com/page/jeux-video/pokemon-platine/guide-des-lieux/forge-fuego ; https://eternia.fr/fr/site/article/3811-guide-des-lieux-a-sinnoh-forge-fuego/ ; https://www.pokebip.com/news/1166/les-noms-des-lieux-de-sinnoh-en-francais",
+    "statut": "ok"
    },
    "permafrostGrotto": {
     "fr": "Grotte du Permafrost",
@@ -2333,9 +2333,9 @@
     "statut": "à valider"
    },
    "berryForest": {
-    "fr": "Forêt Baies",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "fr": "Bois Baies",
+    "source": "web:https://www.pokepedia.fr/Bois_Baies ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/traduction-lieux",
+    "statut": "ok"
    },
    "relicPassage": {
     "fr": "Passage des Reliques",
@@ -2359,8 +2359,8 @@
    },
    "ceruleanCave": {
     "fr": "Caverne Azurée",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Caverne_Azurée ; https://www.pokebip.com/page/jeux-video/pokemon-rouge-feu-vert-feuille/traduction-lieux",
+    "statut": "ok"
    },
    "lamodeDogwalk": {
     "fr": "Promenade Canine Chic",
@@ -2444,18 +2444,18 @@
    },
    "alphaRuins": {
     "fr": "Ruines d’Alpha",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Ruines_d%27Alpha ; https://www.pokebip.com/pokedex/or-argent/localisations/johto/ruines-alpha ; https://www.eternia.fr/dossier/pokemon-or-argent-soluce-partie-3-les-ruines-d-alpha",
+    "statut": "ok"
    },
    "lakeValor": {
     "fr": "Lac Courage",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Lac_Courage ; https://www.pokebip.com/news/1166/les-noms-des-lieux-de-sinnoh-en-francais",
+    "statut": "ok"
    },
    "galacticWarehouse": {
-    "fr": "Entrepôt Galaxie",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "fr": "Hangar Galaxie",
+    "source": "web:https://www.pokepedia.fr/Hangar_Galaxie ; https://www.pokebip.com/page__jeuxvideo__platine__soluce__partie4.html ; https://www.eternia.fr/dossier/soluce-pokemon-platine-13eme-partie-a-l-assaut-du-qg-de-la-team-galaxie",
+    "statut": "ok"
    },
    "galacticHeadquarters": {
     "fr": "QG de la Team Galaxie",
@@ -2714,8 +2714,8 @@
    },
    "eventHeatran": {
     "fr": "Mont Abrupt",
-    "source": "officiel présumé (non recoupé en ligne)",
-    "statut": "à valider"
+    "source": "web:https://www.pokepedia.fr/Mont_Abrupt ; https://www.pokebip.com/news/1166/les-noms-des-lieux-de-sinnoh-en-francais",
+    "statut": "ok"
    },
    "eventWoChien": {
     "fr": "Sanctuaire du Fléau Végétal",
