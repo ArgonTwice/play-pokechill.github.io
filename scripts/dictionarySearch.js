@@ -188,7 +188,7 @@ function updateDictionary(){
 
 fuseDictionary = new Fuse(dictionaryItems, {
   keys: [ 
-    { name: 'name', getFn: obj => obj.id }, 
+    { name: 'name', getFn: obj => searchNames(obj) },
     'type', 
     'hiddenAbility.id', 
     'split', 

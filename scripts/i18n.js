@@ -57,6 +57,19 @@ function localizeAreaNames() {
 
 function numLocale() { return lang === 'fr' ? 'fr-FR' : 'en-US'; }
 
+// Texte indexé par la recherche (Fuse) : id interne + noms EN et FR (+ variante sans accents), quelle que soit la langue.
+let i18nFr = lang === 'fr' ? i18nCur : null;
+const stripAccents = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+function searchNames(obj) {
+    if (!obj || obj.id === undefined) return '';
+    if (!i18nFr) i18nFr = loadLangFile('fr');
+    const ns = [['pkmn', typeof pkmn !== 'undefined' && pkmn], ['move', typeof move !== 'undefined' && move],
+        ['ability', typeof ability !== 'undefined' && ability], ['item', typeof item !== 'undefined' && item]]
+        .find(([, dict]) => dict && dict[obj.id] === obj)?.[0];
+    const names = ns ? [i18nEn[`${ns}.${obj.id}`], i18nFr[`${ns}.${obj.id}`]].filter(Boolean) : [];
+    return [...new Set([obj.id, ...names, ...names.map(stripAccents)])].join(' ');
+}
+
 // Traduit le HTML statique : data-i18n (contenu), data-i18n-title (attribut title), data-i18n-placeholder.
 function applyLang(root = document) {
     root.querySelectorAll('[data-i18n]').forEach(el => { el.innerHTML = t(el.dataset.i18n); });
