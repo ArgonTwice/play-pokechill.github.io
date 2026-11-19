@@ -129,8 +129,8 @@ function updatePreviewTeam(){
 
 
 
-    let pkmnName = `${format(currentTeam[i].pkmn, 'pkmn')} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
-    if (pkmn[currentTeam[i].pkmn].shiny) pkmnName = `${format(currentTeam[i].pkmn, 'pkmn')} ${nameTag} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
+    let pkmnName = `${format(currentTeam[i].pkmn, 'pkmn')} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">${t('ui.lvl_short')} ${pkmn[ currentTeam[i].pkmn ].level}</span>`
+    if (pkmn[currentTeam[i].pkmn].shiny) pkmnName = `${format(currentTeam[i].pkmn, 'pkmn')} ${nameTag} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">${t('ui.lvl_short')} ${pkmn[ currentTeam[i].pkmn ].level}</span>`
 
     let pkmnSprite = `<img class="sprite-trim" src="img/pkmn/sprite/${currentTeam[i].pkmn}.png" id="explore-team-member-${i}-sprite">`
     if (pkmn[currentTeam[i].pkmn].shiny) pkmnSprite = `<img class="sprite-trim" src="img/pkmn/shiny/${currentTeam[i].pkmn}.png" id="explore-team-member-${i}-sprite">`
@@ -713,8 +713,8 @@ function setPkmnTeam(){
     let nickname = format(team[i].pkmn.id, 'pkmn')
     if (pkmn[team[i].pkmn.id].nickname) nickname = pkmn[team[i].pkmn.id].nickname
 
-    let pkmnName = `${nickname} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[team[i].pkmn.id].level}</span>`
-    if (pkmn[team[i].pkmn.id].shiny) pkmnName = `${nickname} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[team[i].pkmn.id].level}</span>`
+    let pkmnName = `${nickname} <span class="explore-pkmn-level" id="explore-${i}-lvl">${t('ui.lvl_short')} ${pkmn[team[i].pkmn.id].level}</span>`
+    if (pkmn[team[i].pkmn.id].shiny) pkmnName = `${nickname} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">${t('ui.lvl_short')} ${pkmn[team[i].pkmn.id].level}</span>`
 
 
     let pkmnSprite = `<img class="sprite-trim" src="img/pkmn/sprite/${team[i].pkmn.id}.png" id="explore-team-member-${i}-sprite">`
@@ -939,8 +939,8 @@ function updatePreviewTeam(){
             let nickname = format(currentTeam[i].pkmn, 'pkmn')
             if (pkmn[currentTeam[i].pkmn].nickname) nickname = pkmn[currentTeam[i].pkmn].nickname
 
-            let pkmnName = `${nickname} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
-            if (pkmn[currentTeam[i].pkmn].shiny) pkmnName = `${nickname} ${nameTag} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
+            let pkmnName = `${nickname} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">${t('ui.lvl_short')} ${pkmn[ currentTeam[i].pkmn ].level}</span>`
+            if (pkmn[currentTeam[i].pkmn].shiny) pkmnName = `${nickname} ${nameTag} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">${t('ui.lvl_short')} ${pkmn[ currentTeam[i].pkmn ].level}</span>`
 
 
             let pkmnSprite = `<img class="sprite-trim" src="img/pkmn/sprite/${currentTeam[i].pkmn}.png" id="explore-team-member-${i}-sprite">`

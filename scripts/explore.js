@@ -545,7 +545,7 @@ for (let t of thresholds) {
 
 
     
-    document.getElementById("explore-wild-name").innerHTML = format(spawnedPkmn, 'pkmn') + ` <span class="explore-pkmn-level" > lvl ${wildLevel} </span>`
+    document.getElementById("explore-wild-name").innerHTML = format(spawnedPkmn, 'pkmn') + ` <span class="explore-pkmn-level" > ${t('ui.lvl_short')} ${wildLevel} </span>`
     document.getElementById("explore-wild-sprite").src = `img/pkmn/sprite/${spawnedPkmn}.png`
 
     if (pkmn[spawnedPkmn].float) document.getElementById("explore-wild-sprite").classList.add(`floating-pkmn`)
@@ -1843,7 +1843,7 @@ for (const i in team) {
         
         pkmn[ team[i].pkmn.id ].exp -= 100
         pkmn[ team[i].pkmn.id ].level++
-        document.getElementById(`explore-${i}-lvl`).innerHTML = `lvl ${pkmn[ team[i].pkmn.id ].level}`
+        document.getElementById(`explore-${i}-lvl`).innerHTML = `${t('ui.lvl_short')} ${pkmn[ team[i].pkmn.id ].level}`
         updateTeamExp()
 
 
@@ -5352,15 +5352,15 @@ if (document.getElementById("pokedex-search").value!="") {
 
 
 
-        div.innerHTML = `<span style="display:flex; white-space:nowrap">lvl ${pkmn[i].level} ${nameMarks}</span><img class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
-        if (pkmn[i].shiny) div.innerHTML = `<span style="display:flex; white-space:nowrap">lvl ${pkmn[i].level} ${nameMarks}</span> <img class="sprite-trim" src="img/pkmn/shiny/${i}.png">`
-        if (pkmn[i].shiny && pkmn[i].shinyDisabled == true) div.innerHTML = `<span style="display:flex; white-space:nowrap">lvl ${pkmn[i].level} ${nameMarks}</span><img class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
+        div.innerHTML = `<span style="display:flex; white-space:nowrap">${t('ui.lvl_short')} ${pkmn[i].level} ${nameMarks}</span><img class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
+        if (pkmn[i].shiny) div.innerHTML = `<span style="display:flex; white-space:nowrap">${t('ui.lvl_short')} ${pkmn[i].level} ${nameMarks}</span> <img class="sprite-trim" src="img/pkmn/shiny/${i}.png">`
+        if (pkmn[i].shiny && pkmn[i].shinyDisabled == true) div.innerHTML = `<span style="display:flex; white-space:nowrap">${t('ui.lvl_short')} ${pkmn[i].level} ${nameMarks}</span><img class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
 
 
         if (pkmn[i].starsign){
-        div.innerHTML = `<span style="display:flex; white-space:nowrap">lvl ${pkmn[i].level} ${nameMarks}</span><img style="filter:hue-rotate(${starsign[pkmn[i].starsign].hue}deg)" class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
-        if (pkmn[i].shiny) div.innerHTML = `<span style="display:flex; white-space:nowrap">lvl ${pkmn[i].level} ${nameMarks}</span> <img style="filter:hue-rotate(${starsign[pkmn[i].starsign].hue}deg)" class="sprite-trim" src="img/pkmn/shiny/${i}.png">`
-        if (pkmn[i].shiny && pkmn[i].shinyDisabled == true) div.innerHTML = `<span style="display:flex; white-space:nowrap">lvl ${pkmn[i].level} ${nameMarks}</span><img style="filter:hue-rotate(${starsign[pkmn[i].starsign].hue}deg)" class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
+        div.innerHTML = `<span style="display:flex; white-space:nowrap">${t('ui.lvl_short')} ${pkmn[i].level} ${nameMarks}</span><img style="filter:hue-rotate(${starsign[pkmn[i].starsign].hue}deg)" class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
+        if (pkmn[i].shiny) div.innerHTML = `<span style="display:flex; white-space:nowrap">${t('ui.lvl_short')} ${pkmn[i].level} ${nameMarks}</span> <img style="filter:hue-rotate(${starsign[pkmn[i].starsign].hue}deg)" class="sprite-trim" src="img/pkmn/shiny/${i}.png">`
+        if (pkmn[i].shiny && pkmn[i].shinyDisabled == true) div.innerHTML = `<span style="display:flex; white-space:nowrap">${t('ui.lvl_short')} ${pkmn[i].level} ${nameMarks}</span><img style="filter:hue-rotate(${starsign[pkmn[i].starsign].hue}deg)" class="sprite-trim" src="img/pkmn/sprite/${i}.png">`
         }
 
         
