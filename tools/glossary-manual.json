@@ -1,0 +1,3061 @@
+{
+ "formPattern": {
+  "": "{n} {f}",
+  "mega": "Méga-{n} {f}",
+  "alolan": "{n} d’Alola {f}",
+  "galarian": "{n} de Galar {f}",
+  "hisuian": "{n} de Hisui {f}",
+  "paldean": "{n} de Paldea {f}"
+ },
+ "formSuffix": {
+  "": "",
+  "Gmax": "Gigamax",
+  "X": "X",
+  "Y": "Y"
+ },
+ "extraTerms": {
+  "status": {
+   "burn": "Burn",
+   "freeze": "Freeze",
+   "paralysis": "Paralysis",
+   "poisoned": "Poisoned",
+   "sleep": "Sleep",
+   "confused": "Confused",
+   "embargo": "Embargo",
+   "sunny": "Sunny",
+   "rainy": "Rainy",
+   "sandstorm": "Sandstorm",
+   "hail": "Hail",
+   "foggy": "Foggy",
+   "electricTerrain": "Electric Terrain",
+   "grassyTerrain": "Grassy Terrain",
+   "mistyTerrain": "Misty Terrain",
+   "trickRoom": "Trick Room",
+   "weirdRoom": "Weird Room",
+   "crossRoom": "Cross Room",
+   "reflect": "Reflect",
+   "lightScreen": "Light Screen",
+   "safeguard": "Safeguard"
+  }
+ },
+ "overrides": {
+  "pkmn": {
+   "nidoranF": {
+    "fr": "Nidoran♀",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "nidoranM": {
+    "fr": "Nidoran♂",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "unownExclamation": {
+    "fr": "Zarbi !",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "unownQuestion": {
+    "fr": "Zarbi ?",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "venusaurClone": {
+    "fr": "Florizarre Clone",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "charizardClone": {
+    "fr": "Dracaufeu Clone",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blastoiseClone": {
+    "fr": "Tortank Clone",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "spikyPichu": {
+    "fr": "Pichu Troizépi",
+    "source": "web:pokepedia.fr/Pichu",
+    "statut": "ok"
+   },
+   "pikachuAsh": {
+    "fr": "Pikachu de Sacha",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "greninjaAsh": {
+    "fr": "Amphinobi Sacha",
+    "source": "web:pokepedia.fr/Amphinobi",
+    "statut": "ok"
+   },
+   "urshifuSingle": {
+    "fr": "Shifours Style Poing Final",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "urshifuRapid": {
+    "fr": "Shifours Style Mille Poings",
+    "source": "web:pokeapi.co",
+    "statut": "ok"
+   },
+   "ogerponTeal": {
+    "fr": "Ogerpon Turquoise",
+    "source": "web:pokepedia.fr/Ogerpon",
+    "statut": "ok"
+   },
+   "magikarpKoi": {
+    "fr": "Magicarpe Koï",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "magikarpRegal": {
+    "fr": "Magicarpe Royal",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "magikarpSakura": {
+    "fr": "Magicarpe Sakura",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "magikarpSkelly": {
+    "fr": "Magicarpe Squelette",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "magikarpSoar": {
+    "fr": "Magicarpe Envol",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "magikarpTiger": {
+    "fr": "Magicarpe Tigré",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "missingno": {
+    "fr": "MissingNo.",
+    "source": "web:pokepedia.fr/MissingNo.",
+    "statut": "ok"
+   },
+   "ghost": {
+    "fr": "Spectre",
+    "source": "web:pokepedia.fr/Spectre_(Pokémon)",
+    "statut": "ok"
+   },
+   "kabutopsB": {
+    "fr": "Kabutops B",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "aerodactylB": {
+    "fr": "Ptéra B",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "crystalOnix": {
+    "fr": "Onix de Cristal",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "f00": {
+    "fr": "F-00",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "humanoid": {
+    "fr": "Humanoïde",
+    "source": "proposition",
+    "statut": "à valider"
+   }
+  },
+  "move": {
+   "sharkJaws": {
+    "fr": "Crocs Requin",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ironSlug": {
+    "fr": "Grenaille de Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "razorTalons": {
+    "fr": "Serres Tranchantes",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "poisonClaw": {
+    "fr": "Griffe Venin",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "weirdRoom": {
+    "fr": "Zone Bizarre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "savageStinger": {
+    "fr": "Dard Sauvage",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "foamShot": {
+    "fr": "Tir d’Écume",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "crossRoom": {
+    "fr": "Zone Croisée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "gemstoneCrush": {
+    "fr": "Éclats de Gemme",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wrathOfTheLand": {
+    "fr": "Courroux Tellurique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fog": {
+    "fr": "Brouillard",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "mirrorShrapnel": {
+    "fr": "Éclats de Miroir",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "auroraPunch": {
+    "fr": "Poing Aurore",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ionise": {
+    "fr": "Ionisation",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "brutalClaw": {
+    "fr": "Griffe Brutale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "forestCurse": {
+    "fr": "Maléfice Sylvain",
+    "source": "web:pokeapi.co/move/forests-curse",
+    "statut": "ok"
+   },
+   "fireLash": {
+    "fr": "Fouet Nocif",
+    "source": "proposition",
+    "statut": "à valider"
+   }
+  },
+  "ability": {
+   "grabGuard": {
+    "fr": "Garde Poigne",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "waterGuard": {
+    "fr": "Garde Aqua",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flameGuard": {
+    "fr": "Garde Flamme",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "curseGuard": {
+    "fr": "Garde Maudite",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "poisonGuard": {
+    "fr": "Garde Toxique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "iceGuard": {
+    "fr": "Garde Glace",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "psychicGuard": {
+    "fr": "Garde Psy",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fairyGuard": {
+    "fr": "Garde Féerique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "plainGuard": {
+    "fr": "Garde Simple",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "sinisterGuard": {
+    "fr": "Garde Sinistre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "steelGuard": {
+    "fr": "Garde Acier",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dragonGuard": {
+    "fr": "Garde Draco",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "bugGuard": {
+    "fr": "Garde Insecte",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "rockGuard": {
+    "fr": "Garde Roche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "groundGuard": {
+    "fr": "Garde Sol",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flyingGuard": {
+    "fr": "Garde Céleste",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "livingShield": {
+    "fr": "Bouclier Vivant",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "bastion": {
+    "fr": "Bastion",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "average": {
+    "fr": "Banalité",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "resolve": {
+    "fr": "Résolution",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "mistify": {
+    "fr": "Mysticisme",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "hexerei": {
+    "fr": "Sorcellerie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "glimmer": {
+    "fr": "Miroitement",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "skyward": {
+    "fr": "Envolée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "draconic": {
+    "fr": "Draconique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "noxious": {
+    "fr": "Virulence",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "solid": {
+    "fr": "Solidité",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "rime": {
+    "fr": "Frimas",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "voltage": {
+    "fr": "Survoltage",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "strangeCharm": {
+    "fr": "Charme Étrange",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "glacialBody": {
+    "fr": "Corps Glacial",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flareAbsorb": {
+    "fr": "Absorb Flamme",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "curseAbsorb": {
+    "fr": "Absorb Maléfice",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "poisonAbsorb": {
+    "fr": "Absorb Poison",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "frostAbsorb": {
+    "fr": "Absorb Givre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "psychicAbsorb": {
+    "fr": "Absorb Psy",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "lightAbsorb": {
+    "fr": "Absorb Lumière",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "growthAbsorb": {
+    "fr": "Absorb Sève",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "brittleArmor": {
+    "fr": "Armure Friable",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "grassyPelt": {
+    "fr": "Toison Herbue",
+    "source": "web:pokeapi.co/ability/grass-pelt",
+    "statut": "ok"
+   },
+   "sandyPelt": {
+    "fr": "Toison Sableuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "icyPelt": {
+    "fr": "Toison Glacée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "moistPelt": {
+    "fr": "Toison Humide",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fieryPelt": {
+    "fr": "Toison Ardente",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pixiePelt": {
+    "fr": "Toison Duveteuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blackPelt": {
+    "fr": "Toison Noire",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "spikyPelt": {
+    "fr": "Toison Hérissée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "climaTact": {
+    "fr": "Tact Climatique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "intangible": {
+    "fr": "Intangible",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "hyperconductor": {
+    "fr": "Hyperconducteur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "faeRush": {
+    "fr": "Ruée Féerique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "moltShed": {
+    "fr": "Mue Express",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dauntingLook": {
+    "fr": "Regard Intimidant",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "strategist": {
+    "fr": "Stratège",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ambidextrous": {
+    "fr": "Ambidextre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashElectro": {
+    "fr": "Torche Électro",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashAqua": {
+    "fr": "Torche Aqua",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashPyro": {
+    "fr": "Torche Pyro",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashUmbra": {
+    "fr": "Torche Umbra",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashVenum": {
+    "fr": "Torche Venin",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashCryo": {
+    "fr": "Torche Cryo",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashPsycha": {
+    "fr": "Torche Psycho",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashFae": {
+    "fr": "Torche Féerique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flashHerba": {
+    "fr": "Torche Herba",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "stoned": {
+    "fr": "Pétrification",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "colorSpore": {
+    "fr": "Spore Colorée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "treasureOfRuin": {
+    "fr": "Trésor du Fléau",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "thousandArms": {
+    "fr": "Mille Bras",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "scorch": {
+    "fr": "Calcination",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "cacophony": {
+    "fr": "Cacophonie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "iaido": {
+    "fr": "Iaido",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "metalhead": {
+    "fr": "Tête de Métal",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "somberField": {
+    "fr": "Champ Sombre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "soulAsterism": {
+    "fr": "Astérisme des Âmes",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ferrilate": {
+    "fr": "Peau Métallique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "terralate": {
+    "fr": "Peau Tellurique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "toxilate": {
+    "fr": "Peau Toxique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "hydrolate": {
+    "fr": "Peau Aqueuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pyrolate": {
+    "fr": "Peau Ardente",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "chrysilate": {
+    "fr": "Peau Chrysalide",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "gloomilate": {
+    "fr": "Peau Ténébreuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "espilate": {
+    "fr": "Peau Psychique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "verdify": {
+    "fr": "Peau Végétale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dragonMaw": {
+    "fr": "Peau Draconique",
+    "source": "proposition",
+    "statut": "à valider"
+   }
+  },
+  "item": {
+   "dragonitite": {
+    "fr": "Dracolossite",
+    "source": "web:pokepedia.fr/Dracolossite",
+    "statut": "ok"
+   },
+   "baxcaliburite": {
+    "fr": "Glaivodite",
+    "source": "web:pokepedia.fr/Glaivodite",
+    "statut": "ok"
+   },
+   "raichutiteX": {
+    "fr": "Raichuïte X",
+    "source": "web:pokepedia.fr/Raichuïte_X",
+    "statut": "ok"
+   },
+   "raichutiteY": {
+    "fr": "Raichuïte Y",
+    "source": "web:pokepedia.fr/Méga-Gemme",
+    "statut": "ok"
+   },
+   "everstone": {
+    "fr": "Pierre Stase",
+    "source": "web:pokeapi.co/item/everstone",
+    "statut": "ok"
+   },
+   "oddRock": {
+    "fr": "Pierre Étrange",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "foggySeed": {
+    "fr": "Graine Brumeuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "goldenBottleCap": {
+    "fr": "Capsule d’Or",
+    "source": "web:pokeapi.co/item/gold-bottle-cap",
+    "statut": "ok"
+   },
+   "timeCandy": {
+    "fr": "Bonbon Temps",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "timeCandyXL": {
+    "fr": "Bonbon Temps XL",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "neutralMint": {
+    "fr": "Menthe Neutre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "autoRefightTicket": {
+    "fr": "Ticket Revanche Auto",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "megaShard": {
+    "fr": "Méga-Éclat",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "megaPiece": {
+    "fr": "Méga-Fragment",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "megaChunk": {
+    "fr": "Méga-Bloc",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "megaCluster": {
+    "fr": "Méga-Amas",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "primalEarth": {
+    "fr": "Terre Primordiale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "thunderousRock": {
+    "fr": "Roche Tonnerre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "articRock": {
+    "fr": "Roche Arctique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ancientOrchid": {
+    "fr": "Orchidée Antique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "futureDisk": {
+    "fr": "Disque du Futur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ancientKeystone": {
+    "fr": "Clé de Voûte Antique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "steelKeystone": {
+    "fr": "Clé de Voûte d’Acier",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "frozenKeystone": {
+    "fr": "Clé de Voûte Gelée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "aetherKeycard": {
+    "fr": "Carte d’Accès Æther",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wormholeResidue": {
+    "fr": "Résidu d’Ultra-Brèche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "futureContraption": {
+    "fr": "Engin du Futur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wisdomPetal": {
+    "fr": "Pétale de Sagesse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "epochFeather": {
+    "fr": "Plume des Époques",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "magazineSubscription": {
+    "fr": "Abonnement Magazine",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "battlePass": {
+    "fr": "Pass de Combat",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "replicatorUpgradeS": {
+    "fr": "Amélioration Réplicateur S",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "replicatorUpgradeE": {
+    "fr": "Amélioration Réplicateur E",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "tmDummy": {
+    "fr": "CT Factice",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "nothing": {
+    "fr": "Rien",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wealthyCoins": {
+    "fr": "Pièces Fortunées",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "witchyHat": {
+    "fr": "Chapeau de Sorcière",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blueBarrette": {
+    "fr": "Barrette Bleue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pinkBarrette": {
+    "fr": "Barrette Rose",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "greenBarrette": {
+    "fr": "Barrette Verte",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blueFlower": {
+    "fr": "Fleur Bleue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "purpleFlower": {
+    "fr": "Fleur Violette",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "redFlower": {
+    "fr": "Fleur Rouge",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blueBalloon": {
+    "fr": "Ballon Bleu",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "redBalloon": {
+    "fr": "Ballon Rouge",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "greenBalloon": {
+    "fr": "Ballon Vert",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "professorHat": {
+    "fr": "Chapeau de Professeur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "academicHat": {
+    "fr": "Toque Universitaire",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "redBall": {
+    "fr": "Boule Rouge",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "greenBall": {
+    "fr": "Boule Verte",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blueBall": {
+    "fr": "Boule Bleue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "redHeaddress": {
+    "fr": "Coiffe Rouge",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "purpleHeaddress": {
+    "fr": "Coiffe Violette",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "tealHeaddress": {
+    "fr": "Coiffe Turquoise",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blackTie": {
+    "fr": "Cravate Noire",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "whiteTie": {
+    "fr": "Cravate Blanche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "stripedTie": {
+    "fr": "Cravate Rayée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "greenTie": {
+    "fr": "Cravate Verte",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "orangeTie": {
+    "fr": "Cravate Orange",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blueTie": {
+    "fr": "Cravate Bleue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blackBowtie": {
+    "fr": "Nœud Papillon Noir",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pinkBowtie": {
+    "fr": "Nœud Papillon Rose",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blueBowtie": {
+    "fr": "Nœud Papillon Bleu",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "yellowBowtie": {
+    "fr": "Nœud Papillon Jaune",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "tealHeadband": {
+    "fr": "Bandeau Turquoise",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "greenHeadband": {
+    "fr": "Bandeau Vert",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "yellowHeadband": {
+    "fr": "Bandeau Jaune",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blackScarf": {
+    "fr": "Écharpe Noire",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "whiteScarf": {
+    "fr": "Écharpe Blanche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "yellowStar": {
+    "fr": "Étoile Jaune",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "tealStar": {
+    "fr": "Étoile Turquoise",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "redStar": {
+    "fr": "Étoile Rouge",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blackMoustache": {
+    "fr": "Moustache Noire",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "whiteMoustache": {
+    "fr": "Moustache Blanche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "microphone": {
+    "fr": "Micro",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "oldUmbrella": {
+    "fr": "Vieux Parapluie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "coloredParasol": {
+    "fr": "Ombrelle Colorée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pokeballFlag": {
+    "fr": "Drapeau Poké Ball",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pinkMushroom": {
+    "fr": "Champignon Rose",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "yellowStarBalloon": {
+    "fr": "Ballon Étoile Jaune",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "blackSpecs": {
+    "fr": "Lunettes Noires",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "googlySpecs": {
+    "fr": "Lunettes Rigolotes",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "topHat": {
+    "fr": "Haut-de-Forme",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "gentlemanHat": {
+    "fr": "Chapeau de Gentleman",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "silverTiara": {
+    "fr": "Diadème d’Argent",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "frillyApron": {
+    "fr": "Tablier à Froufrous",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "chefHat": {
+    "fr": "Toque de Chef",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fluffyBeard": {
+    "fr": "Barbe Touffue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "hummingNote": {
+    "fr": "Note Fredonnée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "prettyDewdrop": {
+    "fr": "Jolie Rosée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "spotlight": {
+    "fr": "Projecteur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "glitterPowder": {
+    "fr": "Poudre Pailletée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "confetti": {
+    "fr": "Confettis",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "comet": {
+    "fr": "Comète",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "gorgeousSpecs": {
+    "fr": "Lunettes Somptueuses",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "mysticSmoke": {
+    "fr": "Fumée Mystique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "assaultVest": {
+    "fr": "Veste de Combat",
+    "source": "web:pokeapi.co/item/assault-vest (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "miracleSeed": {
+    "fr": "Graine Miracle",
+    "source": "web:pokeapi.co/item/miracle-seed (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "kebiaBerry": {
+    "fr": "Baie Kébia",
+    "source": "web:pokeapi.co/item/kebia-berry (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "fashionCase": {
+    "fr": "Coffret Mode",
+    "source": "web:pokeapi.co/item/fashion-case (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   }
+  },
+  "area": {
+   "eventMegaBlastoise": {
+    "fr": "Méga-Duel de Tortank",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaCharizardY": {
+    "fr": "Méga-Duel de Dracaufeu Y",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaVenusaur": {
+    "fr": "Méga-Duel de Florizarre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaCamerupt": {
+    "fr": "Méga-Duel de Camérupt",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaManectric": {
+    "fr": "Méga-Duel d’Élecsprint",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaAbomasnow": {
+    "fr": "Méga-Duel de Blizzaroi",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaRaichuX": {
+    "fr": "Méga-Duel de Raichu X",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaRaichuY": {
+    "fr": "Méga-Duel de Raichu Y",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaCharizardX": {
+    "fr": "Méga-Duel de Dracaufeu X",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventGreatTusk": {
+    "fr": "Résurrection de Fort-Ivoire",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventScreamTail": {
+    "fr": "Résurrection de Hurle-Queue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventSlitherWing": {
+    "fr": "Résurrection de Rampe-Ailes",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventBruteBonnet": {
+    "fr": "Résurrection de Fongus-Furie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventFlutterMane": {
+    "fr": "Résurrection de Flotte-Mèche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventSandyShocks": {
+    "fr": "Résurrection de Pelage-Sablé",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventRoaringMoon": {
+    "fr": "Résurrection de Rugit-Lune",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaAerodactly": {
+    "fr": "Méga-Duel de Ptéra",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaGyarados": {
+    "fr": "Méga-Duel de Léviator",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaGarchomp": {
+    "fr": "Méga-Duel de Carchacrok",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaTyranitar": {
+    "fr": "Méga-Duel de Tyranocif",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaPinsir": {
+    "fr": "Méga-Duel de Scarabrute",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaSceptile": {
+    "fr": "Méga-Duel de Jungko",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaSwampert": {
+    "fr": "Méga-Duel de Laggron",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaBlaziken": {
+    "fr": "Méga-Duel de Braségali",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaMawile": {
+    "fr": "Méga-Duel de Mysdibule",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaGlalie": {
+    "fr": "Méga-Duel d’Oniglali",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaSteelix": {
+    "fr": "Méga-Duel de Steelix",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaMetagross": {
+    "fr": "Méga-Duel de Métalosse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaDragonite": {
+    "fr": "Méga-Duel de Dracolosse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaGengar": {
+    "fr": "Méga-Duel d’Ectoplasma",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronThorns": {
+    "fr": "Résurrection d’Épine-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronHands": {
+    "fr": "Résurrection de Paume-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronJugulis": {
+    "fr": "Résurrection de Têtes-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronTreads": {
+    "fr": "Résurrection de Roue-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronBundle": {
+    "fr": "Résurrection de Hotte-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronMoth": {
+    "fr": "Résurrection de Mite-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventIronValiant": {
+    "fr": "Résurrection de Garde-de-Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaScizor": {
+    "fr": "Méga-Duel de Cizayox",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaAggron": {
+    "fr": "Méga-Duel de Galeking",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaBaxcalibur": {
+    "fr": "Méga-Duel de Glaivodo",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaGallade": {
+    "fr": "Méga-Duel de Gallame",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaLucario": {
+    "fr": "Méga-Duel de Lucario",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaHeracross": {
+    "fr": "Méga-Duel de Scarhino",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaPidgeot": {
+    "fr": "Méga-Duel de Roucarnage",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaBeedrill": {
+    "fr": "Méga-Duel de Dardargnan",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMegaAlakazam": {
+    "fr": "Méga-Duel d’Alakazam",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsYounsterBilly": {
+    "fr": "Gamin Billy",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsAromaLadyCatherine": {
+    "fr": "Aromadame Jana",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsBugCatcherMilo": {
+    "fr": "Scout Milo",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsGymLeaderBrock": {
+    "fr": "Champion d’Arène Pierre",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "vsBlackBeltRyan": {
+    "fr": "Karatéka Ryan",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsSchoolKidAaron": {
+    "fr": "Écolier Aaron",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsGymLeaderMisty": {
+    "fr": "Championne d’Arène Ondine",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "vsSwimmerDan": {
+    "fr": "Nageur Dan",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsVeteranToshiro": {
+    "fr": "Vétéran Toshiro",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsClownDuck": {
+    "fr": "Clown Duck",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsGymLeaderPhoebe": {
+    "fr": "Championne d’Arène Spectra",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "vsTwinTrainersBellisse": {
+    "fr": "Jumelles Bellise",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsAceTrainerRicardo": {
+    "fr": "Topdresseur Ricardo",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsAceTrainerLily": {
+    "fr": "Topdresseuse Lily",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "vsEliteTrainerCynthia": {
+    "fr": "Dresseuse d’Élite Cynthia",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsEliteFourLorelei": {
+    "fr": "Conseil 4 Olga",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "vsEliteFourFlint": {
+    "fr": "Conseil 4 Adrien",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "vsEliteFourPoppy": {
+    "fr": "Conseil 4 Popi",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "vsEliteFourLance": {
+    "fr": "Conseil 4 Peter",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "vsTeamLeaderColress": {
+    "fr": "Boss Nikolaï",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsTeamLeaderArchie": {
+    "fr": "Boss Arthur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsTeamLeaderMaxie": {
+    "fr": "Boss Max",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsTeamLeaderGiovanni": {
+    "fr": "Boss Giovanni",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsTeamLeaderCyrus": {
+    "fr": "Boss Hélio",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsTeamLeaderGhetsis": {
+    "fr": "Boss Ghetis",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsMasterTrainerSteven": {
+    "fr": "Dresseur Expert Pierre Rochard",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsMasterTrainerGeeta": {
+    "fr": "Dresseuse Experte Alisma",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsMasterTrainerNemona": {
+    "fr": "Dresseuse Experte Menzi",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsMasterTrainerAlder": {
+    "fr": "Dresseur Expert Goyah",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsMasterTrainerWallace": {
+    "fr": "Dresseur Expert Marc",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsUltraEntityLusamine": {
+    "fr": "Ultra-Entité Elsa-Mina",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerLillie": {
+    "fr": "Dresseuse Légendaire Lilie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerDawn": {
+    "fr": "Dresseuse Légendaire Aurore",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerSilver": {
+    "fr": "Dresseur Légendaire Silver",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerBrendan": {
+    "fr": "Dresseur Légendaire Brice",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerAZ": {
+    "fr": "Dresseur Légendaire A",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerAsh": {
+    "fr": "Dresseur Légendaire Sacha",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsLegendTrainerBlue": {
+    "fr": "Dresseur Légendaire Blue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsPokemonProfessorOak": {
+    "fr": "Professeur Pokémon Chen",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "frontierMorty": {
+    "fr": "Zone de Combat : Mortimer",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierHamburg": {
+    "fr": "Zone de Combat : Hamburg",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierLaila": {
+    "fr": "Zone de Combat : Laila",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierBianque": {
+    "fr": "Zone de Combat : Bianque",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMiguel": {
+    "fr": "Zone de Combat : Miguel",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMistica": {
+    "fr": "Zone de Combat : Mistica",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierPierro": {
+    "fr": "Zone de Combat : Pierro",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMauro": {
+    "fr": "Zone de Combat : Mauro",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierKiro": {
+    "fr": "Zone de Combat : Kiro",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierKatarina": {
+    "fr": "Zone de Combat : Katarina",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierFausto": {
+    "fr": "Zone de Combat : Fausto",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMomo": {
+    "fr": "Zone de Combat : Momo",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierJairo": {
+    "fr": "Zone de Combat : Jairo",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierJunimo": {
+    "fr": "Zone de Combat : Junimo",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierLion": {
+    "fr": "Zone de Combat : Lion",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierGordon": {
+    "fr": "Zone de Combat : Gordon",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierTaria": {
+    "fr": "Zone de Combat : Taria",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierIota": {
+    "fr": "Zone de Combat : Iota",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierRoark": {
+    "fr": "Zone de Combat : Pierrick",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierNessa": {
+    "fr": "Zone de Combat : Donna",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierLtSurge": {
+    "fr": "Zone de Combat : Major Bob",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierErika": {
+    "fr": "Zone de Combat : Erika",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierRoxie": {
+    "fr": "Zone de Combat : Strykna",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierSabrina": {
+    "fr": "Zone de Combat : Morgane",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierBlaine": {
+    "fr": "Zone de Combat : Auguste",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierNorman": {
+    "fr": "Zone de Combat : Norman",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierMarnie": {
+    "fr": "Zone de Combat : Rosemary",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierSkyla": {
+    "fr": "Zone de Combat : Carolina",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierIris": {
+    "fr": "Zone de Combat : Iris",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierOpal": {
+    "fr": "Zone de Combat : Sally",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierBurgh": {
+    "fr": "Zone de Combat : Artie",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierCandice": {
+    "fr": "Zone de Combat : Gladys",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierJasmine": {
+    "fr": "Zone de Combat : Jasmine",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierClay": {
+    "fr": "Zone de Combat : Bardane",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierKorrina": {
+    "fr": "Zone de Combat : Cornélia",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierOlivia": {
+    "fr": "Zone de Combat : Alyxia",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierSiebold": {
+    "fr": "Zone de Combat : Narcisse",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierDiamant": {
+    "fr": "Zone de Combat : Diamant",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierMatron": {
+    "fr": "Zone de Combat : Matron",
+    "source": "proposition",
+    "statut": "ok"
+   },
+   "frontierKoga": {
+    "fr": "Zone de Combat : Koga",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierLucian": {
+    "fr": "Zone de Combat : Lucio",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierCrispin": {
+    "fr": "Zone de Combat : Rubépin",
+    "source": "web:pokepedia.fr/Ligue_Myrtille",
+    "statut": "ok"
+   },
+   "frontierLarry": {
+    "fr": "Zone de Combat : Okuba",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierSidney": {
+    "fr": "Zone de Combat : Damien",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierKahili": {
+    "fr": "Zone de Combat : Kahili",
+    "source": "web:pokepedia.fr/Conseil_4",
+    "statut": "ok"
+   },
+   "frontierDrake": {
+    "fr": "Zone de Combat : Aragon",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierLacey": {
+    "fr": "Zone de Combat : Nérine",
+    "source": "web:pokepedia.fr/Ligue_Myrtille",
+    "statut": "ok"
+   },
+   "frontierAaron": {
+    "fr": "Zone de Combat : Aaron",
+    "source": "web:pokepedia.fr/Conseil_4",
+    "statut": "ok"
+   },
+   "frontierGlacia": {
+    "fr": "Zone de Combat : Glacia",
+    "source": "web:pokepedia.fr/Conseil_4",
+    "statut": "ok"
+   },
+   "frontierWikstrom": {
+    "fr": "Zone de Combat : Thyméo",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierBertha": {
+    "fr": "Zone de Combat : Terry",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierBruno": {
+    "fr": "Zone de Combat : Aldo",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierAcerola": {
+    "fr": "Zone de Combat : Margie",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierPeony": {
+    "fr": "Zone de Combat : Pivoine",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierArchie": {
+    "fr": "Zone de Combat : Arthur",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierColress": {
+    "fr": "Zone de Combat : Nikolaï",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierNemona": {
+    "fr": "Zone de Combat : Menzi",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierGuzma": {
+    "fr": "Zone de Combat : Guzma",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierKieran": {
+    "fr": "Zone de Combat : Kassis",
+    "source": "web:pokepedia.fr/Ligue_Myrtille",
+    "statut": "ok"
+   },
+   "frontierMaxie": {
+    "fr": "Zone de Combat : Max",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierPenny": {
+    "fr": "Zone de Combat : Pania",
+    "source": "web:pokepedia.fr/Pania",
+    "statut": "ok"
+   },
+   "frontierGiovanni": {
+    "fr": "Zone de Combat : Giovanni",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierWallace": {
+    "fr": "Zone de Combat : Marc",
+    "source": "web:pokepedia.fr",
+    "statut": "ok"
+   },
+   "frontierCyrus": {
+    "fr": "Zone de Combat : Hélio",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierDiantha": {
+    "fr": "Zone de Combat : Dianthéa",
+    "source": "web:pokepedia.fr/Dianthéa",
+    "statut": "ok"
+   },
+   "frontierTrace": {
+    "fr": "Zone de Combat : Trace",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierGhetsis": {
+    "fr": "Zone de Combat : Ghetis",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierSteven": {
+    "fr": "Zone de Combat : Pierre Rochard",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierLeon": {
+    "fr": "Zone de Combat : Tarak",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierAlder": {
+    "fr": "Zone de Combat : Goyah",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierGeeta": {
+    "fr": "Zone de Combat : Alisma",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "frontierSpiralingTower": {
+    "fr": "Zone de Combat : Tour Spirale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "frontierBattleFactory": {
+    "fr": "Zone de Combat : Usine de Combat",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "sinnohUndergroundI": {
+    "fr": "Souterrain de Sinnoh I",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "sinnohUndergroundII": {
+    "fr": "Souterrain de Sinnoh II",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "sinnohUndergroundIII": {
+    "fr": "Souterrain de Sinnoh III",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "beginnerDojoI": {
+    "fr": "Dojo Débutant I",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "beginnerDojoII": {
+    "fr": "Dojo Débutant II",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "beginnerDojoIII": {
+    "fr": "Dojo Débutant III",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "advancedDojoI": {
+    "fr": "Dojo Avancé I",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "advancedDojoII": {
+    "fr": "Dojo Avancé II",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "advancedDojoIII": {
+    "fr": "Dojo Avancé III",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "expertDojoI": {
+    "fr": "Dojo Expert I",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "expertDojoII": {
+    "fr": "Dojo Expert II",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "expertDojoIII": {
+    "fr": "Dojo Expert III",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "victoryRoadI": {
+    "fr": "Route Victoire I",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "victoryRoadII": {
+    "fr": "Route Victoire II",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "victoryRoadIII": {
+    "fr": "Route Victoire III",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "glisteringCaveI": {
+    "fr": "Grotte Scintillante I",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "glisteringCaveII": {
+    "fr": "Grotte Scintillante II",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "glisteringCaveIII": {
+    "fr": "Grotte Scintillante III",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "sunkenTempleI": {
+    "fr": "Temple Englouti I",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "sunkenTempleII": {
+    "fr": "Temple Englouti II",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "sunkenTempleIII": {
+    "fr": "Temple Englouti III",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "verdantForest": {
+    "fr": "Forêt Verdoyante",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "foggyGraveyard": {
+    "fr": "Cimetière Brumeux",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "woodlandConcert": {
+    "fr": "Concert Sylvestre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "mantleCore": {
+    "fr": "Noyau du Manteau",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fidoPark": {
+    "fr": "Parc Toutou",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "citySewers": {
+    "fr": "Égouts de la Ville",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "activeVolcano": {
+    "fr": "Volcan Actif",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "powerPlant": {
+    "fr": "Centrale",
+    "source": "web:pokepedia.fr/Centrale",
+    "statut": "ok"
+   },
+   "quietMeadow": {
+    "fr": "Prairie Paisible",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "urbanWalkway": {
+    "fr": "Promenade Urbaine",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "sandyDunes": {
+    "fr": "Dunes de Sable",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "sunkenShip": {
+    "fr": "Navire Englouti",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "offshoreRigger": {
+    "fr": "Plateforme en Mer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "safariZone": {
+    "fr": "Parc Safari",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "coolBeach": {
+    "fr": "Plage Fraîche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "computeringLab": {
+    "fr": "Labo Informatique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "gemstoneCavern": {
+    "fr": "Caverne des Gemmes",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "frozenLake": {
+    "fr": "Lac Gelé",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "abandonedManor": {
+    "fr": "Manoir Abandonné",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dracoLair": {
+    "fr": "Antre Draco",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "mountainTrail": {
+    "fr": "Sentier de Montagne",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "teaParlor": {
+    "fr": "Salon de Thé",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pokemonDojo": {
+    "fr": "Dojo Pokémon",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "skyHigh": {
+    "fr": "Haut des Cieux",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dankCave": {
+    "fr": "Grotte Humide",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "forestShrine": {
+    "fr": "Sanctuaire Sylvestre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "streetCircus": {
+    "fr": "Cirque de Rue",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "weaponsFacility": {
+    "fr": "Usine d’Armement",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "scorchingBadlands": {
+    "fr": "Terres Brûlées",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "lavaLake": {
+    "fr": "Lac de Lave",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "crashingSeaside": {
+    "fr": "Côte Déchaînée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "strangeSpace": {
+    "fr": "Espace Étrange",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "chargestoneCave": {
+    "fr": "Grotte Électrolithe",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "seafoamCurrents": {
+    "fr": "Courants Écume",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "valorLakeside": {
+    "fr": "Rive du Lac Courage",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "thornwoodForest": {
+    "fr": "Forêt Épineuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "unovaWorks": {
+    "fr": "Ateliers d’Unys",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "snowpointCliff": {
+    "fr": "Falaise de Frimapic",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "hollowNest": {
+    "fr": "Nid Creux",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "poniCanyon": {
+    "fr": "Canyon de Poni",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "seaBed": {
+    "fr": "Fond Marin",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "lonLonRanch": {
+    "fr": "Ranch Lon Lon",
+    "source": "officiel Zelda (non recoupé)",
+    "statut": "ok"
+   },
+   "saruTemple": {
+    "fr": "Temple Saru",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "evilSummit": {
+    "fr": "Sommet Maléfique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fuegoIronworks": {
+    "fr": "Fonderie Fuego",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "permafrostGrotto": {
+    "fr": "Grotte du Permafrost",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "berryForest": {
+    "fr": "Forêt Baies",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "relicPassage": {
+    "fr": "Passage des Reliques",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "cosplayConvention": {
+    "fr": "Convention Cosplay",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "suspiciousManor": {
+    "fr": "Manoir Suspect",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "summitOfSeasons": {
+    "fr": "Sommet des Saisons",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ceruleanCave": {
+    "fr": "Caverne Azurée",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "lamodeDogwalk": {
+    "fr": "Promenade Canine Chic",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "primitiveGrove": {
+    "fr": "Bosquet Primitif",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "zoologyLab": {
+    "fr": "Labo de Zoologie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "primalFissure": {
+    "fr": "Faille Primordiale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "exoticPond": {
+    "fr": "Étang Exotique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "meteorCave": {
+    "fr": "Caverne Météore",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ancientTomb": {
+    "fr": "Tombeau Ancien",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "steelTomb": {
+    "fr": "Tombeau d’Acier",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "paupauFestival": {
+    "fr": "Festival Pau-Pau",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flowerMeadow": {
+    "fr": "Prairie Fleurie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "aetherHeadquarters": {
+    "fr": "Siège de la Fondation Æther",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wormholeSpace": {
+    "fr": "Ultra-Brèche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ecosphere": {
+    "fr": "Écosphère",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "protonCity": {
+    "fr": "Ville Proton",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "climatologyLab": {
+    "fr": "Labo de Climatologie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fusionPlant": {
+    "fr": "Centrale à Fusion",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "alphaRuins": {
+    "fr": "Ruines d’Alpha",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "lakeValor": {
+    "fr": "Lac Courage",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "galacticWarehouse": {
+    "fr": "Entrepôt Galaxie",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "galacticHeadquarters": {
+    "fr": "QG de la Team Galaxie",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRift1": {
+    "fr": "Faille Dimensionnelle Faible",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRaid1": {
+    "fr": "Étrange Trou de Ver",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRift2": {
+    "fr": "Faille Dimensionnelle",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRaid2": {
+    "fr": "Étrange Trou de Ver",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRift3": {
+    "fr": "Faille Dimensionnelle Sauvage",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRaid3": {
+    "fr": "Étrange Trou de Ver",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRift4": {
+    "fr": "Faille Dimensionnelle Critique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionRaid4": {
+    "fr": "Étrange Trou de Ver",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "missingArea": {
+    "fr": "Zone Manquante",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "studioA": {
+    "fr": "Studio A",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "secretGhost": {
+    "fr": "Secret : Spectre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "secretOnix": {
+    "fr": "Secret : Onix",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "secretHumanoid": {
+    "fr": "Secret : Humanoïde",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "secretAerodactly": {
+    "fr": "Secret : Ptéra",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "secretKabutops": {
+    "fr": "Secret : Kabutops",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wildlifePark": {
+    "fr": "Parc Animalier",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "training": {
+    "fr": "Entraînement",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "trickyForest": {
+    "fr": "Forêt Farceuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "seasonMarshadow": {
+    "fr": "Rencontre Effrayante",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventZapdos": {
+    "fr": "Antre d’Électhor",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventArticuno": {
+    "fr": "Tanière d’Artikodin",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMoltres": {
+    "fr": "Perchoir de Sulfura",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventTapuBulu": {
+    "fr": "Prairie Vierge",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventGalarianZapdos": {
+    "fr": "Perchoir des Terres Arides",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventTingLu": {
+    "fr": "Sanctuaire du Fléau Tellurique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventRegirock": {
+    "fr": "Tombeau de Regirock",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventRegisteel": {
+    "fr": "Tombeau de Registeel",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventRegice": {
+    "fr": "Tombeau de Regice",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventRegieleki": {
+    "fr": "Ruines Transistor",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventRegidrago": {
+    "fr": "Ruines Draco",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventGougingFire": {
+    "fr": "Volcan Primitif",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventNaganadel": {
+    "fr": "Chambre-00",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventSilvally": {
+    "fr": "Labo Expérimental",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventCosmoem": {
+    "fr": "Nébuleuse Lointaine",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventGuzzlord": {
+    "fr": "Réalité Vide",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventXurkitree": {
+    "fr": "Réalité Lumineuse",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventNihilego": {
+    "fr": "Chambre-01",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventKartana": {
+    "fr": "Chambre-02",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventBuzzwole": {
+    "fr": "Réalité Tropicale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventPheromosa": {
+    "fr": "Chambre-03",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventBlacephalon": {
+    "fr": "Chambre-04",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventTapuFini": {
+    "fr": "Fosse Tempête",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventTapuLele": {
+    "fr": "Espace Étrange",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventChienPao": {
+    "fr": "Sanctuaire du Fléau Glacial",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventGalarianMoltres": {
+    "fr": "Perchoir Maléfique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventThundurusTherian": {
+    "fr": "Nuées Lointaines",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventTapuKoko": {
+    "fr": "Tour Condensateur",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventChiYu": {
+    "fr": "Sanctuaire du Fléau Ardent",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventGalarianArticuno": {
+    "fr": "Perchoir Gelé",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventCresselia": {
+    "fr": "Plaine des Rêves",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventHeatran": {
+    "fr": "Mont Abrupt",
+    "source": "officiel présumé (non recoupé en ligne)",
+    "statut": "à valider"
+   },
+   "eventWoChien": {
+    "fr": "Sanctuaire du Fléau Végétal",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventMesprit": {
+    "fr": "Caverne de Créfollet",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventAzelf": {
+    "fr": "Caverne de Créfadet",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eventUxie": {
+    "fr": "Caverne de Créhelf",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "vsRocketGrunt1": {
+    "fr": "Sbire Rocket",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "dimensionPalkia": {
+    "fr": "Dimension : Palkia",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionPikachuGmax": {
+    "fr": "Dimension : Pikachu Gigamax",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionKyuremWhite": {
+    "fr": "Dimension : Kyurem Blanc",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dimensionMegaRayquaza": {
+    "fr": "Dimension : Méga-Rayquaza",
+    "source": "proposition",
+    "statut": "à valider"
+   }
+  },
+  "field": {
+   "fightingPledge": {
+    "fr": "Aire de Lutte",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "darkPledge": {
+    "fr": "Aire de Ténèbres",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "dragonPledge": {
+    "fr": "Aire de Dragon",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fairyPledge": {
+    "fr": "Aire de Fée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "rockPledge": {
+    "fr": "Aire de Roche",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "electricPledge": {
+    "fr": "Aire d’Éclair",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "steelPledge": {
+    "fr": "Aire d’Acier",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "IcePledge": {
+    "fr": "Aire de Glace",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "poisonPledge": {
+    "fr": "Aire de Poison",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "flyingPledge": {
+    "fr": "Aire de Vent",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "normalPledge": {
+    "fr": "Aire Neutre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "bugPledge": {
+    "fr": "Aire d’Insecte",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "groundPledge": {
+    "fr": "Aire de Sol",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ghostPledge": {
+    "fr": "Aire Spectrale",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "psychicPledge": {
+    "fr": "Aire Psychique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "simpleAura": {
+    "fr": "Aura Simple",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "moodyAura": {
+    "fr": "Aura Lunatique",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "serendipity": {
+    "fr": "Sérendipité",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "harshSun": {
+    "fr": "Soleil Écrasant",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "thickFog": {
+    "fr": "Brouillard Épais",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fierceHail": {
+    "fr": "Grêle Violente",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "coarseSandstorm": {
+    "fr": "Tempête de Sable Âpre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "heavyRain": {
+    "fr": "Pluie Battante",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "mistyField": {
+    "fr": "Champ Brumeux",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "grassyField": {
+    "fr": "Champ Herbu",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "electricField": {
+    "fr": "Champ Électrifié",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "trickField": {
+    "fr": "Champ Distorsion",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "reverseField": {
+    "fr": "Champ Inversé",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "averageTime": {
+    "fr": "Temps Moyen",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "noMercy": {
+    "fr": "Sans Pitié",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "stealthRocks": {
+    "fr": "Piège de Roc",
+    "source": "web:pokeapi.co/move/stealth-rock",
+    "statut": "ok"
+   },
+   "heavyWeather": {
+    "fr": "Météo Extrême",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ironBody": {
+    "fr": "Corps de Fer",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "wonderWard": {
+    "fr": "Protection Mystik",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "neutralisingGas": {
+    "fr": "Gaz Inhibiteur",
+    "source": "web:pokeapi.co/ability/neutralizing-gas",
+    "statut": "ok"
+   },
+   "weakeningCurse": {
+    "fr": "Malédiction Débilitante",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "fatiguingCurse": {
+    "fr": "Malédiction Épuisante",
+    "source": "proposition",
+    "statut": "à valider"
+   }
+  },
+  "status": {
+   "burn": {
+    "fr": "Brûlure",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "freeze": {
+    "fr": "Gel",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "paralysis": {
+    "fr": "Paralysie",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "poisoned": {
+    "fr": "Poison",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "sleep": {
+    "fr": "Sommeil",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "confused": {
+    "fr": "Confusion",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "embargo": {
+    "fr": "Embargo",
+    "source": "web:pokeapi.co/move/embargo",
+    "statut": "ok"
+   },
+   "sunny": {
+    "fr": "Soleil",
+    "source": "web:pokepedia.fr/Météo",
+    "statut": "ok"
+   },
+   "rainy": {
+    "fr": "Pluie",
+    "source": "web:pokepedia.fr/Météo",
+    "statut": "ok"
+   },
+   "sandstorm": {
+    "fr": "Tempête de Sable",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "hail": {
+    "fr": "Grêle",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "foggy": {
+    "fr": "Brouillard",
+    "source": "web:pokepedia.fr/Météo",
+    "statut": "ok"
+   },
+   "electricTerrain": {
+    "fr": "Champ Électrifié",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "grassyTerrain": {
+    "fr": "Champ Herbu",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "mistyTerrain": {
+    "fr": "Champ Brumeux",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "trickRoom": {
+    "fr": "Distorsion",
+    "source": "web:pokeapi.co/move/trick-room",
+    "statut": "ok"
+   },
+   "weirdRoom": {
+    "fr": "Zone Bizarre",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "crossRoom": {
+    "fr": "Zone Croisée",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "reflect": {
+    "fr": "Protection",
+    "source": "web:pokeapi.co/move/reflect",
+    "statut": "ok"
+   },
+   "lightScreen": {
+    "fr": "Mur Lumière",
+    "source": "web:pokeapi.co/move/light-screen",
+    "statut": "ok"
+   },
+   "safeguard": {
+    "fr": "Rune Protect",
+    "source": "web:pokeapi.co/move/safeguard",
+    "statut": "ok"
+   }
+  }
+ },
+ "memoryPrefix": "Mémoire ",
+ "apiAlias": {
+  "pkmn": {
+   "zygarde100": "zygarde-complete",
+   "furfrouReine": "furfrou-la-reine",
+   "taurosCombat": "tauros-paldea-combat-breed",
+   "taurosBlaze": "tauros-paldea-blaze-breed",
+   "taurosAqua": "tauros-paldea-aqua-breed",
+   "necrozmaDawnWings": "necrozma-dawn",
+   "necrozmaDuskMane": "necrozma-dusk",
+   "urshifuSingleGmax": "urshifu-single-strike-gmax",
+   "urshifuRapidGmax": "urshifu-rapid-strike-gmax",
+   "dududunsparce": "dudunsparce-three-segment",
+   "basculegionM": "basculegion-male",
+   "basculegionF": "basculegion-female",
+   "nidoranF": "nidoran-f",
+   "nidoranM": "nidoran-m"
+  },
+  "move": {
+   "hiJumpKick": "high-jump-kick"
+  },
+  "ability": {},
+  "item": {}
+ }
+}
