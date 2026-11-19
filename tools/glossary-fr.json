@@ -11548,16 +11548,16 @@
   "fr": "Crocs Requin",
   "categorie": "move",
   "cle": "sharkJaws",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Slug",
   "fr": "Grenaille de Fer",
   "categorie": "move",
   "cle": "ironSlug",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flash Cannon",
@@ -11700,8 +11700,8 @@
   "fr": "Serres Tranchantes",
   "categorie": "move",
   "cle": "razorTalons",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Acid",
@@ -11772,8 +11772,8 @@
   "fr": "Griffe Venin",
   "categorie": "move",
   "cle": "poisonClaw",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Poison Jab",
@@ -12076,16 +12076,16 @@
   "fr": "Zone Bizarre",
   "categorie": "move",
   "cle": "weirdRoom",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Savage Stinger",
   "fr": "Dard Sauvage",
   "categorie": "move",
   "cle": "savageStinger",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Quiver Dance",
@@ -12148,8 +12148,8 @@
   "fr": "Tir d’Écume",
   "categorie": "move",
   "cle": "foamShot",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Rain Dance",
@@ -12492,8 +12492,8 @@
   "fr": "Zone Croisée",
   "categorie": "move",
   "cle": "crossRoom",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Confusion",
@@ -12657,11 +12657,11 @@
  },
  {
   "en": "Gemstone Crush",
-  "fr": "Éclats de Gemme",
+  "fr": "Broyage de Gemme",
   "categorie": "move",
   "cle": "gemstoneCrush",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Rock Tomb",
@@ -12716,8 +12716,8 @@
   "fr": "Courroux Tellurique",
   "categorie": "move",
   "cle": "wrathOfTheLand",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Lick",
@@ -12756,8 +12756,8 @@
   "fr": "Brouillard",
   "categorie": "move",
   "cle": "fog",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ominous Wind",
@@ -13068,8 +13068,8 @@
   "fr": "Éclats de Miroir",
   "categorie": "move",
   "cle": "mirrorShrapnel",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Spirit Break",
@@ -13100,8 +13100,8 @@
   "fr": "Poing Aurore",
   "categorie": "move",
   "cle": "auroraPunch",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Moonblast",
@@ -13332,8 +13332,8 @@
   "fr": "Ionisation",
   "categorie": "move",
   "cle": "ionise",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Apple Acid",
@@ -13740,8 +13740,8 @@
   "fr": "Griffe Brutale",
   "categorie": "move",
   "cle": "brutalClaw",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "No Retreat",
@@ -14116,8 +14116,8 @@
   "fr": "Fouet Nocif",
   "categorie": "move",
   "cle": "fireLash",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Clanging Scales",
@@ -22412,64 +22412,64 @@
   "fr": "Aura Simple",
   "categorie": "field",
   "cle": "simpleAura",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Moody Aura",
   "fr": "Aura Lunatique",
   "categorie": "field",
   "cle": "moodyAura",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Serendipity",
   "fr": "Sérendipité",
   "categorie": "field",
   "cle": "serendipity",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Harsh Sun",
   "fr": "Soleil Écrasant",
   "categorie": "field",
   "cle": "harshSun",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Thick Fog",
   "fr": "Brouillard Épais",
   "categorie": "field",
   "cle": "thickFog",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fierce Hail",
   "fr": "Grêle Violente",
   "categorie": "field",
   "cle": "fierceHail",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Coarse Sandstorm",
   "fr": "Tempête de Sable Âpre",
   "categorie": "field",
   "cle": "coarseSandstorm",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Heavy Rain",
   "fr": "Pluie Battante",
   "categorie": "field",
   "cle": "heavyRain",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Misty Field",
@@ -22500,32 +22500,32 @@
   "fr": "Champ Distorsion",
   "categorie": "field",
   "cle": "trickField",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Reverse Field",
   "fr": "Champ Inversé",
   "categorie": "field",
   "cle": "reverseField",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Average Time",
   "fr": "Temps Moyen",
   "categorie": "field",
   "cle": "averageTime",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "No Mercy",
   "fr": "Sans Pitié",
   "categorie": "field",
   "cle": "noMercy",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Delta Stream",
@@ -22548,24 +22548,24 @@
   "fr": "Météo Extrême",
   "categorie": "field",
   "cle": "heavyWeather",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Body",
   "fr": "Corps de Fer",
   "categorie": "field",
   "cle": "ironBody",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Wonder Ward",
   "fr": "Protection Mystik",
   "categorie": "field",
   "cle": "wonderWard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Neutralising Gas",
@@ -22580,16 +22580,16 @@
   "fr": "Malédiction Débilitante",
   "categorie": "field",
   "cle": "weakeningCurse",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fatiguing Curse",
   "fr": "Malédiction Épuisante",
   "categorie": "field",
   "cle": "fatiguingCurse",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Unnerve",
@@ -22609,59 +22609,59 @@
  },
  {
   "en": "Fighting Pledge",
-  "fr": "Aire de Lutte",
+  "fr": "Aire de Combat",
   "categorie": "field",
   "cle": "fightingPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dark Pledge",
   "fr": "Aire de Ténèbres",
   "categorie": "field",
   "cle": "darkPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dragon Pledge",
   "fr": "Aire de Dragon",
   "categorie": "field",
   "cle": "dragonPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fairy Pledge",
   "fr": "Aire de Fée",
   "categorie": "field",
   "cle": "fairyPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Rock Pledge",
   "fr": "Aire de Roche",
   "categorie": "field",
   "cle": "rockPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Electric Pledge",
-  "fr": "Aire d’Éclair",
+  "fr": "Aire d’Électrik",
   "categorie": "field",
   "cle": "electricPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Steel Pledge",
   "fr": "Aire d’Acier",
   "categorie": "field",
   "cle": "steelPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Grass Pledge",
@@ -22684,64 +22684,64 @@
   "fr": "Aire de Glace",
   "categorie": "field",
   "cle": "IcePledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Poison Pledge",
   "fr": "Aire de Poison",
   "categorie": "field",
   "cle": "poisonPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flying Pledge",
-  "fr": "Aire de Vent",
+  "fr": "Aire de Vol",
   "categorie": "field",
   "cle": "flyingPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Normal Pledge",
-  "fr": "Aire Neutre",
+  "fr": "Aire Normale",
   "categorie": "field",
   "cle": "normalPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Bug Pledge",
   "fr": "Aire d’Insecte",
   "categorie": "field",
   "cle": "bugPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ground Pledge",
   "fr": "Aire de Sol",
   "categorie": "field",
   "cle": "groundPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ghost Pledge",
-  "fr": "Aire Spectrale",
+  "fr": "Aire de Spectre",
   "categorie": "field",
   "cle": "ghostPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Psychic Pledge",
-  "fr": "Aire Psychique",
+  "fr": "Aire de Psy",
   "categorie": "field",
   "cle": "psychicPledge",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Normal",

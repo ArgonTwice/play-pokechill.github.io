@@ -198,78 +198,78 @@
   "move": {
    "sharkJaws": {
     "fr": "Crocs Requin",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ironSlug": {
     "fr": "Grenaille de Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "razorTalons": {
     "fr": "Serres Tranchantes",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "poisonClaw": {
     "fr": "Griffe Venin",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "weirdRoom": {
     "fr": "Zone Bizarre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "savageStinger": {
     "fr": "Dard Sauvage",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "foamShot": {
     "fr": "Tir d’Écume",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "crossRoom": {
     "fr": "Zone Croisée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "gemstoneCrush": {
-    "fr": "Éclats de Gemme",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Broyage de Gemme",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "wrathOfTheLand": {
     "fr": "Courroux Tellurique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fog": {
     "fr": "Brouillard",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "mirrorShrapnel": {
     "fr": "Éclats de Miroir",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "auroraPunch": {
     "fr": "Poing Aurore",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ionise": {
     "fr": "Ionisation",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "brutalClaw": {
     "fr": "Griffe Brutale",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "forestCurse": {
     "fr": "Maléfice Sylvain",
@@ -278,8 +278,8 @@
    },
    "fireLash": {
     "fr": "Fouet Nocif",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    }
   },
   "ability": {
@@ -2960,119 +2960,119 @@
   },
   "field": {
    "fightingPledge": {
-    "fr": "Aire de Lutte",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Aire de Combat",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "darkPledge": {
     "fr": "Aire de Ténèbres",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "dragonPledge": {
     "fr": "Aire de Dragon",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "fairyPledge": {
     "fr": "Aire de Fée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "rockPledge": {
     "fr": "Aire de Roche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "electricPledge": {
-    "fr": "Aire d’Éclair",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Aire d’Électrik",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "steelPledge": {
     "fr": "Aire d’Acier",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "IcePledge": {
     "fr": "Aire de Glace",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "poisonPledge": {
     "fr": "Aire de Poison",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "flyingPledge": {
-    "fr": "Aire de Vent",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Aire de Vol",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "normalPledge": {
-    "fr": "Aire Neutre",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Aire Normale",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "bugPledge": {
     "fr": "Aire d’Insecte",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "groundPledge": {
     "fr": "Aire de Sol",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "ghostPledge": {
-    "fr": "Aire Spectrale",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Aire de Spectre",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "psychicPledge": {
-    "fr": "Aire Psychique",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Aire de Psy",
+    "source": "motif Aire de <type> (officiel Aire d’Herbe/de Feu/d’Eau ; type FR du glossaire) validé par l’utilisateur",
+    "statut": "ok"
    },
    "simpleAura": {
     "fr": "Aura Simple",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "moodyAura": {
     "fr": "Aura Lunatique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "serendipity": {
     "fr": "Sérendipité",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "harshSun": {
     "fr": "Soleil Écrasant",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "thickFog": {
     "fr": "Brouillard Épais",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fierceHail": {
     "fr": "Grêle Violente",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "coarseSandstorm": {
     "fr": "Tempête de Sable Âpre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "heavyRain": {
     "fr": "Pluie Battante",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "mistyField": {
     "fr": "Champ Brumeux",
@@ -3091,23 +3091,23 @@
    },
    "trickField": {
     "fr": "Champ Distorsion",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "reverseField": {
     "fr": "Champ Inversé",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "averageTime": {
     "fr": "Temps Moyen",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "noMercy": {
     "fr": "Sans Pitié",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "stealthRocks": {
     "fr": "Piège de Roc",
@@ -3116,18 +3116,18 @@
    },
    "heavyWeather": {
     "fr": "Météo Extrême",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ironBody": {
     "fr": "Corps de Fer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "wonderWard": {
     "fr": "Protection Mystik",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "neutralisingGas": {
     "fr": "Gaz Inhibiteur",
@@ -3136,13 +3136,13 @@
    },
    "weakeningCurse": {
     "fr": "Malédiction Débilitante",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fatiguingCurse": {
     "fr": "Malédiction Épuisante",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    }
   },
   "status": {
