@@ -3,6 +3,8 @@ Monsters and Chill
 
 ## Langues / Languages
 
+Traduction FR : AmicusSoft.
+
 Le jeu est disponible en **anglais** et en **français**. La langue se choisit dans *Paramètres → Langue (Language)* ; au premier lancement, elle suit celle du navigateur. Le choix est enregistré séparément de la sauvegarde (clé `pokechill_lang`), qui n’est jamais modifiée.
 
 - Textes : `lang/en.json`, `lang/fr.json` (générés par `node tools/build-lang.js`).

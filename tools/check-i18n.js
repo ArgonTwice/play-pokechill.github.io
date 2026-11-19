@@ -26,7 +26,8 @@ for (const k of Object.keys(en)) {
   const tagsEn = (en[k].match(/<\/?\w+/g) || []).sort().join(), tagsFr = (fr[k].match(/<\/?\w+/g) || []).sort().join();
   if (tagsEn !== tagsFr) err('balises HTML différentes', k);
 }
-for (const k of Object.keys(fr)) if (en[k] === undefined) err('clé FR orpheline', k);
+const META = new Set(['translator']); // en-tête de lang/fr.json, hors namespace
+for (const k of Object.keys(fr)) if (en[k] === undefined && !META.has(k)) err('clé FR orpheline', k);
 
 // 3. Typographie FR (hors balises et variables)
 for (const [k, v] of Object.entries(fr)) {

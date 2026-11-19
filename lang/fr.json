@@ -1,4 +1,5 @@
 {
+ "translator": "AmicusSoft",
  "ability.adaptability": "Adaptabilité",
  "ability.adaptability.info": "Augmente le bonus de type de +0,2",
  "ability.aerilate": "Peau Céleste",
@@ -3680,6 +3681,7 @@
  "ui.create_custom_battles_from_your_own": "Crée des combats personnalisés à partir de tes propres pools et équipes ennemies. Importe et exporte des codes de défi pour les partager.",
  "ui.create_new_tag": "Créer une étiquette",
  "ui.credits": "Crédits",
+ "ui.credits.frTranslation": "Traduction FR : AmicusSoft",
  "ui.cross_power_damage": "x1,4 aux dégâts de Puissance Croisée",
  "ui.cross_room": "Zone Croisée",
  "ui.crystal": "Cristal",

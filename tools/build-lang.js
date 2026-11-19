@@ -39,7 +39,8 @@ for (const [k, v] of Object.entries(sFr)) if (k in sEn && v) fr[k] = v === sEn[k
 fs.mkdirSync(path.join(R, 'lang'), { recursive: true });
 const out = o => JSON.stringify(Object.fromEntries(Object.entries(o).sort(([a], [b]) => a.localeCompare(b))), null, 1) + '\n';
 fs.writeFileSync(path.join(R, 'lang', 'en.json'), out(en));
-fs.writeFileSync(path.join(R, 'lang', 'fr.json'), out(fr));
+// En-tête de métadonnées (hors namespace : jamais lu par t())
+fs.writeFileSync(path.join(R, 'lang', 'fr.json'), out(fr).replace(/^\{\n/, '{\n "translator": "AmicusSoft",\n'));
 console.log(`en: ${Object.keys(en).length} clés, fr: ${Object.keys(fr).length} clés`);
 }
 if (require.main === module) build();

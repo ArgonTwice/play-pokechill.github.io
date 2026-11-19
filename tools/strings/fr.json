@@ -1277,6 +1277,7 @@
  "ui.game_modifiers_2": "Modificateurs de jeu",
  "ui.credits": "Crédits",
  "ui.made_by_duck_pokemon_and_trainer": "Créé par <span onclick=\"secretFight(areas.missingArea.id)\">Duck</span><br><br>Sprites de Pokémon et de Dresseurs par Pokémon Showdown (dont les artistes : Beliot419, kyledove, Gnomowladny, Brumirage et ZacWeavile. Allez voir leur travail. Maintenant.)<br><br>Sprites de la gén. 9 par KingOfThe-X-Roads<br><br>Tous les personnages et éléments associés présents dans ce jeu sont la propriété exclusive de Nintendo, Creatures Inc. et The Pokémon Company, et sont utilisés ici à des fins strictement non commerciales.",
+ "ui.credits.frTranslation": "Traduction FR : AmicusSoft",
  "ui.discord": "Discord",
  "ui.are_you_sure_you_want_to_3": "Veux-tu vraiment supprimer toutes les données définitivement ?",
  "ui.wipe_data": "Effacer les données",
