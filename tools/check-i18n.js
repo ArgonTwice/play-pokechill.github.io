@@ -81,7 +81,14 @@ const checkCall = (node, src, file) => {
 };
 const scanJs = (src, file) => {
   let ast; try { ast = acorn.parse(src, { ecmaVersion: 'latest', allowReturnOutsideFunction: true }); } catch (e) { err('JS invalide', `${file} : ${e.message}`); return; }
-  walk.full(ast, n => { if (n.type === 'CallExpression') checkCall(n, src, file); });
+  walk.full(ast, n => {
+    if (n.type === 'CallExpression') checkCall(n, src, file);
+    // Texte traduit utilisé comme clé : obj[... t(...) ...] dépend de la langue (ex. item[x + t('ui.memory')])
+    if (n.type === 'MemberExpression' && n.computed) walk.full(n.property, m => {
+      if (m.type === 'CallExpression' && m.callee.type === 'Identifier' && ['t', 'format', 'tName'].includes(m.callee.name))
+        err('texte traduit utilisé comme clé', `${file}:${src.slice(0, m.start).split('\n').length} ${m.callee.name}() dans [...]`);
+    });
+  });
 };
 for (const f of files) {
   const src = fs.readFileSync(path.join(R, f), 'utf8');
@@ -98,10 +105,10 @@ for (const f of files) {
 // Auto-test : une clé nue et un format() sans namespace doivent être détectés
 {
   const before = Object.values(errors).flat().length;
-  scanJs("t('psychic'); format('glaciate')", '__selftest__');
+  scanJs("t('psychic'); format('glaciate'); item[x + t('ui.memory')]", '__selftest__');
   const caught = Object.values(errors).flat().filter(e => e.startsWith('__selftest__')).length;
   for (const c in errors) { errors[c] = errors[c].filter(e => !e.startsWith('__selftest__')); if (!errors[c].length) delete errors[c]; }
-  if (caught !== 2) err('auto-test', `clé nue / format() ambigu non détectés (${caught}/2)`);
+  if (caught !== 3) err('auto-test', `clé nue / format() ambigu / t() dans [] non détectés (${caught}/3)`);
   void before;
 }
 

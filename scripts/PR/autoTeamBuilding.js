@@ -20,8 +20,8 @@ function openAutoTeam(){
         const slotKey = `slot${i}`
 
         //PR-EDIT
-        const itemName = currentTeam[slotKey].item || t('ui.no_item')
-        if (itemName == "No item") continue
+        const itemName = currentTeam[slotKey].item
+        if (!itemName) continue
         itemCheckboxesHTML += `
               <label style="display:flex; align-items:center; gap:.5rem; font-size:0.9rem;">
                 <input id="settings-auto-team-lock-item-${i}" type="checkbox" />

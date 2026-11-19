@@ -5249,13 +5249,13 @@ if (sort !== "default") {
         if (sort === "level")
             return a.level - b.level
         if (sort.endsWith("Total")) {
-            const stat = sort.replace(t('ui.total'), "")
+            const stat = sort.replace("Total", "")
             const aTotal = ((a.bst[stat] * 30) * Math.pow(1.1, a.ivs[stat]))
             const bTotal = ((b.bst[stat] * 30) * Math.pow(1.1, b.ivs[stat]))
             return aTotal - bTotal
         }
         if (sort.endsWith("Bst")) {
-            const stat = sort.replace(t('ui.bst'), "")
+            const stat = sort.replace("Bst", "")
             return a.bst[stat] - b.bst[stat]
         }
         if (sort.endsWith("Iv")) {
@@ -5288,13 +5288,13 @@ if (document.getElementById("pokedex-search").value!="") {
             if (sort === "level")
                 return a.level - b.level
             if (sort.endsWith("Total")) {
-                const stat = sort.replace(t('ui.total'), "")
+                const stat = sort.replace("Total", "")
                 const aTotal = ((a.bst[stat] * 30) * Math.pow(1.1, a.ivs[stat]))
                 const bTotal = ((b.bst[stat] * 30) * Math.pow(1.1, b.ivs[stat]))
                 return aTotal - bTotal
             }
             if (sort.endsWith("Bst")) {
-                const stat = sort.replace(t('ui.bst'), "")
+                const stat = sort.replace("Bst", "")
                 return a.bst[stat] - b.bst[stat]
             }
             if (sort.endsWith("Iv")) {
@@ -8858,7 +8858,7 @@ if (mod==="end"){
 setInterval(() => {
     if (saved.geneticOperation==undefined) return
     if (saved.geneticOperation===1)  {saved.geneticOperation--; setGeneticMenu();}
-    if (saved.geneticOperation<1 && document.getElementById("genetics-start").textContent == "Abort") setGeneticMenu();
+    if (saved.geneticOperation<1 && document.getElementById("genetics-start").textContent == t('ui.abort')) setGeneticMenu();
     if (saved.geneticOperation==0) return
     if (saved.geneticOperation<0) saved.geneticOperation=1
     //if (document.visibilityState === "visible") saved.geneticOperation--
