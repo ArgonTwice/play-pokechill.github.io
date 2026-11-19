@@ -85,19 +85,22 @@
     "statut": "ok"
    },
    "venusaurClone": {
-    "fr": "Florizarre Clone",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Clone de Florizarre",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
    },
    "charizardClone": {
-    "fr": "Dracaufeu Clone",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Clone de Dracaufeu",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
    },
    "blastoiseClone": {
-    "fr": "Tortank Clone",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Clone de Tortank",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
    },
    "spikyPichu": {
     "fr": "Pichu Troizépi",
@@ -106,8 +109,9 @@
    },
    "pikachuAsh": {
     "fr": "Pikachu de Sacha",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "formulation Poképédia « Pikachu de Sacha » ; pas de forme officielle (cf. Amphinobi Forme Sacha)"
    },
    "greninjaAsh": {
     "fr": "Amphinobi Sacha",
@@ -131,33 +135,39 @@
    },
    "magikarpKoi": {
     "fr": "Magicarpe Koï",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web",
+    "statut": "ok",
+    "note": "officiel : motifs n° 3-6 « Koï », pokebip.com/page/jeux-video/magicarpe-jump/motifs-magicarpe"
    },
    "magikarpRegal": {
     "fr": "Magicarpe Royal",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "magikarpSakura": {
     "fr": "Magicarpe Sakura",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "magikarpSkelly": {
     "fr": "Magicarpe Squelette",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "magikarpSoar": {
     "fr": "Magicarpe Envol",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "magikarpTiger": {
-    "fr": "Magicarpe Tigré",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Magicarpe Tigre",
+    "source": "web",
+    "statut": "ok",
+    "note": "officiel : motifs n° 19/22 « Tigre », pokebip.com/page/jeux-video/magicarpe-jump/motifs-magicarpe"
    },
    "missingno": {
     "fr": "MissingNo.",
@@ -170,29 +180,34 @@
     "statut": "ok"
    },
    "kabutopsB": {
-    "fr": "Kabutops B",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Kabutops-B",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction (tiret comme l’EN), forme cachée custom"
    },
    "aerodactylB": {
-    "fr": "Ptéra B",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Ptéra-B",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction (tiret comme l’EN), forme cachée custom"
    },
    "crystalOnix": {
     "fr": "Onix de Cristal",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web",
+    "statut": "ok",
+    "note": "officiel : pokepedia.fr/Onix_de_Cristal (épisode 87 « L’Onix de cristal »)"
    },
    "f00": {
     "fr": "F-00",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "humanoid": {
     "fr": "Humanoïde",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    }
   },
   "move": {
@@ -887,8 +902,9 @@
    },
    "witchyHat": {
     "fr": "Chapeau de Sorcière",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "blueBarrette": {
     "fr": "Nœud Bleu",
@@ -942,8 +958,9 @@
    },
    "academicHat": {
     "fr": "Toque Universitaire",
-    "source": "proposition (aucun équivalent DPPt, pokepedia.fr/Accessoire)",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "proposition (aucun équivalent DPPt, pokepedia.fr/Accessoire)"
    },
    "redBall": {
     "fr": "Boule Rouge",
@@ -1077,8 +1094,9 @@
    },
    "microphone": {
     "fr": "Micro",
-    "source": "proposition (EN officiel DPPt = Standing Mike → Micro sur Pied, serebii.net ; nom EN différent, non confirmé)",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "proposition (EN officiel DPPt = Standing Mike → Micro sur Pied, serebii.net ; nom EN différent, non confirmé)"
    },
    "oldUmbrella": {
     "fr": "Ombrelle Chine",
@@ -1087,23 +1105,27 @@
    },
    "coloredParasol": {
     "fr": "Parasol Coloré",
-    "source": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé"
    },
    "pokeballFlag": {
     "fr": "Drapeau Poké Ball",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "pinkMushroom": {
     "fr": "Champignon Rose",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "yellowStarBalloon": {
     "fr": "Ballon Étoile Jaune",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "blackSpecs": {
     "fr": "Lunettes Soleil",
@@ -1122,28 +1144,33 @@
    },
    "gentlemanHat": {
     "fr": "Chapeau de Gentleman",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "silverTiara": {
     "fr": "Diadème d’Argent",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "frillyApron": {
     "fr": "Tablier à Froufrous",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "chefHat": {
     "fr": "Toque de Chef",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "fluffyBeard": {
     "fr": "Barbe Touffue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "hummingNote": {
     "fr": "Note Fredonnée",
@@ -1162,8 +1189,9 @@
    },
    "glitterPowder": {
     "fr": "Poudre Pailletée",
-    "source": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)"
    },
    "confetti": {
     "fr": "Confettis",
@@ -1172,8 +1200,9 @@
    },
    "comet": {
     "fr": "Comète",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "gorgeousSpecs": {
     "fr": "Lunettes Star",
@@ -1182,8 +1211,9 @@
    },
    "mysticSmoke": {
     "fr": "Fumée Mystique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
    },
    "assaultVest": {
     "fr": "Veste de Combat",
@@ -3228,13 +3258,15 @@
    },
    "weirdRoom": {
     "fr": "Zone Bizarre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "même nom que la capacité validée (lot 10)"
    },
    "crossRoom": {
     "fr": "Zone Croisée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "même nom que la capacité validée (lot 10)"
    },
    "reflect": {
     "fr": "Protection",
@@ -3304,33 +3336,39 @@
   "starsign": {
    "sol": {
     "fr": "Sol",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
    },
    "luna": {
     "fr": "Luna",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
    },
    "pluto": {
     "fr": "Pluton",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
    },
    "ceres": {
     "fr": "Cérès",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
    },
    "terra": {
     "fr": "Terra",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
    },
    "eris": {
     "fr": "Éris",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok",
+    "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
    }
   },
   "season": {

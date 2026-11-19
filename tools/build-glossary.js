@@ -121,7 +121,7 @@ for (const t of terms) {
   fr = ap(fr);
   if (!fr) { c.manquant++; fr = null; source = 'manquant'; statut = 'à valider'; }
   else c[source === 'bible' ? 'bible' : source.startsWith('web') ? 'web' : source === 'proposition' ? 'proposition' : 'manuel']++;
-  glossary.push({ en: t.en, fr, categorie: t.cat, cle: t.key, source, statut });
+  glossary.push({ en: t.en, fr, categorie: t.cat, cle: t.key, source, statut, ...(ov?.note ? { note: ov.note } : {}) });
   (resolved[t.cat] = resolved[t.cat] || {})[t.key] = { fr, statut };
 }
 

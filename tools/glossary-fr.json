@@ -25,11 +25,12 @@
  },
  {
   "en": "Venusaur Clone",
-  "fr": "Florizarre Clone",
+  "fr": "Clone de Florizarre",
   "categorie": "pkmn",
   "cle": "venusaurClone",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
  },
  {
   "en": "M. Venusaur",
@@ -73,11 +74,12 @@
  },
  {
   "en": "Charizard Clone",
-  "fr": "Dracaufeu Clone",
+  "fr": "Clone de Dracaufeu",
   "categorie": "pkmn",
   "cle": "charizardClone",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
  },
  {
   "en": "M. Charizard X",
@@ -129,11 +131,12 @@
  },
  {
   "en": "Blastoise Clone",
-  "fr": "Tortank Clone",
+  "fr": "Clone de Tortank",
   "categorie": "pkmn",
   "cle": "blastoiseClone",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "pokepedia.fr/Pokémon_:_Le_film : formulation « clone de <Pokémon> », pas de nom de forme officiel"
  },
  {
   "en": "M. Blastoise",
@@ -348,8 +351,9 @@
   "fr": "Pikachu de Sacha",
   "categorie": "pkmn",
   "cle": "pikachuAsh",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "formulation Poképédia « Pikachu de Sacha » ; pas de forme officielle (cf. Amphinobi Forme Sacha)"
  },
  {
   "en": "Pikachu World",
@@ -1876,48 +1880,54 @@
   "fr": "Magicarpe Koï",
   "categorie": "pkmn",
   "cle": "magikarpKoi",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web",
+  "statut": "ok",
+  "note": "officiel : motifs n° 3-6 « Koï », pokebip.com/page/jeux-video/magicarpe-jump/motifs-magicarpe"
  },
  {
   "en": "Magikarp Regal",
   "fr": "Magicarpe Royal",
   "categorie": "pkmn",
   "cle": "magikarpRegal",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Magikarp Sakura",
   "fr": "Magicarpe Sakura",
   "categorie": "pkmn",
   "cle": "magikarpSakura",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Magikarp Skelly",
   "fr": "Magicarpe Squelette",
   "categorie": "pkmn",
   "cle": "magikarpSkelly",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Magikarp Soar",
   "fr": "Magicarpe Envol",
   "categorie": "pkmn",
   "cle": "magikarpSoar",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "motif absent de la liste FR officielle Magicarpe Jump (Pokébip, 33 motifs) ; traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Magikarp Tiger",
-  "fr": "Magicarpe Tigré",
+  "fr": "Magicarpe Tigre",
   "categorie": "pkmn",
   "cle": "magikarpTiger",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web",
+  "statut": "ok",
+  "note": "officiel : motifs n° 19/22 « Tigre », pokebip.com/page/jeux-video/magicarpe-jump/motifs-magicarpe"
  },
  {
   "en": "Gyarados",
@@ -10964,8 +10974,9 @@
   "fr": "F-00",
   "categorie": "pkmn",
   "cle": "f00",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Ghost",
@@ -10977,35 +10988,39 @@
  },
  {
   "en": "Kabutops-B",
-  "fr": "Kabutops B",
+  "fr": "Kabutops-B",
   "categorie": "pkmn",
   "cle": "kabutopsB",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction (tiret comme l’EN), forme cachée custom"
  },
  {
   "en": "Aerodactyl-B",
-  "fr": "Ptéra B",
+  "fr": "Ptéra-B",
   "categorie": "pkmn",
   "cle": "aerodactylB",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction (tiret comme l’EN), forme cachée custom"
  },
  {
   "en": "Humanoid",
   "fr": "Humanoïde",
   "categorie": "pkmn",
   "cle": "humanoid",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Crystal Onix",
   "fr": "Onix de Cristal",
   "categorie": "pkmn",
   "cle": "crystalOnix",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web",
+  "statut": "ok",
+  "note": "officiel : pokepedia.fr/Onix_de_Cristal (épisode 87 « L’Onix de cristal »)"
  },
  {
   "en": "Quick Attack",
@@ -18820,8 +18835,9 @@
   "fr": "Toque Universitaire",
   "categorie": "item",
   "cle": "academicHat",
-  "source": "proposition (aucun équivalent DPPt, pokepedia.fr/Accessoire)",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "proposition (aucun équivalent DPPt, pokepedia.fr/Accessoire)"
  },
  {
   "en": "Red Ball",
@@ -19052,8 +19068,9 @@
   "fr": "Micro",
   "categorie": "item",
   "cle": "microphone",
-  "source": "proposition (EN officiel DPPt = Standing Mike → Micro sur Pied, serebii.net ; nom EN différent, non confirmé)",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "proposition (EN officiel DPPt = Standing Mike → Micro sur Pied, serebii.net ; nom EN différent, non confirmé)"
  },
  {
   "en": "Old Umbrella",
@@ -19068,32 +19085,36 @@
   "fr": "Parasol Coloré",
   "categorie": "item",
   "cle": "coloredParasol",
-  "source": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé"
  },
  {
   "en": "Pokeball Flag",
   "fr": "Drapeau Poké Ball",
   "categorie": "item",
   "cle": "pokeballFlag",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Pink Mushroom",
   "fr": "Champignon Rose",
   "categorie": "item",
   "cle": "pinkMushroom",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Yellow Star Balloon",
   "fr": "Ballon Étoile Jaune",
   "categorie": "item",
   "cle": "yellowStarBalloon",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Black Specs",
@@ -19124,40 +19145,45 @@
   "fr": "Chapeau de Gentleman",
   "categorie": "item",
   "cle": "gentlemanHat",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Silver Tiara",
   "fr": "Diadème d’Argent",
   "categorie": "item",
   "cle": "silverTiara",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Frilly Apron",
   "fr": "Tablier à Froufrous",
   "categorie": "item",
   "cle": "frillyApron",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Chef Hat",
   "fr": "Toque de Chef",
   "categorie": "item",
   "cle": "chefHat",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Fluffy Beard",
   "fr": "Barbe Touffue",
   "categorie": "item",
   "cle": "fluffyBeard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Humming Note",
@@ -19188,8 +19214,9 @@
   "fr": "Poudre Pailletée",
   "categorie": "item",
   "cle": "glitterPowder",
-  "source": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)"
  },
  {
   "en": "Confetti",
@@ -19204,8 +19231,9 @@
   "fr": "Comète",
   "categorie": "item",
   "cle": "comet",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Gorgeous Specs",
@@ -19220,8 +19248,9 @@
   "fr": "Fumée Mystique",
   "categorie": "item",
   "cle": "mysticSmoke",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Flash Herba Memory",
@@ -19916,8 +19945,9 @@
   "fr": "Chapeau de Sorcière",
   "categorie": "item",
   "cle": "witchyHat",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "traduction littérale validée par l’utilisateur ; aucun équivalent officiel trouvé"
  },
  {
   "en": "Verdant Forest",
@@ -23028,16 +23058,18 @@
   "fr": "Zone Bizarre",
   "categorie": "status",
   "cle": "weirdRoom",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "même nom que la capacité validée (lot 10)"
  },
  {
   "en": "Cross Room",
   "fr": "Zone Croisée",
   "categorie": "status",
   "cle": "crossRoom",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "même nom que la capacité validée (lot 10)"
  },
  {
   "en": "Reflect",
@@ -23140,48 +23172,54 @@
   "fr": "Sol",
   "categorie": "starsign",
   "cle": "sol",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
  },
  {
   "en": "Luna",
   "fr": "Luna",
   "categorie": "starsign",
   "cle": "luna",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
  },
  {
   "en": "Pluto",
   "fr": "Pluton",
   "categorie": "starsign",
   "cle": "pluto",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
  },
  {
   "en": "Ceres",
   "fr": "Cérès",
   "categorie": "starsign",
   "cle": "ceres",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
  },
  {
   "en": "Terra",
   "fr": "Terra",
   "categorie": "starsign",
   "cle": "terra",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
  },
  {
   "en": "Eris",
   "fr": "Éris",
   "categorie": "starsign",
   "cle": "eris",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok",
+  "note": "nom d’astre (latin conservé pour Sol/Luna/Terra, forme FR pour Pluton/Cérès/Éris)"
  },
  {
   "en": "Halloween",
