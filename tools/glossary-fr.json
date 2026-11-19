@@ -23062,5 +23062,133 @@
   "cle": "safeguard",
   "source": "web:pokeapi.co/move/safeguard",
   "statut": "ok"
+ },
+ {
+  "en": "Adamant",
+  "fr": "Rigide",
+  "categorie": "nature",
+  "cle": "adamant",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Modest",
+  "fr": "Modeste",
+  "categorie": "nature",
+  "cle": "modest",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Jolly",
+  "fr": "Jovial",
+  "categorie": "nature",
+  "cle": "jolly",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Relaxed",
+  "fr": "Relax",
+  "categorie": "nature",
+  "cle": "relaxed",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Quiet",
+  "fr": "Discret",
+  "categorie": "nature",
+  "cle": "quiet",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Bold",
+  "fr": "Assuré",
+  "categorie": "nature",
+  "cle": "bold",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Physical",
+  "fr": "Physique",
+  "categorie": "split",
+  "cle": "physical",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Special",
+  "fr": "Spécial",
+  "categorie": "split",
+  "cle": "special",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Status",
+  "fr": "Statut",
+  "categorie": "split",
+  "cle": "status",
+  "source": "bible",
+  "statut": "ok"
+ },
+ {
+  "en": "Sol",
+  "fr": "Sol",
+  "categorie": "starsign",
+  "cle": "sol",
+  "source": "proposition",
+  "statut": "à valider"
+ },
+ {
+  "en": "Luna",
+  "fr": "Luna",
+  "categorie": "starsign",
+  "cle": "luna",
+  "source": "proposition",
+  "statut": "à valider"
+ },
+ {
+  "en": "Pluto",
+  "fr": "Pluton",
+  "categorie": "starsign",
+  "cle": "pluto",
+  "source": "proposition",
+  "statut": "à valider"
+ },
+ {
+  "en": "Ceres",
+  "fr": "Cérès",
+  "categorie": "starsign",
+  "cle": "ceres",
+  "source": "proposition",
+  "statut": "à valider"
+ },
+ {
+  "en": "Terra",
+  "fr": "Terra",
+  "categorie": "starsign",
+  "cle": "terra",
+  "source": "proposition",
+  "statut": "à valider"
+ },
+ {
+  "en": "Eris",
+  "fr": "Éris",
+  "categorie": "starsign",
+  "cle": "eris",
+  "source": "proposition",
+  "statut": "à valider"
+ },
+ {
+  "en": "Halloween",
+  "fr": "Halloween",
+  "categorie": "season",
+  "cle": "halloween",
+  "source": "proposition",
+  "statut": "ok"
  }
 ]

@@ -129,8 +129,8 @@ function updatePreviewTeam(){
 
 
 
-    let pkmnName = `${format(currentTeam[i].pkmn)} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
-    if (pkmn[currentTeam[i].pkmn].shiny) pkmnName = `${format(currentTeam[i].pkmn)} ${nameTag} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
+    let pkmnName = `${format(currentTeam[i].pkmn, 'pkmn')} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
+    if (pkmn[currentTeam[i].pkmn].shiny) pkmnName = `${format(currentTeam[i].pkmn, 'pkmn')} ${nameTag} <span style="color:#FF4671;">✦</span> <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
 
     let pkmnSprite = `<img class="sprite-trim" src="img/pkmn/sprite/${currentTeam[i].pkmn}.png" id="explore-team-member-${i}-sprite">`
     if (pkmn[currentTeam[i].pkmn].shiny) pkmnSprite = `<img class="sprite-trim" src="img/pkmn/shiny/${currentTeam[i].pkmn}.png" id="explore-team-member-${i}-sprite">`
@@ -186,7 +186,7 @@ function updatePreviewTeam(){
     divMove.innerHTML = 
         `<div id = "pkmn-movebox-${e}-team-${i}-bar-preview"
         class="pkmn-movebox-progress" style="background: ${returnTypeColor(move[ moveId ].type)} "></div><span>`
-        + format(moveId) + signatureIcon + `</span><img style="background: ${returnTypeColor(move[ moveId ].type)} " src="img/icons/${move[ moveId ].type }.svg">
+        + format(moveId, 'move') + signatureIcon + `</span><img style="background: ${returnTypeColor(move[ moveId ].type)} " src="img/icons/${move[ moveId ].type }.svg">
     `
     divMove.dataset.move = moveId
     document.getElementById(`explore-team-member-${i}-moves-preview`).appendChild(divMove)
@@ -710,7 +710,7 @@ function setPkmnTeam(){
     
     div.id = `explore-${i}-member`
 
-    let nickname = format(team[i].pkmn.id)
+    let nickname = format(team[i].pkmn.id, 'pkmn')
     if (pkmn[team[i].pkmn.id].nickname) nickname = pkmn[team[i].pkmn.id].nickname
 
     let pkmnName = `${nickname} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[team[i].pkmn.id].level}</span>`
@@ -804,7 +804,7 @@ function setPkmnTeam(){
     `<div
     id = "pkmn-movebox-${e}-team-${i}-bar"
     class="pkmn-movebox-progress" style="background: ${returnTypeColor(move[ moveId ].type)} "></div><span>`
-    + format(moveId) + signatureIcon +
+    + format(moveId, 'move') + signatureIcon +
      `</span><img style="background: ${returnTypeColor(move[ moveId ].type)} " src="img/icons/${move[ moveId ].type }.svg">`
 
      divMove.dataset.move = moveId
@@ -936,7 +936,7 @@ function updatePreviewTeam(){
             if (restrictedError) nameTag += ` ⛔`
 
 
-            let nickname = format(currentTeam[i].pkmn)
+            let nickname = format(currentTeam[i].pkmn, 'pkmn')
             if (pkmn[currentTeam[i].pkmn].nickname) nickname = pkmn[currentTeam[i].pkmn].nickname
 
             let pkmnName = `${nickname} ${nameTag} <span class="explore-pkmn-level" id="explore-${i}-lvl">lvl ${pkmn[ currentTeam[i].pkmn ].level}</span>`
@@ -1038,7 +1038,7 @@ function updatePreviewTeam(){
                 divMove.innerHTML = 
                     `<div id = "pkmn-movebox-${e}-team-${i}-bar-preview"
                     class="pkmn-movebox-progress" style="background: ${returnTypeColor(move[ moveId ].type)} "></div><span>`
-                    + format(moveId) + signatureIcon + `</span><img style="background: ${returnTypeColor(move[ moveId ].type)} " src="img/icons/${move[ moveId ].type }.svg">
+                    + format(moveId, 'move') + signatureIcon + `</span><img style="background: ${returnTypeColor(move[ moveId ].type)} " src="img/icons/${move[ moveId ].type }.svg">
                 `
                 divMove.dataset.move = moveId
                 document.getElementById(`explore-team-member-${i}-moves-preview`).appendChild(divMove)

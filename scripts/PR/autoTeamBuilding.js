@@ -25,7 +25,7 @@ function openAutoTeam(){
         itemCheckboxesHTML += `
               <label style="display:flex; align-items:center; gap:.5rem; font-size:0.9rem;">
                 <input id="settings-auto-team-lock-item-${i}" type="checkbox" />
-                Lock ${format(itemName)} (Slot ${i})
+                Lock ${format(itemName, 'item')} (Slot ${i})
               </label>`
     }
 

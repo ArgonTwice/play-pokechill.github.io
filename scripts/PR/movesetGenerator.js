@@ -275,7 +275,7 @@
         const rows = await Promise.all(
             arr.map(async (e) => {
                 // Escape all user-facing content to prevent XSS
-                const moveName = escapeHTML(format(e.ID));
+                const moveName = escapeHTML(format(e.ID, 'move'));
                 const power = escapeHTML(e.Power ?? "-");
                 const info = escapeHTML(e.Info);
 
@@ -449,7 +449,7 @@
 
         async function updateContent(newLevel) {
             const report = getMoveCalculatorReport(pkmnObj, newLevel);
-            title.textContent = `Moves for ${format(report.pokemon)}`;
+            title.textContent = `Moves for ${format(report.pokemon, 'pkmn')}`;
             const buckets = report.possibleMoves;
             let contentHTML = "";
 

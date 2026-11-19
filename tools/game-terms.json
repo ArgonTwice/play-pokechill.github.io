@@ -14413,5 +14413,85 @@
   "categorie": "status",
   "cle": "safeguard",
   "en": "Safeguard"
+ },
+ {
+  "categorie": "nature",
+  "cle": "adamant",
+  "en": "Adamant"
+ },
+ {
+  "categorie": "nature",
+  "cle": "modest",
+  "en": "Modest"
+ },
+ {
+  "categorie": "nature",
+  "cle": "jolly",
+  "en": "Jolly"
+ },
+ {
+  "categorie": "nature",
+  "cle": "relaxed",
+  "en": "Relaxed"
+ },
+ {
+  "categorie": "nature",
+  "cle": "quiet",
+  "en": "Quiet"
+ },
+ {
+  "categorie": "nature",
+  "cle": "bold",
+  "en": "Bold"
+ },
+ {
+  "categorie": "split",
+  "cle": "physical",
+  "en": "Physical"
+ },
+ {
+  "categorie": "split",
+  "cle": "special",
+  "en": "Special"
+ },
+ {
+  "categorie": "split",
+  "cle": "status",
+  "en": "Status"
+ },
+ {
+  "categorie": "starsign",
+  "cle": "sol",
+  "en": "Sol"
+ },
+ {
+  "categorie": "starsign",
+  "cle": "luna",
+  "en": "Luna"
+ },
+ {
+  "categorie": "starsign",
+  "cle": "pluto",
+  "en": "Pluto"
+ },
+ {
+  "categorie": "starsign",
+  "cle": "ceres",
+  "en": "Ceres"
+ },
+ {
+  "categorie": "starsign",
+  "cle": "terra",
+  "en": "Terra"
+ },
+ {
+  "categorie": "starsign",
+  "cle": "eris",
+  "en": "Eris"
+ },
+ {
+  "categorie": "season",
+  "cle": "halloween",
+  "en": "Halloween"
  }
 ]

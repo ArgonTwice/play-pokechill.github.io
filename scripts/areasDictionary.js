@@ -12,12 +12,12 @@ const field = {}
 
 //positive
 field.simpleAura = {
-    info : function() { return `All of your Pokemon gain <strong data-ability="${ability.simple.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id)}</strong></strong>`},
+    info : function() { return `All of your Pokemon gain <strong data-ability="${ability.simple.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id, 'ability')}</strong></strong>`},
     tier: 1
 }
 
 field.moodyAura = {
-    info : function() { return `All of your Pokemon gain <strong data-ability="${ability.moody.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id)}</strong></strong>`},
+    info : function() { return `All of your Pokemon gain <strong data-ability="${ability.moody.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id, 'ability')}</strong></strong>`},
     tier: 1
 }
 
@@ -6422,3 +6422,5 @@ for (const i in areas){
 
 
 
+
+localizeAreaNames()

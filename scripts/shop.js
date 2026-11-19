@@ -1811,7 +1811,7 @@ function updateItemShop(){
 
 
 
-    name = format(shop[i].icon)
+    name = format(shop[i].icon, 'item')
     if (shop[i].name) name = shop[i].name
 
     let stockTag = ""
@@ -1823,7 +1823,7 @@ function updateItemShop(){
     const shopItem = shop[i].icon
 
     if (item[shopItem] && item[shopItem].type=="tm"){ div.innerHTML = `
-    <img src="img/items/tm${format(move[item[shopItem].move].type)}.png">
+    <img src="img/items/tm${format(move[item[shopItem].move].type, 'raw')}.png">
         <span>${name}${stockTag}</span>
     <strong id="shop-currency-${i}">
         <img src="img/items/${currency}.png">
@@ -1874,7 +1874,7 @@ function updateItemShop(){
     if (shop[i].pkmn) {
 
 
-    name = format(shop[i].pkmn)
+    name = format(shop[i].pkmn, 'pkmn')
     div.dataset.pkmn = shop[i].pkmn
 
 
@@ -2025,7 +2025,7 @@ function updateIngredientShop(){
 
     div.innerHTML = `
         <img src="img/items/${i}.png">
-            <span>${format(i)} (${format(ingredient[i].ability)})</span>
+            <span>${format(i, 'item')} (${format(ingredient[i].ability, 'ability')})</span>
         <strong id="shop-currency-${i}">
             <img src="img/items/goldenBottleCap.png">
             x${ingredient[i].price}
@@ -2100,7 +2100,7 @@ function updateCurry(){
         document.getElementById(`curry-ingredients`).appendChild(ingr)
 
         const effect = document.createElement(`div`)
-        effect.innerHTML = format(ingredient[i].ability)
+        effect.innerHTML = format(ingredient[i].ability, 'ability')
         document.getElementById(`curry-effects`).appendChild(effect)
 
     }

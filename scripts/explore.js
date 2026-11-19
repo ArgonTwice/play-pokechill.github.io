@@ -69,8 +69,13 @@ function voidAnimation(divName, animationName) {
     element.style.animation = `${animationName}`; 
 }
 
-function format(input) {
-    let str = String(input);
+// ns : namespace du nom (pkmn, move, ability, item, area, type, field, status, nature, split, starsign, season) ; 'raw' = jamais traduit (chemins d'images)
+function format(input, ns) {
+    if (lang !== 'en' && ns !== 'raw') {
+        const tr = tName(ns, input);
+        if (tr !== undefined) return tr;
+    }
+    let str = String(ns === 'area' ? (areas[input]?.name ?? input) : input);
     if (move[input]?.rename) str = String(move[input].rename);
     if (pkmn[input]?.rename) str = String(pkmn[input].rename);
     if (ability[input]?.rename) str = String(ability[input].rename);
@@ -540,7 +545,7 @@ for (let t of thresholds) {
 
 
     
-    document.getElementById("explore-wild-name").innerHTML = format(spawnedPkmn) + ` <span class="explore-pkmn-level" > lvl ${wildLevel} </span>`
+    document.getElementById("explore-wild-name").innerHTML = format(spawnedPkmn, 'pkmn') + ` <span class="explore-pkmn-level" > lvl ${wildLevel} </span>`
     document.getElementById("explore-wild-sprite").src = `img/pkmn/sprite/${spawnedPkmn}.png`
 
     if (pkmn[spawnedPkmn].float) document.getElementById("explore-wild-sprite").classList.add(`floating-pkmn`)
@@ -617,7 +622,7 @@ while (randomMoves.length < 4) randomMoves.push(undefined);
         `<div id="pkmn-movebox-wild-${index+1}-bar"
               class="pkmn-movebox-progress"
               style="background: ${returnTypeColor(move[i].type)}"></div>
-         <span>${format(i)}${signatureIcon}</span>
+         <span>${format(i, 'move')}${signatureIcon}</span>
          <img style="background: ${returnTypeColor(move[i].type)}"
               src="img/icons/${move[i].type}.svg">`;
 
@@ -656,7 +661,7 @@ function updateItemsGot(){
         divItem.dataset.item = i
 
         if (item[i].type !== "tm") divItem.innerHTML = `<img src="img/items/${i}.png"> <span>x${item[i].newItem}</span>`;
-        if (item[i].type == "tm") divItem.innerHTML = `<img src="img/items/tm${format(move[item[i].move].type)}.png"> <span>x${item[i].newItem}</span>`;
+        if (item[i].type == "tm") divItem.innerHTML = `<img src="img/items/tm${format(move[item[i].move].type, 'raw')}.png"> <span>x${item[i].newItem}</span>`;
 
 
         document.getElementById("explore-drops").appendChild(divItem);
@@ -1007,7 +1012,7 @@ function leaveCombat(){
         divItem.className = "area-end-item";
         divItem.dataset.item = i
         if (item[i].type !== "tm") divItem.innerHTML = `<img src="img/items/${i}.png"><span>+${item[i].newItem}</span>`;
-        if (item[i].type == "tm") divItem.innerHTML = `<img src="img/items/tm${format(move[item[i].move].type)}.png"><span>+${item[i].newItem}</span>`;
+        if (item[i].type == "tm") divItem.innerHTML = `<img src="img/items/tm${format(move[item[i].move].type, 'raw')}.png"><span>+${item[i].newItem}</span>`;
         document.getElementById("area-end-item-list").appendChild(divItem);
 
         item[i].newItem = 0;
@@ -1192,7 +1197,7 @@ function leaveCombat(){
         if (pkmn[i].newMoves.length == 0) continue
 
         const div = document.createElement("span");
-        div.innerHTML = `${format(i)} has learnt ${joinWithAnd(pkmn[i].newMoves)}!`
+        div.innerHTML = `${format(i, 'pkmn')} has learnt ${joinWithAnd(pkmn[i].newMoves)}!`
 
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
@@ -1204,7 +1209,7 @@ function leaveCombat(){
 
 
         const div = document.createElement("span");
-        div.innerHTML = `${format(i)} has been unlocked!`
+        div.innerHTML = `${format(i, 'pkmn')} has been unlocked!`
 
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
@@ -1989,8 +1994,8 @@ document.addEventListener("selectstart", (e) => {
 
 
 function returnPkmnTypes(id){
-    if (pkmn[id].type[1] != undefined) return `<div style="background:${returnTypeColor(pkmn[id].type[0])}">${format(pkmn[id].type[0])}</div><div style="background:${returnTypeColor(pkmn[id].type[1])}">${format(pkmn[id].type[1])}</div>`
-    else return `<div style="background:${returnTypeColor(pkmn[id].type[0])}">${format(pkmn[id].type[0])}</div>`
+    if (pkmn[id].type[1] != undefined) return `<div style="background:${returnTypeColor(pkmn[id].type[0])}">${format(pkmn[id].type[0], 'type')}</div><div style="background:${returnTypeColor(pkmn[id].type[1])}">${format(pkmn[id].type[1], 'type')}</div>`
+    else return `<div style="background:${returnTypeColor(pkmn[id].type[0])}">${format(pkmn[id].type[0], 'type')}</div>`
 }
 
 
@@ -2433,7 +2438,7 @@ function exploreCombatPlayer() {
             }
 
             const selectedMove = arrayPick(allMoves,1)
-            console.info(`Metronome casts: `+format(selectedMove))
+            console.info(`Metronome casts: `+format(selectedMove, 'move'))
             nextMove =  move[ selectedMove  ]
         } 
         if (nextMove.id == move.meFirst.id) nextMove =  move[ document?.getElementById(`pkmn-movebox-wild-1`).dataset.move  ]
@@ -4230,7 +4235,7 @@ function setWildAreas() {
                 #0000
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
-                        <span style="font-size:1.2rem">${format(areas.wildlifePark.id)}</span>
+                        <span style="font-size:1.2rem">${format(areas.wildlifePark.id, 'area')}</span>
                         <span><strong style="background:#B18451">Level: ${Math.max(1,areas.wildlifePark.level-10)}-${areas.wildlifePark.level}</strong><span></span></span>
                     </span>
                 </div>
@@ -4366,7 +4371,7 @@ function setWildAreas() {
                 #000${ticketIndex}
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
-                        <span style="font-size:1.2rem">${format(i)}</span>
+                        <span style="font-size:1.2rem">${format(i, 'area')}</span>
                         <span><strong style="background:#B18451">Level: ${Math.max(1,areas[i].level-10)}-${areas[i].level}</strong><span></span></span>
                     </span>
                 </div>
@@ -4475,7 +4480,7 @@ function setDungeonAreas() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
 
-                        <span style="font-size:1.2rem">${format(i)}</span>
+                        <span style="font-size:1.2rem">${format(i, 'area')}</span>
                         <span><strong style="background:#6BBC77">Level: ${Math.max(1,areas[i].level-10)}-${areas[i].level}</strong><span></span></span>
                     </span>
                 </div>
@@ -4653,7 +4658,7 @@ function setEventAreas() {
        let nameTag = ""
        if (areas[i].encounter) nameTag = `<svg class="event-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m21.838 11.126l-.229 2.436c-.378 4.012-.567 6.019-1.75 7.228C18.678 22 16.906 22 13.36 22h-2.72c-3.545 0-5.317 0-6.5-1.21s-1.371-3.216-1.749-7.228l-.23-2.436c-.18-1.912-.27-2.869.058-3.264a1 1 0 0 1 .675-.367c.476-.042 1.073.638 2.268 1.998c.618.704.927 1.055 1.271 1.11a.92.92 0 0 0 .562-.09c.319-.16.53-.595.955-1.464l2.237-4.584C10.989 2.822 11.39 2 12 2s1.011.822 1.813 2.465l2.237 4.584c.424.87.636 1.304.955 1.464c.176.089.37.12.562.09c.344-.055.653-.406 1.271-1.11c1.195-1.36 1.792-2.04 2.268-1.998a1 1 0 0 1 .675.367c.327.395.237 1.352.057 3.264" opacity="0.5"/><path fill="currentColor" d="m12.952 12.699l-.098-.176c-.38-.682-.57-1.023-.854-1.023s-.474.34-.854 1.023l-.098.176c-.108.194-.162.29-.246.354c-.085.064-.19.088-.4.135l-.19.044c-.738.167-1.107.25-1.195.532s.164.577.667 1.165l.13.152c.143.167.215.25.247.354s.021.215 0 .438l-.02.203c-.076.785-.114 1.178.115 1.352c.23.174.576.015 1.267-.303l.178-.082c.197-.09.295-.136.399-.136s.202.046.399.136l.178.082c.691.319 1.037.477 1.267.303s.191-.567.115-1.352l-.02-.203c-.021-.223-.032-.334 0-.438s.104-.187.247-.354l.13-.152c.503-.588.755-.882.667-1.165c-.088-.282-.457-.365-1.195-.532l-.19-.044c-.21-.047-.315-.07-.4-.135c-.084-.064-.138-.16-.246-.354"/></svg>`
 
-       let eventName = format(i)
+       let eventName = format(i, 'area')
        if (areas[i].name) eventName = areas[i].name
 
 
@@ -5115,31 +5120,31 @@ function updatePokedex(){
     if (tmToTeach != undefined) {
         document.getElementById("pokedex-filters-title").style.display = "flex"
         document.getElementById("pokedex-filters-cancel").style.display = "flex"
-        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(tmToTeach)}`
+        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(tmToTeach, 'move')}`
     }
 
     if (memoryToTeach != undefined) {
         document.getElementById("pokedex-filters-title").style.display = "flex"
         document.getElementById("pokedex-filters-cancel").style.display = "flex"
-        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(memoryToTeach)}`
+        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(memoryToTeach, 'ability')}`
     }
 
     if (evoItemToUse != undefined) {
         document.getElementById("pokedex-filters-title").style.display = "flex"
         document.getElementById("pokedex-filters-cancel").style.display = "flex"
-        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(evoItemToUse)}`
+        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(evoItemToUse, 'item')}`
     }
 
     if (vitaminToUse != undefined) {
         document.getElementById("pokedex-filters-title").style.display = "flex"
         document.getElementById("pokedex-filters-cancel").style.display = "flex"
-        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(vitaminToUse)}`
+        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(vitaminToUse, 'item')}`
     }
 
     if (itemToUse != undefined) {
         document.getElementById("pokedex-filters-title").style.display = "flex"
         document.getElementById("pokedex-filters-cancel").style.display = "flex"
-        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(itemToUse)}`
+        document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(itemToUse, 'item')}`
     }
 
     if (dexHostSelect == true) {
@@ -5435,7 +5440,7 @@ if (document.getElementById("pokedex-search").value!="") {
                 item[evoItemToUse].got--
                 document.getElementById("tooltipTop").style.display = "none"    
                 document.getElementById("tooltipMid").style.display = "none"
-                document.getElementById("tooltipBottom").innerHTML = `${format(pkmn[ pkmn[i].evolve()[evo].pkmn.id ].id)} has been unlocked!`
+                document.getElementById("tooltipBottom").innerHTML = `${format(pkmn[ pkmn[i].evolve()[evo].pkmn.id ].id, 'pkmn')} has been unlocked!`
                 openTooltip()
                 updateItemBag()
                 
@@ -5545,7 +5550,7 @@ if (document.getElementById("pokedex-search").value!="") {
                 if (pkmn[i].movepool.includes(e)) continue
 
                 const movediv = document.createElement(`div`)
-                movediv.innerHTML = format(e)
+                movediv.innerHTML = format(e, 'move')
                 movediv.className = `remember-move`
                 movediv.style.borderColor = returnTypeColor(move[e].type)
                 document.getElementById(`remember-movelist`).appendChild(movediv)
@@ -5672,9 +5677,9 @@ if (document.getElementById("pokedex-search").value!="") {
                 
                 document.getElementById("tooltipTitle").innerHTML = `New ability!`
                 document.getElementById("tooltipTop").style.display = "none"    
-                document.getElementById("tooltipMid").innerHTML = `<div class="genetics-overview-tags"><div style="filter:hue-rotate(0deg)">★ ${format(newAbility)}</div></div>`
-                if (ability[newAbility].rarity===2) document.getElementById("tooltipMid").innerHTML = `<div class="genetics-overview-tags"><div style="filter:hue-rotate(100deg)">★ ${format(newAbility)} (Uncommon!)</div></div>`
-                if (ability[newAbility].rarity===3) document.getElementById("tooltipMid").innerHTML = `<div class="genetics-overview-tags"><div style="filter:hue-rotate(200deg)">★ ${format(newAbility)} (Rare!)</div></div>`
+                document.getElementById("tooltipMid").innerHTML = `<div class="genetics-overview-tags"><div style="filter:hue-rotate(0deg)">★ ${format(newAbility, 'ability')}</div></div>`
+                if (ability[newAbility].rarity===2) document.getElementById("tooltipMid").innerHTML = `<div class="genetics-overview-tags"><div style="filter:hue-rotate(100deg)">★ ${format(newAbility, 'ability')} (Uncommon!)</div></div>`
+                if (ability[newAbility].rarity===3) document.getElementById("tooltipMid").innerHTML = `<div class="genetics-overview-tags"><div style="filter:hue-rotate(200deg)">★ ${format(newAbility, 'ability')} (Rare!)</div></div>`
         
                 document.getElementById("tooltipBottom").style.display = "none" 
                 openTooltip()
@@ -6599,10 +6604,10 @@ function updateItemBag(){
 
 
         div.dataset.item = i
-        if (item[i].type == "tm") div.innerHTML = `<img src="img/items/tm${format(move[item[i].move].type)}.png"> <span class="item-list-name">${format(i)} ${subtitle}<strong style="opacity:0.6; font-weight:200; white-space:nowrap; font-size:0.9rem; margin-left:0.2rem"> (${move[item[i].move].power} BP, ${format(move[item[i].move].split).slice(0, 3)})</strong> </span>  <span>x${item[i].got}</span>`
-        else if (item[i].type == "memory") div.innerHTML = `<img src="img/items/${item[i].image}Memory.png"> <span class="item-list-name">${format(i)} ${subtitle}</span> <span>x${item[i].got}</span>`
-        else if (item[i].type == "decor") div.innerHTML = `<img src="img/decor/${i}.png" style="scale:1; margin:0 -1rem"> <span class="item-list-name">${format(i)} ${subtitle}</span> <span>x${item[i].got}</span>`
-        else div.innerHTML = `<img src="img/items/${i}.png"> <span class="item-list-name">${format(i)} ${subtitle}</span> <span>x${item[i].got}</span>`
+        if (item[i].type == "tm") div.innerHTML = `<img src="img/items/tm${format(move[item[i].move].type, 'raw')}.png"> <span class="item-list-name">${format(i, 'item')} ${subtitle}<strong style="opacity:0.6; font-weight:200; white-space:nowrap; font-size:0.9rem; margin-left:0.2rem"> (${move[item[i].move].power} BP, ${format(move[item[i].move].split, 'split').slice(0, 3)})</strong> </span>  <span>x${item[i].got}</span>`
+        else if (item[i].type == "memory") div.innerHTML = `<img src="img/items/${item[i].image}Memory.png"> <span class="item-list-name">${format(i, 'item')} ${subtitle}</span> <span>x${item[i].got}</span>`
+        else if (item[i].type == "decor") div.innerHTML = `<img src="img/decor/${i}.png" style="scale:1; margin:0 -1rem"> <span class="item-list-name">${format(i, 'item')} ${subtitle}</span> <span>x${item[i].got}</span>`
+        else div.innerHTML = `<img src="img/items/${i}.png"> <span class="item-list-name">${format(i, 'item')} ${subtitle}</span> <span>x${item[i].got}</span>`
 
 
 
@@ -6618,7 +6623,7 @@ function updateItemBag(){
 
             document.getElementById("pokedex-filters-title").style.display = "flex"
             document.getElementById("pokedex-filters-cancel").style.display = "flex"
-            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(item[i].move)}`
+            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(item[i].move, 'move')}`
             document.getElementById("menu-button-parent").style.display = "none"
             document.getElementById(`item-menu`).style.display = "none"
 
@@ -6638,7 +6643,7 @@ function updateItemBag(){
 
             document.getElementById("pokedex-filters-title").style.display = "flex"
             document.getElementById("pokedex-filters-cancel").style.display = "flex"
-            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(item[i].ability)}`
+            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to teach ${format(item[i].ability, 'ability')}`
             document.getElementById("menu-button-parent").style.display = "none"
             document.getElementById(`item-menu`).style.display = "none"
 
@@ -6673,7 +6678,7 @@ function updateItemBag(){
 
             document.getElementById("pokedex-filters-title").style.display = "flex"
             document.getElementById("pokedex-filters-cancel").style.display = "flex"
-            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(i)}`
+            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(i, 'item')}`
             document.getElementById("menu-button-parent").style.display = "none"
             document.getElementById(`item-menu`).style.display = "none"
 
@@ -6694,7 +6699,7 @@ function updateItemBag(){
 
             document.getElementById("pokedex-filters-title").style.display = "flex"
             document.getElementById("pokedex-filters-cancel").style.display = "flex"
-            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(i)}`
+            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(i, 'item')}`
             document.getElementById("menu-button-parent").style.display = "none"
             document.getElementById(`item-menu`).style.display = "none"
 
@@ -6720,7 +6725,7 @@ function updateItemBag(){
 
             document.getElementById("pokedex-filters-title").style.display = "flex"
             document.getElementById("pokedex-filters-cancel").style.display = "flex"
-            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(i)}`
+            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to use the ${format(i, 'item')}`
             document.getElementById("menu-button-parent").style.display = "none"
             document.getElementById(`item-menu`).style.display = "none"
 
@@ -7683,7 +7688,7 @@ function updateWildBuffs(){
         //if (saved.weather=="reflect"){ div.style.filter = `hue-rotate(-50deg)`; weatherIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h3q.825 0 1.413.588T10 5v14q0 .825-.587 1.413T8 21zm6.288-.288Q11 20.426 11 20t.288-.712T12 19t.713.288T13 20t-.288.713T12 21t-.712-.288m0-4Q11 16.426 11 16t.288-.712T12 15t.713.288T13 16t-.288.713T12 17t-.712-.288m0-4Q11 12.425 11 12t.288-.712T12 11t.713.288T13 12t-.288.713T12 13t-.712-.288m0-4Q11 8.426 11 8t.288-.712T12 7t.713.288T13 8t-.288.713T12 9t-.712-.288m0-4Q11 4.426 11 4t.288-.712T12 3t.713.288T13 4t-.288.713T12 5t-.712-.288m2 14Q13 18.426 13 18t.288-.712T14 17t.713.288T15 18t-.288.713T14 19t-.712-.288m0-4Q13 14.425 13 14t.288-.712T14 13t.713.288T15 14t-.288.713T14 15t-.712-.288m0-4Q13 10.426 13 10t.288-.712T14 9t.713.288T15 10t-.288.713T14 11t-.712-.288m0-4Q13 6.426 13 6t.288-.712T14 5t.713.288T15 6t-.288.713T14 7t-.712-.288m2 14Q15 20.426 15 20t.288-.712T16 19t.713.288T17 20t-.288.713T16 21t-.712-.288m0-4Q15 16.426 15 16t.288-.712T16 15t.713.288T17 16t-.288.713T16 17t-.712-.288m0-4Q15 12.425 15 12t.288-.712T16 11t.713.288T17 12t-.288.713T16 13t-.712-.288m0-4Q15 8.426 15 8t.288-.712T16 7t.713.288T17 8t-.288.713T16 9t-.712-.288m0-4Q15 4.426 15 4t.288-.712T16 3t.713.288T17 4t-.288.713T16 5t-.712-.288M18 19q-.425 0-.712-.288T17 18t.288-.712T18 17t.713.288T19 18t-.288.713T18 19m0-4q-.425 0-.712-.288T17 14t.288-.712T18 13t.713.288T19 14t-.288.713T18 15m0-4q-.425 0-.712-.288T17 10t.288-.712T18 9t.713.288T19 10t-.288.713T18 11m-.712-4.288Q17 6.426 17 6t.288-.712T18 5t.713.288T19 6t-.288.713T18 7t-.712-.288m2 14Q19 20.426 19 20t.288-.712T20 19t.713.288T21 20t-.288.713T20 21t-.712-.288m0-4Q19 16.426 19 16t.288-.712T20 15t.713.288T21 16t-.288.713T20 17t-.712-.288m0-4Q19 12.425 19 12t.288-.712T20 11t.713.288T21 12t-.288.713T20 13t-.712-.288m0-4Q19 8.426 19 8t.288-.712T20 7t.713.288T21 8t-.288.713T20 9t-.712-.288m0-4Q19 4.426 19 4t.288-.712T20 3t.713.288T21 4t-.288.713T20 5t-.712-.288"/></svg>`}
         if (saved.weather=="safeguard"){ div.style.filter = `hue-rotate(-30deg)`; weatherIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2"/><path d="M6.5 13.5a3 3 0 0 0 5.5 1.659a3 3 0 1 0 2.823-4.642a3 3 0 1 0-5.646 0A3 3 0 0 0 6.5 13.5"/></g></svg>`}
 
-        div.innerHTML = `${format(saved.weather)} ${saved.weatherTimer} ${weatherIcon}`;
+        div.innerHTML = `${format(saved.weather, 'status')} ${saved.weatherTimer} ${weatherIcon}`;
         document.getElementById("wild-buff-list").appendChild(div);
     }
 
@@ -8195,7 +8200,7 @@ function changePkmnStarsign(){
 
     div.style.filter = `hue-rotate(${starsign[i].hue}deg)`
     div.innerHTML = `
-    <span>${format(i)}</span>
+    <span>${format(i, 'starsign')}</span>
     ${pkmnImg}
     
     `
@@ -8719,7 +8724,7 @@ if (mod==="end"){
     summaryTags += `<div style="filter:hue-rotate(-50deg)">★ Ability swapped!</div>`
     } else {
     const newAbility = learnPkmnAbility(saved.geneticHost,10) //boosted chance
-    if (itemUsed=="everstone") {pkmn[saved.geneticHost].ability = newAbility; summaryTags += `<div style="filter:hue-rotate(-50deg)">★ New ability: ${format(newAbility)}!</div>`}
+    if (itemUsed=="everstone") {pkmn[saved.geneticHost].ability = newAbility; summaryTags += `<div style="filter:hue-rotate(-50deg)">★ New ability: ${format(newAbility, 'ability')}!</div>`}
     }
 
     pkmn[saved.geneticHost].movepool = []
@@ -8738,8 +8743,8 @@ if (mod==="end"){
             if (pkmn[saved.geneticHost].movepoolMemory == undefined) pkmn[saved.geneticHost].movepoolMemory = []
             if (!pkmn[saved.geneticHost].movepoolMemory.includes(moveID)) pkmn[saved.geneticHost].movepoolMemory.push(moveID);
             
-            if (move[moveID].moveset==undefined && (pkmn[saved.geneticSample].signature?.id == moveID || pkmn[saved.geneticSample].eggMove?.id == moveID)  ) summaryTags += `<div style="filter:hue-rotate(200deg)">⟐ Egg Move inherited: ${format(moveID)}!</div>`
-            else summaryTags += `<div style="filter:hue-rotate(0deg)">◇ Move inherited: ${format(moveID)}!</div>`
+            if (move[moveID].moveset==undefined && (pkmn[saved.geneticSample].signature?.id == moveID || pkmn[saved.geneticSample].eggMove?.id == moveID)  ) summaryTags += `<div style="filter:hue-rotate(200deg)">⟐ Egg Move inherited: ${format(moveID, 'move')}!</div>`
+            else summaryTags += `<div style="filter:hue-rotate(0deg)">◇ Move inherited: ${format(moveID, 'move')}!</div>`
         }
     });
 
@@ -8932,7 +8937,7 @@ training.level = {
 
         setTimeout(() => {
         const div = document.createElement("span");
-        div.innerHTML = `${format(saved.trainingPokemon)} is now level ${pkmn[saved.trainingPokemon].level}!`
+        div.innerHTML = `${format(saved.trainingPokemon, 'pkmn')} is now level ${pkmn[saved.trainingPokemon].level}!`
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
         document.getElementById("area-end-item-title").style.display = "none"
@@ -9114,7 +9119,7 @@ training.ability = {
 
         setTimeout(() => {
         const div = document.createElement("span");
-        div.innerHTML = `${format(saved.trainingPokemon)} now has ${format(newAbility)}!`
+        div.innerHTML = `${format(saved.trainingPokemon, 'pkmn')} now has ${format(newAbility, 'ability')}!`
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
         document.getElementById("area-end-item-title").style.display = "none"
@@ -9135,7 +9140,7 @@ training.hiddenAbility = {
 
         setTimeout(() => {
         const div = document.createElement("span");
-        div.innerHTML = `${format(saved.trainingPokemon)} now has ${format(pkmn[saved.trainingPokemon].hiddenAbility.id)}!`
+        div.innerHTML = `${format(saved.trainingPokemon, 'pkmn')} now has ${format(pkmn[saved.trainingPokemon].hiddenAbility.id, 'ability')}!`
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
         document.getElementById("area-end-item-title").style.display = "none"
@@ -9158,7 +9163,7 @@ training.move = { //disapears if you have 20+ moves or smth
 
         setTimeout(() => {
         const div = document.createElement("span");
-        div.innerHTML = `${format(saved.trainingPokemon)} learnt ${format(learntMove)}!`
+        div.innerHTML = `${format(saved.trainingPokemon, 'pkmn')} learnt ${format(learntMove, 'move')}!`
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
         document.getElementById("area-end-item-title").style.display = "none"
@@ -9193,7 +9198,7 @@ training.nature = {
 
         setTimeout(() => {
         const div = document.createElement("span");
-        div.innerHTML = `${format(saved.trainingPokemon)} now has a ${format(pickedNature)} nature!`
+        div.innerHTML = `${format(saved.trainingPokemon, 'pkmn')} now has a ${format(pickedNature, 'nature')} nature!`
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
         document.getElementById("area-end-item-title").style.display = "none"
@@ -9727,7 +9732,7 @@ function wonderTrade(){
     }
 
     if (chosenShiny) pkmn[chosenPokemon].shiny = true
-    document.getElementById("wonder-text").innerHTML = `Thanks for the ${format(chosenPokemon)}!`
+    document.getElementById("wonder-text").innerHTML = `Thanks for the ${format(chosenPokemon, 'pkmn')}!`
     document.getElementById("wonder-pkmn").src = `img/pkmn/sprite/${chosenPokemon}.png`
     if (chosenShiny) document.getElementById("wonder-pkmn").src = `img/pkmn/shiny/${chosenPokemon}.png`
 
@@ -10070,7 +10075,7 @@ function seasonCheck() {
     saved.currentSeason = matchedSeason;
     
     if (newSeason) { //executes once per season, resets shop
-        console.info(`${format(saved.currentSeason)} season started, shops restocked!`)
+        console.info(`${format(saved.currentSeason, 'season')} season started, shops restocked!`)
         shop.event1.stock = 20
         shop.event2.stock = 20
         shop.event3.stock = 100
@@ -10105,7 +10110,7 @@ function renamePokemon(){
     document.getElementById("tooltipBottom").style.display = "none"
     document.getElementById("tooltipTitle").innerHTML = "Give it a nickname!"
     document.getElementById("tooltipMid").innerHTML = `
-    <input id="team-name-field" type="text" maxlength="15" placeholder="${format(currentEditedPkmn)}">
+    <input id="team-name-field" type="text" maxlength="15" placeholder="${format(currentEditedPkmn, 'pkmn')}">
     <span id="prevent-tooltip-exit"></span>
     `
 

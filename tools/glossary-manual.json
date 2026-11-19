@@ -36,6 +36,30 @@
    "reflect": "Reflect",
    "lightScreen": "Light Screen",
    "safeguard": "Safeguard"
+  },
+  "nature": {
+   "adamant": "Adamant",
+   "modest": "Modest",
+   "jolly": "Jolly",
+   "relaxed": "Relaxed",
+   "quiet": "Quiet",
+   "bold": "Bold"
+  },
+  "split": {
+   "physical": "Physical",
+   "special": "Special",
+   "status": "Status"
+  },
+  "starsign": {
+   "sol": "Sol",
+   "luna": "Luna",
+   "pluto": "Pluto",
+   "ceres": "Ceres",
+   "terra": "Terra",
+   "eris": "Eris"
+  },
+  "season": {
+   "halloween": "Halloween"
   }
  },
  "overrides": {
@@ -3030,6 +3054,94 @@
    "safeguard": {
     "fr": "Rune Protect",
     "source": "web:pokeapi.co/move/safeguard",
+    "statut": "ok"
+   }
+  },
+  "nature": {
+   "adamant": {
+    "fr": "Rigide",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "modest": {
+    "fr": "Modeste",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "jolly": {
+    "fr": "Jovial",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "relaxed": {
+    "fr": "Relax",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "quiet": {
+    "fr": "Discret",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "bold": {
+    "fr": "Assuré",
+    "source": "bible",
+    "statut": "ok"
+   }
+  },
+  "split": {
+   "physical": {
+    "fr": "Physique",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "special": {
+    "fr": "Spécial",
+    "source": "bible",
+    "statut": "ok"
+   },
+   "status": {
+    "fr": "Statut",
+    "source": "bible",
+    "statut": "ok"
+   }
+  },
+  "starsign": {
+   "sol": {
+    "fr": "Sol",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "luna": {
+    "fr": "Luna",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "pluto": {
+    "fr": "Pluton",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "ceres": {
+    "fr": "Cérès",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "terra": {
+    "fr": "Terra",
+    "source": "proposition",
+    "statut": "à valider"
+   },
+   "eris": {
+    "fr": "Éris",
+    "source": "proposition",
+    "statut": "à valider"
+   }
+  },
+  "season": {
+   "halloween": {
+    "fr": "Halloween",
+    "source": "proposition",
     "statut": "ok"
    }
   }
