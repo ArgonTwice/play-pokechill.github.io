@@ -14364,64 +14364,64 @@
   "fr": "Garde Poigne",
   "categorie": "ability",
   "cle": "grabGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Water Guard",
   "fr": "Garde Aqua",
   "categorie": "ability",
   "cle": "waterGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flame Guard",
   "fr": "Garde Flamme",
   "categorie": "ability",
   "cle": "flameGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Curse Guard",
   "fr": "Garde Maudite",
   "categorie": "ability",
   "cle": "curseGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Poison Guard",
   "fr": "Garde Toxique",
   "categorie": "ability",
   "cle": "poisonGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ice Guard",
   "fr": "Garde Glace",
   "categorie": "ability",
   "cle": "iceGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Psychic Guard",
   "fr": "Garde Psy",
   "categorie": "ability",
   "cle": "psychicGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fairy Guard",
   "fr": "Garde Féerique",
   "categorie": "ability",
   "cle": "fairyGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Leaf Guard",
@@ -14436,64 +14436,64 @@
   "fr": "Garde Simple",
   "categorie": "ability",
   "cle": "plainGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sinister Guard",
   "fr": "Garde Sinistre",
   "categorie": "ability",
   "cle": "sinisterGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Steel Guard",
   "fr": "Garde Acier",
   "categorie": "ability",
   "cle": "steelGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dragon Guard",
   "fr": "Garde Draco",
   "categorie": "ability",
   "cle": "dragonGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Bug Guard",
   "fr": "Garde Insecte",
   "categorie": "ability",
   "cle": "bugGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Rock Guard",
   "fr": "Garde Roche",
   "categorie": "ability",
   "cle": "rockGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ground Guard",
   "fr": "Garde Sol",
   "categorie": "ability",
   "cle": "groundGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flying Guard",
   "fr": "Garde Céleste",
   "categorie": "ability",
   "cle": "flyingGuard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Insomnia",
@@ -14556,8 +14556,8 @@
   "fr": "Bouclier Vivant",
   "categorie": "ability",
   "cle": "livingShield",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Overgrow",
@@ -14596,96 +14596,96 @@
   "fr": "Bastion",
   "categorie": "ability",
   "cle": "bastion",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Average",
   "fr": "Banalité",
   "categorie": "ability",
   "cle": "average",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Resolve",
   "fr": "Résolution",
   "categorie": "ability",
   "cle": "resolve",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Mistify",
   "fr": "Mysticisme",
   "categorie": "ability",
   "cle": "mistify",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Hexerei",
   "fr": "Sorcellerie",
   "categorie": "ability",
   "cle": "hexerei",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Glimmer",
   "fr": "Miroitement",
   "categorie": "ability",
   "cle": "glimmer",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Skyward",
   "fr": "Envolée",
   "categorie": "ability",
   "cle": "skyward",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Draconic",
   "fr": "Draconique",
   "categorie": "ability",
   "cle": "draconic",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Noxious",
   "fr": "Virulence",
   "categorie": "ability",
   "cle": "noxious",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Solid",
   "fr": "Solidité",
   "categorie": "ability",
   "cle": "solid",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Rime",
   "fr": "Frimas",
   "categorie": "ability",
   "cle": "rime",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Voltage",
   "fr": "Survoltage",
   "categorie": "ability",
   "cle": "voltage",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Hyper Cutter",
@@ -14780,8 +14780,8 @@
   "fr": "Charme Étrange",
   "categorie": "ability",
   "cle": "strangeCharm",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Effect Spore",
@@ -14796,8 +14796,8 @@
   "fr": "Corps Glacial",
   "categorie": "ability",
   "cle": "glacialBody",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Natural Cure",
@@ -14956,8 +14956,8 @@
   "fr": "Armure Friable",
   "categorie": "ability",
   "cle": "brittleArmor",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chlorophyll",
@@ -15036,40 +15036,40 @@
   "fr": "Tact Climatique",
   "categorie": "ability",
   "cle": "climaTact",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Intangible",
   "fr": "Intangible",
   "categorie": "ability",
   "cle": "intangible",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Hyperconductor",
   "fr": "Hyperconducteur",
   "categorie": "ability",
   "cle": "hyperconductor",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fae Rush",
   "fr": "Ruée Féerique",
   "categorie": "ability",
   "cle": "faeRush",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Molt Shed",
   "fr": "Mue Express",
   "categorie": "ability",
   "cle": "moltShed",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Slush Rush",
@@ -15108,8 +15108,8 @@
   "fr": "Regard Intimidant",
   "categorie": "ability",
   "cle": "dauntingLook",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Unburden",
@@ -15132,8 +15132,8 @@
   "fr": "Stratège",
   "categorie": "ability",
   "cle": "strategist",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sheer Force",
@@ -15172,8 +15172,8 @@
   "fr": "Ambidextre",
   "categorie": "ability",
   "cle": "ambidextrous",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "No Guard",
@@ -15332,8 +15332,8 @@
   "fr": "Pétrification",
   "categorie": "ability",
   "cle": "stoned",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Power Of Alchemy",
@@ -15404,8 +15404,8 @@
   "fr": "Spore Colorée",
   "categorie": "ability",
   "cle": "colorSpore",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Merciless",
@@ -15436,16 +15436,16 @@
   "fr": "Trésor du Fléau",
   "categorie": "ability",
   "cle": "treasureOfRuin",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Thousand Arms",
   "fr": "Mille Bras",
   "categorie": "ability",
   "cle": "thousandArms",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Good As Gold",
@@ -15508,8 +15508,8 @@
   "fr": "Calcination",
   "categorie": "ability",
   "cle": "scorch",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Corrosion",
@@ -15532,8 +15532,8 @@
   "fr": "Cacophonie",
   "categorie": "ability",
   "cle": "cacophony",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Wind Rider",
@@ -15548,8 +15548,8 @@
   "fr": "Iaido",
   "categorie": "ability",
   "cle": "iaido",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "M. Launcher",
@@ -15564,8 +15564,8 @@
   "fr": "Tête de Métal",
   "categorie": "ability",
   "cle": "metalhead",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Imposter",
@@ -15676,8 +15676,8 @@
   "fr": "Champ Sombre",
   "categorie": "ability",
   "cle": "somberField",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Electric Surge",
@@ -15772,8 +15772,8 @@
   "fr": "Astérisme des Âmes",
   "categorie": "ability",
   "cle": "soulAsterism",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Normalize",
@@ -15788,8 +15788,8 @@
   "fr": "Peau Métallique",
   "categorie": "ability",
   "cle": "ferrilate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Refrigerate",
@@ -15804,40 +15804,40 @@
   "fr": "Peau Tellurique",
   "categorie": "ability",
   "cle": "terralate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Toxilate",
   "fr": "Peau Toxique",
   "categorie": "ability",
   "cle": "toxilate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Hydrolate",
   "fr": "Peau Aqueuse",
   "categorie": "ability",
   "cle": "hydrolate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Pyrolate",
   "fr": "Peau Ardente",
   "categorie": "ability",
   "cle": "pyrolate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chrysilate",
-  "fr": "Peau Chrysalide",
+  "fr": "Peau Insectoïde",
   "categorie": "ability",
   "cle": "chrysilate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Galvanize",
@@ -15852,16 +15852,16 @@
   "fr": "Peau Ténébreuse",
   "categorie": "ability",
   "cle": "gloomilate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Espilate",
   "fr": "Peau Psychique",
   "categorie": "ability",
   "cle": "espilate",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Aerilate",
@@ -15884,16 +15884,16 @@
   "fr": "Peau Végétale",
   "categorie": "ability",
   "cle": "verdify",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dragon Maw",
   "fr": "Peau Draconique",
   "categorie": "ability",
   "cle": "dragonMaw",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur (≠ Dragon’s Maw officiel = Dent de Dragon : effet -late Normal → Dragon)",
+  "statut": "ok"
  },
  {
   "en": "Black Belt",
@@ -18628,8 +18628,8 @@
   "fr": "ROM Bouclier Vivant",
   "categorie": "item",
   "cle": "livingShieldMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Big Pecks Memory",
@@ -19065,10 +19065,10 @@
  },
  {
   "en": "Colored Parasol",
-  "fr": "Ombrelle Colorée",
+  "fr": "Parasol Coloré",
   "categorie": "item",
   "cle": "coloredParasol",
-  "source": "proposition (EN Colored Parasol = Parasol Coloré probable, mais prix 50 Magost ≠ Mangou ×30 : non confirmé)",
+  "source": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé",
   "statut": "à valider"
  },
  {
@@ -19228,7 +19228,7 @@
   "fr": "ROM Torche Herba",
   "categorie": "item",
   "cle": "flashHerbaMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19236,7 +19236,7 @@
   "fr": "ROM Torche Féerique",
   "categorie": "item",
   "cle": "flashFaeMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19244,7 +19244,7 @@
   "fr": "ROM Torche Psycho",
   "categorie": "item",
   "cle": "flashPsychaMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19252,7 +19252,7 @@
   "fr": "ROM Torche Cryo",
   "categorie": "item",
   "cle": "flashCryoMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19260,7 +19260,7 @@
   "fr": "ROM Torche Venin",
   "categorie": "item",
   "cle": "flashVenumMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19268,7 +19268,7 @@
   "fr": "ROM Torche Umbra",
   "categorie": "item",
   "cle": "flashUmbraMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19276,7 +19276,7 @@
   "fr": "ROM Torche Pyro",
   "categorie": "item",
   "cle": "flashPyroMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19284,7 +19284,7 @@
   "fr": "ROM Torche Aqua",
   "categorie": "item",
   "cle": "flashAquaMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19292,7 +19292,7 @@
   "fr": "ROM Torche Électro",
   "categorie": "item",
   "cle": "flashElectroMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19372,8 +19372,8 @@
   "fr": "ROM Ambidextre",
   "categorie": "item",
   "cle": "ambidextrousMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Adaptability Memory",
@@ -19412,8 +19412,8 @@
   "fr": "ROM Stratège",
   "categorie": "item",
   "cle": "strategistMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Moxie Memory",
@@ -19436,8 +19436,8 @@
   "fr": "ROM Regard Intimidant",
   "categorie": "item",
   "cle": "dauntingLookMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Intimidate Memory",
@@ -19476,47 +19476,47 @@
   "fr": "ROM Mue Express",
   "categorie": "item",
   "cle": "moltShedMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Fae Rush Memory",
   "fr": "ROM Ruée Féerique",
   "categorie": "item",
   "cle": "faeRushMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Hyperconductor Memory",
   "fr": "ROM Hyperconducteur",
   "categorie": "item",
   "cle": "hyperconductorMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Intangible Memory",
   "fr": "ROM Intangible",
   "categorie": "item",
   "cle": "intangibleMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Clima Tact Memory",
   "fr": "ROM Tact Climatique",
   "categorie": "item",
   "cle": "climaTactMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Spiky Pelt Memory",
   "fr": "ROM Toison Hérissée",
   "categorie": "item",
   "cle": "spikyPeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19524,7 +19524,7 @@
   "fr": "ROM Toison Noire",
   "categorie": "item",
   "cle": "blackPeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19532,7 +19532,7 @@
   "fr": "ROM Toison Duveteuse",
   "categorie": "item",
   "cle": "pixiePeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19540,7 +19540,7 @@
   "fr": "ROM Toison Ardente",
   "categorie": "item",
   "cle": "fieryPeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19548,7 +19548,7 @@
   "fr": "ROM Toison Humide",
   "categorie": "item",
   "cle": "moistPeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19556,7 +19556,7 @@
   "fr": "ROM Toison Glacée",
   "categorie": "item",
   "cle": "icyPeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19564,7 +19564,7 @@
   "fr": "ROM Toison Sableuse",
   "categorie": "item",
   "cle": "sandyPeltMemory",
-  "source": "proposition",
+  "source": "motif:ROM",
   "statut": "à valider"
  },
  {
@@ -19572,336 +19572,336 @@
   "fr": "ROM Toison Herbue",
   "categorie": "item",
   "cle": "grassyPeltMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Stoned Memory",
   "fr": "ROM Pétrification",
   "categorie": "item",
   "cle": "stonedMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Stamina Memory",
   "fr": "ROM Endurance",
   "categorie": "item",
   "cle": "staminaMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Gooey Memory",
   "fr": "ROM Poisseux",
   "categorie": "item",
   "cle": "gooeyMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Shields Down Memory",
   "fr": "ROM Bouclier-Carcan",
   "categorie": "item",
   "cle": "shieldsDownMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Costar Memory",
   "fr": "ROM Collab",
   "categorie": "item",
   "cle": "costarMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Purifying Salt Memory",
   "fr": "ROM Sel Purificateur",
   "categorie": "item",
   "cle": "purifyingSaltMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Scorch Memory",
   "fr": "ROM Calcination",
   "categorie": "item",
   "cle": "scorchMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Corrosion Memory",
   "fr": "ROM Corrosion",
   "categorie": "item",
   "cle": "corrosionMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "M. Launcher Memory",
   "fr": "ROM Méga Blaster",
   "categorie": "item",
   "cle": "megaLauncherMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Metalhead Memory",
   "fr": "ROM Tête de Métal",
   "categorie": "item",
   "cle": "metalheadMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Moody Memory",
   "fr": "ROM Lunatique",
   "categorie": "item",
   "cle": "moodyMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Merciless Memory",
   "fr": "ROM Cruauté",
   "categorie": "item",
   "cle": "mercilessMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Color Spore Memory",
   "fr": "ROM Spore Colorée",
   "categorie": "item",
   "cle": "colorSporeMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Sand Stream Memory",
   "fr": "ROM Sable Volant",
   "categorie": "item",
   "cle": "sandStreamMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Snow Warning Memory",
   "fr": "ROM Alerte Neige",
   "categorie": "item",
   "cle": "snowWarningMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Somber Field Memory",
   "fr": "ROM Champ Sombre",
   "categorie": "item",
   "cle": "somberFieldMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Dancer Memory",
   "fr": "ROM Danseuse",
   "categorie": "item",
   "cle": "dancerMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Cacophony Memory",
   "fr": "ROM Cacophonie",
   "categorie": "item",
   "cle": "cacophonyMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Wind Rider Memory",
   "fr": "ROM Aéroporté",
   "categorie": "item",
   "cle": "windRiderMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Gorilla Tactics Memory",
   "fr": "ROM Entêtement",
   "categorie": "item",
   "cle": "gorillaTacticsMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Imposter Memory",
   "fr": "ROM Imposteur",
   "categorie": "item",
   "cle": "imposterMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Drizzle Memory",
   "fr": "ROM Crachin",
   "categorie": "item",
   "cle": "drizzleMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Drought Memory",
   "fr": "ROM Sécheresse",
   "categorie": "item",
   "cle": "droughtMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Electric Surge Memory",
   "fr": "ROM Créa-Élec",
   "categorie": "item",
   "cle": "electricSurgeMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Grassy Surge Memory",
   "fr": "ROM Créa-Herbe",
   "categorie": "item",
   "cle": "grassySurgeMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Misty Surge Memory",
   "fr": "ROM Créa-Brume",
   "categorie": "item",
   "cle": "mistySurgeMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Ferrilate Memory",
   "fr": "ROM Peau Métallique",
   "categorie": "item",
   "cle": "ferrilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Glaciate Memory",
   "fr": "ROM Peau Gelée",
   "categorie": "item",
   "cle": "glaciateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Terralate Memory",
   "fr": "ROM Peau Tellurique",
   "categorie": "item",
   "cle": "terralateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Toxilate Memory",
   "fr": "ROM Peau Toxique",
   "categorie": "item",
   "cle": "toxilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Hydrolate Memory",
   "fr": "ROM Peau Aqueuse",
   "categorie": "item",
   "cle": "hydrolateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Pyrolate Memory",
   "fr": "ROM Peau Ardente",
   "categorie": "item",
   "cle": "pyrolateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Chrysilate Memory",
-  "fr": "ROM Peau Chrysalide",
+  "fr": "ROM Peau Insectoïde",
   "categorie": "item",
   "cle": "chrysilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Galvanize Memory",
   "fr": "ROM Peau Électrique",
   "categorie": "item",
   "cle": "galvanizeMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Gloomilate Memory",
   "fr": "ROM Peau Ténébreuse",
   "categorie": "item",
   "cle": "gloomilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Espilate Memory",
   "fr": "ROM Peau Psychique",
   "categorie": "item",
   "cle": "espilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Aerilate Memory",
   "fr": "ROM Peau Céleste",
   "categorie": "item",
   "cle": "aerilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Pixilate Memory",
   "fr": "ROM Peau Féérique",
   "categorie": "item",
   "cle": "pixilateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Verdify Memory",
   "fr": "ROM Peau Végétale",
   "categorie": "item",
   "cle": "verdifyMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Dragon Maw Memory",
   "fr": "ROM Peau Draconique",
   "categorie": "item",
   "cle": "dragonMawMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Iaido Memory",
   "fr": "ROM Iaido",
   "categorie": "item",
   "cle": "iaidoMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif:ROM",
+  "statut": "ok"
  },
  {
   "en": "Wealthy Coins",

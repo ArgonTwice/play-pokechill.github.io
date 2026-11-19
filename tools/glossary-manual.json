@@ -285,158 +285,158 @@
   "ability": {
    "grabGuard": {
     "fr": "Garde Poigne",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "waterGuard": {
     "fr": "Garde Aqua",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flameGuard": {
     "fr": "Garde Flamme",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "curseGuard": {
     "fr": "Garde Maudite",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "poisonGuard": {
     "fr": "Garde Toxique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "iceGuard": {
     "fr": "Garde Glace",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "psychicGuard": {
     "fr": "Garde Psy",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fairyGuard": {
     "fr": "Garde Féerique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "plainGuard": {
     "fr": "Garde Simple",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "sinisterGuard": {
     "fr": "Garde Sinistre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "steelGuard": {
     "fr": "Garde Acier",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dragonGuard": {
     "fr": "Garde Draco",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "bugGuard": {
     "fr": "Garde Insecte",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "rockGuard": {
     "fr": "Garde Roche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "groundGuard": {
     "fr": "Garde Sol",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flyingGuard": {
     "fr": "Garde Céleste",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "livingShield": {
     "fr": "Bouclier Vivant",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "bastion": {
     "fr": "Bastion",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "average": {
     "fr": "Banalité",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "resolve": {
     "fr": "Résolution",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "mistify": {
     "fr": "Mysticisme",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "hexerei": {
     "fr": "Sorcellerie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "glimmer": {
     "fr": "Miroitement",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "skyward": {
     "fr": "Envolée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "draconic": {
     "fr": "Draconique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "noxious": {
     "fr": "Virulence",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "solid": {
     "fr": "Solidité",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "rime": {
     "fr": "Frimas",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "voltage": {
     "fr": "Survoltage",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "strangeCharm": {
     "fr": "Charme Étrange",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "glacialBody": {
     "fr": "Corps Glacial",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flareAbsorb": {
     "fr": "Absorb Flamme",
@@ -475,8 +475,8 @@
    },
    "brittleArmor": {
     "fr": "Armure Friable",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "grassyPelt": {
     "fr": "Toison Herbue",
@@ -520,43 +520,43 @@
    },
    "climaTact": {
     "fr": "Tact Climatique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "intangible": {
     "fr": "Intangible",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "hyperconductor": {
     "fr": "Hyperconducteur",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "faeRush": {
     "fr": "Ruée Féerique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "moltShed": {
     "fr": "Mue Express",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dauntingLook": {
     "fr": "Regard Intimidant",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "strategist": {
     "fr": "Stratège",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ambidextrous": {
     "fr": "Ambidextre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flashElectro": {
     "fr": "Torche Électro",
@@ -605,103 +605,103 @@
    },
    "stoned": {
     "fr": "Pétrification",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "colorSpore": {
     "fr": "Spore Colorée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "treasureOfRuin": {
     "fr": "Trésor du Fléau",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "thousandArms": {
     "fr": "Mille Bras",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "scorch": {
     "fr": "Calcination",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "cacophony": {
     "fr": "Cacophonie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "iaido": {
     "fr": "Iaido",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "metalhead": {
     "fr": "Tête de Métal",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "somberField": {
     "fr": "Champ Sombre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "soulAsterism": {
     "fr": "Astérisme des Âmes",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ferrilate": {
     "fr": "Peau Métallique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "terralate": {
     "fr": "Peau Tellurique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "toxilate": {
     "fr": "Peau Toxique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "hydrolate": {
     "fr": "Peau Aqueuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "pyrolate": {
     "fr": "Peau Ardente",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "chrysilate": {
-    "fr": "Peau Chrysalide",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Peau Insectoïde",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "gloomilate": {
     "fr": "Peau Ténébreuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "espilate": {
     "fr": "Peau Psychique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "verdify": {
     "fr": "Peau Végétale",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dragonMaw": {
     "fr": "Peau Draconique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur (≠ Dragon’s Maw officiel = Dent de Dragon : effet -late Normal → Dragon)",
+    "statut": "ok"
    }
   },
   "item": {
@@ -1086,8 +1086,8 @@
     "statut": "ok"
    },
    "coloredParasol": {
-    "fr": "Ombrelle Colorée",
-    "source": "proposition (EN Colored Parasol = Parasol Coloré probable, mais prix 50 Magost ≠ Mangou ×30 : non confirmé)",
+    "fr": "Parasol Coloré",
+    "source": "élimination : seul parasol de la boutique de Floraville en EN et FR (pokepedia.fr/Floraville) ; prix 50 Magost ≠ Mangou ×30, non prouvé",
     "statut": "à valider"
    },
    "pokeballFlag": {

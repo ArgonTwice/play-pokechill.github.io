@@ -114,9 +114,9 @@ for (const t of terms) {
     if (s.fr && suf !== null) { fr = manual.formPattern[pre || ''].replace('{n}', s.fr).replace('{f}', suf).trim(); source = 'proposition'; statut = /^(Gigamax|Méga)/.test(suf) || !suf ? 'ok' : 'à valider'; if (!suf && pre) statut = 'ok'; }
   }
   const it = t.cat === 'item' && g.item[t.key];
-  if (!fr && it && (it.type === 'tm' || it.type === 'memory')) { // motifs : CT <capacité>, Mémoire <talent>
+  if (!fr && it && (it.type === 'tm' || it.type === 'memory')) { // motifs : CT <capacité>, ROM <talent> (préfixe validé : statut hérité)
     const ref = it.type === 'tm' ? resolved.move[it.move] : resolved.ability[it.ability];
-    if (ref) { fr = (it.type === 'tm' ? 'CT ' : manual.memoryPrefix) + ref.fr; source = it.type === 'tm' ? 'motif:CT' : 'proposition'; statut = it.type === 'tm' && ref.statut === 'ok' ? 'ok' : 'à valider'; }
+    if (ref) { fr = (it.type === 'tm' ? 'CT ' : manual.memoryPrefix) + ref.fr; source = it.type === 'tm' ? 'motif:CT' : 'motif:ROM'; statut = ref.statut === 'ok' ? 'ok' : 'à valider'; }
   }
   fr = ap(fr);
   if (!fr) { c.manquant++; fr = null; source = 'manquant'; statut = 'à valider'; }
