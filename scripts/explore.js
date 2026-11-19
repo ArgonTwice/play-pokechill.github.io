@@ -225,7 +225,7 @@ function setWildPkmn(){
     if (saved.currentArea == areas.training.id) {
 
     document.getElementById(`training-indicator`).style.display = `flex`
-    document.getElementById(`training-indicator-counter`).textContent = `Remaining: ${currentTrainingWave}`
+    document.getElementById(`training-indicator-counter`).textContent = t('ui.remaining_currenttrainingwave', { currentTrainingWave: currentTrainingWave })
 
     returnPkmnDivision(pkmn[saved.trainingPokemon])
 
@@ -310,7 +310,7 @@ function setWildPkmn(){
     } else if (saved.currentArea == areas.frontierSpiralingTower.id) {
     document.getElementById(`spiraling-indicator`).style.display = `flex`
     document.getElementById(`spiraling-highest-floor`).innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><mask id="SVGIz3eBe9X"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M8 44h8m-4 0V4"/><path fill="#555555" d="M40 6H12v16h28l-4-8z"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGIz3eBe9X)"/></svg>${t('ui.highest_floor_maxspiralfloor', { maxSpiralFloor: saved.maxSpiralFloor })}`
-    document.getElementById(`spiraling-current-floor`).textContent = `Floor: ${saved.currentSpiralFloor}`
+    document.getElementById(`spiraling-current-floor`).textContent = t('ui.floor_currentspiralfloor', { currentSpiralFloor: saved.currentSpiralFloor })
     wildLevel = 98 + (2*saved.currentSpiralFloor)
 
     let divisionToUse = "C"
@@ -1197,7 +1197,7 @@ function leaveCombat(){
         if (pkmn[i].newMoves.length == 0) continue
 
         const div = document.createElement("span");
-        div.innerHTML = t('ui.has_learnt', { v: format(i, 'pkmn'), v2: joinWithAnd(pkmn[i].newMoves) })
+        div.innerHTML = t('ui.has_learnt', { v: format(i, 'pkmn'), v2: joinWithAnd(pkmn[i].newMoves, 'move') })
 
         document.getElementById("area-end-moves-title").appendChild(div);
         document.getElementById("area-end-moves-title").style.display = "flex"
@@ -1515,14 +1515,14 @@ for (let i = activeBars; i < hpBars.length; i++) {
 
     if (saved.currentArea == areas.training.id) {
     currentTrainingWave--
-    document.getElementById(`training-indicator-counter`).textContent = `Remaining: ${currentTrainingWave}`
+    document.getElementById(`training-indicator-counter`).textContent = t('ui.remaining_currenttrainingwave', { currentTrainingWave: currentTrainingWave })
     }
 
 
     if (saved.currentArea == areas.frontierSpiralingTower.id) {
     saved.currentSpiralFloor++
     saved.maxSpiralFloor = Math.max(saved.maxSpiralFloor,saved.currentSpiralFloor)
-    document.getElementById(`spiraling-current-floor`).textContent = `Floor: ${saved.currentSpiralFloor}`
+    document.getElementById(`spiraling-current-floor`).textContent = t('ui.floor_currentspiralfloor', { currentSpiralFloor: saved.currentSpiralFloor })
     document.getElementById(`spiraling-highest-floor`).innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><mask id="SVGIz3eBe9X"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M8 44h8m-4 0V4"/><path fill="#555555" d="M40 6H12v16h28l-4-8z"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGIz3eBe9X)"/></svg>${t('ui.highest_floor_maxspiralfloor', { maxSpiralFloor: saved.maxSpiralFloor })}`
     }
 
@@ -3011,7 +3011,7 @@ function exploreCombatPlayer() {
             saved.maxFactoryScore = battleFactoryScore
             document.getElementById(`factory-highest-score`).innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M5.25 4.593v8.903q.162-.053.34-.108c.761-.231 1.788-.488 2.66-.488c1.418 0 2.74.432 3.934.821l.049.016c1.245.406 2.358.763 3.517.763c.936 0 2.256-.36 3-.593V5.073c-.806.232-2.015.527-3 .527c-1.418 0-2.74-.432-3.934-.821l-.049-.016C10.522 4.357 9.41 4 8.25 4c-.652 0-1.51.178-2.248.375c-.287.076-.545.153-.752.218m0 10.488c.21-.075.479-.167.777-.258c.737-.224 1.586-.423 2.223-.423c1.16 0 2.272.357 3.517.763l.049.016c1.193.39 2.516.821 3.934.821c1.289 0 2.977-.507 3.648-.725c.522-.168.852-.653.852-1.177V4.759c0-.87-.85-1.448-1.642-1.208c-.781.237-1.99.549-2.858.549c-1.16 0-2.272-.357-3.517-.763l-.049-.016C10.991 2.931 9.668 2.5 8.25 2.5c-.858 0-1.874.222-2.635.425a21 21 0 0 0-1.337.408l-.021.008l-.006.002h-.002l.251.707l-.252-.706a.75.75 0 0 0-.498.706v16.7a.75.75 0 0 0 1.5 0z" clip-rule="evenodd"/><path fill="currentColor" d="M4.5 4.05s2.24-.8 3.75-.8c2.597 0 4.903 1.6 7.5 1.6c.99 0 2.295-.344 3.075-.581c.331-.1.675.145.675.49v9.339c0 .21-.132.399-.333.464c-.68.22-2.262.688-3.417.688c-2.597 0-4.903-1.6-7.5-1.6c-1.51 0-3.75.912-3.75.912z" opacity="0.5"/></svg>${t('ui.highest_score_maxfactoryscore', { maxFactoryScore: saved.maxFactoryScore })}</div>`
             }
-            document.getElementById(`factory-current-score`).innerHTML = `Score: ${battleFactoryScore}`
+            document.getElementById(`factory-current-score`).innerHTML = t('ui.score_battlefactoryscore', { battleFactoryScore: battleFactoryScore })
         }
 
 
@@ -4235,8 +4235,7 @@ function setWildAreas() {
                 #0000
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
-                        <span style="font-size:1.2rem">${format(areas.wildlifePark.id, 'area')}</span>
-                        <span><strong style="background:#B18451">Level: ${Math.max(1,areas.wildlifePark.level-10)}-${areas.wildlifePark.level}</strong><span></span></span>
+                        <span style="font-size:1.2rem">${t('ui.level_level_2', { v: format(areas.wildlifePark.id, 'area'), v2: Math.max(1,areas.wildlifePark.level-10), level: areas.wildlifePark.level })}</strong><span></span></span>
                     </span>
                 </div>
                 <div style="width: 8rem;" class="explore-ticket-right">
@@ -4371,8 +4370,7 @@ function setWildAreas() {
                 #000${ticketIndex}
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
-                        <span style="font-size:1.2rem">${format(i, 'area')}</span>
-                        <span><strong style="background:#B18451">Level: ${Math.max(1,areas[i].level-10)}-${areas[i].level}</strong><span></span></span>
+                        <span style="font-size:1.2rem">${t('ui.level_3', { v: format(i, 'area'), v2: Math.max(1,areas[i].level-10), v3: areas[i].level })}</strong><span></span></span>
                     </span>
                 </div>
                 <div style="width: 8rem;" class="explore-ticket-right">
@@ -4480,8 +4478,7 @@ function setDungeonAreas() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
 
-                        <span style="font-size:1.2rem">${format(i, 'area')}</span>
-                        <span><strong style="background:#6BBC77">Level: ${Math.max(1,areas[i].level-10)}-${areas[i].level}</strong><span></span></span>
+                        <span style="font-size:1.2rem">${t('ui.level_4', { v: format(i, 'area'), v2: Math.max(1,areas[i].level-10), v3: areas[i].level })}</strong><span></span></span>
                     </span>
                 </div>
                 <div style="width: 8rem;" class="explore-ticket-right">
@@ -4560,7 +4557,7 @@ function setEventAreas() {
     document.getElementById("event-selector-1").style = `initial`
     document.getElementById("event-selector-2").style = `initial`
     //document.getElementById("event-selector-3").style = `initial`
-    document.getElementById(t('ui.event_selector')+eventCategory).style = `background: #91718B; outline: solid 1px #F97DFF; color: white`
+    document.getElementById('event-selector-'+eventCategory).style = `background: #91718B; outline: solid 1px #F97DFF; color: white`
 
 
 
@@ -4696,8 +4693,7 @@ function setEventAreas() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
 
-                        <span style="font-size:1.1rem">${eventName}${nameTag}</span>
-                        <span><strong style="background:#D57392">Level: ${levelrange}</strong>${eventTag}<span></span></span>
+                        <span style="font-size:1.1rem">${t('ui.eventname_nametag_level_levelrange_eventtag', { eventName: eventName, nameTag: nameTag, levelrange: levelrange, eventTag: eventTag })}<span></span></span>
                     </span>
                 </div>
                 <div style="width: 8rem;" class="explore-ticket-right">
@@ -5272,7 +5268,7 @@ if (sort !== "default") {
 
 
 fusePkmn = new Fuse(sortedPokemon, {
-    keys: [ { name: 'name', getFn: obj => obj.id }, 'type', "level", `ability`, t('ui.hiddenability_id'), t('ui.eggmove_id'), `movepool`,'tagShiny','tagPokerus', "tagSignature"],
+    keys: [ { name: 'name', getFn: obj => obj.id }, 'type', "level", `ability`, 'hiddenAbility.id', 'eggMove.id', `movepool`,'tagShiny','tagPokerus', "tagSignature"],
     threshold: 0.1,
     useExtendedSearch: true,
     ignoreLocation: true,
@@ -5895,7 +5891,7 @@ function tagMenuAssign(){
         const isActive = pkmn[currentEditedPkmn].tagList.some(tag => 
             tag.name === i.name && tag.color === i.color
         );
-        div.className = isActive ? t('ui.tag_system_tag') : t('ui.tag_system_tag_tag_system_inactive')
+        div.className = isActive ? 'tag-system-tag' : 'tag-system-tag tag-system-inactive'
         
         div.style.color = i.color
         div.style.outlineColor = i.color
@@ -7565,7 +7561,7 @@ function pickArenaCard(number){
     document.getElementById(`arena-card-2`).className = `arena-card`
     document.getElementById(`arena-card-3`).className = `arena-card`
 
-    document.getElementById(t('ui.arena_card')+number).classList.add("active-arena-card")
+    document.getElementById('arena-card-'+number).classList.add("active-arena-card")
 
     saved.arenaActiveCard = number
 
@@ -8900,7 +8896,7 @@ saved.trainingPokemon = undefined
 const training = {}
 
 training.level = {
-    name: `Level Training`,
+    name: t('ui.level_training'),
     info: t('ui.fully_max_pokemons_level_can_only'),
     tier: 2,
     color: `#dfc969`,
@@ -8943,7 +8939,7 @@ training.level = {
 }
 
 training.iv1 = { //disapears if you have more than x ivs
-    name: `IV Training I`,
+    name: t('ui.iv_training_2'),
     info: t('ui.gain_random_iv_stars_can_only'),
     tier: 1,
     color: `#699edf`,
@@ -8997,7 +8993,7 @@ training.iv1 = { //disapears if you have more than x ivs
 }
 
 training.iv2 = { //doesnt appear until you have more than x ivs
-    name: `IV Training II`,
+    name: t('ui.iv_training_ii'),
     info: t('ui.gain_random_iv_stars_can_only_2'),
     tier: 2,
     color: `#699edf`,
@@ -9051,7 +9047,7 @@ training.iv2 = { //doesnt appear until you have more than x ivs
 }
 
 training.iv3 = { //doesnt appear until you have more than x ivs
-    name: `IV Training III`,
+    name: t('ui.iv_training_iii'),
     info: t('ui.gain_random_iv_stars'),
     tier: 3,
     color: `#699edf`,
@@ -9105,7 +9101,7 @@ training.iv3 = { //doesnt appear until you have more than x ivs
 }
 
 training.ability = {
-    name: `Ability Training`,
+    name: t('ui.ability_training'),
     info: t('ui.rerolls_the_pokemon_ability'),
     tier: 1,
     color: `#69df96`,
@@ -9125,7 +9121,7 @@ training.ability = {
 }
 
 training.hiddenAbility = {
-    name: `Hidden Ability Training`,
+    name: t('ui.hidden_ability_training'),
     info: t('ui.unlocks_the_pokemon_hidden_ability'),
     tier: 2,
     color: `#69df96`,
@@ -9146,7 +9142,7 @@ training.hiddenAbility = {
 }
 
 training.move = { //disapears if you have 20+ moves or smth
-    name: `Move Training`,
+    name: t('ui.move_training'),
     info: t('ui.learn_new_pokemon_move_can_only'),
     tier: 1,
     color: `#cf79c1`,
@@ -9169,7 +9165,7 @@ training.move = { //disapears if you have 20+ moves or smth
 }
 
 training.nature = {
-    name: `Nature Training`,
+    name: t('ui.nature_training'),
     info: t('ui.grants_rerolls_and_removes_natures_which'),
     tier: 3,
     color: `#DF7A69`,
@@ -9254,7 +9250,7 @@ function setTrainingMenu() {
 
     div.innerHTML = `
     <span>${training[i].name}</span>
-    <strong style="outline-color: ${training[i].color}; color: ${training[i].color}" >Difficulty: ${returnStars(training[i].tier)}</strong>
+    <strong style="outline-color: ${training[i].color}; color: ${training[i].color}" >${t('ui.difficulty_5', { v: returnStars(training[i].tier) })}</strong>
     `
     div.style.pointerEvents = "initial"
 
@@ -9396,7 +9392,7 @@ for (const item of indexedTeam){
     document.getElementById("battle-summary-flex").appendChild(div);
     const percent = (team[i].damageDealt / totalDamageDealt) * 100;
     document.getElementById(`battle-summary-bar-${i}`).style.width = percent+"%"
-    document.getElementById(`battle-summary-bar-${i}`).innerHTML = `<text>${Math.round(team[i].damageDealt).toLocaleString('es-ES')} (${percent.toFixed(0)}%)</text>`
+    document.getElementById(`battle-summary-bar-${i}`).innerHTML = `<text>${Math.round(team[i].damageDealt).toLocaleString(lang === 'en' ? 'es-ES' : numLocale())} (${percent.toFixed(0)}%)</text>`
 }
     openTooltip()
 
@@ -9760,7 +9756,7 @@ function claimMysteryGift(){
     openMenu()
     document.getElementById("tooltipTop").innerHTML = `<img src="img/pkmn/shiny/${mysteryGift.icon}.png">`
     document.getElementById("tooltipTitle").innerHTML = t('ui.mystery_gift')
-    document.getElementById("tooltipMid").innerHTML = t('ui.info_you_have_until_to_claim', { info: mysteryGift.info, v: mysteryGift.duration.toLocaleString("en-US", {month: "long",day: "numeric"}) })
+    document.getElementById("tooltipMid").innerHTML = t('ui.info_you_have_until_to_claim', { info: mysteryGift.info, v: mysteryGift.duration.toLocaleString(numLocale(), {month: "long",day: "numeric"}) })
     document.getElementById("tooltipBottom").innerHTML = `<span data-pkmn-editor=${mysteryGift.icon} id="mystery-claim-button"><img src="img/items/gift.png" style="scale:4; image-rendering:pixelated; padding: 3rem 0; cursor:help" 
     style="cursor:pointer; font-size:2rem" id="prevent-tooltip-exit"></span>`
     openTooltip()
@@ -10427,8 +10423,7 @@ function updateMegaDimension(tier){
                 <div style="width: 100%;">
                 <span class="explore-ticket-left">
 
-                        <span style="font-size:1.2rem; color:white">${areas[i].name}</span>
-                        <span><strong style="background:#9F50B5">Level: ${Math.max(1,areas[i].level-10)}-${areas[i].level}</strong><span></span></span>
+                        <span style="font-size:1.2rem; color:white">${t('ui.level_5', { v: areas[i].name, v2: Math.max(1,areas[i].level-10), v3: areas[i].level })}</strong><span></span></span>
                     </span>
                 </div>
                 <div style="width: 8rem;" class="explore-ticket-right">

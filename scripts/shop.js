@@ -8,7 +8,7 @@ const shop = {}
 
 shop.exchange1 = {
     icon: item.bottleCap.id,
-    name: `Bottle Cap x2`,
+    name: t('ui.bottle_cap'),
     price: 1,
     currency: item.goldenBottleCap.id,
     category: `all`,
@@ -59,7 +59,7 @@ shop.shoptimeCandyXL = {
 
 shop.shoptimeCandy = {
     icon: item.timeCandy.id,
-    name: `Time Candy x3`,
+    name: t('ui.time_candy'),
     price: 1,
     currency: item.timeCandyXL.id,
     category: `goods`,
@@ -68,7 +68,7 @@ shop.shoptimeCandy = {
 
 shop.shopepochFeather = {
     icon: item.epochFeather.id,
-    name: `Epoch Feather x25`,
+    name: t('ui.epoch_feather'),
     price: 10,
     currency: item.pokeflute.id,
     category: `goods`,
@@ -78,7 +78,7 @@ shop.shopepochFeather = {
 
 shop.shopancientOrchid = {
     icon: item.ancientOrchid.id,
-    name: `Ancient Orchid x25`,
+    name: t('ui.ancient_orchid'),
     price: 10,
     currency: item.primalEarth.id,
     category: `goods`,
@@ -88,7 +88,7 @@ shop.shopancientOrchid = {
 
 shop.shopancientKeystone = {
     icon: item.ancientKeystone.id,
-    name: `Ancient Keystone x25`,
+    name: t('ui.ancient_keystone'),
     price: 10,
     currency: item.steelKeystone.id,
     category: `goods`,
@@ -98,7 +98,7 @@ shop.shopancientKeystone = {
 
 shop.shopaetherKeycard = {
     icon: item.aetherKeycard.id,
-    name: `Aether Keycard x25`,
+    name: t('ui.aether_keycard'),
     price: 10,
     currency: item.wormholeResidue.id,
     category: `goods`,
@@ -108,7 +108,7 @@ shop.shopaetherKeycard = {
 
 shop.shopfutureDisk = {
     icon: item.futureDisk.id,
-    name: `Future Disk x25`,
+    name: t('ui.future_disk'),
     price: 10,
     currency: item.futureContraption.id,
     category: `goods`,
@@ -118,7 +118,7 @@ shop.shopfutureDisk = {
 
 shop.shopwisdomPetal = {
     icon: item.wisdomPetal.id,
-    name: `Wisdom Petal x25`,
+    name: t('ui.wisdom_petal'),
     price: 10,
     currency: item.redChain.id,
     category: `goods`,
@@ -468,7 +468,7 @@ shop.shoplinkStone = {
 
 shop.shopbarbaracite = {
     icon: item.barbaracite.id,
-    name: `Barbaracite x21`,
+    name: t('ui.barbaracite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -478,7 +478,7 @@ shop.shopbarbaracite = {
 
 shop.shophawluchanite = {
     icon: item.hawluchanite.id,
-    name: `Hawluchanite x21`,
+    name: t('ui.hawluchanite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -487,7 +487,7 @@ shop.shophawluchanite = {
 
 shop.shoppyroarite = {
     icon: item.pyroarite.id,
-    name: `Pyroarite x21`,
+    name: t('ui.pyroarite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -496,7 +496,7 @@ shop.shoppyroarite = {
 
 shop.shopfalinksite = {
     icon: item.falinksite.id,
-    name: `Falinksite x21`,
+    name: t('ui.falinksite'),
     price: 150,
     currency: item.goldenBottleCap.id,
     category: `evolution`,
@@ -1159,7 +1159,7 @@ shop.shoppickPocketMemory = {
 saved.halloweenThemeUnlocked = false
 shop.eventhalloweenTheme = {
     icon: item.oldGateau.id,
-    name: `Permanent Seasonal Theme`,
+    name: t('ui.permanent_seasonal_theme'),
     price: 50,
     stock: 1,
     currency: item.oldGateau.id,
@@ -1226,7 +1226,7 @@ shop.event3 = {
 
 shop.eventhalloweenCaps = {
     icon: item.bottleCap.id,
-    name: `Bottle Cap x5`,
+    name: t('ui.bottle_cap_2'),
     effect: function() {item.bottleCap.got+=5},
     price: 50,
     currency: item.oldGateau.id,
@@ -2176,7 +2176,7 @@ function makeCurry(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = t('ui.during_raids_temporarily_gained_the_next')
-        document.getElementById("tooltipBottom").innerHTML = joinWithAnd(curryAbilities)
+        document.getElementById("tooltipBottom").innerHTML = joinWithAnd(curryAbilities, 'ability')
         openTooltip()
         item.goldenBottleCap.got -= totalPrice
             document.getElementById("shop-currency-gold").innerHTML = `<img src="img/items/goldenBottleCap.png"> x${item.goldenBottleCap.got}`

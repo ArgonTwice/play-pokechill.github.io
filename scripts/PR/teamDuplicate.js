@@ -178,7 +178,7 @@
     const selector = document.querySelector(".team-menu-selector-new");
     if (!selector || document.getElementById("team-duplicate-button")) return;
 
-    const button = document.createElementNS(t('ui.http_www_org_svg'), "svg");
+    const button = document.createElementNS('http://www.w3.org/2000/svg', "svg");
     button.setAttribute("viewBox", "0 0 24 24");
     button.setAttribute("width", "24");
     button.setAttribute("height", "24");
@@ -188,7 +188,7 @@
     button.style.flexShrink = "0";
     button.setAttribute("title", t('ui.duplicate_team_2'));
 
-    const path = document.createElementNS(t('ui.http_www_org_svg'), "path");
+    const path = document.createElementNS('http://www.w3.org/2000/svg', "path");
     path.setAttribute("fill", "currentColor");
     path.setAttribute(
       "d",

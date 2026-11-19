@@ -190,7 +190,7 @@ fuseDictionary = new Fuse(dictionaryItems, {
   keys: [ 
     { name: 'name', getFn: obj => obj.id }, 
     'type', 
-    t('ui.hiddenability_id'), 
+    'hiddenAbility.id', 
     'split', 
     'tagObtainedIn', 
     'tagCaught', 

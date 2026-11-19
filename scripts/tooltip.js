@@ -89,7 +89,7 @@ function tooltipData(category, ttdata){
         document.getElementById("tooltipMid").style.display = "none";
         document.getElementById("tooltipBottom").style.display = "inline";
         document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.area_pokemon')}</strong></div>`;
-        const uncatchableIcon = `<svg fill="currentColor" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1126 1126"><defs><style>${t('ui.cls_cls_fill_none_cls_stroke')}</style></defs><path fill="currentColor" class="cls-1" d="M646.27,1091.94c48.25,3.71,96,.07,142.34-13.67,136.22-40.33,229.87-127.25,281-259.63,12.92-33.47,19.88-68.48,23.33-104.17.33-3.46.83-6.17-4.62-6.16q-98,.3-196,0c-3.42,0-4.7,1.17-5.18,4.31-.71,4.59-1.53,9.17-2.63,13.68-27.08,111-135,180.24-247.43,158.68q-3-.57-5.9-1.23L474.51,1040.42C526.88,1070.09,584.27,1087.18,646.27,1091.94Z" transform="translate(-109.65 -105.51)"/><path fill="currentColor" class="cls-1" d="M678,530.53c-80.91,0-147,66-146.91,146.59h0c0,52.23,27.78,98.34,69.26,124.36L802.4,599.39A147.31,147.31,0,0,0,678,530.53Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M468.93,713.13c-.58-3.44-1.83-4.87-5.73-4.85-32.53.24-65,.16-97.52.16h-96c-7.34,0-7.35,0-6.51,7.5a454.8,454.8,0,0,0,7.62,48.7q30.69,138.51,137.28,229.09L553.24,848.55A211.37,211.37,0,0,1,468.93,713.13Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M824.25,690.68,691.74,823.19C761.64,816.6,817.73,760.54,824.25,690.68Z" transform="translate(-109.65 -105.51)"/><path d="M270.79,764.64a454.8,454.8,0,0,1-7.62-48.7c-.84-7.5-.83-7.5,6.51-7.5h96c32.49,0,65,.08,97.52-.16,3.9,0,5.15,1.41,5.73,4.85a211.37,211.37,0,0,0,84.31,135.42l47.07-47.07c-41.48-26-69.24-72.13-69.26-124.36h0c0-80.62,66-146.63,146.91-146.59A147.31,147.31,0,0,1,802.4,599.39L1047,354.81Q961.93,256.53,828.6,211.49c-35.72-12.07-72.59-18.83-110.19-22a480.64,480.64,0,0,0-103.69,2.35c-83,11-158.7,40.81-226.1,90.55Q253.71,382,206.71,542.94a460.76,460.76,0,0,0-17.86,106.37c-.2,2-.5,3.93-.89,5.86v43c1.7,6.66,1.21,13.52,1.76,20.28,3.47,42.11,11.73,83.28,26.63,122.76q47.33,125.31,139.23,205l52.49-52.48Q301.48,903.15,270.79,764.64Z" transform="translate(-109.65 -105.51)"/><path d="M691.74,823.19l-60.56,60.56q2.93.66,5.9,1.23C749.51,906.54,857.43,837.3,884.51,726.3c1.1-4.51,1.92-9.09,2.63-13.68.48-3.14,1.76-4.31,5.18-4.31q98,.3,196,0c5.45,0,5,2.7,4.62,6.16-3.45,35.69-10.41,70.7-23.33,104.17-51.13,132.38-144.78,219.3-281,259.63-46.34,13.74-94.09,17.38-142.34,13.67-62-4.76-119.39-21.85-171.76-51.52l-53.35,53.35a546.1,546.1,0,0,0,106.31,49c41,14,83.37,21.17,126.64,23.08,1.64.08,3.36-.18,4.85.82h38c7-1.8,14.21-1.18,21.31-1.78q149.68-12.5,266.38-106.38,121.33-98,164.66-247.69a464.67,464.67,0,0,0,17.81-106.33c.1-2.11.58-4.21.88-6.31v-42c-1.7-6.82-1.22-13.85-1.8-20.77-4.43-53.08-16.73-104.29-38.6-152.8a559.5,559.5,0,0,0-32.91-62.39L824.25,690.68C817.73,760.54,761.64,816.6,691.74,823.19Z" transform="translate(-109.65 -105.51)"/><line class="cls-2" x1="50" y1="1076" x2="1076" y2="50"/></svg>`
+        const uncatchableIcon = `<svg fill="currentColor" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1126 1126"><defs><style>${'.cls-1,.cls-2{fill:none;}.cls-2{stroke:currentcolor;stroke-linecap:round;stroke-linejoin:round;stroke-width:100px;}'}</style></defs><path fill="currentColor" class="cls-1" d="M646.27,1091.94c48.25,3.71,96,.07,142.34-13.67,136.22-40.33,229.87-127.25,281-259.63,12.92-33.47,19.88-68.48,23.33-104.17.33-3.46.83-6.17-4.62-6.16q-98,.3-196,0c-3.42,0-4.7,1.17-5.18,4.31-.71,4.59-1.53,9.17-2.63,13.68-27.08,111-135,180.24-247.43,158.68q-3-.57-5.9-1.23L474.51,1040.42C526.88,1070.09,584.27,1087.18,646.27,1091.94Z" transform="translate(-109.65 -105.51)"/><path fill="currentColor" class="cls-1" d="M678,530.53c-80.91,0-147,66-146.91,146.59h0c0,52.23,27.78,98.34,69.26,124.36L802.4,599.39A147.31,147.31,0,0,0,678,530.53Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M468.93,713.13c-.58-3.44-1.83-4.87-5.73-4.85-32.53.24-65,.16-97.52.16h-96c-7.34,0-7.35,0-6.51,7.5a454.8,454.8,0,0,0,7.62,48.7q30.69,138.51,137.28,229.09L553.24,848.55A211.37,211.37,0,0,1,468.93,713.13Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M824.25,690.68,691.74,823.19C761.64,816.6,817.73,760.54,824.25,690.68Z" transform="translate(-109.65 -105.51)"/><path d="M270.79,764.64a454.8,454.8,0,0,1-7.62-48.7c-.84-7.5-.83-7.5,6.51-7.5h96c32.49,0,65,.08,97.52-.16,3.9,0,5.15,1.41,5.73,4.85a211.37,211.37,0,0,0,84.31,135.42l47.07-47.07c-41.48-26-69.24-72.13-69.26-124.36h0c0-80.62,66-146.63,146.91-146.59A147.31,147.31,0,0,1,802.4,599.39L1047,354.81Q961.93,256.53,828.6,211.49c-35.72-12.07-72.59-18.83-110.19-22a480.64,480.64,0,0,0-103.69,2.35c-83,11-158.7,40.81-226.1,90.55Q253.71,382,206.71,542.94a460.76,460.76,0,0,0-17.86,106.37c-.2,2-.5,3.93-.89,5.86v43c1.7,6.66,1.21,13.52,1.76,20.28,3.47,42.11,11.73,83.28,26.63,122.76q47.33,125.31,139.23,205l52.49-52.48Q301.48,903.15,270.79,764.64Z" transform="translate(-109.65 -105.51)"/><path d="M691.74,823.19l-60.56,60.56q2.93.66,5.9,1.23C749.51,906.54,857.43,837.3,884.51,726.3c1.1-4.51,1.92-9.09,2.63-13.68.48-3.14,1.76-4.31,5.18-4.31q98,.3,196,0c5.45,0,5,2.7,4.62,6.16-3.45,35.69-10.41,70.7-23.33,104.17-51.13,132.38-144.78,219.3-281,259.63-46.34,13.74-94.09,17.38-142.34,13.67-62-4.76-119.39-21.85-171.76-51.52l-53.35,53.35a546.1,546.1,0,0,0,106.31,49c41,14,83.37,21.17,126.64,23.08,1.64.08,3.36-.18,4.85.82h38c7-1.8,14.21-1.18,21.31-1.78q149.68-12.5,266.38-106.38,121.33-98,164.66-247.69a464.67,464.67,0,0,0,17.81-106.33c.1-2.11.58-4.21.88-6.31v-42c-1.7-6.82-1.22-13.85-1.8-20.77-4.43-53.08-16.73-104.29-38.6-152.8a559.5,559.5,0,0,0-32.91-62.39L824.25,690.68C817.73,760.54,761.64,816.6,691.74,823.19Z" transform="translate(-109.65 -105.51)"/><line class="cls-2" x1="50" y1="1076" x2="1076" y2="50"/></svg>`
         if (areas[ttdata].type == "dungeon") { document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.area_pokemon_uncatchableicon', { uncatchableIcon: uncatchableIcon })}</strong></div>`; }
         if (areas[ttdata].uncatchable) { document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.area_pokemon_uncatchableicon', { uncatchableIcon: uncatchableIcon })}</strong></div>`; }
 
@@ -202,7 +202,7 @@ function tooltipData(category, ttdata){
         for (const i of rewards) {
         const div = document.createElement("div");
         document.getElementById("tooltipMid").style.display = "inline";
-        let meow = t('ui.pkmn_sprite')
+        let meow = 'pkmn/sprite'
         if (item[i.id]!=undefined) {div.dataset.item = i.id; meow = "items" }
         else {div.dataset.pkmn = i.id;}
         div.className = "area-preview";
@@ -231,12 +231,12 @@ function tooltipData(category, ttdata){
                 let imgPath, scale;
                 if (isPokemon) {
                     div.dataset.pkmn = reward.item;
-                    imgPath = t('ui.pkmn_sprite_item', { item: reward.item });
+                    imgPath = `pkmn/sprite/${reward.item}`;
                     scale = 1;
                 } else {
                     div.dataset.item = reward.item;
                     imgPath = itemData.type === "tm" 
-                        ? t('ui.items_tm', { v: format(move[itemData.move].type, 'type') }) 
+                        ? `items/tm${format(move[itemData.move].type, 'type')}` 
                         : `items/${reward.item}`;
                     scale = 2;
                 }
@@ -369,8 +369,7 @@ function tooltipData(category, ttdata){
                 #0000
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25.719 4.781a2.9 2.9 0 0 0-1.125.344l-4.719 2.5L13.5 6.062l-.375-.093l-.375.187l-2.156 1.25l-1.281.75l1.187.906l2.719 2.063l-3.406 1.813l-3.657-1.657l-.437-.187l-.438.219l-1.75.937l-1.156.625l.875.938l5.406 5.812l.5.594l.688-.375L15 17.094l-1.031 5.687l-.344 1.813l1.719-.719l2.562-1.094l.375-.156l.157-.375l3.718-9.031l5.25-2.813c1.446-.777 2.028-2.617 1.25-4.062a3 3 0 0 0-1.781-1.438a3.1 3.1 0 0 0-1.156-.125m.187 2c.125-.008.254-.004.375.032a.979.979 0 0 1 .188 1.812l-5.594 3.031l-.313.156l-.125.344l-3.718 8.938l-.438.187l1.063-5.906l.375-2.031l-1.813.969l-6.312 3.406l-3.969-4.313l.156-.094l3.657 1.626l.468.218l.406-.25l15.22-8.031a.9.9 0 0 1 .374-.094M13.375 8.094l3.844.937l-2.063 1.063l-2.25-1.719zM3 26v2h26v-2z"/></svg>
                 </span>
-                        <span style="font-size:1.2rem">${format(i, 'area')}</span>
-                        <span><strong style="background:#B18451">Level: ${Math.max(1,areas[i].level-10)}-${areas[i].level}</strong><span></span></span>
+                        <span style="font-size:1.2rem">${t('ui.level_3', { v: format(i, 'area'), v2: Math.max(1,areas[i].level-10), v3: areas[i].level })}</strong><span></span></span>
                     </span>
                 </div>
                 <div style="width: 8rem;" class="explore-ticket-right">
@@ -918,7 +917,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
 
 
         let affectedText = ""
-        if (affectedAbilities.length>0) affectedText =`<br>${t('ui.affected_by', { v: joinWithAnd(affectedAbilities) })}`
+        if (affectedAbilities.length>0) affectedText =`<br>${t('ui.affected_by', { v: joinWithAnd(affectedAbilities, 'ability') })}`
         if (move[ttdata].restricted) affectedText +=`<br>${t('ui.this_move_is_restricted_restrictedicon_and', { restrictedIcon: restrictedIcon })}`
 
 
@@ -1015,7 +1014,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
                     </div>
                     <div class="pkmn-stats-panel-bst">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9 19v-2H5.675q-.5 0-.7-.45t.125-.8l6.15-6.9q.3-.35.75-.35t.75.35l6.15 6.9q.325.35.125.8t-.7.45H15v2q0 .425-.288.713T14 20h-4q-.425 0-.712-.288T9 19m3-13l-5.025 5.675q-.15.15-.35.238t-.4.087q-.65 0-.912-.575t.162-1.075l5.775-6.5q.3-.35.75-.35t.75.35l5.775 6.5q.425.5.163 1.075t-.913.575q-.2 0-.4-.075t-.35-.25z"/></svg>
-                         ${ returnStatDotsBase(ttdata, "spe")}
+                         ${returnStatDotsBase(ttdata, "spe")}
                     </div>
                 </div>
             </div>
@@ -1037,7 +1036,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
                         
 
             <div style="box-shadow: none; outline:none; cursor:default">
-                        Caught: ${pkmn[ttdata].caught}
+                        ${t('ui.caught_2', { v: pkmn[ttdata].caught })}
                 </div>
 
                 </div>
@@ -1617,7 +1616,7 @@ const sortedMovepool = movepool
         for (const e in pkmn){
             if (pkmn[e].hiddenAbility?.id == ttdata) signatureArray.push(e)
         }
-        if (signatureArray.length>0) signatureText = `<br><br>${t('ui.additionally_appears_as_the_hidden_ability', { v: joinWithAnd(signatureArray) })}`
+        if (signatureArray.length>0) signatureText = `<br><br>${t('ui.additionally_appears_as_the_hidden_ability', { v: joinWithAnd(signatureArray, 'pkmn') })}`
         
 
         document.getElementById("tooltipBottom").innerHTML = `
@@ -1632,7 +1631,7 @@ const sortedMovepool = movepool
 
         if (signatureArray.length>0) {
         document.getElementById("tooltipBottom").innerHTML = `
-        ${t('ui.this_ability_can_only_appear_as', { v: joinWithAnd(signatureArray) })}
+        ${t('ui.this_ability_can_only_appear_as', { v: joinWithAnd(signatureArray, 'pkmn') })}
         `
         } else{
         document.getElementById("tooltipBottom").innerHTML = `
@@ -1666,7 +1665,7 @@ const sortedMovepool = movepool
         }
             
         let affectedText = ""
-        if (affectedAbilities.length>0) affectedText =`<br>${t('ui.affected_by', { v: joinWithAnd(affectedAbilities) })}`
+        if (affectedAbilities.length>0) affectedText =`<br>${t('ui.affected_by', { v: joinWithAnd(affectedAbilities, 'ability') })}`
 
 
         document.getElementById("tooltipMid").innerHTML = t('ui.power_affectedtext_2', { v: move[ttdata].power, v2: format(move[ttdata].split, 'split'), affectedText: affectedText })
@@ -1698,10 +1697,10 @@ const sortedMovepool = movepool
 
 
         document.getElementById("tooltipBottom").innerHTML = `
-        ${t('ui.this_move_can_only_appear_as', { v: joinWithAnd(signatureArray) })}
+        ${t('ui.this_move_can_only_appear_as', { v: joinWithAnd(signatureArray, 'pkmn') })}
         `
         if (eggMoveUsers.length>0) document.getElementById("tooltipBottom").innerHTML += `
-        ${t('ui.and_the_egg_move_of', { v: joinWithAnd(eggMoveUsers) })}
+        ${t('ui.and_the_egg_move_of', { v: joinWithAnd(eggMoveUsers, 'pkmn') })}
         `
 
         }

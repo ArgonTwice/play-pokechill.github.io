@@ -469,7 +469,7 @@
             <div onclick="importData()" data-i18n="ui.import_data">Import Data</div>
             <div onclick="textData()" data-i18n="ui.data_to_text">Data to Text</div>
 
-            <div>Theme: <select id="settings-theme">
+            <div><span data-i18n="ui.theme">Theme:</span> <select id="settings-theme">
                 <option value="default" data-i18n="ui.default">default</option>
                 <option value="dark" data-i18n="ui.dark">dark</option>
                 <option value="verdant" data-i18n="ui.verdant">verdant</option>
@@ -480,7 +480,7 @@
                 <option value="oled" data-i18n="ui.oled">oled</option>
             </select></div>
 
-            <div>Language: <select id="settings-lang">
+            <div><span data-i18n="ui.language">Language:</span> <select id="settings-lang">
                 <option value="en" data-i18n="ui.english">English</option>
                 <option value="fr" data-i18n="ui.fran_ais">Français</option>
             </select></div>
@@ -515,7 +515,7 @@
         document.getElementById("tooltipMid").style.display = `none`
         document.getElementById("tooltipBottom").innerHTML = t("ui.made_by_duck_pokemon_and_trainer")
         openTooltip()'  data-i18n="ui.credits">Credits</div>
-            <div onclick="window.open(t('ui.https_discord_gg_vnukkfss'), '_blank')" data-i18n="ui.discord">Discord</div>
+            <div onclick="window.open('https://discord.gg/VnukKfSs3S', '_blank')" data-i18n="ui.discord">Discord</div>
 
             <div style="margin-top: 3rem;background: rgb(206, 83, 83); color: white; " onclick='document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").innerHTML = t("ui.are_you_sure_you_want_to_3")
@@ -560,7 +560,7 @@
                 <img src="img/pkmn/sprite/froakie.png"><span data-i18n="ui.froakie">Froakie</span><br><span data-i18n="ui.water_type">Water Type</span>
             </div>
 
-        <span style="color: white; background: transparent; padding: 0 2rem;">Tip: Right click (or long-press on mobile) on most elements for additional information</span>
+        <span style="color: white; background: transparent; padding: 0 2rem;" data-i18n="ui.tip_right_click_or_long_press">Tip: Right click (or long-press on mobile) on most elements for additional information</span>
 
         </div>
 
@@ -1288,7 +1288,7 @@
             
             </div>
 
-            <div style="display: none;" class="explore-pkmn-tag">Tag: <select id="explore-pkmn-tag">
+            <div style="display: none;" class="explore-pkmn-tag"><span data-i18n="ui.tag_2">Tag:</span> <select id="explore-pkmn-tag">
                 <option value="none" data-i18n="ui.none">none</option>
                 <option value="red" data-i18n="ui.red">red</option>
                 <option value="orange" data-i18n="ui.orange">orange</option>
@@ -1334,7 +1334,7 @@
 
                 </div>
 
-                <div id="pkmn-edit-division" data-i18n="ui.returndivisionletter_returnpkmndivision_poke_division"><span data-i18n="ui.returndivisionletter_returnpkmndivision_poke">${returnDivisionLetter(returnPkmnDivision(poke))}</span>division</div>
+                <div id="pkmn-edit-division"><span>${returnDivisionLetter(returnPkmnDivision(poke))}</span>division</div>
 
 
 
@@ -1603,12 +1603,12 @@
             </div>
 
             <div id="spiraling-indicator" class="spiraling-indicator">
-                <div id="spiraling-current-floor">Floor: 3</div>
+                <div id="spiraling-current-floor" data-i18n="ui.floor">Floor: 3</div>
                 <div id="spiraling-highest-floor"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><mask id="SVGIz3eBe9X"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M8 44h8m-4 0V4"/><path fill="#555555" d="M40 6H12v16h28l-4-8z"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGIz3eBe9X)"/></svg> <span data-i18n="ui.highest_floor">Highest Floor: 3</span></div>
             </div>
 
             <div id="factory-indicator" class="spiraling-indicator">
-                <div id="factory-current-score">Score: 0</div>
+                <div id="factory-current-score" data-i18n="ui.score">Score: 0</div>
                 <div id="factory-highest-score"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><mask id="SVGIz3eBe9X"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M8 44h8m-4 0V4"/><path fill="#555555" d="M40 6H12v16h28l-4-8z"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGIz3eBe9X)"/></svg> <span data-i18n="ui.highest_score">Highest Score: 0</span></div>
             </div>
 

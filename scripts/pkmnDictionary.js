@@ -20229,17 +20229,17 @@ function statToRating(baseStat) {
 const ribbon = {}
 
 ribbon.souvenir ={
-    name: `Souvenir Ribbon`,
+    name: t('ribbon.souvenir.name'),
     description: t('ribbon.souvenir.description')
 }
 
 ribbon.tower1 ={
-    name: `Endurance Ribbon`,
+    name: t('ribbon.tower1.name'),
     description: t('ribbon.tower1.description')
 }
 
 ribbon.smile ={
-    name: `Smile Ribbon`,
+    name: t('ribbon.smile.name'),
     description: t('ribbon.smile.description')
 }
 

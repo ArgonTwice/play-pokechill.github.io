@@ -27,7 +27,9 @@ function t(key, vars) {
         if (one !== undefined) key = key + '_one';
     }
     let s = i18nCur[key] ?? i18nEn[key] ?? key;
-    if (vars) s = s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
+    // Décimales : 1.15 → 1,15 en français (uniquement pour les valeurs purement numériques)
+    const num = v => (lang === 'fr' && /^-?\d+\.\d+$/.test(String(v)) ? String(v).replace('.', ',') : v);
+    if (vars) s = s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? num(vars[k]) : m));
     return s;
 }
 

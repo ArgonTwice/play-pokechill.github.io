@@ -453,19 +453,19 @@ ability.growthAbsorb = {
 ability.strongJaw = {
     type: [`dark`],
     rarity: 2,
-    info: function() {return `${t('ability.strongJaw.info', { v: joinWithAnd(movesAffectedByStrongJaw) })}</span>`},
+    info: function() {return `${t('ability.strongJaw.info', { v: joinWithAnd(movesAffectedByStrongJaw, 'move') })}</span>`},
 }
 
 ability.toughClaws = {
     type: [`dragon`],
     rarity: 2,
-    info: function() {return `${t('ability.toughClaws.info', { v: joinWithAnd(movesAffectedByToughClaws) })}</span>`},
+    info: function() {return `${t('ability.toughClaws.info', { v: joinWithAnd(movesAffectedByToughClaws, 'move') })}</span>`},
 }
 
 ability.ironFist = {
     type: [`fighting`],
     rarity: 2,
-    info: function() {return `${t('ability.ironFist.info', { v: joinWithAnd(movesAffectedByIronFist) })}</span>`},
+    info: function() {return `${t('ability.ironFist.info', { v: joinWithAnd(movesAffectedByIronFist, 'move') })}</span>`},
 }
 
 
@@ -690,7 +690,7 @@ ability.skillLink = {
 ability.sharpness = {
     type: [`steel`],
     rarity: 3,
-    info: function() {return `${t('ability.sharpness.info', { v: joinWithAnd(movesAffectedBySharpness) })}</span>`},
+    info: function() {return `${t('ability.sharpness.info', { v: joinWithAnd(movesAffectedBySharpness, 'move') })}</span>`},
 }
 
 ability.angerPoint = {
@@ -916,26 +916,26 @@ ability.corrosion = {
 
 ability.dancer = {
     rarity: 3,
-    info: function() {return `${t('ability.dancer.info', { v: joinWithAnd(movesAffectedByDancer) })}<span>`},
+    info: function() {return `${t('ability.dancer.info', { v: joinWithAnd(movesAffectedByDancer, 'move') })}<span>`},
     nerf: t('ability.dancer.nerf')
 }
 
 ability.cacophony = {
     rarity: 3,
-    info: function() {return `${t('ability.cacophony.info', { v: joinWithAnd(movesAffectedByCacophony) })}<span>`},
+    info: function() {return `${t('ability.cacophony.info', { v: joinWithAnd(movesAffectedByCacophony, 'move') })}<span>`},
     nerf: t('ability.dancer.nerf')
 }
 
 ability.windRider = {
     rarity: 3,
-    info: function() {return `${t('ability.windRider.info', { v: joinWithAnd(movesAffectedByWindRider) })}<span>`},
+    info: function() {return `${t('ability.windRider.info', { v: joinWithAnd(movesAffectedByWindRider, 'move') })}<span>`},
     nerf: t('ability.dancer.nerf')
 }
 
 
 ability.iaido = {
     rarity: 3,
-    info: function() {return `${t('ability.iaido.info', { v: joinWithAnd(movesAffectedBySharpness) })}<span>`},
+    info: function() {return `${t('ability.iaido.info', { v: joinWithAnd(movesAffectedBySharpness, 'move') })}<span>`},
     nerf: t('ability.dancer.nerf')
 }
 
@@ -945,12 +945,12 @@ ability.iaido = {
 
 ability.megaLauncher = {
     rarity: 3,
-    info: function() {return `${t('ability.megaLauncher.info', { v: joinWithAnd(movesAffectedByMegaLauncher) })}<span>`},
+    info: function() {return `${t('ability.megaLauncher.info', { v: joinWithAnd(movesAffectedByMegaLauncher, 'move') })}<span>`},
 }
 
 ability.metalhead = {
     rarity: 3,
-    info: function() {return `${t('ability.metalhead.info', { v: joinWithAnd(movesAffectedByMetalhead) })}<span>`},
+    info: function() {return `${t('ability.metalhead.info', { v: joinWithAnd(movesAffectedByMetalhead, 'move') })}<span>`},
 }
 
 ability.imposter = {

@@ -635,14 +635,14 @@ item.timeCandy = {
     type: "key",
     usable: true,
     effect: function() {  if(afkSeconds<=0 && saved.currentArea!==areas.frontierSpiralingTower.id && saved.currentArea!==undefined) {afkSeconds += 10*60; this.got--; updateItemBag()} else {document.getElementById("tooltipTop").style.display = "none"; document.getElementById("tooltipMid").style.display = "none"; document.getElementById("tooltipBottom").innerHTML = t('ui.cant_do_that_right_now'); openTooltip()}  },
-    info: function() {return `Use: Fast-forward battle time by 10 minutes. Must be used while battling`},
+    info: function() {return t('item.timeCandy.info')},
 }
 
 item.timeCandyXL = {
     type: "key",
     usable: true,
     effect: function() {  if(afkSeconds<=0 && saved.currentArea!==areas.frontierSpiralingTower.id && saved.currentArea!==undefined) {afkSeconds += 30*60; this.got--; updateItemBag()} else {document.getElementById("tooltipTop").style.display = "none"; document.getElementById("tooltipMid").style.display = "none"; document.getElementById("tooltipBottom").innerHTML = t('ui.cant_do_that_right_now'); openTooltip()}  },
-    info: function() {return `Use: Fast-forward battle time by 30 minutes. Must be used while battling`},
+    info: function() {return t('item.timeCandyXL.info')},
 }
 
 item.festivalTicket = {
@@ -651,7 +651,7 @@ item.festivalTicket = {
     effect: function() {
         seasonalSwitch() 
     },
-    info: function() {return `Use: Triggers a specified seasonal event for the next 10 days. It will last for the 10 following days, and will get replaced by currently-ongoing ones. However, the seasonal shop of that event wont open`},
+    info: function() {return t('item.festivalTicket.info')},
 }
 
 
@@ -662,38 +662,38 @@ item.festivalTicket = {
 item.rareCandy = {
     type: 'key',
     itemToUse: true,
-    info: function() {return `Use: Increase the level of a Pokemon by 1`},
+    info: function() {return t('item.rareCandy.info')},
 }
 
 item.abilityPatch = {
     type: 'key',
     itemToUse: true,
-    info: function() {return `Use: Re-roll the ability of a Pokemon`},
+    info: function() {return t('item.abilityPatch.info')},
 }
 
 item.abilityCapsule = {
     type: 'key',
     itemToUse: true,
-    info: function() {return `Use: Unlock the hidden ability of a Pokemon`},
+    info: function() {return t('item.abilityCapsule.info')},
 }
 
 item.heartScale = {
     type: 'key',
     itemToUse: true,
-    info: function() {return `Use: Re-learn a previously learned move acquired through genetics inheriting (excluding moves inherited through Lock Capsules)`},
+    info: function() {return t('item.heartScale.info')},
 }
 
 item.energyRoot = {
     type: "key",
     usable: true,
     effect: function() {  if(saved.geneticOperation > 1) {afkSecondsGenetics += 30*60; this.got--; updateItemBag()} else {document.getElementById("tooltipTop").style.display = "none"; document.getElementById("tooltipMid").style.display = "none"; document.getElementById("tooltipBottom").innerHTML = t('ui.cant_do_that_right_now'); openTooltip()}  },
-    info: function() {return `Use: Fast-forward genetic operation time by 30 minutes. Must be used while an active operation is ongoing`},
+    info: function() {return t('item.energyRoot.info')},
 }
 
 item.fashionCase = {
     type: 'key',
     usable: true,
-    info: function() {return `Use: Get a random Decor`},
+    info: function() {return t('item.fashionCase.info')},
     effect: function() {
 
     let pickedDecor = []
@@ -735,7 +735,7 @@ item.fashionCase = {
 item.neutralMint = {
     type: 'key',
     itemToUse: true,
-    info: function() {return `Use: Removes the nature of a Pokemon`},
+    info: function() {return t('item.neutralMint.info')},
 }
 
 
@@ -952,42 +952,42 @@ item.hpUp = {
     subtitle: `(Hp)`,
     type: 'key',
     vitamin: true,
-    info: function() {return `Use: Increase the HP IV of a Pokemon by 1`},
+    info: function() {return t('item.hpUp.info')},
 }
 
 item.protein = {
     subtitle: t('item.protein.subtitle'),
     type: 'key',
     vitamin: true,
-    info: function() {return `Use: Increase the Attack IV of a Pokemon by 1`},
+    info: function() {return t('item.protein.info')},
 }
 
 item.iron = {
     subtitle: t('item.iron.subtitle'),
     type: 'key',
     vitamin: true,
-    info: function() {return `Use: Increase the Defense IV of a Pokemon by 1`},
+    info: function() {return t('item.iron.info')},
 }
 
 item.calcium = {
     subtitle: t('item.calcium.subtitle'),
     type: 'key',
     vitamin: true,
-    info: function() {return `Use: Increase the Special Attack IV of a Pokemon by 1`},
+    info: function() {return t('item.calcium.info')},
 }
 
 item.zinc = {
     subtitle: t('item.zinc.subtitle'),
     type: 'key',
     vitamin: true,
-    info: function() {return `Use: Increase the Special Defense IV of a Pokemon by 1`},
+    info: function() {return t('item.zinc.info')},
 }
 
 item.carbos = {
     subtitle: t('item.carbos.subtitle'),
     type: 'key',
     vitamin: true,
-    info: function() {return `Use: Increase the Speed IV of a Pokemon by 1`},
+    info: function() {return t('item.carbos.info')},
 }
 
 
@@ -2150,7 +2150,7 @@ for (const i in item){
         item[i].move = i.slice(0, -2); 
         item[i].type = "tm";
         
-        item[i].info = function () { return `Use: Teach the move <span data-move="${move[item[i].move].id}" ><span  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor(move[item[i].move].type)}">${format(move[item[i].move].id, 'move')}</span></span> to ${joinWithOr(move[item[i].move].moveset)} Pokemon`}        
+        item[i].info = function () { return t('ui.use_teach_the_move_to_pokemon', { v: joinWithOr(move[item[i].move].moveset), v2: `<span data-move="${move[item[i].move].id}" ><span  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor(move[item[i].move].type)}">${format(move[item[i].move].id, 'move')}</span></span>` })}        
     }
 
     if (i.endsWith("Memory")) {
@@ -2163,40 +2163,44 @@ for (const i in item){
         if (item[i].typings && item[i].typings[0]!="normal") item[i].image = item[i].typings[0]
         else if (item[i].typings== undefined && ability[item[i].ability].type[0]!="all" && ability[item[i].ability].type[0]!="normal") item[i].image = ability[item[i].ability].type[0]
 
-        if (item[i].typings!=undefined) item[i].info = function () { return `Use: Teach the ability <span data-ability="${ability[item[i].ability].id}" ><span  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor(item[i].image)}">${format(ability[item[i].ability].id, 'ability')}</span></span> to ${joinWithOr(item[i].typings)} Pokemon`}        
-        else item[i].info = function () { return `Use: Teach the ability <span data-ability="${ability[item[i].ability].id}" ><span  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor(item[i].image)}">${format(ability[item[i].ability].id, 'ability')}</span></span> to ${joinWithOr(ability[item[i].ability].type)} Pokemon`}        
+        if (item[i].typings!=undefined) item[i].info = function () { return t('ui.use_teach_the_ability_to_pokemon', { v: joinWithOr(item[i].typings), v2: `<span data-ability="${ability[item[i].ability].id}" ><span  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor(item[i].image)}">${format(ability[item[i].ability].id, 'ability')}</span></span>` })}        
+        else item[i].info = function () { return t('ui.use_teach_the_ability_to_pokemon', { v: joinWithOr(ability[item[i].ability].type), v2: `<span data-ability="${ability[item[i].ability].id}" ><span  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor(item[i].image)}">${format(ability[item[i].ability].id, 'ability')}</span></span>` })}        
     }
 
     if (item[i].type == "decor") {
     item[i].itemToUse =  true,
-    item[i].info = function () { return `Use: Unlock this cosmetic for a selected Pokemon`}
+    item[i].info = function () { return t('ui.use_unlock_this_cosmetic_for_selected')}
     }        
 
 }
 
-function joinWithOr(list) {
-    if (list.includes("all")) return "all";
+// ns : namespace des éléments listés (type, move, ability, pkmn)
+function joinWithOr(list, ns = 'type') {
+    if (list.includes("all")) return t('ui.join_all');
 
-    const formatted = list.map(x => format(x, 'type'));
+    const formatted = list.map(x => format(x, ns));
+    const or = t('ui.join_or');
     const len = formatted.length;
 
     if (len === 0) return "";
     if (len === 1) return formatted[0];
-    if (len === 2) return `${formatted[0]} or ${formatted[1]}`;
+    if (len === 2) return `${formatted[0]} ${or} ${formatted[1]}`;
 
-    return `${formatted.slice(0, -1).join(", ")}, or ${formatted[len - 1]}`;
+    return `${formatted.slice(0, -1).join(", ")}${lang === 'en' ? ',' : ''} ${or} ${formatted[len - 1]}`;
 }
 
-function joinWithAnd(list) {
-    if (list.includes("all")) return "all";
+// ns : namespace des éléments listés (type, move, ability, pkmn)
+function joinWithAnd(list, ns = 'type') {
+    if (list.includes("all")) return t('ui.join_all');
 
-    const formatted = list.map(x => format(x, 'type'));
+    const formatted = list.map(x => format(x, ns));
+    const and = t('ui.join_and');
     const len = formatted.length;
 
     if (len === 0) return "";
     if (len === 1) return formatted[0];
-    if (len === 2) return `${formatted[0]} and ${formatted[1]}`;
+    if (len === 2) return `${formatted[0]} ${and} ${formatted[1]}`;
 
-    return `${formatted.slice(0, -1).join(", ")}, and ${formatted[len - 1]}`;
+    return `${formatted.slice(0, -1).join(", ")}${lang === 'en' ? ',' : ''} ${and} ${formatted[len - 1]}`;
 }
 

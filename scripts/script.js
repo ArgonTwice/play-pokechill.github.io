@@ -707,79 +707,79 @@ function openTutorial(){
 const guide = {}
 
 guide.inspecting = {
-  name: `Inspecting`,
+  name: t('ui.inspecting'),
   description: function() { return t('ui.right_click_long_press_on_most')}
 }
 
 guide.stats = {
-  name: `Battle: Stats`,
+  name: t('ui.battle_stats'),
   description: function() { return t('ui.each_species_of_pok_mon_share')}
 }
 
 guide.abilities = {
-  name: `Battle: Abilities`,
+  name: t('ui.battle_abilities'),
   description: function() { return t('ui.abilities_are_traits_that_pokemon_can')}
 }
 
 guide.experience = {
-  name: `Battle: Experience`,
+  name: t('ui.battle_experience'),
   description: function() { return t('ui.pokemon_gain_experience_by_defeating_foes')}
 }
 
 guide.moves = {
-  name: `Battle: Moves`,
+  name: t('ui.battle_moves'),
   description: function() { return t('ui.moves_are_learnt_every_levels_moves')}
 }
 
 guide.stab = {
-  name: `Battle: STAB`,
+  name: t('ui.battle_stab'),
   description: function() { return t('ui.if_pokemon_uses_damaging_move_that') }
 }
 
 guide.crossStab = {
-  name: `Battle: Cross-Power`,
+  name: t('ui.battle_cross_power'),
   description: function() { return t('ui.if_pokemon_uses_damaging_move_that_2') }
 }
 
 guide.battleFatigue = {
-  name: `Battle: Battle Fatigue`,
+  name: t('ui.battle_battle_fatigue'),
   description: function() { return t('ui.pokemon_lose_very_small_fraction_of') }
 }
 
 guide.statusEffects = {
-  name: `Battle: Status Effects`,
+  name: t('ui.battle_status_effects'),
   description: function() { return t('ui.certain_moves_inflict_status_effects_such', { tagConfused: tagConfused, tagBurn: tagBurn, tagPoisoned: tagPoisoned, tagFreeze: tagFreeze, tagParalysis: tagParalysis, tagSleep: tagSleep }) }
 }
 
 guide.buffsDebuffs = {
-  name: `Battle: Buffs and Debuffs`,
+  name: t('ui.battle_buffs_and_debuffs'),
   description: function() { return t('ui.like_status_effects_increases_or_decreases') }
 }
 
 guide.weather = {
-  name: `Battle: Weather`,
+  name: t('ui.battle_weather'),
   description: function() { return t('ui.certain_moves_can_change_the_weather', { tagSunny: tagSunny, tagRainy: tagRainy, tagSandstorm: tagSandstorm, tagHail: tagHail, tagFoggy: tagFoggy, tagElectricTerrain: tagElectricTerrain, tagGrassyTerrain: tagGrassyTerrain, tagMistyTerrain: tagMistyTerrain, tagTrickRoom: tagTrickRoom, tagWeirdRoom: tagWeirdRoom, tagCrossRoom: tagCrossRoom, tagLightScreen: tagLightScreen, tagSafeguard: tagSafeguard }) }
 }
 
 guide.shiny = {
-  name: `Shiny Pokemon`,
+  name: t('ui.shiny_pokemon'),
   description: function() { return t('ui.at_rate_of_pokemon_can_be')}
 }
 
 guide.genetics = {
-  name: `Genetics: Quick Guide`,
+  name: t('ui.genetics_quick_guide'),
   description: function() { return `
     ${t('ui.genetics_allows_you_to_modify_pokemon')}
     `}
 }
 
 guide.compatibility = {
-  name: `Genetics: Compatibility`,
+  name: t('ui.genetics_compatibility'),
   description: function() { return t('ui.compatibility_determines_how_similar_the_sample')}
 }
 
 guide.powerCost = {
-  name: `Genetics: Power Cost`,
+  name: t('ui.genetics_power_cost'),
   description: function() { return t('ui.power_cost_determines_how_taxing_it')}
 }
 

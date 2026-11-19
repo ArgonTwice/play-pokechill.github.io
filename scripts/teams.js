@@ -1071,7 +1071,7 @@ function updatePreviewTeam(){
 function handleDragStart(e) {
     draggedSlot = this.dataset.slot;
     e.dataTransfer.effectAllowed = 'move';
-    e.dataTransfer.setData(t('ui.text_html'), this.innerHTML);
+    e.dataTransfer.setData('text/html', this.innerHTML);
     
     // Estilo visual para el elemento que se está arrastrando
     setTimeout(() => {
