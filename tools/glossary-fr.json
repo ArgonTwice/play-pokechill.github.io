@@ -19924,56 +19924,56 @@
   "fr": "Forêt Verdoyante",
   "categorie": "area",
   "cle": "verdantForest",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Foggy Graveyard",
   "fr": "Cimetière Brumeux",
   "categorie": "area",
   "cle": "foggyGraveyard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Woodland Concert",
   "fr": "Concert Sylvestre",
   "categorie": "area",
   "cle": "woodlandConcert",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Mantle Core",
   "fr": "Noyau du Manteau",
   "categorie": "area",
   "cle": "mantleCore",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fido Park",
   "fr": "Parc Toutou",
   "categorie": "area",
   "cle": "fidoPark",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "City Sewers",
   "fr": "Égouts de la Ville",
   "categorie": "area",
   "cle": "citySewers",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Active Volcano",
   "fr": "Volcan Actif",
   "categorie": "area",
   "cle": "activeVolcano",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Power Plant",
@@ -19988,40 +19988,40 @@
   "fr": "Prairie Paisible",
   "categorie": "area",
   "cle": "quietMeadow",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Urban Walkway",
   "fr": "Promenade Urbaine",
   "categorie": "area",
   "cle": "urbanWalkway",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sandy Dunes",
   "fr": "Dunes de Sable",
   "categorie": "area",
   "cle": "sandyDunes",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sunken Ship",
   "fr": "Navire Englouti",
   "categorie": "area",
   "cle": "sunkenShip",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Offshore Rigger",
   "fr": "Plateforme en Mer",
   "categorie": "area",
   "cle": "offshoreRigger",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Safari Zone",
@@ -20033,131 +20033,131 @@
  },
  {
   "en": "Cool Beach",
-  "fr": "Plage Fraîche",
+  "fr": "Plage Détente",
   "categorie": "area",
   "cle": "coolBeach",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur (Plage Détente : zone sans type Glace, décor tropical — scripts/areasDictionary.js areas.coolBeach)",
+  "statut": "ok"
  },
  {
   "en": "Computering Lab",
   "fr": "Labo Informatique",
   "categorie": "area",
   "cle": "computeringLab",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Gemstone Cavern",
   "fr": "Caverne des Gemmes",
   "categorie": "area",
   "cle": "gemstoneCavern",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Frozen Lake",
   "fr": "Lac Gelé",
   "categorie": "area",
   "cle": "frozenLake",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Abandoned Manor",
   "fr": "Manoir Abandonné",
   "categorie": "area",
   "cle": "abandonedManor",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Draco Lair",
   "fr": "Antre Draco",
   "categorie": "area",
   "cle": "dracoLair",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Mountain Trail",
   "fr": "Sentier de Montagne",
   "categorie": "area",
   "cle": "mountainTrail",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Tea Parlor",
   "fr": "Salon de Thé",
   "categorie": "area",
   "cle": "teaParlor",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Pokemon Dojo",
   "fr": "Dojo Pokémon",
   "categorie": "area",
   "cle": "pokemonDojo",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sky High",
   "fr": "Haut des Cieux",
   "categorie": "area",
   "cle": "skyHigh",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Dank Cave",
   "fr": "Grotte Humide",
   "categorie": "area",
   "cle": "dankCave",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Forest Shrine",
   "fr": "Sanctuaire Sylvestre",
   "categorie": "area",
   "cle": "forestShrine",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Street Circus",
   "fr": "Cirque de Rue",
   "categorie": "area",
   "cle": "streetCircus",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Weapons Facility",
   "fr": "Usine d’Armement",
   "categorie": "area",
   "cle": "weaponsFacility",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Scorching Badlands",
   "fr": "Terres Brûlées",
   "categorie": "area",
   "cle": "scorchingBadlands",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Lava Lake",
   "fr": "Lac de Lave",
   "categorie": "area",
   "cle": "lavaLake",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Crashing Seaside",
@@ -20532,24 +20532,24 @@
   "fr": "Antre d’Électhor",
   "categorie": "area",
   "cle": "eventZapdos",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Articuno Den",
   "fr": "Tanière d’Artikodin",
   "categorie": "area",
   "cle": "eventArticuno",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Moltres Roost",
   "fr": "Perchoir de Sulfura",
   "categorie": "area",
   "cle": "eventMoltres",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Camerupt Mega-Showdown",
@@ -20740,16 +20740,16 @@
   "fr": "Perchoir des Terres Arides",
   "categorie": "area",
   "cle": "eventGalarianZapdos",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Groundblight Shrine",
   "fr": "Sanctuaire du Fléau Tellurique",
   "categorie": "area",
   "cle": "eventTingLu",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+  "statut": "ok"
  },
  {
   "en": "Exotic Pond",
@@ -20772,16 +20772,16 @@
   "fr": "Tombeau Ancien",
   "categorie": "area",
   "cle": "ancientTomb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Steel Tomb",
   "fr": "Tombeau d’Acier",
   "categorie": "area",
   "cle": "steelTomb",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sceptile Mega-Showdown",
@@ -20812,24 +20812,24 @@
   "fr": "Tombeau de Regirock",
   "categorie": "area",
   "cle": "eventRegirock",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Registeel Tomb",
   "fr": "Tombeau de Registeel",
   "categorie": "area",
   "cle": "eventRegisteel",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Regice Tomb",
   "fr": "Tombeau de Regice",
   "categorie": "area",
   "cle": "eventRegice",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Mawile Mega-Showdown",
@@ -20860,16 +20860,16 @@
   "fr": "Ruines Transistor",
   "categorie": "area",
   "cle": "eventRegieleki",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Drago Ruins",
   "fr": "Ruines Draco",
   "categorie": "area",
   "cle": "eventRegidrago",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Primeval volcano",
@@ -20908,8 +20908,8 @@
   "fr": "Chambre-00",
   "categorie": "area",
   "cle": "eventNaganadel",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Experimental Lab",
@@ -20932,56 +20932,56 @@
   "fr": "Réalité Vide",
   "categorie": "area",
   "cle": "eventGuzzlord",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Glowing Reality",
   "fr": "Réalité Lumineuse",
   "categorie": "area",
   "cle": "eventXurkitree",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chamber-01",
   "fr": "Chambre-01",
   "categorie": "area",
   "cle": "eventNihilego",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chamber-02",
   "fr": "Chambre-02",
   "categorie": "area",
   "cle": "eventKartana",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Tropical Reality",
   "fr": "Réalité Tropicale",
   "categorie": "area",
   "cle": "eventBuzzwole",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chamber-03",
   "fr": "Chambre-03",
   "categorie": "area",
   "cle": "eventPheromosa",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chamber-04",
   "fr": "Chambre-04",
   "categorie": "area",
   "cle": "eventBlacephalon",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Wormhole Space",
@@ -21004,8 +21004,8 @@
   "fr": "Fosse Tempête",
   "categorie": "area",
   "cle": "eventTapuFini",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strange Space",
@@ -21020,8 +21020,8 @@
   "fr": "Sanctuaire du Fléau Glacial",
   "categorie": "area",
   "cle": "eventChienPao",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+  "statut": "ok"
  },
  {
   "en": "Dragonite Mega-Showdown",
@@ -21036,8 +21036,8 @@
   "fr": "Perchoir Maléfique",
   "categorie": "area",
   "cle": "eventGalarianMoltres",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ecosphere",
@@ -21084,16 +21084,16 @@
   "fr": "Nuées Lointaines",
   "categorie": "area",
   "cle": "eventThundurusTherian",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Capacitor Tower",
   "fr": "Tour Condensateur",
   "categorie": "area",
   "cle": "eventTapuKoko",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Thorns Revival",
@@ -21180,16 +21180,16 @@
   "fr": "Sanctuaire du Fléau Ardent",
   "categorie": "area",
   "cle": "eventChiYu",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+  "statut": "ok"
  },
  {
   "en": "Frozen Roost",
   "fr": "Perchoir Gelé",
   "categorie": "area",
   "cle": "eventGalarianArticuno",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Alpha Ruins",
@@ -21236,8 +21236,8 @@
   "fr": "Plaine des Rêves",
   "categorie": "area",
   "cle": "eventCresselia",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Stark Mountain",
@@ -21268,32 +21268,32 @@
   "fr": "Sanctuaire du Fléau Végétal",
   "categorie": "area",
   "cle": "eventWoChien",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+  "statut": "ok"
  },
  {
   "en": "Mesprit cavern",
   "fr": "Caverne de Créfollet",
   "categorie": "area",
   "cle": "eventMesprit",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Azelf cavern",
   "fr": "Caverne de Créfadet",
   "categorie": "area",
   "cle": "eventAzelf",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Uxie cavern",
   "fr": "Caverne de Créhelf",
   "categorie": "area",
   "cle": "eventUxie",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Pidgeot Mega-Showdown",

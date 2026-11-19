@@ -2104,38 +2104,38 @@
    },
    "verdantForest": {
     "fr": "Forêt Verdoyante",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "foggyGraveyard": {
     "fr": "Cimetière Brumeux",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "woodlandConcert": {
     "fr": "Concert Sylvestre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "mantleCore": {
     "fr": "Noyau du Manteau",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fidoPark": {
     "fr": "Parc Toutou",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "citySewers": {
     "fr": "Égouts de la Ville",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "activeVolcano": {
     "fr": "Volcan Actif",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "powerPlant": {
     "fr": "Centrale",
@@ -2144,28 +2144,28 @@
    },
    "quietMeadow": {
     "fr": "Prairie Paisible",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "urbanWalkway": {
     "fr": "Promenade Urbaine",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "sandyDunes": {
     "fr": "Dunes de Sable",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "sunkenShip": {
     "fr": "Navire Englouti",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "offshoreRigger": {
     "fr": "Plateforme en Mer",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "safariZone": {
     "fr": "Parc Safari",
@@ -2173,84 +2173,84 @@
     "statut": "ok"
    },
    "coolBeach": {
-    "fr": "Plage Fraîche",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Plage Détente",
+    "source": "proposition validée par l’utilisateur (Plage Détente : zone sans type Glace, décor tropical — scripts/areasDictionary.js areas.coolBeach)",
+    "statut": "ok"
    },
    "computeringLab": {
     "fr": "Labo Informatique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "gemstoneCavern": {
     "fr": "Caverne des Gemmes",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "frozenLake": {
     "fr": "Lac Gelé",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "abandonedManor": {
     "fr": "Manoir Abandonné",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dracoLair": {
     "fr": "Antre Draco",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "mountainTrail": {
     "fr": "Sentier de Montagne",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "teaParlor": {
     "fr": "Salon de Thé",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "pokemonDojo": {
     "fr": "Dojo Pokémon",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "skyHigh": {
     "fr": "Haut des Cieux",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "dankCave": {
     "fr": "Grotte Humide",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "forestShrine": {
     "fr": "Sanctuaire Sylvestre",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "streetCircus": {
     "fr": "Cirque de Rue",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "weaponsFacility": {
     "fr": "Usine d’Armement",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "scorchingBadlands": {
     "fr": "Terres Brûlées",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "lavaLake": {
     "fr": "Lac de Lave",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "crashingSeaside": {
     "fr": "Côte Déchaînée",
@@ -2394,13 +2394,13 @@
    },
    "ancientTomb": {
     "fr": "Tombeau Ancien",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "steelTomb": {
     "fr": "Tombeau d’Acier",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "paupauFestival": {
     "fr": "Festival Pau-Pau",
@@ -2559,18 +2559,18 @@
    },
    "eventZapdos": {
     "fr": "Antre d’Électhor",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventArticuno": {
     "fr": "Tanière d’Artikodin",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventMoltres": {
     "fr": "Perchoir de Sulfura",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventTapuBulu": {
     "fr": "Prairie Vierge",
@@ -2579,38 +2579,38 @@
    },
    "eventGalarianZapdos": {
     "fr": "Perchoir des Terres Arides",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventTingLu": {
     "fr": "Sanctuaire du Fléau Tellurique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
    },
    "eventRegirock": {
     "fr": "Tombeau de Regirock",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventRegisteel": {
     "fr": "Tombeau de Registeel",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventRegice": {
     "fr": "Tombeau de Regice",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventRegieleki": {
     "fr": "Ruines Transistor",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventRegidrago": {
     "fr": "Ruines Draco",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventGougingFire": {
     "fr": "Volcan Primitif",
@@ -2619,8 +2619,8 @@
    },
    "eventNaganadel": {
     "fr": "Chambre-00",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventSilvally": {
     "fr": "Labo Expérimental",
@@ -2634,43 +2634,43 @@
    },
    "eventGuzzlord": {
     "fr": "Réalité Vide",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventXurkitree": {
     "fr": "Réalité Lumineuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventNihilego": {
     "fr": "Chambre-01",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventKartana": {
     "fr": "Chambre-02",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventBuzzwole": {
     "fr": "Réalité Tropicale",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventPheromosa": {
     "fr": "Chambre-03",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventBlacephalon": {
     "fr": "Chambre-04",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventTapuFini": {
     "fr": "Fosse Tempête",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventTapuLele": {
     "fr": "Espace Étrange",
@@ -2679,38 +2679,38 @@
    },
    "eventChienPao": {
     "fr": "Sanctuaire du Fléau Glacial",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
    },
    "eventGalarianMoltres": {
     "fr": "Perchoir Maléfique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventThundurusTherian": {
     "fr": "Nuées Lointaines",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventTapuKoko": {
     "fr": "Tour Condensateur",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventChiYu": {
     "fr": "Sanctuaire du Fléau Ardent",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
    },
    "eventGalarianArticuno": {
     "fr": "Perchoir Gelé",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventCresselia": {
     "fr": "Plaine des Rêves",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventHeatran": {
     "fr": "Mont Abrupt",
@@ -2719,23 +2719,23 @@
    },
    "eventWoChien": {
     "fr": "Sanctuaire du Fléau Végétal",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur ; « Fléau » officiel : web:https://www.pokepedia.fr/Trésors_du_fléau (talents Bois/Épée/Urne/Perles du Fléau)",
+    "statut": "ok"
    },
    "eventMesprit": {
     "fr": "Caverne de Créfollet",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventAzelf": {
     "fr": "Caverne de Créfadet",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventUxie": {
     "fr": "Caverne de Créhelf",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "vsRocketGrunt1": {
     "fr": "Sbire Rocket",
