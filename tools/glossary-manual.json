@@ -732,13 +732,13 @@
    },
    "oddRock": {
     "fr": "Pierre Étrange",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "foggySeed": {
-    "fr": "Graine Brumeuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Graine Brouillard",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "goldenBottleCap": {
     "fr": "Capsule d’Or",
@@ -766,24 +766,24 @@
     "statut": "à valider"
    },
    "megaShard": {
-    "fr": "Méga-Éclat",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Méga-Fragment",
+    "source": "web:pokepedia.fr/Méga-Fragment + pokebip.com (Légendes Z-A)",
+    "statut": "ok"
    },
    "megaPiece": {
-    "fr": "Méga-Fragment",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Méga-Éclat",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "megaChunk": {
     "fr": "Méga-Bloc",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "megaCluster": {
     "fr": "Méga-Amas",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "primalEarth": {
     "fr": "Terre Primordiale",
@@ -872,13 +872,13 @@
    },
    "tmDummy": {
     "fr": "CT Factice",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "nothing": {
     "fr": "Rien",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "wealthyCoins": {
     "fr": "Pièces Fortunées",
@@ -1203,6 +1203,21 @@
    "fashionCase": {
     "fr": "Coffret Mode",
     "source": "web:pokeapi.co/item/fashion-case (décision utilisateur : officiel > bible)",
+    "statut": "ok"
+   },
+   "fogTm": {
+    "fr": "CT Brouillard",
+    "source": "motif:CT validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "crossRoomTm": {
+    "fr": "CT Zone Croisée",
+    "source": "motif:CT validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "weirdRoomTm": {
+    "fr": "CT Zone Bizarre",
+    "source": "motif:CT validé par l’utilisateur",
     "statut": "ok"
    }
   },
@@ -2254,13 +2269,13 @@
    },
    "crashingSeaside": {
     "fr": "Côte Déchaînée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "strangeSpace": {
     "fr": "Espace Étrange",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "chargestoneCave": {
     "fr": "Grotte Électrolithe",
@@ -2268,34 +2283,34 @@
     "statut": "ok"
    },
    "seafoamCurrents": {
-    "fr": "Courants Écume",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Courants d’Écume",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "valorLakeside": {
     "fr": "Rive du Lac Courage",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "thornwoodForest": {
     "fr": "Forêt Épineuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "unovaWorks": {
     "fr": "Ateliers d’Unys",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "snowpointCliff": {
     "fr": "Falaise de Frimapic",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "hollowNest": {
     "fr": "Nid Creux",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "poniCanyon": {
     "fr": "Grand Canyon de Poni",
@@ -2304,8 +2319,8 @@
    },
    "seaBed": {
     "fr": "Fond Marin",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "lonLonRanch": {
     "fr": "Ranch Lon Lon",
@@ -2314,13 +2329,13 @@
    },
    "saruTemple": {
     "fr": "Temple Saru",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "evilSummit": {
     "fr": "Sommet Maléfique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fuegoIronworks": {
     "fr": "Forge Fuego",
@@ -2329,8 +2344,8 @@
    },
    "permafrostGrotto": {
     "fr": "Grotte du Permafrost",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "berryForest": {
     "fr": "Bois Baies",
@@ -2339,23 +2354,23 @@
    },
    "relicPassage": {
     "fr": "Passage des Reliques",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "cosplayConvention": {
     "fr": "Convention Cosplay",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "suspiciousManor": {
     "fr": "Manoir Suspect",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "summitOfSeasons": {
     "fr": "Sommet des Saisons",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ceruleanCave": {
     "fr": "Caverne Azurée",
@@ -2363,19 +2378,19 @@
     "statut": "ok"
    },
    "lamodeDogwalk": {
-    "fr": "Promenade Canine Chic",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Promenade Canine à la Mode",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "primitiveGrove": {
     "fr": "Bosquet Primitif",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "zoologyLab": {
     "fr": "Labo de Zoologie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "primalFissure": {
     "fr": "Faille Primordiale",
@@ -2384,13 +2399,13 @@
    },
    "exoticPond": {
     "fr": "Étang Exotique",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "meteorCave": {
     "fr": "Caverne Météore",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ancientTomb": {
     "fr": "Tombeau Ancien",
@@ -2403,44 +2418,44 @@
     "statut": "ok"
    },
    "paupauFestival": {
-    "fr": "Festival Pau-Pau",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Festival Hula",
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "flowerMeadow": {
     "fr": "Prairie Fleurie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "aetherHeadquarters": {
     "fr": "Siège de la Fondation Æther",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "wormholeSpace": {
     "fr": "Ultra-Brèche",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "ecosphere": {
     "fr": "Écosphère",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "protonCity": {
     "fr": "Ville Proton",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "climatologyLab": {
     "fr": "Labo de Climatologie",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "fusionPlant": {
     "fr": "Centrale à Fusion",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "alphaRuins": {
     "fr": "Ruines d’Alpha",
@@ -2458,9 +2473,9 @@
     "statut": "ok"
    },
    "galacticHeadquarters": {
-    "fr": "QG de la Team Galaxie",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Centre Galaxie de Voilaroc",
+    "source": "web:pokepedia.fr/Centre_Galaxie_de_Voilaroc (nom DEPS)",
+    "statut": "ok"
    },
    "dimensionRift1": {
     "fr": "Faille Dimensionnelle Faible",
@@ -2504,13 +2519,13 @@
    },
    "missingArea": {
     "fr": "Zone Manquante",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "studioA": {
     "fr": "Studio A",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "secretGhost": {
     "fr": "Secret : Spectre",
@@ -2539,23 +2554,23 @@
    },
    "wildlifePark": {
     "fr": "Parc Animalier",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "training": {
     "fr": "Entraînement",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "trickyForest": {
     "fr": "Forêt Farceuse",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "seasonMarshadow": {
     "fr": "Rencontre Effrayante",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventZapdos": {
     "fr": "Antre d’Électhor",
@@ -2574,8 +2589,8 @@
    },
    "eventTapuBulu": {
     "fr": "Prairie Vierge",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventGalarianZapdos": {
     "fr": "Perchoir des Terres Arides",
@@ -2614,8 +2629,8 @@
    },
    "eventGougingFire": {
     "fr": "Volcan Primitif",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventNaganadel": {
     "fr": "Chambre-00",
@@ -2624,13 +2639,13 @@
    },
    "eventSilvally": {
     "fr": "Labo Expérimental",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventCosmoem": {
     "fr": "Nébuleuse Lointaine",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventGuzzlord": {
     "fr": "Réalité Vide",
@@ -2674,8 +2689,8 @@
    },
    "eventTapuLele": {
     "fr": "Espace Étrange",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "proposition validée par l’utilisateur",
+    "statut": "ok"
    },
    "eventChienPao": {
     "fr": "Sanctuaire du Fléau Glacial",

@@ -16585,11 +16585,11 @@
  },
  {
   "en": "Foggy Seed",
-  "fr": "Graine Brumeuse",
+  "fr": "Graine Brouillard",
   "categorie": "item",
   "cle": "foggySeed",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Bottle Cap",
@@ -16737,35 +16737,35 @@
  },
  {
   "en": "M. Shard",
-  "fr": "Méga-Éclat",
+  "fr": "Méga-Fragment",
   "categorie": "item",
   "cle": "megaShard",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Méga-Fragment + pokebip.com (Légendes Z-A)",
+  "statut": "ok"
  },
  {
   "en": "M. Piece",
-  "fr": "Méga-Fragment",
+  "fr": "Méga-Éclat",
   "categorie": "item",
   "cle": "megaPiece",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "M. Chunk",
   "fr": "Méga-Bloc",
   "categorie": "item",
   "cle": "megaChunk",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "M. Cluster",
   "fr": "Méga-Amas",
   "categorie": "item",
   "cle": "megaCluster",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Primal Earth",
@@ -17044,8 +17044,8 @@
   "fr": "Pierre Étrange",
   "categorie": "item",
   "cle": "oddRock",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Neverstone",
@@ -17596,16 +17596,16 @@
   "fr": "CT Factice",
   "categorie": "item",
   "cle": "tmDummy",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Nothing",
   "fr": "Rien",
   "categorie": "item",
   "cle": "nothing",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Buginium Z",
@@ -18404,8 +18404,8 @@
   "fr": "CT Brouillard",
   "categorie": "item",
   "cle": "fogTm",
-  "source": "motif:CT",
-  "statut": "à valider"
+  "source": "motif:CT validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sandstorm Tm",
@@ -18564,16 +18564,16 @@
   "fr": "CT Zone Croisée",
   "categorie": "item",
   "cle": "crossRoomTm",
-  "source": "motif:CT",
-  "statut": "à valider"
+  "source": "motif:CT validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Weird Room Tm",
   "fr": "CT Zone Bizarre",
   "categorie": "item",
   "cle": "weirdRoomTm",
-  "source": "motif:CT",
-  "statut": "à valider"
+  "source": "motif:CT validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Safeguard Tm",
@@ -20164,16 +20164,16 @@
   "fr": "Côte Déchaînée",
   "categorie": "area",
   "cle": "crashingSeaside",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strange Space",
   "fr": "Espace Étrange",
   "categorie": "area",
   "cle": "strangeSpace",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chargestone Cave",
@@ -20185,51 +20185,51 @@
  },
  {
   "en": "Seafoam Currents",
-  "fr": "Courants Écume",
+  "fr": "Courants d’Écume",
   "categorie": "area",
   "cle": "seafoamCurrents",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Valor Lakeside",
   "fr": "Rive du Lac Courage",
   "categorie": "area",
   "cle": "valorLakeside",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Thornwood Forest",
   "fr": "Forêt Épineuse",
   "categorie": "area",
   "cle": "thornwoodForest",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Unova Works",
   "fr": "Ateliers d’Unys",
   "categorie": "area",
   "cle": "unovaWorks",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Snowpoint Cliff",
   "fr": "Falaise de Frimapic",
   "categorie": "area",
   "cle": "snowpointCliff",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Hollow Nest",
   "fr": "Nid Creux",
   "categorie": "area",
   "cle": "hollowNest",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Poni Canyon",
@@ -20244,8 +20244,8 @@
   "fr": "Fond Marin",
   "categorie": "area",
   "cle": "seaBed",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Lon Lon Ranch",
@@ -20260,16 +20260,16 @@
   "fr": "Temple Saru",
   "categorie": "area",
   "cle": "saruTemple",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Evil Summit",
   "fr": "Sommet Maléfique",
   "categorie": "area",
   "cle": "evilSummit",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fuego Ironworks",
@@ -20284,8 +20284,8 @@
   "fr": "Grotte du Permafrost",
   "categorie": "area",
   "cle": "permafrostGrotto",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Berry Forest",
@@ -20300,8 +20300,8 @@
   "fr": "Passage des Reliques",
   "categorie": "area",
   "cle": "relicPassage",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sinnoh Underground I",
@@ -20476,24 +20476,24 @@
   "fr": "Convention Cosplay",
   "categorie": "area",
   "cle": "cosplayConvention",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Suspicious Manor",
   "fr": "Manoir Suspect",
   "categorie": "area",
   "cle": "suspiciousManor",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Summit Of Seasons",
   "fr": "Sommet des Saisons",
   "categorie": "area",
   "cle": "summitOfSeasons",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Cerulean Cave",
@@ -20601,19 +20601,19 @@
  },
  {
   "en": "Lamode Dogwalk",
-  "fr": "Promenade Canine Chic",
+  "fr": "Promenade Canine à la Mode",
   "categorie": "area",
   "cle": "lamodeDogwalk",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Primitive Grove",
   "fr": "Bosquet Primitif",
   "categorie": "area",
   "cle": "primitiveGrove",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Great Tusk Revival",
@@ -20692,8 +20692,8 @@
   "fr": "Labo de Zoologie",
   "categorie": "area",
   "cle": "zoologyLab",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Primal Fissure",
@@ -20724,8 +20724,8 @@
   "fr": "Prairie Vierge",
   "categorie": "area",
   "cle": "eventTapuBulu",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Pinsir Mega-Showdown",
@@ -20756,16 +20756,16 @@
   "fr": "Étang Exotique",
   "categorie": "area",
   "cle": "exoticPond",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Meteor Cave",
   "fr": "Caverne Météore",
   "categorie": "area",
   "cle": "meteorCave",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ancient Tomb",
@@ -20876,32 +20876,32 @@
   "fr": "Volcan Primitif",
   "categorie": "area",
   "cle": "eventGougingFire",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Paupau Festival",
-  "fr": "Festival Pau-Pau",
+  "fr": "Festival Hula",
   "categorie": "area",
   "cle": "paupauFestival",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Flower Meadow",
   "fr": "Prairie Fleurie",
   "categorie": "area",
   "cle": "flowerMeadow",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Aether Headquarters",
   "fr": "Siège de la Fondation Æther",
   "categorie": "area",
   "cle": "aetherHeadquarters",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Chamber-00",
@@ -20916,16 +20916,16 @@
   "fr": "Labo Expérimental",
   "categorie": "area",
   "cle": "eventSilvally",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Distant Nebula",
   "fr": "Nébuleuse Lointaine",
   "categorie": "area",
   "cle": "eventCosmoem",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Empty Reality",
@@ -20988,8 +20988,8 @@
   "fr": "Ultra-Brèche",
   "categorie": "area",
   "cle": "wormholeSpace",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Metagross Mega-Showdown",
@@ -21012,8 +21012,8 @@
   "fr": "Espace Étrange",
   "categorie": "area",
   "cle": "eventTapuLele",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Icerend Shrine",
@@ -21044,32 +21044,32 @@
   "fr": "Écosphère",
   "categorie": "area",
   "cle": "ecosphere",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Proton City",
   "fr": "Ville Proton",
   "categorie": "area",
   "cle": "protonCity",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Climatology Lab",
   "fr": "Labo de Climatologie",
   "categorie": "area",
   "cle": "climatologyLab",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Fusion Plant",
   "fr": "Centrale à Fusion",
   "categorie": "area",
   "cle": "fusionPlant",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Gengar Mega-Showdown",
@@ -21217,11 +21217,11 @@
  },
  {
   "en": "Galactic Headquarters",
-  "fr": "QG de la Team Galaxie",
+  "fr": "Centre Galaxie de Voilaroc",
   "categorie": "area",
   "cle": "galacticHeadquarters",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Centre_Galaxie_de_Voilaroc (nom DEPS)",
+  "statut": "ok"
  },
  {
   "en": "Gallade Mega-Showdown",
@@ -22324,16 +22324,16 @@
   "fr": "Zone Manquante",
   "categorie": "area",
   "cle": "missingArea",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Studio A",
   "fr": "Studio A",
   "categorie": "area",
   "cle": "studioA",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Secret Ghost",
@@ -22380,32 +22380,32 @@
   "fr": "Parc Animalier",
   "categorie": "area",
   "cle": "wildlifePark",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Training",
   "fr": "Entraînement",
   "categorie": "area",
   "cle": "training",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Tricky Forest",
   "fr": "Forêt Farceuse",
   "categorie": "area",
   "cle": "trickyForest",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Spooky Encounter",
   "fr": "Rencontre Effrayante",
   "categorie": "area",
   "cle": "seasonMarshadow",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "proposition validée par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Simple Aura",
