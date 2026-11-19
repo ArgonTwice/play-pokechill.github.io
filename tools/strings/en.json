@@ -1436,5 +1436,6 @@
  "ui.score": "Score: 0",
  "ui.join_all": "all",
  "ui.join_or": "or",
- "ui.join_and": "and"
+ "ui.join_and": "and",
+ "ui.lvl_short": "lvl"
 }

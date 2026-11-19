@@ -3932,6 +3932,7 @@
  "ui.long_press_right_click_the_present": "Long Press/Right click the present below to receive a gift Kecleon!<br>It will be shiny and carrying a Souvenir Ribbon",
  "ui.longer_afk": "Longer AFK",
  "ui.lvl": "lvl 100",
+ "ui.lvl_short": "lvl",
  "ui.made_by_duck_pokemon_and_trainer": "Made by <span onclick=\"secretFight(areas.missingArea.id)\">Duck</span><br><br>Pokemon and trainer sprites by Pokemon Showdown (Including artists: Beliot419, kyledove, Gnomowladny, Brumirage and ZacWeavile. Go check their work. Now.)<br><br>Gen 9 sprites by KingOfThe-X-Roads<br><br>All characters and related assets featured in this game are the exclusive property of Nintendo, Creatures Inc., and The Pokémon Company, and are used here strictly for non-commercial purposes.",
  "ui.magenta": "magenta",
  "ui.main_challenges": "Main Challenges",
