@@ -1676,7 +1676,7 @@ function updateItemShop(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `Defeat Legend Trainer Brendan in VS mode to unlock`
+        document.getElementById("tooltipMid").innerHTML = t('ui.defeat_legend_trainer_brendan_in_vs')
         openTooltip()
         return
         }
@@ -1689,7 +1689,7 @@ function updateItemShop(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `Defeat Legend Trainer Brendan in VS mode to unlock`
+        document.getElementById("tooltipMid").innerHTML = t('ui.defeat_legend_trainer_brendan_in_vs')
         openTooltip()
         return
         }
@@ -1719,7 +1719,7 @@ function updateItemShop(){
     goBack.id = "shop-back"
     goBack.innerHTML =`
     <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><g fill="currentColor"><path d="M224 56v144a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8V56a8 8 0 0 1 8-8h176a8 8 0 0 1 8 8" opacity="0.2"/><path d="M184 104v32a8 8 0 0 1-8 8H99.31l10.35 10.34a8 8 0 0 1-11.32 11.32l-24-24a8 8 0 0 1 0-11.32l24-24a8 8 0 0 1 11.32 11.32L99.31 128H168v-24a8 8 0 0 1 16 0m48-48v144a16 16 0 0 1-16 16H40a16 16 0 0 1-16-16V56a16 16 0 0 1 16-16h176a16 16 0 0 1 16 16m-16 144V56H40v144z"/></g></svg>
-    Go Back`
+    ${t('ui.go_back')}`
     document.getElementById("shop-listing").appendChild(goBack);
     goBack.addEventListener("click", () => {
     shopCategory = undefined
@@ -1740,7 +1740,7 @@ function updateItemShop(){
     decorTimer.style.border = "none"
     decorTimer.innerHTML =`
     <svg style="scale:0.7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21Z"/><rect width="2" height="7" x="11" y="6" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="450s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect><rect width="2" height="9" x="11" y="11" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="37.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect></svg>
-    Available decor will rotate in <font style="margin-left:0.3rem" class="time-counter-event">...</font>`
+    ${t('ui.available_decor_will_rotate_in')}</font>`
     document.getElementById("shop-listing").appendChild(decorTimer);
     }
 
@@ -1752,7 +1752,7 @@ function updateItemShop(){
     decorTimer.style.border = "none"
     decorTimer.innerHTML =`
     <svg style="scale:0.7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21Z"/><rect width="2" height="7" x="11" y="6" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="450s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect><rect width="2" height="9" x="11" y="11" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="37.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect></svg>
-    Available items will rotate in <font style="margin-left:0.3rem" class="time-counter-daily">...</font>`
+    ${t('ui.available_items_will_rotate_in')}</font>`
     document.getElementById("shop-listing").appendChild(decorTimer);
     }
 
@@ -1815,7 +1815,7 @@ function updateItemShop(){
     if (shop[i].name) name = shop[i].name
 
     let stockTag = ""
-    if (shop[i].stock) stockTag = ` (Stock: ${shop[i].stock})`
+    if (shop[i].stock) stockTag = ` ${t('ui.stock', { v: shop[i].stock })}`
 
 
     div.dataset.item = shop[i].icon
@@ -1903,7 +1903,7 @@ function updateItemShop(){
 div.addEventListener("click", () => {
 
     document.getElementById("tooltipTop").style.display = "none"
-    document.getElementById("tooltipTitle").innerHTML = "How many will you buy?"
+    document.getElementById("tooltipTitle").innerHTML = t('ui.how_many_will_you_buy')
     document.getElementById("tooltipMid").style.display = "none"
 
     document.getElementById("tooltipBottom").innerHTML = `
@@ -1977,11 +1977,11 @@ div.addEventListener("click", () => {
             updateItemShop()
             closeTooltip()
         } else{
-            document.getElementById("tooltipTitle").innerHTML = "Cant afford";
+            document.getElementById("tooltipTitle").innerHTML = t('ui.cant_afford');
             document.getElementById("tooltipTop").style.display = "none"    
             document.getElementById("tooltipTop").style.display = "none"    
             document.getElementById("tooltipMid").style.display = "none"
-            document.getElementById("tooltipBottom").innerHTML = `You cant afford to purchase this<span id="prevent-tooltip-exit"></span>`
+            document.getElementById("tooltipBottom").innerHTML = `${t('ui.you_cant_afford_to_purchase_this')}<span id="prevent-tooltip-exit"></span>`
         }
     }
 
@@ -2062,7 +2062,7 @@ function updateCurry(){
         document.getElementById("curry-buttons").style.display = `none`
         document.getElementById("curry-ingredients").style.display = `none`
         document.getElementById("curry-effects").style.display = `none`
-        document.getElementById(`curry-title`).innerHTML = `Come back in <span class="time-counter-daily"></span>`
+        document.getElementById(`curry-title`).innerHTML = `${t('ui.come_back_in')} <span class="time-counter-daily"></span>`
         updateDailyCounters()
         return
     } else {
@@ -2074,7 +2074,7 @@ function updateCurry(){
 
 
     document.getElementById(`curry-ingredients`).innerHTML = ``
-    document.getElementById(`curry-title`).innerHTML = `Select ingredients to add to the curry! [${curryIngredientList.length}/3]`
+    document.getElementById(`curry-title`).innerHTML = t('ui.select_ingredients_to_add_to_the', { length: curryIngredientList.length })
     
     
     
@@ -2084,11 +2084,11 @@ function updateCurry(){
         totalPrice += ingredient[i].price
     }
     
-    document.getElementById(`curry-pay`).innerHTML = `Pay and cook (${totalPrice} <img src="img/items/goldenBottleCap.png">)`
+    document.getElementById(`curry-pay`).innerHTML = `${t('ui.pay_and_cook_totalprice', { totalPrice: totalPrice })} <img src="img/items/goldenBottleCap.png">)`
 
     document.getElementById(`curry-effects`).innerHTML = `
     <svg data-help="curry" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M10 8.484C10.5 7.494 11 7 12 7c1.246 0 2 .989 2 1.978s-.5 1.483-2 2.473V13m0 3.5v.5"/></g></svg>
-    <span>~ Current Effects ~</span>
+    <span>${t('ui.current_effects')}</span>
     `
 
 
@@ -2132,7 +2132,7 @@ function makeCurry(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `Select at least one ingredient first`
+        document.getElementById("tooltipMid").innerHTML = t('ui.select_at_least_one_ingredient_first')
         openTooltip()
         return
     }
@@ -2152,7 +2152,7 @@ function makeCurry(){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `You can't afford this`
+        document.getElementById("tooltipMid").innerHTML = t('ui.you_cant_afford_this')
         openTooltip()
         return
     }
@@ -2175,7 +2175,7 @@ function makeCurry(){
         document.getElementById(`curry-pot`).style.animation = ``
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `During raids: Temporarily gained the next abilities for everyone in your team:`
+        document.getElementById("tooltipMid").innerHTML = t('ui.during_raids_temporarily_gained_the_next')
         document.getElementById("tooltipBottom").innerHTML = joinWithAnd(curryAbilities)
         openTooltip()
         item.goldenBottleCap.got -= totalPrice

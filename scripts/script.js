@@ -61,10 +61,10 @@ function updateGameVersion() {
     }
     item.bottleCap.got += bottlecapGot
     item.goldenBottleCap.got += parseInt((bottlecapGot/3).toFixed(0))
-    document.getElementById("tooltipTitle").innerHTML = `New items!`
+    document.getElementById("tooltipTitle").innerHTML = t('ui.new_items')
     document.getElementById("tooltipTop").style.display = "none"    
-    document.getElementById("tooltipMid").innerHTML = `Due to the vs rewards update you have been rewarded for your defeated trainers:`
-    document.getElementById("tooltipBottom").innerHTML = `x${bottlecapGot} Bottle Caps | x${(bottlecapGot/3).toFixed(0)} Golden Bottle Caps`
+    document.getElementById("tooltipMid").innerHTML = t('ui.due_to_the_vs_rewards_update')
+    document.getElementById("tooltipBottom").innerHTML = t('ui.bottlecapgot_bottle_caps_golden_bottle_caps', { bottlecapGot: bottlecapGot, v: (bottlecapGot/3).toFixed(0) })
     openTooltip()
   }
 
@@ -163,9 +163,9 @@ function updateGameVersion() {
   saved.factoryRewardsClaimed = 0
   saved.maxFactoryScore = 0
   if (item.goldenBottleCap.got>0){
-    document.getElementById("tooltipTitle").innerHTML = `Version Notice`
+    document.getElementById("tooltipTitle").innerHTML = t('ui.version_notice')
     document.getElementById("tooltipTop").style.display = "none"    
-    document.getElementById("tooltipMid").innerHTML = `Your golden bottlecaps have been exchanged into bottlecaps due to frontier changes`
+    document.getElementById("tooltipMid").innerHTML = t('ui.your_golden_bottlecaps_have_been_exchanged')
     document.getElementById("tooltipBottom").style.display = "none"    
     openTooltip()
   }
@@ -694,11 +694,11 @@ function openTutorial(){
     return
   }
 
-  if (saved.tutorialStep == "intro") document.getElementById("tutorial-text").innerHTML = `Howdy! I have been assigned to show the ropes<br>Let's start by getting new pokemon shall we? Select "Travel" on the top left menu`
-  if (saved.tutorialStep == "travel") document.getElementById("tutorial-text").innerHTML = `You can right click/long tap almost everything on the screen for more info! You can also do this within the info itself too. Try going into the first Wild Area to start catching Pokemon`
-  if (saved.tutorialStep == "moves") document.getElementById("tutorial-text").innerHTML = `Right click/long tap a pokemon in your team to set their moves, you can also do this while in battle. Press the + symbol next to the Pokemon to assign items<br>Once you are ready, press Save and Go! at the top of the screen`
-  if (saved.tutorialStep == "battle") document.getElementById("tutorial-text").innerHTML = `Your team will automatically attack in a set pattern, even while you tab out or close the browser! You can right click/long press on moves or pokemon to see their stats as well. Once you have more Pokemon in your team, you will be able to switch them around in a fight`
-  if (saved.tutorialStep == "battleEnd") {document.getElementById("tutorial-text").innerHTML = `You can check a more in-depth explanation about stats and battle mechanics in the Guide menu. For now, I will take a break... Enjoy your stay!`}
+  if (saved.tutorialStep == "intro") document.getElementById("tutorial-text").innerHTML = t('ui.howdy_have_been_assigned_to_show')
+  if (saved.tutorialStep == "travel") document.getElementById("tutorial-text").innerHTML = t('ui.you_can_right_click_long_tap')
+  if (saved.tutorialStep == "moves") document.getElementById("tutorial-text").innerHTML = t('ui.right_click_long_tap_pokemon_in')
+  if (saved.tutorialStep == "battle") document.getElementById("tutorial-text").innerHTML = t('ui.your_team_will_automatically_attack_in')
+  if (saved.tutorialStep == "battleEnd") {document.getElementById("tutorial-text").innerHTML = t('ui.you_can_check_more_in_depth')}
   document.getElementById("tutorial").style.display = "flex"
   
 }
@@ -708,85 +708,79 @@ const guide = {}
 
 guide.inspecting = {
   name: `Inspecting`,
-  description: function() { return `Right click/long press on most elements can give further information. You can further right click/long press on information within information.<br><br>Some elements that can be inspected include areas, trainers, moves, status effects, wild pokemon, team pokemon and items`}
+  description: function() { return t('ui.right_click_long_press_on_most')}
 }
 
 guide.stats = {
   name: `Battle: Stats`,
-  description: function() { return `Each species of Pokémon share the same base stats that determine the actual stats of a Pokémon at a given level<br><br>Stats determine how much damage they deal and receive (see Battle: Moves). The speed stat determines how fast a Pokemon executes a move<br><br>Individual Values, or IV's, multiply base stats, and can be increased by getting multiple copies of Pokemon<br><br>Depending on their base stats, a Division will be asigned to them. You might use this Division letter to quickly assess which Pokemon can perform better on the short term`}
+  description: function() { return t('ui.each_species_of_pok_mon_share')}
 }
 
 guide.abilities = {
   name: `Battle: Abilities`,
-  description: function() { return `Abilities are traits that a Pokemon can have. While they are randomised, some abilities can only appear on specific typings. Abilities are sorted in three categories; common, uncommon and rare<br><br>Hidden abilities are innate species-dependant traits that need to be unlocked with an Ability Capsule. Once unlocked, their effect will permanently be active alongside their other ability. Same Hidden Ability and Ability wont stack with eachother`}
+  description: function() { return t('ui.abilities_are_traits_that_pokemon_can')}
 }
 
 guide.experience = {
   name: `Battle: Experience`,
-  description: function() { return `Pokemon gain experience by defeating foes, and share a portion of it among the team. This will also be the case even if the team Pokemon are defeated<br><br>Experience gain is proportional to the level difference. A level difference of +-5 levels will net the same amount, while more than 5 levels of difference will greatly increase the amount received.<br><br>A Pokemon 10 levels higher will not yield any experience`}
+  description: function() { return t('ui.pokemon_gain_experience_by_defeating_foes')}
 }
 
 guide.moves = {
   name: `Battle: Moves`,
-  description: function() { return `Moves are learnt every 7 levels. Moves can be switched by right click/long press on a team pokemon<br><br>Damaging moves are divided into physical and special moves<br>The category of the move determines whether the move's damage depends on the user's Attack or Special Attack stat and the target's Defense or Special Defense<br><br>Some Pokemon might have Signature Moves. Signature Moves are species-dependant moves that a Pokemon learn at level 100. Signature Moves can't be inherited through genetics, unless the host has the corresponding Egg Move<br><br>Some moves might be restricted. Only one restricted move might be equipped at a time on the active Pokemon`}
+  description: function() { return t('ui.moves_are_learnt_every_levels_moves')}
 }
 
 guide.stab = {
   name: `Battle: STAB`,
-  description: function() { return `If a Pokemon uses a damaging move that has the same type as one of that Pokemon's types, the move's damage is increased by x1.5<br>This is known as same-type attack bonus, or STAB<br><br>Furthermore, Pokemon with a single typing will receive +0.2 extra STAB damage` }
+  description: function() { return t('ui.if_pokemon_uses_damaging_move_that') }
 }
 
 guide.crossStab = {
   name: `Battle: Cross-Power`,
-  description: function() { return `If a Pokemon uses a damaging move that is preceded (immediately or not) by a damaging move of a different type of the executed move, it will receive a 1.3x damage multiplier. This is indicated with a cross pattern on the move bar of the affected move` }
+  description: function() { return t('ui.if_pokemon_uses_damaging_move_that_2') }
 }
 
 guide.battleFatigue = {
   name: `Battle: Battle Fatigue`,
-  description: function() { return `Pokemon lose a very small fraction of their maximum health when attacking. This damage can be mitigated by a sum of the HP, Defense and Special Defense of the Pokemon, meaning bulkier Pokemon can battle for longer` }
+  description: function() { return t('ui.pokemon_lose_very_small_fraction_of') }
 }
 
 guide.statusEffects = {
   name: `Battle: Status Effects`,
-  description: function() { return `Certain moves inflict Status Effects such as ${tagConfused}, ${tagBurn}, ${tagPoisoned}, ${tagFreeze}, ${tagParalysis} or ${tagSleep}.<br><br>You can further check their effects by right click/long press<br><br>Status Effects, like temporal stat changes, will count down with turns. You can only apply one Status Effect at a time. They last for 3 turns by default (Except Paralysis)` }
+  description: function() { return t('ui.certain_moves_inflict_status_effects_such', { tagConfused: tagConfused, tagBurn: tagBurn, tagPoisoned: tagPoisoned, tagFreeze: tagFreeze, tagParalysis: tagParalysis, tagSleep: tagSleep }) }
 }
 
 guide.buffsDebuffs = {
   name: `Battle: Buffs and Debuffs`,
-  description: function() { return `Like status effects, increases or decreases of stats last for 3 turns by default (Except Speed decreases, which last 2)<br><br>Buffs and debuffs of the same magnitude will not stack with each other (IE x2 50% Attack Up), but different ones will (50% + 100% Attack Up)` }
+  description: function() { return t('ui.like_status_effects_increases_or_decreases') }
 }
 
 guide.weather = {
   name: `Battle: Weather`,
-  description: function() { return `Certain moves can change the weather to altered ones such as ${tagSunny}, ${tagRainy}, ${tagSandstorm}, ${tagHail}, ${tagFoggy}, ${tagElectricTerrain}, ${tagGrassyTerrain}, ${tagMistyTerrain}, ${tagTrickRoom}, ${tagWeirdRoom}, ${tagCrossRoom}, ${tagLightScreen} or ${tagSafeguard}<br><br>You can further check their effects by right click/long press<br><br>Altered weathers will last for 15 turns, and only can be changed after 30` }
+  description: function() { return t('ui.certain_moves_can_change_the_weather', { tagSunny: tagSunny, tagRainy: tagRainy, tagSandstorm: tagSandstorm, tagHail: tagHail, tagFoggy: tagFoggy, tagElectricTerrain: tagElectricTerrain, tagGrassyTerrain: tagGrassyTerrain, tagMistyTerrain: tagMistyTerrain, tagTrickRoom: tagTrickRoom, tagWeirdRoom: tagWeirdRoom, tagCrossRoom: tagCrossRoom, tagLightScreen: tagLightScreen, tagSafeguard: tagSafeguard }) }
 }
 
 guide.shiny = {
   name: `Shiny Pokemon`,
-  description: function() { return `At a rate of 1/400, Pokemon can be shiny. These odds can be boosted through different means<br><br>Shiny Pokemon deal 15% more damage. The visual distinction can be toggled from their move menu. This wont affect the damage bonus they get<br><br>Shiny Pokemon do not carry over their evolutions. Instead, genetics must be used.<br><br>If the stars align, a shiny pokemon can receive a star sign, an even rarer pigmentation. This does not have any practical benefit, and can't be inherited or mutated trough genetics`}
+  description: function() { return t('ui.at_rate_of_pokemon_can_be')}
 }
 
 guide.genetics = {
   name: `Genetics: Quick Guide`,
   description: function() { return `
-    Genetics allows you to modify a Pokemon beyond what is considered normal for the species, here is a quick overview of what you can achieve with operations:
-    <br><br>Shiny Mutation: You can inherit the shiny mutation, with a 100% chance, to members of the same family. You can also attempt to spread a new shiny mutation by using a shiny sample
-    <br><br>IV Boosting: Simply by doing any operation, regardless of the compatibility, the IV's of the host will attempt to increase. Useful for Pokemon with little to no IV's
-    <br><br>IV Inheriting: An advanced alternative to the previous. You can inherit IV's from a species to another depending on factors such as compatibility or genetic-aiding items used
-    <br><br>Move Relearn: When completing an operation, all but the four selected moves of the host will be reset, meaning you can attempt to get stronger moves with each operation
-    <br><br>Move Inheriting: An advanced alternative to the previous, you can inherit moves from the sample that would otherwise not be available to you through learning
-    <br><br>Ability Inheriting: Using a Destiny Knot, you can swap abilities with the sample, getting access to otherwise-impossible combinations
+    ${t('ui.genetics_allows_you_to_modify_pokemon')}
     `}
 }
 
 guide.compatibility = {
   name: `Genetics: Compatibility`,
-  description: function() { return `Compatibility determines how similar the sample is to the host. This influences various parameters such as the chances of inherit, or shiny mutations (only if the sample is shiny)<br><br>Sharing one type with the sample will yield one level of compatibility, whereas sharing two types will increase it by two levels.<br><br>Additionally, if the sample is of the same evolutive line as the host, it will recieve maximum compatibility`}
+  description: function() { return t('ui.compatibility_determines_how_similar_the_sample')}
 }
 
 guide.powerCost = {
   name: `Genetics: Power Cost`,
-  description: function() { return `Power cost determines how taxing it is to modify the host. This influences the time to complete the operation<br><br>This is determined by the division of the host. A higher division will exponentially increase the time required to modify the Pokemon`}
+  description: function() { return t('ui.power_cost_determines_how_taxing_it')}
 }
 
 function setGuide(){
@@ -815,27 +809,27 @@ function setGuide(){
           <div class="pkmn-stats-panel" style = "width:100%; justify-content:center; align-items:center;">
                   <div class="pkmn-stats-panel-bst">
                         <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-opacity="0.3" d="M12 8c0 0 0 0 0.76 -1c0.88 -1.16 2.18 -2 3.74 -2c2.49 0 4.5 2.01 4.5 4.5c0 0.93 -0.28 1.79 -0.76 2.5c-0.81 1.21 -8.24 9 -8.24 9c0 0 -7.43 -7.79 -8.24 -9c-0.48 -0.71 -0.76 -1.57 -0.76 -2.5c0 -2.49 2.01 -4.5 4.5 -4.5c1.56 0 2.87 0.84 3.74 2c0.76 1 0.76 1 0.76 1Z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c0 0 0 0 -0.76 -1c-0.88 -1.16 -2.18 -2 -3.74 -2c-2.49 0 -4.5 2.01 -4.5 4.5c0 0.93 0.28 1.79 0.76 2.5c0.81 1.21 8.24 9 8.24 9M12 8c0 0 0 0 0.76 -1c0.88 -1.16 2.18 -2 3.74 -2c2.49 0 4.5 2.01 4.5 4.5c0 0.93 -0.28 1.79 -0.76 2.5c-0.81 1.21 -8.24 9 -8.24 9"/></svg>
-                        Health
+                        ${t('ui.health')}
                     </div>
                     <div class="pkmn-stats-panel-bst">
                         <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 16.975l1.475-1.475H15.5v-2.025L16.975 12L15.5 10.525V8.5h-2.025L12 7.025L10.525 8.5H8.5v2.025L7.025 12L8.5 13.475V15.5h2.025zm0 6.325L8.65 20H4v-4.65L.7 12L4 8.65V4h4.65L12 .7L15.35 4H20v4.65L23.3 12L20 15.35V20h-4.65z"/></svg>
-                        Attack
+                        ${t('ui.attack')}
                     </div>
                     <div class="pkmn-stats-panel-bst">
                         <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 11.991c0 5.638 4.239 8.375 6.899 9.536c.721.315 1.082.473 2.101.473V8l-9 3z"/><path fill="currentColor" d="M14.101 21.527C16.761 20.365 21 17.63 21 11.991V11l-9-3v14c1.02 0 1.38-.158 2.101-.473M8.838 2.805L8.265 3c-3.007 1.03-4.51 1.545-4.887 2.082C3 5.62 3 7.22 3 10.417V11l9-3V2c-.811 0-1.595.268-3.162.805" opacity="0.5"/><path fill="currentColor" d="m15.735 3l-.573-.195C13.595 2.268 12.812 2 12 2v6l9 3v-.583c0-3.198 0-4.797-.378-5.335c-.377-.537-1.88-1.052-4.887-2.081"/></svg>
-                        Defense
+                        ${t('ui.defense')}
                     </div>
                     <div class="pkmn-stats-panel-bst">
                         <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path fill="currentColor" d="M306.72 22.688c-87.212.763-181.58 53.14-238.19 140.406c-.944 1.46-1.677 3.068-2.593 4.53c.455-.397.86-.917 1.313-1.31c-40.253 56.984-35.183 136.503 15.813 187.5c54.553 54.552 141.745 56.65 199.093 6.78c-4.676 6.576-9.916 13.137-15.812 19.03c-57 57-149.53 57-206.53 0c-17.814-17.81-30.103-38.73-36.783-61.312c2.928 65.605 34.97 122.74 93.907 151.97c103.593 51.374 250.2-2.8 326.875-121C510.904 245.856 502.47 127.374 429.938 65c-10.36-8.91-22.206-16.483-35.156-22.906c-25.897-12.844-54.454-19.11-83.905-19.407c-1.38-.013-2.772-.012-4.156 0zm1.06 62.406c47.14-.705 82.63 23.414 90.376 58.906v.03c1.417 6.492 1.806 13.565 1.344 21.032c-3.682 59.742-68.786 126.655-145.438 149.563c-.945.282-1.872.422-2.812.688l.938-.47c-37.843 12.718-74.086-.708-84.438-33.624c-7.03-22.36-.468-48.544 15.25-70.408c-1.695 7.2-.05 13.91 5.344 18.375c10.643 8.816 31.83 5.575 47.312-7.25c15.483-12.824 19.394-30.37 8.75-39.187c-6.294-5.214-16.287-6.21-26.594-3.5l.532-.313c-.755.257-1.52.54-2.28.813c-.344.123-.69.217-1.033.344a54 54 0 0 0-8 3.344c-.656.307-1.315.61-1.968.937c-42.374 21.24-83.226 68.335-71.656 105.125c3.616 11.497 10.213 20.614 19.094 27.094c-30.253-10.44-48.35-34.526-46.563-68.53c3.682-70.837 83.193-133.31 159.844-156.22c14.673-4.385 28.802-6.553 42-6.75z"/></svg>
-                        Special Attack
+                        ${t('ui.special_attack')}
                     </div>
                     <div class="pkmn-stats-panel-bst">
                         <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path fill="currentColor" fill-rule="evenodd" d="m311.874 171.817l65.452-99.754l-.865-.367l50.206 12.144l-.221 17.259l.049 93.284l.119 25.42c.562 109.632-58.957 176.828-107.749 213.459l-11.037 7.917l-15.418 9.91l-9.239 5.345l-8.181 4.374l-12.415 5.962l-6.126 2.563l-6.403-2.682l-5.725-2.644l-7.222-3.591l-10.821-5.871l-12.434-7.468l-10.839-7.169c-48.347-33.416-112.698-97.735-117.398-205.151l-.274-12.587V84.09L256.45 42.668l22.726 5.497l-62.978 142.683l48.901 20.757l-80.615 154.048l176.882-172.827z" clip-rule="evenodd"/></svg>
-                        Special Defense
+                        ${t('ui.special_defense')}
                     </div>
                     <div class="pkmn-stats-panel-bst">
                         <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9 19v-2H5.675q-.5 0-.7-.45t.125-.8l6.15-6.9q.3-.35.75-.35t.75.35l6.15 6.9q.325.35.125.8t-.7.45H15v2q0 .425-.288.713T14 20h-4q-.425 0-.712-.288T9 19m3-13l-5.025 5.675q-.15.15-.35.238t-.4.087q-.65 0-.912-.575t.162-1.075l5.775-6.5q.3-.35.75-.35t.75.35l5.775 6.5q.425.5.163 1.075t-.913.575q-.2 0-.4-.075t-.35-.25z"/></svg>
-                        Speed
+                        ${t('ui.speed')}
                     </div>
                 </div>
                     `
@@ -854,10 +848,10 @@ function setGuide(){
 function info() {
   console.info("Type a command for further info");
   console.table([
-    {command:"infoPkmn()", info:"Modify Pokemon"},
-    {command:"infoItem()", info:"Modify Items"},
-    {command:"infoRotation()", info:"Modify Rotations"},
-    {command:"infoMisc()", info:"Miscellaneous Commands"},
+    {command:"infoPkmn()", info:t('ui.modify_pokemon')},
+    {command:"infoItem()", info:t('ui.modify_items')},
+    {command:"infoRotation()", info:t('ui.modify_rotations')},
+    {command:"infoMisc()", info:t('ui.miscellaneous_commands')},
 
   ]);
 
@@ -865,19 +859,19 @@ function info() {
 
 function infoPkmn(){
     console.table([
-      {command:"givePkmn(pkmn.NAME, LEVEL)", effect:"Give Pokemon"},
-      {command:"pkmn.NAME.level=LEVEL", effect:"Modify Pokemon level"},
-      {command:"pkmn.NAME.shiny=true", effect:"Modify Pokemon shiny status"},
-      {command:"pkmn.NAME.ivs.hp=NUMBER", effect:"Modify Pokemon ivs (hp, atk, satk, def, sdef, spe)"},
-      {command:"pkmn.NAME.movepool.push(move.NAME.id)", effect:"Add Pokemon Move"},
-      {command:"pkmn.NAME.ability=ability.NAME.id", effect:"Modify Pokemon Ability"},
-      {command:"pkmn.NAME.hiddenAbilityUnlocked=true", effect:"Unlock Hidden Ability"},
+      {command:t('ui.givepkmn_pkmn_name_level'), effect:"Give Pokemon"},
+      {command:t('ui.pkmn_name_level_level'), effect:"Modify Pokemon level"},
+      {command:t('ui.pkmn_name_shiny_true'), effect:"Modify Pokemon shiny status"},
+      {command:t('ui.pkmn_name_ivs_hp_number'), effect:"Modify Pokemon ivs (hp, atk, satk, def, sdef, spe)"},
+      {command:t('ui.pkmn_name_movepool_push_move_name'), effect:"Add Pokemon Move"},
+      {command:t('ui.pkmn_name_ability_ability_name_id'), effect:"Modify Pokemon Ability"},
+      {command:t('ui.pkmn_name_hiddenabilityunlocked_true'), effect:"Unlock Hidden Ability"},
       ]);
 }
 
 function infoItem(){
     console.table([
-      {command:"item.NAME.got=AMOUNT", effect:"Give Items"},
+      {command:t('ui.item_name_got_amount'), effect:"Give Items"},
       ]);
 }
 
@@ -892,12 +886,12 @@ function infoRotation(){
 
 function infoMisc(){
     console.table([
-      {command:"saved.overrideBattleTimer=NUMBER", effect:"Alter Battle Speed (Default 2000)"},
-      {command:"debugGetPkmn(LEVEL,'shiny')", effect:"Get all Pokemon at certain level. Shiny is optional"},
-      {command:"debugSetIvs(NUMBER)", effect:"Set all Pokemon IV's. Maximum 6"},
+      {command:t('ui.saved_overridebattletimer_number'), effect:"Alter Battle Speed (Default 2000)"},
+      {command:t('ui.debuggetpkmn_level_shiny'), effect:"Get all Pokemon at certain level. Shiny is optional"},
+      {command:t('ui.debugsetivs_number'), effect:"Set all Pokemon IV's. Maximum 6"},
       {command:"debugGetItems()", effect:"Get 999 of all items"},
-      {command:"saved.geneticOperation=1", effect:"Complete Genetics Operation"},
-      {command:"getMoveset(pkmn.NAME,LEVEL)", effect:"Generates a table of possible Pokemon moves"},
+      {command:t('ui.saved_geneticoperation'), effect:"Complete Genetics Operation"},
+      {command:t('ui.getmoveset_pkmn_name_level'), effect:"Generates a table of possible Pokemon moves"},
       ]);
 }
 

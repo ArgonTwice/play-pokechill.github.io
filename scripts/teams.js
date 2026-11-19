@@ -223,7 +223,7 @@ function updatePreviewTeam(){
 function editTeamName(){
     document.getElementById("tooltipTop").style.display = "none"
     document.getElementById("tooltipBottom").style.display = "none"
-    document.getElementById("tooltipTitle").innerHTML = "Edit team name"
+    document.getElementById("tooltipTitle").innerHTML = t('ui.edit_team_name')
     const select = document.getElementById("team-slot-selector");
     const text = select.options[select.selectedIndex].text;
     document.getElementById("tooltipMid").innerHTML = `
@@ -316,8 +316,8 @@ function injectPreviewTeam(){
     if (frontierError) {
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Banned Pokemon`
-        document.getElementById("tooltipMid").innerHTML = `One or more Pokemon in the current team do not met the division restrictions of the current league`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.banned_pokemon')
+        document.getElementById("tooltipMid").innerHTML = t('ui.one_or_more_pokemon_in_the')
         openTooltip()
         return
     }
@@ -325,8 +325,8 @@ function injectPreviewTeam(){
     if (nuzlockeError) {
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Restricted Pokemon`
-        document.getElementById("tooltipMid").innerHTML = `One or more Pokemon in the current team cannot be used as per Nuzlocke restrictions`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.restricted_pokemon')
+        document.getElementById("tooltipMid").innerHTML = t('ui.one_or_more_pokemon_in_the_2')
         openTooltip()
         return
     }
@@ -351,8 +351,8 @@ function injectPreviewTeam(){
     if (restrictedError) {
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Restricted Moves`
-        document.getElementById("tooltipMid").innerHTML = `One or more Pokemon in the current team have multiple restricted moves (${restrictedIcon}) equipped`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.restricted_moves')
+        document.getElementById("tooltipMid").innerHTML = t('ui.one_or_more_pokemon_in_the_3', { restrictedIcon: restrictedIcon })
         openTooltip()
         return
     }
@@ -371,7 +371,7 @@ function injectPreviewTeam(){
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
         document.getElementById("tooltipTitle").innerHTML = `Restricted Z Moves`
-        document.getElementById("tooltipMid").innerHTML = `Multiple Z-Crystals cannot be equiped in a single team`
+        document.getElementById("tooltipMid").innerHTML = t('ui.multiple_crystals_cannot_be_equiped_in')
         openTooltip()
         return
     }
@@ -396,8 +396,8 @@ function injectPreviewTeam(){
     if (batonPassError) {
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Baton Pass Clause`
-        document.getElementById("tooltipMid").innerHTML = `You can only have one Baton Pass in your team`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.baton_pass_clause')
+        document.getElementById("tooltipMid").innerHTML = t('ui.you_can_only_have_one_baton')
         openTooltip()
         return
     }
@@ -430,8 +430,8 @@ function injectPreviewTeam(){
     if (eggMoveError) {
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Repeated Egg Moves`
-        document.getElementById("tooltipMid").innerHTML = `Multiple of the same Egg Move cannot exist on the same team if the host does not have said move as an inherent Egg Move or Signature Move`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.repeated_egg_moves')
+        document.getElementById("tooltipMid").innerHTML = t('ui.multiple_of_the_same_egg_move')
         openTooltip()
         return
     }
@@ -452,7 +452,7 @@ function injectPreviewTeam(){
     if (pkmn[currentTeam.slot1.pkmn]===undefined){
         document.getElementById("tooltipTop").style.display = "none"    
         document.getElementById("tooltipMid").style.display = "none"
-        document.getElementById("tooltipBottom").innerHTML = "First team slot must not be empty!"
+        document.getElementById("tooltipBottom").innerHTML = t('ui.first_team_slot_must_not_be')
         openTooltip()
         return
     }
@@ -900,7 +900,7 @@ function updatePreviewTeam(){
             document.getElementById(`pokedex-menu`).scrollTop = 0
             dexTeamSelect = i
             document.getElementById("pokedex-filters-title").style.display = "flex"
-            document.getElementById("pokedex-filters-title").innerHTML = `Select a Pokemon to add to the team`
+            document.getElementById("pokedex-filters-title").innerHTML = t('ui.select_pokemon_to_add_to_the')
             document.getElementById(`team-menu`).style.display = "none"
             setTimeout(() => {
                 updatePokedex()    
@@ -1055,7 +1055,7 @@ function updatePreviewTeam(){
                 </div>
                 <div class="explore-header-infobox">
                 <div class="explore-header-hpbox">
-                <span style="color: white;">Add Pokemon</span>
+                <span style="color: white;">${t('ui.add_pokemon')}</span>
                 </div>
                 <div class="explore-header-moves" id="explore-team-member-${i}-moves-preview">
                 </div>
@@ -1071,7 +1071,7 @@ function updatePreviewTeam(){
 function handleDragStart(e) {
     draggedSlot = this.dataset.slot;
     e.dataTransfer.effectAllowed = 'move';
-    e.dataTransfer.setData('text/html', this.innerHTML);
+    e.dataTransfer.setData(t('ui.text_html'), this.innerHTML);
     
     // Estilo visual para el elemento que se está arrastrando
     setTimeout(() => {

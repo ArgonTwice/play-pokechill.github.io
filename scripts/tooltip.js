@@ -88,10 +88,10 @@ function tooltipData(category, ttdata){
         document.getElementById("tooltipTitle").style.display = "none";
         document.getElementById("tooltipMid").style.display = "none";
         document.getElementById("tooltipBottom").style.display = "inline";
-        document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>Area Pokemon</strong></div>`;
-        const uncatchableIcon = `<svg fill="currentColor" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1126 1126"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:currentcolor;stroke-linecap:round;stroke-linejoin:round;stroke-width:100px;}</style></defs><path fill="currentColor" class="cls-1" d="M646.27,1091.94c48.25,3.71,96,.07,142.34-13.67,136.22-40.33,229.87-127.25,281-259.63,12.92-33.47,19.88-68.48,23.33-104.17.33-3.46.83-6.17-4.62-6.16q-98,.3-196,0c-3.42,0-4.7,1.17-5.18,4.31-.71,4.59-1.53,9.17-2.63,13.68-27.08,111-135,180.24-247.43,158.68q-3-.57-5.9-1.23L474.51,1040.42C526.88,1070.09,584.27,1087.18,646.27,1091.94Z" transform="translate(-109.65 -105.51)"/><path fill="currentColor" class="cls-1" d="M678,530.53c-80.91,0-147,66-146.91,146.59h0c0,52.23,27.78,98.34,69.26,124.36L802.4,599.39A147.31,147.31,0,0,0,678,530.53Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M468.93,713.13c-.58-3.44-1.83-4.87-5.73-4.85-32.53.24-65,.16-97.52.16h-96c-7.34,0-7.35,0-6.51,7.5a454.8,454.8,0,0,0,7.62,48.7q30.69,138.51,137.28,229.09L553.24,848.55A211.37,211.37,0,0,1,468.93,713.13Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M824.25,690.68,691.74,823.19C761.64,816.6,817.73,760.54,824.25,690.68Z" transform="translate(-109.65 -105.51)"/><path d="M270.79,764.64a454.8,454.8,0,0,1-7.62-48.7c-.84-7.5-.83-7.5,6.51-7.5h96c32.49,0,65,.08,97.52-.16,3.9,0,5.15,1.41,5.73,4.85a211.37,211.37,0,0,0,84.31,135.42l47.07-47.07c-41.48-26-69.24-72.13-69.26-124.36h0c0-80.62,66-146.63,146.91-146.59A147.31,147.31,0,0,1,802.4,599.39L1047,354.81Q961.93,256.53,828.6,211.49c-35.72-12.07-72.59-18.83-110.19-22a480.64,480.64,0,0,0-103.69,2.35c-83,11-158.7,40.81-226.1,90.55Q253.71,382,206.71,542.94a460.76,460.76,0,0,0-17.86,106.37c-.2,2-.5,3.93-.89,5.86v43c1.7,6.66,1.21,13.52,1.76,20.28,3.47,42.11,11.73,83.28,26.63,122.76q47.33,125.31,139.23,205l52.49-52.48Q301.48,903.15,270.79,764.64Z" transform="translate(-109.65 -105.51)"/><path d="M691.74,823.19l-60.56,60.56q2.93.66,5.9,1.23C749.51,906.54,857.43,837.3,884.51,726.3c1.1-4.51,1.92-9.09,2.63-13.68.48-3.14,1.76-4.31,5.18-4.31q98,.3,196,0c5.45,0,5,2.7,4.62,6.16-3.45,35.69-10.41,70.7-23.33,104.17-51.13,132.38-144.78,219.3-281,259.63-46.34,13.74-94.09,17.38-142.34,13.67-62-4.76-119.39-21.85-171.76-51.52l-53.35,53.35a546.1,546.1,0,0,0,106.31,49c41,14,83.37,21.17,126.64,23.08,1.64.08,3.36-.18,4.85.82h38c7-1.8,14.21-1.18,21.31-1.78q149.68-12.5,266.38-106.38,121.33-98,164.66-247.69a464.67,464.67,0,0,0,17.81-106.33c.1-2.11.58-4.21.88-6.31v-42c-1.7-6.82-1.22-13.85-1.8-20.77-4.43-53.08-16.73-104.29-38.6-152.8a559.5,559.5,0,0,0-32.91-62.39L824.25,690.68C817.73,760.54,761.64,816.6,691.74,823.19Z" transform="translate(-109.65 -105.51)"/><line class="cls-2" x1="50" y1="1076" x2="1076" y2="50"/></svg>`
-        if (areas[ttdata].type == "dungeon") { document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>Area Pokemon ${uncatchableIcon}</strong></div>`; }
-        if (areas[ttdata].uncatchable) { document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>Area Pokemon ${uncatchableIcon}</strong></div>`; }
+        document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.area_pokemon')}</strong></div>`;
+        const uncatchableIcon = `<svg fill="currentColor" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1126 1126"><defs><style>${t('ui.cls_cls_fill_none_cls_stroke')}</style></defs><path fill="currentColor" class="cls-1" d="M646.27,1091.94c48.25,3.71,96,.07,142.34-13.67,136.22-40.33,229.87-127.25,281-259.63,12.92-33.47,19.88-68.48,23.33-104.17.33-3.46.83-6.17-4.62-6.16q-98,.3-196,0c-3.42,0-4.7,1.17-5.18,4.31-.71,4.59-1.53,9.17-2.63,13.68-27.08,111-135,180.24-247.43,158.68q-3-.57-5.9-1.23L474.51,1040.42C526.88,1070.09,584.27,1087.18,646.27,1091.94Z" transform="translate(-109.65 -105.51)"/><path fill="currentColor" class="cls-1" d="M678,530.53c-80.91,0-147,66-146.91,146.59h0c0,52.23,27.78,98.34,69.26,124.36L802.4,599.39A147.31,147.31,0,0,0,678,530.53Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M468.93,713.13c-.58-3.44-1.83-4.87-5.73-4.85-32.53.24-65,.16-97.52.16h-96c-7.34,0-7.35,0-6.51,7.5a454.8,454.8,0,0,0,7.62,48.7q30.69,138.51,137.28,229.09L553.24,848.55A211.37,211.37,0,0,1,468.93,713.13Z" transform="translate(-109.65 -105.51)"/><path class="cls-1" d="M824.25,690.68,691.74,823.19C761.64,816.6,817.73,760.54,824.25,690.68Z" transform="translate(-109.65 -105.51)"/><path d="M270.79,764.64a454.8,454.8,0,0,1-7.62-48.7c-.84-7.5-.83-7.5,6.51-7.5h96c32.49,0,65,.08,97.52-.16,3.9,0,5.15,1.41,5.73,4.85a211.37,211.37,0,0,0,84.31,135.42l47.07-47.07c-41.48-26-69.24-72.13-69.26-124.36h0c0-80.62,66-146.63,146.91-146.59A147.31,147.31,0,0,1,802.4,599.39L1047,354.81Q961.93,256.53,828.6,211.49c-35.72-12.07-72.59-18.83-110.19-22a480.64,480.64,0,0,0-103.69,2.35c-83,11-158.7,40.81-226.1,90.55Q253.71,382,206.71,542.94a460.76,460.76,0,0,0-17.86,106.37c-.2,2-.5,3.93-.89,5.86v43c1.7,6.66,1.21,13.52,1.76,20.28,3.47,42.11,11.73,83.28,26.63,122.76q47.33,125.31,139.23,205l52.49-52.48Q301.48,903.15,270.79,764.64Z" transform="translate(-109.65 -105.51)"/><path d="M691.74,823.19l-60.56,60.56q2.93.66,5.9,1.23C749.51,906.54,857.43,837.3,884.51,726.3c1.1-4.51,1.92-9.09,2.63-13.68.48-3.14,1.76-4.31,5.18-4.31q98,.3,196,0c5.45,0,5,2.7,4.62,6.16-3.45,35.69-10.41,70.7-23.33,104.17-51.13,132.38-144.78,219.3-281,259.63-46.34,13.74-94.09,17.38-142.34,13.67-62-4.76-119.39-21.85-171.76-51.52l-53.35,53.35a546.1,546.1,0,0,0,106.31,49c41,14,83.37,21.17,126.64,23.08,1.64.08,3.36-.18,4.85.82h38c7-1.8,14.21-1.18,21.31-1.78q149.68-12.5,266.38-106.38,121.33-98,164.66-247.69a464.67,464.67,0,0,0,17.81-106.33c.1-2.11.58-4.21.88-6.31v-42c-1.7-6.82-1.22-13.85-1.8-20.77-4.43-53.08-16.73-104.29-38.6-152.8a559.5,559.5,0,0,0-32.91-62.39L824.25,690.68C817.73,760.54,761.64,816.6,691.74,823.19Z" transform="translate(-109.65 -105.51)"/><line class="cls-2" x1="50" y1="1076" x2="1076" y2="50"/></svg>`
+        if (areas[ttdata].type == "dungeon") { document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.area_pokemon_uncatchableicon', { uncatchableIcon: uncatchableIcon })}</strong></div>`; }
+        if (areas[ttdata].uncatchable) { document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.area_pokemon_uncatchableicon', { uncatchableIcon: uncatchableIcon })}</strong></div>`; }
 
         const spawns = areas[ttdata].spawns;
 
@@ -100,8 +100,8 @@ function tooltipData(category, ttdata){
         const div = document.createElement("div");
         let tag = "";
 
-        if (listName === "uncommon") { tag = `<span>Uncommon</span>`; }
-        if (listName === "rare") { tag = `<span>Rare!</span>`; }
+        if (listName === "uncommon") { tag = `<span>${t('ui.uncommon_2')}</span>`; }
+        if (listName === "rare") { tag = `<span>${t('ui.rare_2')}</span>`; }
 
         if (pkmn[item.id].shiny && areas[ttdata].uncatchable!=true && areas[ttdata].type != "dungeon") tag += `<div class="wild-shiny-tag">✦</div>`
 
@@ -121,7 +121,7 @@ function tooltipData(category, ttdata){
 
         
 
-        document.getElementById("tooltipMid").innerHTML = `<div id="area-preview-items"><strong>Area Items</strong></div>`;
+        document.getElementById("tooltipMid").innerHTML = `<div id="area-preview-items"><strong>${t('ui.area_items')}</strong></div>`;
 
         const drops = areas[ttdata].drops;
 
@@ -133,8 +133,8 @@ function tooltipData(category, ttdata){
         document.getElementById("tooltipMid").style.display = "inline";
         div.dataset.item = item.id
         let tag = "";
-        if (listName === "rare") { tag = `<span>Rare!</span>`; }
-        if (listName === "uncommon") { tag = `<span>Uncommon</span>`; }
+        if (listName === "rare") { tag = `<span>${t('ui.rare_2')}</span>`; }
+        if (listName === "uncommon") { tag = `<span>${t('ui.uncommon_2')}</span>`; }
         div.className = "area-preview";
         if (item.type!=="tm") div.innerHTML = `<img style="scale:2" src="img/items/${item.id}.png">` + tag;
         if (item.type=="tm") div.innerHTML = `<img style="scale:2" src="img/items/tm${format(move[item.move].type, 'raw')}.png">` + tag;
@@ -151,7 +151,7 @@ function tooltipData(category, ttdata){
 
         
         if (ttdata == areas.wildlifePark.id) {
-            document.getElementById("tooltipBottom").innerHTML += `Pokemon in the Wildlife Park rotate every 12 hours`
+            document.getElementById("tooltipBottom").innerHTML += t('ui.pokemon_in_the_wildlife_park_rotate')
         }
         
 
@@ -171,7 +171,7 @@ function tooltipData(category, ttdata){
         document.getElementById("tooltipTitle").style.display = "none";
         document.getElementById("tooltipMid").style.display = "none";
         document.getElementById("tooltipBottom").style.display = "inline";
-        document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>Team Preview</strong></div><div id="preview-field-effects"></div>`;
+        document.getElementById("tooltipBottom").innerHTML = `<div id="area-preview-spawns"><strong>${t('ui.team_preview')}</strong></div><div id="preview-field-effects"></div>`;
 
 
         const spawns = [];
@@ -197,12 +197,12 @@ function tooltipData(category, ttdata){
         }
 
         if (areas[ttdata].reward !== undefined) {
-        document.getElementById("tooltipMid").innerHTML = `<div id="area-preview-items"><strong>Victory Rewards</strong></div>`;
+        document.getElementById("tooltipMid").innerHTML = `<div id="area-preview-items"><strong>${t('ui.victory_rewards')}</strong></div>`;
         const rewards = areas[ttdata].reward;
         for (const i of rewards) {
         const div = document.createElement("div");
         document.getElementById("tooltipMid").style.display = "inline";
-        let meow = `pkmn/sprite`
+        let meow = t('ui.pkmn_sprite')
         if (item[i.id]!=undefined) {div.dataset.item = i.id; meow = "items" }
         else {div.dataset.pkmn = i.id;}
         div.className = "area-preview";
@@ -216,7 +216,7 @@ function tooltipData(category, ttdata){
 
         if (areas[ttdata].itemReward) { //new reward function ill eventually have to convert the rest of the code but for now im quite lazy
             const tooltipMid = document.getElementById("tooltipMid");
-            tooltipMid.innerHTML = `<div id="area-preview-items"><strong>Victory Rewards</strong></div>`;
+            tooltipMid.innerHTML = `<div id="area-preview-items"><strong>${t('ui.victory_rewards')}</strong></div>`;
             tooltipMid.style.display = "inline";
             
             const itemsContainer = document.getElementById("area-preview-items");
@@ -231,12 +231,12 @@ function tooltipData(category, ttdata){
                 let imgPath, scale;
                 if (isPokemon) {
                     div.dataset.pkmn = reward.item;
-                    imgPath = `pkmn/sprite/${reward.item}`;
+                    imgPath = t('ui.pkmn_sprite_item', { item: reward.item });
                     scale = 1;
                 } else {
                     div.dataset.item = reward.item;
                     imgPath = itemData.type === "tm" 
-                        ? `items/tm${format(move[itemData.move].type, 'type')}` 
+                        ? t('ui.items_tm', { v: format(move[itemData.move].type, 'type') }) 
                         : `items/${reward.item}`;
                     scale = 2;
                 }
@@ -253,7 +253,7 @@ function tooltipData(category, ttdata){
 
 
         if (areas[ttdata].fieldEffect && areas[ttdata].type != "frontier") { 
-            document.getElementById("preview-field-effects").innerHTML = `Field Effects`
+            document.getElementById("preview-field-effects").innerHTML = t('ui.field_effects')
             document.getElementById("preview-field-effects").className = "preview-field-list"
         for (const i of areas[ttdata].fieldEffect) {
             const div = document.createElement("div")
@@ -266,7 +266,7 @@ function tooltipData(category, ttdata){
 
 
         if (areas[ttdata].hpPercentage){
-            document.getElementById("tooltipBottom").innerHTML += `This is a timed encounter. Your damage will be carried on between fights. Additionally, items needed to enter will be consumed regardless if you defeat the Pokemon or not`;
+            document.getElementById("tooltipBottom").innerHTML += t('ui.this_is_timed_encounter_your_damage');
         }
 
         
@@ -286,7 +286,7 @@ function tooltipData(category, ttdata){
             const div = document.createElement("div");
             div.dataset.item = itemToAdd
             let tag = "";
-            if (areas[ttdata].difficulty == tier3difficulty) tag = `<span>Uncommon!</span>`; 
+            if (areas[ttdata].difficulty == tier3difficulty) tag = `<span>${t('ui.uncommon_3')}</span>`; 
             div.className = "area-preview";
             div.innerHTML = `<img style="scale:2" src="img/items/${itemToAdd}.png">` + tag;
             document.getElementById("area-preview-items").appendChild(div);
@@ -300,30 +300,30 @@ function tooltipData(category, ttdata){
         document.getElementById("tooltipMid").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `inline`
         document.getElementById("tooltipTitle").style.display = `inline`
-        if (ttdata==="burn") document.getElementById("tooltipBottom").innerHTML = `Decreases Physical Attack by 50% and deals damage every turn`
-        if (ttdata==="poisoned") document.getElementById("tooltipBottom").innerHTML = `Decreases Special Attack by 50% and deals damage every turn`
-        if (ttdata==="sleep") document.getElementById("tooltipBottom").innerHTML = `Moves fail to deal damage`
-        if (ttdata==="freeze") document.getElementById("tooltipBottom").innerHTML = `Moves fail to deal damage`
-        if (ttdata==="confused") document.getElementById("tooltipBottom").innerHTML = `50% chance for moves to fail to deal damage`
-        if (ttdata==="paralysis") document.getElementById("tooltipBottom").innerHTML = `25% chance for moves to fail to deal damage and Speed is reduced by 75%`
+        if (ttdata==="burn") document.getElementById("tooltipBottom").innerHTML = t('ui.decreases_physical_attack_by_and_deals')
+        if (ttdata==="poisoned") document.getElementById("tooltipBottom").innerHTML = t('ui.decreases_special_attack_by_and_deals')
+        if (ttdata==="sleep") document.getElementById("tooltipBottom").innerHTML = t('ui.moves_fail_to_deal_damage')
+        if (ttdata==="freeze") document.getElementById("tooltipBottom").innerHTML = t('ui.moves_fail_to_deal_damage')
+        if (ttdata==="confused") document.getElementById("tooltipBottom").innerHTML = t('ui.chance_for_moves_to_fail_to')
+        if (ttdata==="paralysis") document.getElementById("tooltipBottom").innerHTML = t('ui.chance_for_moves_to_fail_to_2')
 
-        if (ttdata==="embargo") document.getElementById("tooltipBottom").innerHTML = `Prevents the enemy to use the move in the slot embargo was used`
+        if (ttdata==="embargo") document.getElementById("tooltipBottom").innerHTML = t('ui.prevents_the_enemy_to_use_the')
         
-        if (ttdata==="sunny") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Fire-Type moves by 50% and decreases the damage of Water-Type moves by 50%`
-        if (ttdata==="rainy") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Water-Type moves by 50% and decreases the damage of Fire-Type moves by 50%`
-        if (ttdata==="sandstorm") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Rock and Ground-Type moves by 50%`
-        if (ttdata==="hail") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Ice-Type moves by 50%`
-        if (ttdata==="foggy") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Dark and Ghost-Type moves by 50%`
-        if (ttdata==="electricTerrain") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Electric and Steel-Type moves by 50%`
-        if (ttdata==="grassyTerrain") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Grass and Bug-Type moves by 50%`
-        if (ttdata==="mistyTerrain") document.getElementById("tooltipBottom").innerHTML = `Increases the damage of Fairy and Psychic-Type moves by 50%`
+        if (ttdata==="sunny") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_fire_type')
+        if (ttdata==="rainy") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_water_type')
+        if (ttdata==="sandstorm") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_rock_and')
+        if (ttdata==="hail") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_ice_type')
+        if (ttdata==="foggy") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_dark_and')
+        if (ttdata==="electricTerrain") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_electric_and')
+        if (ttdata==="grassyTerrain") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_grass_and')
+        if (ttdata==="mistyTerrain") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_of_fairy_and')
 
-        if (ttdata==="trickRoom") document.getElementById("tooltipBottom").innerHTML = `Slower Pokemon become faster, faster Pokemon become slower. Additionally, multiplies the damage based on how slow the Pokemon originally was by x1.0 to x1.5`
-        if (ttdata==="weirdRoom") document.getElementById("tooltipBottom").innerHTML = `Copies all attack and defense base stats of the enemy`
-        if (ttdata==="crossRoom") document.getElementById("tooltipBottom").innerHTML = `Increases the damage dealt by cross-power by 30%`
+        if (ttdata==="trickRoom") document.getElementById("tooltipBottom").innerHTML = t('ui.slower_pokemon_become_faster_faster_pokemon')
+        if (ttdata==="weirdRoom") document.getElementById("tooltipBottom").innerHTML = t('ui.copies_all_attack_and_defense_base')
+        if (ttdata==="crossRoom") document.getElementById("tooltipBottom").innerHTML = t('ui.increases_the_damage_dealt_by_cross')
         //if (ttdata==="reflect") document.getElementById("tooltipBottom").innerHTML = `Decreases the damage dealt by physical attacks by 75%`
-        if (ttdata==="lightScreen") document.getElementById("tooltipBottom").innerHTML = `Super-effective damage dealt to your team is reduced to neutral`
-        if (ttdata==="safeguard") document.getElementById("tooltipBottom").innerHTML = `Protects your team from status effects and stat reductions`
+        if (ttdata==="lightScreen") document.getElementById("tooltipBottom").innerHTML = t('ui.super_effective_damage_dealt_to_your')
+        if (ttdata==="safeguard") document.getElementById("tooltipBottom").innerHTML = t('ui.protects_your_team_from_status_effects')
 
         
         
@@ -421,8 +421,7 @@ function tooltipData(category, ttdata){
         <span class="hitbox"></span>
         <div style="width: 100%;">
         <span class="explore-ticket-left">
-        <span style="font-size:1.2rem">${areas[i].name}</span>
-        <span><strong style="background:#964646ff">HP Remaining: ${areas[i].hpPercentage.toFixed(0)}%</strong><span></span></span>
+        <span style="font-size:1.2rem">${t('ui.hp_remaining', { v: areas[i].name, v2: areas[i].hpPercentage.toFixed(0) })}</strong><span></span></span>
         </span>
         </div>
         <div style="width: 8rem;" class="explore-ticket-right">
@@ -498,7 +497,7 @@ function tooltipData(category, ttdata){
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").style.display = `none`
         document.getElementById("tooltipBottom").style.display = `none`
-        document.getElementById("tooltipMid").innerHTML = `All trainers defeated for now`
+        document.getElementById("tooltipMid").innerHTML = t('ui.all_trainers_defeated_for_now')
         openTooltip()
         return
     }
@@ -513,8 +512,7 @@ function tooltipData(category, ttdata){
 
 
     <div class="arena-tooltip">
-    Pick a difficulty for the next trainer
-    <span>(Right click/long tap to see the field effect details)</span>
+    ${t('ui.pick_difficulty_for_the_next_trainer')}</span>
     </div>
 
 
@@ -624,11 +622,11 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
 
         let nameTag = "";
        //if (areas[i].reward.includes(item.goldenBottleCap)) nameTag = `<svg class="event-icon" style="color:#465f96" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12.795 2h-2c-1.886 0-2.829 0-3.414.586c-.586.586-.586 1.528-.586 3.414v3.5h10V6c0-1.886 0-2.828-.586-3.414S14.681 2 12.795 2" opacity="0.5"/><path fill="currentColor" fill-rule="evenodd" d="M13.23 5.783a3 3 0 0 0-2.872 0L5.564 8.397A3 3 0 0 0 4 11.031v4.938a3 3 0 0 0 1.564 2.634l4.794 2.614a3 3 0 0 0 2.872 0l4.795-2.614a3 3 0 0 0 1.564-2.634V11.03a3 3 0 0 0-1.564-2.634zM11.794 10.5c-.284 0-.474.34-.854 1.023l-.098.176c-.108.194-.162.29-.246.354s-.19.088-.399.135l-.19.044c-.739.167-1.108.25-1.195.532c-.088.283.163.577.666 1.165l.13.152c.144.167.215.25.247.354s.022.215 0 .438l-.02.203c-.076.785-.114 1.178.116 1.352s.575.015 1.266-.303l.179-.082c.196-.09.294-.135.398-.135s.203.045.399.135l.179.082c.69.319 1.036.477 1.266.303s.192-.567.116-1.352l-.02-.203c-.022-.223-.033-.334 0-.438c.032-.103.103-.187.246-.354l.13-.152c.504-.588.755-.882.667-1.165c-.088-.282-.457-.365-1.194-.532l-.191-.044c-.21-.047-.315-.07-.399-.135c-.084-.064-.138-.16-.246-.354l-.098-.176c-.38-.682-.57-1.023-.855-1.023" clip-rule="evenodd"/></svg>`
-        let prefix = "Rookie Trainer "
-        if (areas[i].tier==2) prefix = "Veteran Trainer "
-        if (areas[i].tier==3) prefix = "Ace Trainer "
-        if (areas[i].tier==4) prefix = "Expert Trainer "
-        if (areas[i].tier==5) prefix = "Master Trainer "
+        let prefix = `${t('ui.rookie_trainer')} `
+        if (areas[i].tier==2) prefix = `${t('ui.veteran_trainer')} `
+        if (areas[i].tier==3) prefix = `${t('ui.ace_trainer')} `
+        if (areas[i].tier==4) prefix = `${t('ui.expert_trainer')} `
+        if (areas[i].tier==5) prefix = `${t('ui.master_trainer')} `
 
         divAreas.addEventListener("click", e => { 
 
@@ -665,8 +663,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
                 <img class="vs-card-flair" src="img/icons/pokeball.svg">
                 <div class="vs-card-bg"></div>
                     <span class="explore-ticket-left" style="z-index: 2;">
-                        <span style="font-size:1.3rem">${prefix}${i.replace(/frontier/gi, "")}${nameTag}</span>
-                        <span><strong style="font-size:1rem; background:#964646ff">Trainer ${saved.arenaCurrentTrainer}/5</strong></span>
+                        <span style="font-size:1.3rem">${t('ui.prefix_nametag_trainer_arenacurrenttrainer', { prefix: prefix, v: i.replace(/frontier/gi, ""), nameTag: nameTag, arenaCurrentTrainer: saved.arenaCurrentTrainer })}</strong></span>
                     </span>
                 <div>
                 </div>
@@ -766,7 +763,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
     for (const i in areas[ttdata].skills) {
         const div = document.createElement("div")
         div.className = `arena-card-info`
-        div.innerHTML = `<span>On HP bar Nº${i} depleted</span><div>${skill[areas[ttdata].skills[i]].info()}</div>`
+        div.innerHTML = `<span>${t('ui.on_hp_bar_depleted', { v: i })}</span><div>${skill[areas[ttdata].skills[i]].info()}</div>`
         document.getElementById("arena-card-effect-list").appendChild(div)
     }
 
@@ -781,83 +778,83 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipMid").style.display = `none`
 
-        if (ttdata === `VS`) document.getElementById("tooltipTitle").innerHTML = `VS Trainers`
-        if (ttdata === `VS`) document.getElementById("tooltipBottom").innerHTML = `Defeat increasingly difficult trainers and carve yourself a path of fame! You may unlock additional areas to explore as your progress`
+        if (ttdata === `VS`) document.getElementById("tooltipTitle").innerHTML = t('ui.vs_trainers')
+        if (ttdata === `VS`) document.getElementById("tooltipBottom").innerHTML = t('ui.defeat_increasingly_difficult_trainers_and_carve')
 
-        if (ttdata === `Frontier`) document.getElementById("tooltipTitle").innerHTML = `Battle Frontier`
-        if (ttdata === `Frontier`) document.getElementById("tooltipBottom").innerHTML = `The Battle Frontier houses different types of challenges under a specific division restriction that rotates every three days. Trainers fought here will reset every day`
+        if (ttdata === `Frontier`) document.getElementById("tooltipTitle").innerHTML = t('ui.battle_frontier')
+        if (ttdata === `Frontier`) document.getElementById("tooltipBottom").innerHTML = t('ui.the_battle_frontier_houses_different_types')
 
-        if (ttdata === `Spiral`) document.getElementById("tooltipTitle").innerHTML = `Battle Tower`
-        if (ttdata === `Spiral`) document.getElementById("tooltipBottom").innerHTML = `The Battle Tower is an infinitely-scaling challenge in which every Pokemon defeated will increase the difficulty. Type Immunities inside this challenge will be instead converted to resistances<br><br>Every time you enter the tower, you will start from floor 1, but you can try as many times as you'd like<br><br>Your highest reached floor will be saved, and reset when the league rotation changes. You will be rewarded for every new highest floor reached at the end of the battle<br><br>There is a maximum of 100 Golden Bottlecaps achievable`
+        if (ttdata === `Spiral`) document.getElementById("tooltipTitle").innerHTML = t('ui.battle_tower')
+        if (ttdata === `Spiral`) document.getElementById("tooltipBottom").innerHTML = t('ui.the_battle_tower_is_an_infinitely')
         if (ttdata === `Spiral`) document.getElementById("tooltipMid").style.display = `inline`
-        if (ttdata === `Spiral`) document.getElementById("tooltipMid").innerHTML = `Current Type Rotation: ${format(saved.currentSpiralingType, 'type')}`
+        if (ttdata === `Spiral`) document.getElementById("tooltipMid").innerHTML = t('ui.current_type_rotation', { v: format(saved.currentSpiralingType, 'type') })
 
 
-        if (ttdata === `BattleFactory`) document.getElementById("tooltipTitle").innerHTML = `Battle Factory`
-        if (ttdata === `BattleFactory`) document.getElementById("tooltipBottom").innerHTML = `The Battle Factory is a challenge in which your goal is to deal the maximum amount of damage. Every turn you will take a fixed amount of damage, and damage from status effects is disabled.<br><br>Every time you enter the factory, your score will reset, but you can try as many times as you'd like<br><br>Your highest reached score will be saved, and reset when the league rotation changes. You will be rewarded for your highest score reached at the end of the battle<br><br>There is a maximum of 100 Golden Bottlecaps achievable`
-        if (ttdata === `BattleFactory`) document.getElementById("tooltipMid").innerHTML = `<div id="area-preview-spawns" data-pkmn="${areas.frontierBattleFactory.icon.id}"><strong>Factory Pokemon</strong><img class="sprite-trim" src="img/pkmn/sprite/${areas.frontierBattleFactory.icon.id}.png"></div>`;
+        if (ttdata === `BattleFactory`) document.getElementById("tooltipTitle").innerHTML = t('ui.battle_factory')
+        if (ttdata === `BattleFactory`) document.getElementById("tooltipBottom").innerHTML = t('ui.the_battle_factory_is_challenge_in')
+        if (ttdata === `BattleFactory`) document.getElementById("tooltipMid").innerHTML = `<div id="area-preview-spawns" data-pkmn="${areas.frontierBattleFactory.icon.id}"><strong>${t('ui.factory_pokemon')}</strong><img class="sprite-trim" src="img/pkmn/sprite/${areas.frontierBattleFactory.icon.id}.png"></div>`;
         if (ttdata === `BattleFactory`) document.getElementById("tooltipMid").style.display = `inline`
 
-        if (ttdata === `BattleArena`) document.getElementById("tooltipTitle").innerHTML = `Battle Arena`
-        if (ttdata === `BattleArena`) document.getElementById("tooltipBottom").innerHTML = `The Battle Arena features five trainers in which you can select their difficulty for higher rewards. Field effects, battle modifiers, will also be randomised alongside the trainers. Trainers fought here will reset every day`
+        if (ttdata === `BattleArena`) document.getElementById("tooltipTitle").innerHTML = t('ui.battle_arena')
+        if (ttdata === `BattleArena`) document.getElementById("tooltipBottom").innerHTML = t('ui.the_battle_arena_features_five_trainers')
 
-        if (ttdata === `Wild Areas`) document.getElementById("tooltipTitle").innerHTML = `Wild Areas`
-        if (ttdata === `Wild Areas`) document.getElementById("tooltipBottom").innerHTML = `All Pokemon in Wild Areas might be caught by defeating them. Wild Areas rotate every day, so be sure to check out what can be caught today!`
+        if (ttdata === `Wild Areas`) document.getElementById("tooltipTitle").innerHTML = t('ui.wild_areas')
+        if (ttdata === `Wild Areas`) document.getElementById("tooltipBottom").innerHTML = t('ui.all_pokemon_in_wild_areas_might')
 
-        if (ttdata === `Dungeons`) document.getElementById("tooltipTitle").innerHTML = `Dungeons`
-        if (ttdata === `Dungeons`) document.getElementById("tooltipBottom").innerHTML = `Pokemon in Dungeons can't be caught, but they can drop useful items and EXP. Dungeons rotate every day aswell`
+        if (ttdata === `Dungeons`) document.getElementById("tooltipTitle").innerHTML = t('ui.dungeons')
+        if (ttdata === `Dungeons`) document.getElementById("tooltipBottom").innerHTML = t('ui.pokemon_in_dungeons_cant_be_caught')
 
-        if (ttdata === `Training`) document.getElementById("tooltipTitle").innerHTML = `Training`
-        if (ttdata === `Training`) document.getElementById("tooltipBottom").innerHTML = `Challenge your Pokemon against waves of foes in order to get stronger. You will naturally have typing advantage against Pokemon fought against, and their level will scale to yours. Type Immunities inside training will be instead converted to resistances.<br><br>Failing a training will result in no gains`
+        if (ttdata === `Training`) document.getElementById("tooltipTitle").innerHTML = t('ui.training')
+        if (ttdata === `Training`) document.getElementById("tooltipBottom").innerHTML = t('ui.challenge_your_pokemon_against_waves_of')
 
-        if (ttdata === `Events`) document.getElementById("tooltipTitle").innerHTML = `Events`
-        if (ttdata === `Events`) document.getElementById("tooltipBottom").innerHTML = `Events might house both items and Pokemon to get. Events marked with a skull signify powerful foes that usually require an item to catch (The item wont be consumed if failed to defeat) that can be acquired in the collection events. All Events rotate every three days.`
+        if (ttdata === `Events`) document.getElementById("tooltipTitle").innerHTML = t('ui.events')
+        if (ttdata === `Events`) document.getElementById("tooltipBottom").innerHTML = t('ui.events_might_house_both_items_and')
 
-        if (ttdata === `Dimension`) document.getElementById("tooltipTitle").innerHTML = `Mega-Dimension`
-        if (ttdata === `Dimension`) document.getElementById("tooltipBottom").innerHTML = `Welcome valiant trainer to the final frontier, the Mega-Dimension, housing only the strongest Pokemon of all the universe!<br><br>Wormholes have each separate rules, having both unique areas, field effects and skills. In addition to field effects, skills will trigger while fighting the boss<br><br>The Pokemon appearing on the rift are random and will change on each rotation`
+        if (ttdata === `Dimension`) document.getElementById("tooltipTitle").innerHTML = t('ui.mega_dimension')
+        if (ttdata === `Dimension`) document.getElementById("tooltipBottom").innerHTML = t('ui.welcome_valiant_trainer_to_the_final')
 
-        if (ttdata === `Genetics`) document.getElementById("tooltipTitle").innerHTML = `Genetics`
-        if (ttdata === `Genetics`) document.getElementById("tooltipBottom").innerHTML = `With genetics, you can modify the parameters of a level 100 Pokemon (the host) and influence them based on another Pokemon (the sample)<br><br>Doing so, the level of the host will reset back to 1 while keeping all 4 of its currently selected moves, and a chance to increase its IV's<br><br>Genetics can also be influenced by using genetic-aiding items, which you can use at the end of the operation<br><br>You can find more information about the specifics of genetics in the guide section`
+        if (ttdata === `Genetics`) document.getElementById("tooltipTitle").innerHTML = t('ui.genetics')
+        if (ttdata === `Genetics`) document.getElementById("tooltipBottom").innerHTML = t('ui.with_genetics_you_can_modify_the')
 
-        if (ttdata === `Pokerus`) document.getElementById("tooltipTitle").innerHTML = `Pokerus`
-        if (ttdata === `Pokerus`) document.getElementById("tooltipBottom").innerHTML = `Every 12 hours, some of your Pokemon will contract Pokerus. This virus is entirely beneficial, and will add one level of compatibility to the Pokemon in genetics when used as a host`
+        if (ttdata === `Pokerus`) document.getElementById("tooltipTitle").innerHTML = t('ui.pokerus')
+        if (ttdata === `Pokerus`) document.getElementById("tooltipBottom").innerHTML = t('ui.every_hours_some_of_your_pokemon')
 
-        if (ttdata === `settingsNewPkmn`) document.getElementById("tooltipTitle").innerHTML = `Setting`
-        if (ttdata === `settingsNewPkmn`) document.getElementById("tooltipBottom").innerHTML = `Automatically hides got Pokemon that are not new after a battle. Excluded from this setting are: New Pokemon, Iv's Ups and Shiny Pokemon`
+        if (ttdata === `settingsNewPkmn`) document.getElementById("tooltipTitle").innerHTML = t('ui.setting')
+        if (ttdata === `settingsNewPkmn`) document.getElementById("tooltipBottom").innerHTML = t('ui.automatically_hides_got_pokemon_that_are')
 
-        if (ttdata === `settingsAlternateWild`) document.getElementById("tooltipTitle").innerHTML = `Setting`
-        if (ttdata === `settingsAlternateWild`) document.getElementById("tooltipBottom").innerHTML = `Decreases the current Wild Area rotation by -1. Useful if you missed yesterday's rotation, or if your schedule doesnt line up with my game`
+        if (ttdata === `settingsAlternateWild`) document.getElementById("tooltipTitle").innerHTML = t('ui.setting')
+        if (ttdata === `settingsAlternateWild`) document.getElementById("tooltipBottom").innerHTML = t('ui.decreases_the_current_wild_area_rotation')
 
 
-        if (ttdata === `searchDictionary`) document.getElementById("tooltipTitle").innerHTML = `Keywords`
-        if (ttdata === `searchDictionary`) document.getElementById("tooltipBottom").innerHTML = `Operators:<br>![keyword]: Exclude from search<br>[keywordA] or [keywordB]: Search keywordA OR keywordB<br>[keywordA] [keywordB]: Search for keywordA AND keywordB<br><br>Pokemon keywords:<br>unobtainable, wild, park, event, frontier, mart, shiny, caught, signature, eggMove, [type], [hidden ability]<br><br>Move keywords:<br>physical, special, signature, [type], [ability]`
+        if (ttdata === `searchDictionary`) document.getElementById("tooltipTitle").innerHTML = t('ui.keywords')
+        if (ttdata === `searchDictionary`) document.getElementById("tooltipBottom").innerHTML = t('ui.operators_keyword_exclude_from_search_keyworda')
         if (ttdata === `searchDictionary`) document.getElementById("dictionary-search").blur()
 
 
-        if (ttdata === `searchPokedex`) document.getElementById("tooltipTitle").innerHTML = `Keywords`
-        if (ttdata === `searchPokedex`) document.getElementById("tooltipBottom").innerHTML = `Operators:<br>![keyword]: Exclude from search<br>[keywordA] or [keywordB]: Search keywordA OR keywordB<br>[keywordA] [keywordB]: Search for keywordA AND keywordB<br><br>Keywords:<br>shiny, pokerus, signature, eggMove, [type], [ability], [hidden ability], [level], [move]<br>ivsum(< = >)[number]: Check sum of IVs (IE: ivsum<36)`
+        if (ttdata === `searchPokedex`) document.getElementById("tooltipTitle").innerHTML = t('ui.keywords')
+        if (ttdata === `searchPokedex`) document.getElementById("tooltipBottom").innerHTML = `${t('ui.operators_keyword_exclude_from_search_keyworda_2')}< = >${t('ui.number_check_sum_of_ivs_ie')}`
         if (ttdata === `searchPokedex`) document.getElementById("pokedex-search").blur()
 
-        if (ttdata === `Main Challenges`) document.getElementById("tooltipTitle").innerHTML = `Main Challenges`
-        if (ttdata === `Main Challenges`) document.getElementById("tooltipBottom").innerHTML = `Story-driven battles and curated challenges live here. More Main Challenges are coming soon.`
+        if (ttdata === `Main Challenges`) document.getElementById("tooltipTitle").innerHTML = t('ui.main_challenges')
+        if (ttdata === `Main Challenges`) document.getElementById("tooltipBottom").innerHTML = t('ui.story_driven_battles_and_curated_challenges')
 
-        if (ttdata === `Custom Challenges`) document.getElementById("tooltipTitle").innerHTML = `Custom Challenges`
-        if (ttdata === `Custom Challenges`) document.getElementById("tooltipBottom").innerHTML = `Create custom battles from your own pools and enemy teams. Import and export challenge codes to share them.`
+        if (ttdata === `Custom Challenges`) document.getElementById("tooltipTitle").innerHTML = t('ui.custom_challenges')
+        if (ttdata === `Custom Challenges`) document.getElementById("tooltipBottom").innerHTML = t('ui.create_custom_battles_from_your_own')
 
-        if (ttdata === `ModHard`) document.getElementById("tooltipTitle").innerHTML = `Hard Mode`
-        if (ttdata === `ModHard`) document.getElementById("tooltipBottom").innerHTML = `Trainers have twice the health. Only applies to VS Trainers`
+        if (ttdata === `ModHard`) document.getElementById("tooltipTitle").innerHTML = t('ui.hard_mode')
+        if (ttdata === `ModHard`) document.getElementById("tooltipBottom").innerHTML = t('ui.trainers_have_twice_the_health_only')
 
-        if (ttdata === `ModNuzloke`) document.getElementById("tooltipTitle").innerHTML = `Nuzloke Mode`
-        if (ttdata === `ModNuzloke`) document.getElementById("tooltipBottom").innerHTML = `If any of your Pokemon get defeated while battling a trainer of VS Trainers, it will permanently be unusuable until you turn this mode off`
+        if (ttdata === `ModNuzloke`) document.getElementById("tooltipTitle").innerHTML = t('ui.nuzloke_mode')
+        if (ttdata === `ModNuzloke`) document.getElementById("tooltipBottom").innerHTML = t('ui.if_any_of_your_pokemon_get')
 
-        if (ttdata === `ModNoIvs`) document.getElementById("tooltipTitle").innerHTML = `No IVs`
-        if (ttdata === `ModNoIvs`) document.getElementById("tooltipBottom").innerHTML = `All of your Pokemon have functionally max IVs regardless of their actual IVs. This can be toggled off without any permanent changes<br><br>There are no side-effects to this modifier`
+        if (ttdata === `ModNoIvs`) document.getElementById("tooltipTitle").innerHTML = t('ui.no_ivs')
+        if (ttdata === `ModNoIvs`) document.getElementById("tooltipBottom").innerHTML = t('ui.all_of_your_pokemon_have_functionally')
 
-        if (ttdata === `ModAfk`) document.getElementById("tooltipTitle").innerHTML = `Longer AFK`
-        if (ttdata === `ModAfk`) document.getElementById("tooltipBottom").innerHTML = `Fatigue damage is reduced by x3<br><br>There are no side-effects to this modifier`
+        if (ttdata === `ModAfk`) document.getElementById("tooltipTitle").innerHTML = t('ui.longer_afk')
+        if (ttdata === `ModAfk`) document.getElementById("tooltipBottom").innerHTML = t('ui.fatigue_damage_is_reduced_by_there')
 
-        if (ttdata === `curry`) document.getElementById("tooltipTitle").innerHTML = `Curry`
-        if (ttdata === `curry`) document.getElementById("tooltipBottom").innerHTML = `Every 12h you can select up to three abilities to be active for your entire team during raids for 1 hour. These abilities follow the same rules as regular abilities, and wont stack with already existing ones`
+        if (ttdata === `curry`) document.getElementById("tooltipTitle").innerHTML = t('ui.curry')
+        if (ttdata === `curry`) document.getElementById("tooltipBottom").innerHTML = t('ui.every_you_can_select_up_to')
 
 
         openTooltip()
@@ -871,15 +868,15 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         document.getElementById("tooltipTitle").innerHTML = format(ttdata, 'ability')
         document.getElementById("tooltipTitle").style.display = `inline`
         document.getElementById("tooltipBottom").style.display = `inline`
-        document.getElementById("tooltipMid").innerHTML = `Common Ability`
-        if (ability[ttdata].rarity===2) document.getElementById("tooltipMid").innerHTML = `Uncommon Ability`
-        if (ability[ttdata].rarity===3) document.getElementById("tooltipMid").innerHTML = `Rare Ability`
+        document.getElementById("tooltipMid").innerHTML = t('ui.common_ability')
+        if (ability[ttdata].rarity===2) document.getElementById("tooltipMid").innerHTML = t('ui.uncommon_ability')
+        if (ability[ttdata].rarity===3) document.getElementById("tooltipMid").innerHTML = t('ui.rare_ability')
         document.getElementById("tooltipBottom").innerHTML = ability[ttdata].info()
 
 
         document.getElementById("tooltipMid").innerHTML += `<svg onclick="tooltipData('dictionaryAbility', '${ttdata}')" class="move-tooltip-dictionary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m6.006 11.823l1.123-3.06h.05l1.123 3.06zm6.494 5.496q1.216-.678 2.453-.98t2.547-.3q.9 0 1.618.111t1.267.296q.23.096.423-.029t.192-.394V7.008q0-.173-.096-.308q-.096-.134-.327-.23q-.825-.293-1.501-.4T17.5 5.961q-1.31 0-2.613.386q-1.304.387-2.387 1.16zm-6.78-4.763h2.869l.474 1.306q.05.111.137.17t.204.059q.198 0 .303-.158t.043-.35L7.739 8.24q-.05-.131-.169-.212t-.255-.081h-.323q-.136 0-.254.08t-.169.213l-2.011 5.361q-.062.173.043.33t.303.159q.117 0 .206-.06q.09-.058.14-.175zm6.28 5.9q-.235 0-.432-.059t-.376-.15q-1.09-.595-2.27-.902T6.5 17.04q-.78 0-1.534.13q-.753.131-1.466.42q-.544.217-1.022-.131T2 16.496V6.831q0-.371.195-.689t.547-.442q.887-.383 1.836-.56T6.5 4.962q1.47 0 2.866.423q1.398.423 2.634 1.23q1.237-.807 2.634-1.23t2.866-.423q.973 0 1.922.178q.95.177 1.836.56q.352.125.547.442t.195.689v9.665q0 .614-.516.943q-.517.328-1.1.111q-.693-.27-1.418-.39q-.724-.121-1.466-.121q-1.24 0-2.421.306t-2.271.901q-.18.093-.376.151q-.197.059-.432.059m1.885-9.508q0-.11.076-.222t.18-.168q.763-.346 1.613-.53q.85-.182 1.746-.182q.48 0 .91.053t.886.153q.129.03.224.135q.096.104.096.257q0 .252-.15.366t-.402.052q-.37-.075-.757-.103q-.388-.028-.807-.028q-.804 0-1.573.154q-.77.154-1.46.43q-.257.099-.42-.005t-.162-.362m0 5.423q0-.11.076-.231q.076-.123.18-.178q.725-.346 1.613-.52q.888-.173 1.746-.173q.48 0 .91.053t.886.153q.129.03.224.135q.096.104.096.257q0 .252-.15.366t-.402.052q-.37-.075-.757-.103q-.388-.028-.807-.028q-.784 0-1.544.16q-.76.161-1.45.457q-.258.118-.44-.003t-.181-.397m0-2.692q0-.11.076-.222t.18-.168q.763-.347 1.613-.53q.85-.182 1.746-.182q.48 0 .91.053t.886.153q.129.03.224.134q.096.104.096.258q0 .252-.15.366t-.402.051q-.37-.075-.757-.102q-.388-.028-.807-.028q-.804 0-1.573.154q-.77.153-1.46.43q-.257.098-.42-.005q-.162-.105-.162-.362"/></svg>`
         if (ability[ttdata].nerf) document.getElementById("tooltipBottom").innerHTML += `<br><font style="opacity:0.7">${ability[ttdata].nerf}</font>`
-        if (document.getElementById("pkmn-editor").style.display == "flex" && pkmn[currentEditedPkmn].hiddenAbility?.id == ttdata ) document.getElementById("tooltipBottom").innerHTML += `<br><br>This is a Hidden Ability. Hidden abilities are unlocked via Ability Capsules or via Training, and they work alongside your regular ability`
+        if (document.getElementById("pkmn-editor").style.display == "flex" && pkmn[currentEditedPkmn].hiddenAbility?.id == ttdata ) document.getElementById("tooltipBottom").innerHTML += `<br><br>${t('ui.this_is_hidden_ability_hidden_abilities')}`
 
         openTooltip()
     }
@@ -890,7 +887,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         document.getElementById("tooltipTitle").innerHTML = ribbon[ttdata].name
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = ribbon[ttdata].description
-        if (ttdata==`tower1` && pkmn[currentEditedPkmn].recordSpiraling!=undefined) document.getElementById("tooltipMid").innerHTML +=`<br>(Highest Spiraling Tower floor reached: ${pkmn[currentEditedPkmn].recordSpiraling})`
+        if (ttdata==`tower1` && pkmn[currentEditedPkmn].recordSpiraling!=undefined) document.getElementById("tooltipMid").innerHTML +=`<br>${t('ui.highest_spiraling_tower_floor_reached', { v: pkmn[currentEditedPkmn].recordSpiraling })}`
         openTooltip()
     }
 
@@ -921,18 +918,18 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
 
 
         let affectedText = ""
-        if (affectedAbilities.length>0) affectedText =`<br>Affected by ${joinWithAnd(affectedAbilities)}`
-        if (move[ttdata].restricted) affectedText +=`<br>This move is restricted (${restrictedIcon}) and only one of them can be present in the active moves at a time`
+        if (affectedAbilities.length>0) affectedText =`<br>${t('ui.affected_by', { v: joinWithAnd(affectedAbilities) })}`
+        if (move[ttdata].restricted) affectedText +=`<br>${t('ui.this_move_is_restricted_restrictedicon_and', { restrictedIcon: restrictedIcon })}`
 
 
-        document.getElementById("tooltipMid").innerHTML = `${format(move[ttdata].type, 'type')}, ${move[ttdata].power} Power, ${format(move[ttdata].split, 'split')}${affectedText}`
-        if (move[ttdata].info == undefined) document.getElementById("tooltipBottom").innerHTML = `No additional effects`
+        document.getElementById("tooltipMid").innerHTML = t('ui.power_affectedtext', { v: format(move[ttdata].type, 'type'), v2: move[ttdata].power, v3: format(move[ttdata].split, 'split'), affectedText: affectedText })
+        if (move[ttdata].info == undefined) document.getElementById("tooltipBottom").innerHTML = t('ui.no_additional_effects')
         else document.getElementById("tooltipBottom").innerHTML = move[ttdata].info()
 
         document.getElementById("tooltipMid").innerHTML += `<svg onclick="tooltipData('dictionaryMove', '${ttdata}')" class="move-tooltip-dictionary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m6.006 11.823l1.123-3.06h.05l1.123 3.06zm6.494 5.496q1.216-.678 2.453-.98t2.547-.3q.9 0 1.618.111t1.267.296q.23.096.423-.029t.192-.394V7.008q0-.173-.096-.308q-.096-.134-.327-.23q-.825-.293-1.501-.4T17.5 5.961q-1.31 0-2.613.386q-1.304.387-2.387 1.16zm-6.78-4.763h2.869l.474 1.306q.05.111.137.17t.204.059q.198 0 .303-.158t.043-.35L7.739 8.24q-.05-.131-.169-.212t-.255-.081h-.323q-.136 0-.254.08t-.169.213l-2.011 5.361q-.062.173.043.33t.303.159q.117 0 .206-.06q.09-.058.14-.175zm6.28 5.9q-.235 0-.432-.059t-.376-.15q-1.09-.595-2.27-.902T6.5 17.04q-.78 0-1.534.13q-.753.131-1.466.42q-.544.217-1.022-.131T2 16.496V6.831q0-.371.195-.689t.547-.442q.887-.383 1.836-.56T6.5 4.962q1.47 0 2.866.423q1.398.423 2.634 1.23q1.237-.807 2.634-1.23t2.866-.423q.973 0 1.922.178q.95.177 1.836.56q.352.125.547.442t.195.689v9.665q0 .614-.516.943q-.517.328-1.1.111q-.693-.27-1.418-.39q-.724-.121-1.466-.121q-1.24 0-2.421.306t-2.271.901q-.18.093-.376.151q-.197.059-.432.059m1.885-9.508q0-.11.076-.222t.18-.168q.763-.346 1.613-.53q.85-.182 1.746-.182q.48 0 .91.053t.886.153q.129.03.224.135q.096.104.096.257q0 .252-.15.366t-.402.052q-.37-.075-.757-.103q-.388-.028-.807-.028q-.804 0-1.573.154q-.77.154-1.46.43q-.257.099-.42-.005t-.162-.362m0 5.423q0-.11.076-.231q.076-.123.18-.178q.725-.346 1.613-.52q.888-.173 1.746-.173q.48 0 .91.053t.886.153q.129.03.224.135q.096.104.096.257q0 .252-.15.366t-.402.052q-.37-.075-.757-.103q-.388-.028-.807-.028q-.784 0-1.544.16q-.76.161-1.45.457q-.258.118-.44-.003t-.181-.397m0-2.692q0-.11.076-.222t.18-.168q.763-.347 1.613-.53q.85-.182 1.746-.182q.48 0 .91.053t.886.153q.129.03.224.134q.096.104.096.258q0 .252-.15.366t-.402.051q-.37-.075-.757-.102q-.388-.028-.807-.028q-.804 0-1.573.154q-.77.153-1.46.43q-.257.098-.42-.005q-.162-.105-.162-.362"/></svg>`
 
-        if (document.getElementById("pkmn-editor").style.display == "flex" && pkmn[currentEditedPkmn].signature?.id == ttdata ) document.getElementById("tooltipBottom").innerHTML += `<br><br>This is a Signature Move. Signature moves will automatically be learnt at level 100`
-        if (document.getElementById("pkmn-editor").style.display == "flex" && pkmn[currentEditedPkmn].eggMove?.id == ttdata ) document.getElementById("tooltipBottom").innerHTML += `<br><br>This is an Egg Move. Egg moves can be learnt with genetics when using this Pokemon as a host, using a sample that knows said egg move (usually in the form of Signature moves), at regular move transfer odds`
+        if (document.getElementById("pkmn-editor").style.display == "flex" && pkmn[currentEditedPkmn].signature?.id == ttdata ) document.getElementById("tooltipBottom").innerHTML += `<br><br>${t('ui.this_is_signature_move_signature_moves')}`
+        if (document.getElementById("pkmn-editor").style.display == "flex" && pkmn[currentEditedPkmn].eggMove?.id == ttdata ) document.getElementById("tooltipBottom").innerHTML += `<br><br>${t('ui.this_is_an_egg_move_egg')}`
 
 
 
@@ -955,11 +952,11 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
 
 
         if (item[ttdata].type==="held" || item[ttdata].heldBonusPower){
-            document.getElementById("tooltipTitle").innerHTML = format(ttdata, 'item') + `<br>Level ${returnItemLevel(ttdata)}`
-            document.getElementById("tooltipMid").innerHTML = `${returnItemLevel(ttdata,"stars")}<br>${item[ttdata].got} in total ${returnItemLevel(ttdata,"left")}`
+            document.getElementById("tooltipTitle").innerHTML = format(ttdata, 'item') + `<br>${t('ui.level', { v: returnItemLevel(ttdata) })}`
+            document.getElementById("tooltipMid").innerHTML = t('ui.in_total', { v: returnItemLevel(ttdata,"stars"), v2: item[ttdata].got, v3: returnItemLevel(ttdata,"left") })
         }
 
-        else document.getElementById("tooltipMid").innerHTML = `${item[ttdata].got} in bag`
+        else document.getElementById("tooltipMid").innerHTML = t('ui.in_bag', { v: item[ttdata].got })
 
         openTooltip()
 
@@ -972,8 +969,8 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         document.getElementById("tooltipTitle").style.display = "none";
         let hiddenAbility = `WIP`
         let signatureMove = ""
-        if (pkmn[ttdata].signature != undefined) signatureMove = `<div id="inpect-pkmn-signature" style="box-shadow: none; outline:none"> <svg style="margin: 0 0.3rem; opacity:0.8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21.951 9.67a1 1 0 0 0-.807-.68l-5.699-.828l-2.548-5.164A.98.98 0 0 0 12 2.486v16.28l5.097 2.679a1 1 0 0 0 1.451-1.054l-.973-5.676l4.123-4.02a1 1 0 0 0 .253-1.025" opacity="0.5"/><path fill="currentColor" d="M11.103 2.998L8.555 8.162l-5.699.828a1 1 0 0 0-.554 1.706l4.123 4.019l-.973 5.676a1 1 0 0 0 1.45 1.054L12 18.765V2.503a1.03 1.03 0 0 0-.897.495"/></svg> Signature Move: ${format(pkmn[ttdata].signature.id, 'move')} </div>`
-        if (pkmn[ttdata].eggMove != undefined) signatureMove = `<div id="inpect-pkmn-signature" style="box-shadow: none; outline:none"> <svg style="margin: 0 0.3rem; opacity:0.8" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><defs><mask id="SVGVlQBebkA"><g fill="none"><path fill="#555555" fill-rule="evenodd" stroke="#fff" stroke-width="4" d="M24 44c10.252 0 16-6.954 16-18S31.132 4 24 4S8 14.954 8 26s5.748 18 16 18Z" clip-rule="evenodd"/><path fill="#fff" d="M21 38a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/><path fill="#fff" fill-rule="evenodd" d="M16 29.668a2 2 0 1 0 0-4a2 2 0 0 0 0 4" clip-rule="evenodd"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGVlQBebkA)"/></svg> Egg Move: ${format(pkmn[ttdata].eggMove.id, 'move')} </div>`
+        if (pkmn[ttdata].signature != undefined) signatureMove = `<div id="inpect-pkmn-signature" style="box-shadow: none; outline:none"> <svg style="margin: 0 0.3rem; opacity:0.8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21.951 9.67a1 1 0 0 0-.807-.68l-5.699-.828l-2.548-5.164A.98.98 0 0 0 12 2.486v16.28l5.097 2.679a1 1 0 0 0 1.451-1.054l-.973-5.676l4.123-4.02a1 1 0 0 0 .253-1.025" opacity="0.5"/><path fill="currentColor" d="M11.103 2.998L8.555 8.162l-5.699.828a1 1 0 0 0-.554 1.706l4.123 4.019l-.973 5.676a1 1 0 0 0 1.45 1.054L12 18.765V2.503a1.03 1.03 0 0 0-.897.495"/></svg> ${t('ui.signature_move', { v: format(pkmn[ttdata].signature.id, 'move') })} </div>`
+        if (pkmn[ttdata].eggMove != undefined) signatureMove = `<div id="inpect-pkmn-signature" style="box-shadow: none; outline:none"> <svg style="margin: 0 0.3rem; opacity:0.8" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><defs><mask id="SVGVlQBebkA"><g fill="none"><path fill="#555555" fill-rule="evenodd" stroke="#fff" stroke-width="4" d="M24 44c10.252 0 16-6.954 16-18S31.132 4 24 4S8 14.954 8 26s5.748 18 16 18Z" clip-rule="evenodd"/><path fill="#fff" d="M21 38a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/><path fill="#fff" fill-rule="evenodd" d="M16 29.668a2 2 0 1 0 0-4a2 2 0 0 0 0 4" clip-rule="evenodd"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGVlQBebkA)"/></svg> ${t('ui.egg_move', { v: format(pkmn[ttdata].eggMove.id, 'move') })} </div>`
         if (pkmn[ttdata].hiddenAbility != undefined) hiddenAbility = format(pkmn[ttdata].hiddenAbility.id, 'ability')
 
         document.getElementById("tooltipMid").innerHTML = `<div style="display:flex; flex-wrap:wrap; justify-content:center;align-items:center; overflow-y:scroll; max-height:15rem">${returnTypeMultipliers(pkmn[ttdata])}</div>`;
@@ -1129,7 +1126,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         else document.getElementById("pkmn-editor-sprite").src = `img/pkmn/sprite/${poke.id}.png`
         document.getElementById("pkmn-editor-name").innerHTML = `<span id="pkmn-editor-nickname">${format(poke.id, 'pkmn')}</span>${nameTag}`
         if (pkmn[poke.id].shiny) document.getElementById("pkmn-editor-name").innerHTML = `<span id="pkmn-editor-nickname">${format(poke.id, 'pkmn')}</span> <span style="color:#FF4671">✦</span>${nameTag}`
-        document.getElementById("pkmn-editor-level").innerHTML = `Level ${poke.level}`
+        document.getElementById("pkmn-editor-level").innerHTML = t('ui.level_level', { level: poke.level })
         document.getElementById("pkmn-editor-type").innerHTML = returnPkmnTypes(poke.id)
 
 
@@ -1165,8 +1162,8 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         // if it has a leveled evolution
         let evolutionTag = ""
         if (pkmn[ttdata].evolve && pkmn[ttdata].evolve()[1].level>0){
-            evolutionTag = `<span>Unlocks ${format(pkmn[ttdata].evolve()[1].pkmn.id, 'pkmn')} at level ${pkmn[ttdata].evolve()[1].level} ❌</span>`
-            if (pkmn[ pkmn[ttdata].evolve()[1].pkmn.id ].caught>0) evolutionTag = `<span>Unlocks ${format(pkmn[ttdata].evolve()[1].pkmn.id, 'pkmn')} at level ${pkmn[ttdata].evolve()[1].level} ✔️</span>`
+            evolutionTag = `<span>${t('ui.unlocks_at_level', { v: format(pkmn[ttdata].evolve()[1].pkmn.id, 'pkmn'), v2: pkmn[ttdata].evolve()[1].level })}</span>`
+            if (pkmn[ pkmn[ttdata].evolve()[1].pkmn.id ].caught>0) evolutionTag = `<span>${t('ui.unlocks_at_level_2', { v: format(pkmn[ttdata].evolve()[1].pkmn.id, 'pkmn'), v2: pkmn[ttdata].evolve()[1].level })}</span>`
         }
 
         //if by item
@@ -1178,8 +1175,8 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
         if (pkmn[ttdata].evolve()[evo].item.id == "linkStone") levelRequired = wildAreaLevel4
         if (pkmn[ttdata].evolve()[evo].item.id == "oddRock") levelRequired = wildAreaLevel4
         if (pkmn[ttdata].evolve()[evo].pkmn.id.slice(0, 4) === "mega") levelRequired = 100
-        if (pkmn[ pkmn[ttdata].evolve()[evo].pkmn.id ].caught>0) evolutionTag += `<span>Unlocks ${format(pkmn[ttdata].evolve()[evo].pkmn.id, 'pkmn')} by using a ${format(item[pkmn[ttdata].evolve()[evo].item.id].id, 'item')} at level ${levelRequired}+ ✔️</span>`
-        else evolutionTag += `<span>Unlocks ${format(pkmn[ttdata].evolve()[evo].pkmn.id, 'pkmn')} by using a ${format(item[pkmn[ttdata].evolve()[evo].item.id].id, 'item')} at level ${levelRequired}+ ❌</span>`
+        if (pkmn[ pkmn[ttdata].evolve()[evo].pkmn.id ].caught>0) evolutionTag += `<span>${t('ui.unlocks_by_using_at_level_levelrequired', { v: format(pkmn[ttdata].evolve()[evo].pkmn.id, 'pkmn'), v2: format(item[pkmn[ttdata].evolve()[evo].item.id].id, 'item'), levelRequired: levelRequired })}</span>`
+        else evolutionTag += `<span>${t('ui.unlocks_by_using_at_level_levelrequired_2', { v: format(pkmn[ttdata].evolve()[evo].pkmn.id, 'pkmn'), v2: format(item[pkmn[ttdata].evolve()[evo].item.id].id, 'item'), levelRequired: levelRequired })}</span>`
 
         }
         }
@@ -1325,7 +1322,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
     document.getElementById("pkmn-stats-lore").style.display = "none"
     document.getElementById("pkmn-stats-lore").innerHTML = ""
     if (pkmn[ttdata].lore){
-        document.getElementById("pkmn-stats-lore").innerHTML = `<div onclick="if (document.getElementById('pkmn-stats-lore-info').style.maxHeight == '10rem') {document.getElementById('pkmn-stats-lore-info').style.maxHeight = '0rem'; document.getElementById('pkmn-stats-lore-info').style.padding = '0rem'; return} document.getElementById('pkmn-stats-lore-info').style.maxHeight = '10rem'; document.getElementById('pkmn-stats-lore-info').style.padding = '1rem';">Expand Lore
+        document.getElementById("pkmn-stats-lore").innerHTML = `<div onclick="if (document.getElementById('pkmn-stats-lore-info').style.maxHeight == '10rem') {document.getElementById('pkmn-stats-lore-info').style.maxHeight = '0rem'; document.getElementById('pkmn-stats-lore-info').style.padding = '0rem'; return} document.getElementById('pkmn-stats-lore-info').style.maxHeight = '10rem'; document.getElementById('pkmn-stats-lore-info').style.padding = '1rem';">${t('ui.expand_lore')}
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path fill="currentColor" fill-opacity="0.25" fill-rule="evenodd" d="M2.455 11.116C3.531 9.234 6.555 5 12 5c5.444 0 8.469 4.234 9.544 6.116c.221.386.331.58.32.868c-.013.288-.143.476-.402.852C20.182 14.694 16.706 19 12 19s-8.182-4.306-9.462-6.164c-.26-.376-.39-.564-.401-.852c-.013-.288.098-.482.318-.868M12 15a3 3 0 1 0 0-6a3 3 0 0 0 0 6" clip-rule="evenodd"/><path stroke="currentColor" stroke-width="1.2" d="M12 5c-5.444 0-8.469 4.234-9.544 6.116c-.221.386-.331.58-.32.868c.013.288.143.476.402.852C3.818 14.694 7.294 19 12 19s8.182-4.306 9.462-6.164c.26-.376.39-.564.401-.852s-.098-.482-.319-.868C20.47 9.234 17.444 5 12 5Z"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.2"/></g></svg>
                     </div>
                     <span id="pkmn-stats-lore-info"  > ${pkmn[ttdata].lore}
@@ -1338,7 +1335,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
     if (pkmn[ttdata].signature) {
         signatureIcon = `<svg style="color:${returnTypeColor(move[pkmn[ttdata].signature.id].type)}; margin:0 0.25rem" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21.951 9.67a1 1 0 0 0-.807-.68l-5.699-.828l-2.548-5.164A.98.98 0 0 0 12 2.486v16.28l5.097 2.679a1 1 0 0 0 1.451-1.054l-.973-5.676l4.123-4.02a1 1 0 0 0 .253-1.025" opacity="0.5"/><path fill="currentColor" d="M11.103 2.998L8.555 8.162l-5.699.828a1 1 0 0 0-.554 1.706l4.123 4.019l-.973 5.676a1 1 0 0 0 1.45 1.054L12 18.765V2.503a1.03 1.03 0 0 0-.897.495"/></svg>`
         document.getElementById("pkmn-stats-stat-signature").style.display = "flex"
-        document.getElementById("pkmn-edit-signature-text").textContent = "Signature Move"
+        document.getElementById("pkmn-edit-signature-text").textContent = t('ui.signature_move_2')
         document.getElementById("pkmn-edit-signature").innerHTML = `${signatureIcon} ${format(pkmn[ttdata].signature.id, 'move')}`
         if (pkmn[ttdata].movepool.includes(pkmn[ttdata].signature.id)) document.getElementById("pkmn-edit-signature").innerHTML = `${signatureIcon} ${format(pkmn[ttdata].signature.id, 'move')} ✔️`
         document.getElementById("pkmn-edit-signature").dataset.move = pkmn[ttdata].signature.id
@@ -1346,7 +1343,7 @@ frontierArray.sort((a, b) => a.data.tier - b.data.tier);
     } else if (pkmn[ttdata].eggMove) {
         signatureIcon = `<svg style="color:${returnTypeColor(move[pkmn[ttdata].eggMove.id].type)}; margin:0 0.25rem" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><mask id="SVGVlQBebkA"><g fill="none"><path fill="#555555" fill-rule="evenodd" stroke="#fff" stroke-width="4" d="M24 44c10.252 0 16-6.954 16-18S31.132 4 24 4S8 14.954 8 26s5.748 18 16 18Z" clip-rule="evenodd"/><path fill="#fff" d="M21 38a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/><path fill="#fff" fill-rule="evenodd" d="M16 29.668a2 2 0 1 0 0-4a2 2 0 0 0 0 4" clip-rule="evenodd"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#SVGVlQBebkA)"/></svg>`
         document.getElementById("pkmn-stats-stat-signature").style.display = "flex"
-        document.getElementById("pkmn-edit-signature-text").textContent = "Egg Move"
+        document.getElementById("pkmn-edit-signature-text").textContent = t('ui.egg_move_2')
         document.getElementById("pkmn-edit-signature").innerHTML = `${signatureIcon} ${format(pkmn[ttdata].eggMove.id, 'move')}`
         if (pkmn[ttdata].movepool.includes(pkmn[ttdata].eggMove.id)) document.getElementById("pkmn-edit-signature").innerHTML = `${signatureIcon} ${format(pkmn[ttdata].eggMove.id, 'move')} ✔️`
         document.getElementById("pkmn-edit-signature").dataset.move = pkmn[ttdata].eggMove.id
@@ -1522,8 +1519,8 @@ const sortedMovepool = movepool
 
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Restricted Action`
-        document.getElementById("tooltipMid").innerHTML = `Moves cannot be freely switched at this moment`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.restricted_action')
+        document.getElementById("tooltipMid").innerHTML = t('ui.moves_cannot_be_freely_switched_at')
         openTooltip()
         return
 
@@ -1535,8 +1532,8 @@ const sortedMovepool = movepool
 
         document.getElementById("tooltipTop").style.display = "none"
         document.getElementById("tooltipBottom").style.display = "none"
-        document.getElementById("tooltipTitle").innerHTML = `Restricted Move`
-        document.getElementById("tooltipMid").innerHTML = `Restricted moves cannot be freely switched during combat`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.restricted_move')
+        document.getElementById("tooltipMid").innerHTML = t('ui.restricted_moves_cannot_be_freely_switched')
         openTooltip()
         return
     }
@@ -1606,9 +1603,9 @@ const sortedMovepool = movepool
 
         document.getElementById("tooltipTop").style.display = `none`
         document.getElementById("tooltipTitle").innerHTML = format(ttdata, 'ability')
-        document.getElementById("tooltipMid").innerHTML = `Common Ability<br>${ability[ttdata].info()}`
-        if (ability[ttdata].rarity===2) document.getElementById("tooltipMid").innerHTML = `Uncommon Ability<br>${ability[ttdata].info()}`
-        if (ability[ttdata].rarity===3) document.getElementById("tooltipMid").innerHTML = `Rare Ability<br>${ability[ttdata].info()}`
+        document.getElementById("tooltipMid").innerHTML = t('ui.common_ability_2', { v: ability[ttdata].info() })
+        if (ability[ttdata].rarity===2) document.getElementById("tooltipMid").innerHTML = t('ui.uncommon_ability_2', { v: ability[ttdata].info() })
+        if (ability[ttdata].rarity===3) document.getElementById("tooltipMid").innerHTML = t('ui.rare_ability_2', { v: ability[ttdata].info() })
         
         if (ability[ttdata].nerf) document.getElementById("tooltipMid").innerHTML += `<br><font style="opacity:0.7">${ability[ttdata].nerf}</font>`
 
@@ -1620,11 +1617,11 @@ const sortedMovepool = movepool
         for (const e in pkmn){
             if (pkmn[e].hiddenAbility?.id == ttdata) signatureArray.push(e)
         }
-        if (signatureArray.length>0) signatureText = `<br><br>Additionally, appears as the Hidden ability of ${joinWithAnd(signatureArray)}`
+        if (signatureArray.length>0) signatureText = `<br><br>${t('ui.additionally_appears_as_the_hidden_ability', { v: joinWithAnd(signatureArray) })}`
         
 
         document.getElementById("tooltipBottom").innerHTML = `
-        Learnable by ${joinWithAnd(ability[ttdata].type)} types ${signatureText}
+        ${t('ui.learnable_by_types_signaturetext', { v: joinWithAnd(ability[ttdata].type), signatureText: signatureText })}
         `
         } else {
 
@@ -1635,11 +1632,11 @@ const sortedMovepool = movepool
 
         if (signatureArray.length>0) {
         document.getElementById("tooltipBottom").innerHTML = `
-        This ability can only appear as the Hidden Ability of ${joinWithAnd(signatureArray)}
+        ${t('ui.this_ability_can_only_appear_as', { v: joinWithAnd(signatureArray) })}
         `
         } else{
         document.getElementById("tooltipBottom").innerHTML = `
-        This ability is currently unobtainable :(
+        ${t('ui.this_ability_is_currently_unobtainable')}
         ` 
         }
 
@@ -1669,10 +1666,10 @@ const sortedMovepool = movepool
         }
             
         let affectedText = ""
-        if (affectedAbilities.length>0) affectedText =`<br>Affected by ${joinWithAnd(affectedAbilities)}`
+        if (affectedAbilities.length>0) affectedText =`<br>${t('ui.affected_by', { v: joinWithAnd(affectedAbilities) })}`
 
 
-        document.getElementById("tooltipMid").innerHTML = `${move[ttdata].power} Power, ${format(move[ttdata].split, 'split')}${affectedText}`
+        document.getElementById("tooltipMid").innerHTML = t('ui.power_affectedtext_2', { v: move[ttdata].power, v2: format(move[ttdata].split, 'split'), affectedText: affectedText })
         if (move[ttdata].info != undefined) document.getElementById("tooltipMid").innerHTML += `<br>${move[ttdata].info()}`
         
         
@@ -1684,12 +1681,12 @@ const sortedMovepool = movepool
         
         if (move[ttdata].moveset) {
 
-        let rarity = `(Common)`
-        if (move[ttdata].rarity == 2) rarity = `(Uncommon)`
-        if (move[ttdata].rarity == 3) rarity = `(Rare)`
+        let rarity = t('ui.common')
+        if (move[ttdata].rarity == 2) rarity = t('ui.uncommon_4')
+        if (move[ttdata].rarity == 3) rarity = t('ui.rare_3')
 
         document.getElementById("tooltipBottom").innerHTML = `
-        Learnable by ${joinWithAnd(move[ttdata].moveset)} types ${rarity}
+        ${t('ui.learnable_by_types_rarity', { v: joinWithAnd(move[ttdata].moveset), rarity: rarity })}
         `
         } else{
 
@@ -1701,10 +1698,10 @@ const sortedMovepool = movepool
 
 
         document.getElementById("tooltipBottom").innerHTML = `
-        This move can only appear as the Signature Move of ${joinWithAnd(signatureArray)}
+        ${t('ui.this_move_can_only_appear_as', { v: joinWithAnd(signatureArray) })}
         `
         if (eggMoveUsers.length>0) document.getElementById("tooltipBottom").innerHTML += `
-        and the Egg Move of ${joinWithAnd(eggMoveUsers)}
+        ${t('ui.and_the_egg_move_of', { v: joinWithAnd(eggMoveUsers) })}
         `
 
         }
@@ -1766,15 +1763,15 @@ const sortedMovepool = movepool
 
 
         let spawnLocation = ""
-        if (wildSpawn != "") spawnLocation += `<span>Found in the wild area ${format(wildSpawn, 'pkmn')} (Rotation ${areas[wildSpawn].rotation})</span>`
-        if ( wildlifePoolCommon.includes(ttdata) || wildlifePoolUncommon.includes(ttdata) || wildlifePoolRare.includes(ttdata) ) spawnLocation += `<span>Found randomly in the Wildlife Park wild area</span>`
-        if ( exclusiveFrontierPkmn.includes(pkmn[ttdata]) ) spawnLocation += `<span>Obtained as a random reward in the Battle Frontier</span>`
-        if (encounterSpawn != "") spawnLocation += `<span>Obtained in the event ${format(encounterSpawn, 'area')} (Rotation ${areas[encounterSpawn].rotation})</span>`
-        if (eventSpawn != "") spawnLocation += `<span>Found in the event ${format(eventSpawn, 'pkmn')} (Rotation ${areas[eventSpawn].rotation})</span>`
-        if (spawnLocation == "") spawnLocation = `This Pokemon cannot be caught on its current stage`
-        if (pkmn[ttdata].tagObtainedIn == "unobtainable") spawnLocation = `This Pokemon is unobtainable`
-        if (pkmn[ttdata].tagObtainedIn == "mart") spawnLocation = `Can be purchased in the Poke-Mart`
-        if (pkmn[ttdata].tagObtainedIn == "arceus") spawnLocation = `Unlocked while all obtainable Pokemon have been caught`
+        if (wildSpawn != "") spawnLocation += `<span>${t('ui.found_in_the_wild_area_rotation', { v: format(wildSpawn, 'pkmn'), v2: areas[wildSpawn].rotation })}</span>`
+        if ( wildlifePoolCommon.includes(ttdata) || wildlifePoolUncommon.includes(ttdata) || wildlifePoolRare.includes(ttdata) ) spawnLocation += `<span>${t('ui.found_randomly_in_the_wildlife_park')}</span>`
+        if ( exclusiveFrontierPkmn.includes(pkmn[ttdata]) ) spawnLocation += `<span>${t('ui.obtained_as_random_reward_in_the')}</span>`
+        if (encounterSpawn != "") spawnLocation += `<span>${t('ui.obtained_in_the_event_rotation', { v: format(encounterSpawn, 'area'), v2: areas[encounterSpawn].rotation })}</span>`
+        if (eventSpawn != "") spawnLocation += `<span>${t('ui.found_in_the_event_rotation', { v: format(eventSpawn, 'pkmn'), v2: areas[eventSpawn].rotation })}</span>`
+        if (spawnLocation == "") spawnLocation = t('ui.this_pokemon_cannot_be_caught_on')
+        if (pkmn[ttdata].tagObtainedIn == "unobtainable") spawnLocation = t('ui.this_pokemon_is_unobtainable')
+        if (pkmn[ttdata].tagObtainedIn == "mart") spawnLocation = t('ui.can_be_purchased_in_the_poke')
+        if (pkmn[ttdata].tagObtainedIn == "arceus") spawnLocation = t('ui.unlocked_while_all_obtainable_pokemon_have')
 
         document.getElementById("tooltipMid").innerHTML = `
         <span style="display:flex; flex-direction:column">${spawnLocation}<span>
@@ -1783,15 +1780,15 @@ const sortedMovepool = movepool
         let staminaMult = 1
         if (pkmn[ttdata].ability == ability.stamina.id ||  (  pkmn[ttdata].hiddenAbility?.id == ability.stamina.id && pkmn[ttdata].hiddenAbilityUnlocked ) ) staminaMult = 2
 
-        if (saved.gamemodAfk !=true) document.getElementById("tooltipMid").innerHTML += `This Pokemon can last ${(100 + Math.pow(1.15, 6) * (pkmn[ttdata].bst.hp*30 + (pkmn[ttdata].bst.def + pkmn[ttdata].bst.sdef)*15)*staminaMult).toFixed(0)} turns before fainting from Battle Fatigue at maximum IVs`
-        else document.getElementById("tooltipMid").innerHTML += `This Pokemon can last ${(100 + Math.pow(1.15, 6) * (pkmn[ttdata].bst.hp*30 + (pkmn[ttdata].bst.def + pkmn[ttdata].bst.sdef)*15)*staminaMult).toFixed(0)*3} turns before fainting from Battle Fatigue at maximum IVs`
+        if (saved.gamemodAfk !=true) document.getElementById("tooltipMid").innerHTML += t('ui.this_pokemon_can_last_turns_before', { v: (100 + Math.pow(1.15, 6) * (pkmn[ttdata].bst.hp*30 + (pkmn[ttdata].bst.def + pkmn[ttdata].bst.sdef)*15)*staminaMult).toFixed(0) })
+        else document.getElementById("tooltipMid").innerHTML += t('ui.this_pokemon_can_last_turns_before', { v: (100 + Math.pow(1.15, 6) * (pkmn[ttdata].bst.hp*30 + (pkmn[ttdata].bst.def + pkmn[ttdata].bst.sdef)*15)*staminaMult).toFixed(0)*3 })
 
 
         document.getElementById("tooltipBottom").innerHTML = `
-        <div>Abilities</div>
+        <div>${t('ui.abilities')}</div>
         <div style="width:100%; height:100%; position:relative; display:flex;justify-content:start;align-items:center;flex-direction:column; max-height:25vh; overflow-y:scroll; padding-top:0.5rem;">${getAbilityPoolByTier(pkmn[ttdata])}</div>
         
-        <div onclick="window.getMoveset(pkmn.${ttdata})" class="custom-challenge-button" style="margin-top:0.5rem">Check learnable moves</div>
+        <div onclick="window.getMoveset(pkmn.${ttdata})" class="custom-challenge-button" style="margin-top:0.5rem">${t('ui.check_learnable_moves')}</div>
 
 
         `
@@ -1824,7 +1821,7 @@ const sortedMovepool = movepool
 
 
 
-        document.getElementById("tooltipMid").innerHTML = `${item[ttdata].info()}<br>(You have ${item[ttdata].got})`
+        document.getElementById("tooltipMid").innerHTML = t('ui.you_have', { v: item[ttdata].info(), v2: item[ttdata].got })
 
 
 
@@ -1835,45 +1832,45 @@ const sortedMovepool = movepool
         for (const i in areas){
             if (areas[i].type=="wild") {
             if (areas[i].drops?.common?.includes(item[ttdata]) || areas[i].drops?.uncommon?.includes(item[ttdata]) || areas[i].drops?.rare?.includes(item[ttdata])){
-                obtainText += `<span>Can be dropped in the wild area ${format(i, 'area')} (Rotation ${areas[i].rotation})</span>`
+                obtainText += `<span>${t('ui.can_be_dropped_in_the_wild', { v: format(i, 'area'), v2: areas[i].rotation })}</span>`
             }
             }
 
             if (areas[i].type=="event") {
             if (areas[i].drops?.common?.includes(item[ttdata]) || areas[i].drops?.uncommon?.includes(item[ttdata]) || areas[i].drops?.rare?.includes(item[ttdata])){
-                obtainText += `<span>Can be dropped in the event area ${format(i, 'area')} (Rotation ${areas[i].rotation})</span>`
+                obtainText += `<span>${t('ui.can_be_dropped_in_the_event', { v: format(i, 'area'), v2: areas[i].rotation })}</span>`
             }
             }
 
             if (areas[i].type=="dungeon") {
             if (areas[i].drops?.common?.includes(item[ttdata]) || areas[i].drops?.uncommon?.includes(item[ttdata]) || areas[i].drops?.rare?.includes(item[ttdata])){
-                obtainText += `<span>Can be dropped in the dungeon area ${format(i, 'area')} (Rotation ${areas[i].rotation})</span>`
+                obtainText += `<span>${t('ui.can_be_dropped_in_the_dungeon', { v: format(i, 'area'), v2: areas[i].rotation })}</span>`
             }
             }
 
 
             if (areas[i].encounter) {
             if (areas[i].reward?.includes(item[ttdata])){
-                obtainText += `<span>Reward from the event ${format(i, 'area')} (Rotation ${areas[i].rotation})</span>`
+                obtainText += `<span>${t('ui.reward_from_the_event_rotation', { v: format(i, 'area'), v2: areas[i].rotation })}</span>`
             }
             }
         }
 
-        if ([item.hpUp.id, item.protein.id, item.iron.id, item.calcium.id, item.zinc.id, item.carbos.id, item.timeCandy.id].includes(ttdata)) obtainText += `<span>Obtained via Export Reward</span>`
+        if ([item.hpUp.id, item.protein.id, item.iron.id, item.calcium.id, item.zinc.id, item.carbos.id, item.timeCandy.id].includes(ttdata)) obtainText += `<span>${t('ui.obtained_via_export_reward')}</span>`
 
-        for (const i in spiralingRewards) if (spiralingRewards[i].item==ttdata) obtainText += `<span>Reward from Spiraling Tower</span>`
+        for (const i in spiralingRewards) if (spiralingRewards[i].item==ttdata) obtainText += `<span>${t('ui.reward_from_spiraling_tower')}</span>`
 
 
         for (const i in shop) {
-            if (shop[i].icon == ttdata) obtainText += `<span>Can be bought in the Poke-Mart</span>`
+            if (shop[i].icon == ttdata) obtainText += `<span>${t('ui.can_be_bought_in_the_poke')}</span>`
         }
 
-        if (item[ttdata].type=="decor" && item[ttdata].rarity) obtainText += `<span>Can be bought in the Poke-Mart</span>`
+        if (item[ttdata].type=="decor" && item[ttdata].rarity) obtainText += `<span>${t('ui.can_be_bought_in_the_poke')}</span>`
 
 
 
 
-        if (obtainText=="") obtainText += `<span>This item is currently unobtainable</span>`
+        if (obtainText=="") obtainText += `<span>${t('ui.this_item_is_currently_unobtainable')}</span>`
 
 
         

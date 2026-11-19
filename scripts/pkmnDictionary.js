@@ -3559,7 +3559,7 @@ pkmn.ditto = {
         spe: 48,
     },
     hiddenAbility: ability.imposter,
-    lore: `Believed to be the result of an attempt to replicate the ancestor of all Pokémon. The experiment did not achieve its intended goal, and the creature that emerged was deemed a failure.`
+    lore: t('pkmn.ditto.lore')
 }
 
 // 133 Eevee → Vaporeon / Jolteon / Flareon / Espeon / Umbreon / Leafeon / Glaceon / Sylveon
@@ -3898,7 +3898,7 @@ pkmn.articuno = {
         spe: 85,
     },
     hiddenAbility: ability.glacialBody,
-    lore : `The cold of winter. Air chills and frost gathers in its wake. Snowfall follows as it passes, and mountains are left sealed in ice where it lingers.`,
+    lore : t('pkmn.articuno.lore'),
     eggMove : move.snowscape
 }
 
@@ -3928,7 +3928,7 @@ pkmn.zapdos = {
         spe: 100,
     },
     hiddenAbility: ability.dauntingLook,
-    lore: `The storm of summer. Thunder rolls with its cry, and lightning strikes in time with its wings. The skies darken as it passes, and violent storms follow its soar.`,
+    lore: t('pkmn.zapdos.lore'),
     eggMove : move.charge
 }
 
@@ -3958,7 +3958,7 @@ pkmn.moltres = {
         spe: 90,
     },
     hiddenAbility: ability.fieryPelt,
-    lore : `The warmth of spring. Its fire does not scorch the world, but stirs it awake, melting snow and kindling new life. The cold loosens its hold as it passes, and the land is renewed by heat and light.`,
+    lore : t('pkmn.moltres.lore'),
     eggMove : move.magmaStorm
 }
 
@@ -4044,7 +4044,7 @@ pkmn.mewtwo = {
         spe: 130,
     },
     evolve: function() { return { 1: { pkmn: pkmn.megaMewtwoX, item: item.mewtwoniteX } } },
-    lore: `Shaped by human hands, bears the weight of creation twisted. Though it carries the memory of life that came before, it walks a path apart, questioning the bounds of its own existence.`
+    lore: t('pkmn.mewtwo.lore')
 }
 
 pkmn.megaMewtwoX = {
@@ -4083,7 +4083,7 @@ pkmn.mew = {
         spe: 100,
     },
     hiddenAbility: ability.protean,
-    lore: `The origin from which all Pokemon as we know trace their beginnings. Its form, small and gentle, carries the memory of every creature that would follow.`
+    lore: t('pkmn.mew.lore')
 }
 
 // 152 Chikorita → Bayleef → Meganium
@@ -6101,7 +6101,7 @@ pkmn.celebi = {
         spe: 100,
     },
     hiddenAbility: ability.grassySurge,
-    lore: `Traveling through time and appearing where the past and future meet, it preserves the natural order, ensuring that the cycles of life, growth, and seasons continue uninterrupted.`
+    lore: t('pkmn.celebi.lore')
 }
 
 // 252 Treecko → Grovyle → Sceptile
@@ -8481,7 +8481,7 @@ pkmn.kyogre = {
         spe: 90,
     },
     hiddenAbility: ability.drizzle,
-    lore: `A reminder of the power that once carved the seas. Its ancient rivalry with Groudon lingers quietly, a balance written into the land and water.`
+    lore: t('pkmn.kyogre.lore')
 }
 
 pkmn.kyogrePrimal = {
@@ -8494,7 +8494,7 @@ pkmn.kyogrePrimal = {
         sdef: 160,
         spe: 90,
     },
-    lore: `The oceans made visible, and the force that first shaped the seas across the world. Waves rise and storms gather at its will.`
+    lore: t('pkmn.kyogrePrimal.lore')
 }
 
 // 383 Groudon
@@ -8509,7 +8509,7 @@ pkmn.groudon = {
         spe: 90,
     },
     hiddenAbility: ability.drought,
-    lore: `A reminder of the power that once carved the lands. Its ancient rivalry with Kyogre lingers quietly, a balance written into the land and water.`
+    lore: t('pkmn.groudon.lore')
 
 }
 
@@ -8523,7 +8523,7 @@ pkmn.groudonPrimal = {
         sdef: 90,
         spe: 90,
     },
-    lore: `The continents made whole, and the force that first shaped the land across the world. Mountains rise and deserts stretch at its will.`
+    lore: t('pkmn.groudonPrimal.lore')
 }
 
 // 384 Rayquaza
@@ -8537,7 +8537,7 @@ pkmn.rayquaza = {
         sdef: 90,
         spe: 95,
     },
-    lore: `The force that watches over the world from above. It tempers the chaos of the seas and the land, acting as a mediator between Kyogre and Groudon. The winds and currents obey its passage, and it stands as guardian of the skies.`
+    lore: t('pkmn.rayquaza.lore')
 }
 
 pkmn.megaRayquaza = {
@@ -8550,7 +8550,7 @@ pkmn.megaRayquaza = {
         sdef: 120,
         spe: 115,
     },
-    lore: `Ascending the atmosphere, its reach extending into the upper skies. Protecting not only the world below but the space above, guarding against threats from beyond.`
+    lore: t('pkmn.megaRayquaza.lore')
 }
 
 // 385 Jirachi
@@ -8566,7 +8566,7 @@ pkmn.jirachi = {
     },
     hiddenAbility: ability.sereneGrace,
     signature : move.doomDesire,
-    lore: `The embodiment of wishing, awakening only once in a thousand years. In those brief moments, it listens to the desires carried in the hearts of others, and its power brings those wishes into reality.`
+    lore: t('pkmn.jirachi.lore')
 }
 
 // 386 Deoxys
@@ -9906,7 +9906,7 @@ pkmn.uxie = {
     },
     hiddenAbility: ability.sinisterGuard,
     signature : move.mysticalPower,
-    lore: `Emerged to give shape to knowledge. When the world was still new, it shared understanding with humanity, allowing thought and memory to take root. Its presence quiets turmoil to the gods of time and space.`
+    lore: t('pkmn.uxie.lore')
 }
 
 // 481 Mesprit
@@ -9922,7 +9922,7 @@ pkmn.mesprit = {
     },
     hiddenAbility: ability.levitate,
     signature : move.mysticalPower,
-    lore: `Emerged to give shape to emotion. When the world was still new, it shared feeling with humanity, allowing joy, sorrow, and empathy to take root. Its presence soothes unrest to the gods of time and space.`
+    lore: t('pkmn.mesprit.lore')
 }
 
 // 482 Azelf
@@ -9938,7 +9938,7 @@ pkmn.azelf = {
     },
     hiddenAbility: ability.prankster,
     signature : move.mysticalPower,
-    lore: `Emerged to give shape to will. When the world was still new, it granted resolve to humanity, allowing action, choice, and determination to take form. Its presence steels the spirit of the gods of time and space.`
+    lore: t('pkmn.azelf.lore')
 }
 
 // 483 Dialga
@@ -9953,7 +9953,7 @@ pkmn.dialga = {
         spe: 90,
     },
     signature : move.roarOfTime,
-    lore: `Bound by weight and limit, a shape time itself can endure. Its power yet governs past and future, though restrained, for the world cannot withstand the full measure of eternity given form.`
+    lore: t('pkmn.dialga.lore')
 }
 
 pkmn.dialgaOrigin = {
@@ -9966,7 +9966,7 @@ pkmn.dialgaOrigin = {
         sdef: 120,
         spe: 90,
     },
-    lore: `Shaped by the Original One, when the universe had yet to know its first moment, It was brought forth to give law to duration. By its heartbeat, time began to flow; by its will, past and future were torn apart and given order. Without It, all life trapped by eternal stillness.`
+    lore: t('pkmn.dialgaOrigin.lore')
 }
 
 // 484 Palkia
@@ -9982,7 +9982,7 @@ pkmn.palkia = {
     },
     signature : move.spacialRend,
     hiddenAbility: ability.supremeOverlord,
-    lore: `Bound by weight and limit, a shape space itself can sustain. Its power yet governs distance and separation, though restrained, for the world cannot bear the weight of infinite breadth given form.`
+    lore: t('pkmn.palkia.lore')
 }
 
 pkmn.palkiaOrigin = {
@@ -9995,7 +9995,7 @@ pkmn.palkiaOrigin = {
         sdef: 160,
         spe: 100,
     },
-    lore: `Shaped by the Original One, when the universe was yet unmeasured, It was brought forth to give form to expanse. By its existence, space became vast; by its will, distance gained meaning. Without It, the world would have no breadth, no separation between sky and land, nor any path for life to walk.`
+    lore: t('pkmn.palkiaOrigin.lore')
 }
 
 // 485 Heatran
@@ -10011,7 +10011,7 @@ pkmn.heatran = {
     },
     hiddenAbility: ability.pyrolate,
     signature : move.magmaStorm,
-    lore: `Formed within the depths of the earth, it moves through molten stone and scorched caverns, shaping volcanoes among the land through heat and pressure.`
+    lore: t('pkmn.heatran.lore')
 }
 
 pkmn.megaHeatran = {
@@ -10037,7 +10037,7 @@ pkmn.regigigas = {
         sdef: 110,
         spe: 50,
     },
-    lore: `Regigigas moved the continents into place, hauling landmasses with ropes of stone and ice, shaping the world through sheer strength. From this labor came the order of the land, after which it fell into long slumber.`,
+    lore: t('pkmn.regigigas.lore'),
     hiddenAbility: ability.normalize,
     signature : move.crushGrip,
 }
@@ -10054,7 +10054,7 @@ pkmn.giratina = {
         spe: 90,
     },
     signature : move.shadowForce,
-    lore: `Bound by weight and limit, a shape reality can tolerate. Its power yet governs antimatter and opposition, though restrained, for the world cannot endure the force that unravels all creation made whole.`
+    lore: t('pkmn.giratina.lore')
 }
 
 pkmn.giratinaOrigin = {
@@ -10067,7 +10067,7 @@ pkmn.giratinaOrigin = {
         sdef: 100,
         spe: 160,
     },
-    lore: `Shaped by the Original One, when the laws of creation first took form, It was born in defiance of them. Given dominion over antithesis of matter, It was cast away for its violence, bound to a world where logic collapses and direction has no meaning.`
+    lore: t('pkmn.giratinaOrigin.lore')
 }
 
 // 488 Cresselia
@@ -10083,7 +10083,7 @@ pkmn.cresselia = {
     },
     hiddenAbility: ability.magicGuard,
     signature : move.lunarDance,
-    lore: `The embodiment of moon light. From the earliest ages, it has watched over sleep and dreams, bringing peaceful rest where darkness gathers. Its feathers dispel the nightmares born by Darkrai, as they balance the quiet rhythm of night that was set into the world.`
+    lore: t('pkmn.cresselia.lore')
 }
 
 // 489 Phione
@@ -10111,7 +10111,7 @@ pkmn.manaphy = {
         sdef: 100,
         spe: 100,
     },
-    lore: `The prince of the seas, the chosen of its kind, born with a bond that links all ocean life. It guides the creatures of the waters, preserving harmony beneath the waves.`,
+    lore: t('pkmn.manaphy.lore'),
     eggMove : move.tailGlow
 }
 
@@ -10127,7 +10127,7 @@ pkmn.darkrai = {
         spe: 155,
     },
     hiddenAbility: ability.lightAbsorb,
-    lore: `The embodiment of night shadow. From the earliest ages, it has been bound to dreams, drawing forth fear and unrest where its presence lingers. Nightmares follow in its wake, not by intent, but as a reflection of its nature.`
+    lore: t('pkmn.darkrai.lore')
 }
 
 pkmn.megaDarkrai = {
@@ -10154,7 +10154,7 @@ pkmn.shaymin = {
         spe: 100,
     },
     hiddenAbility: ability.verdify,
-    lore: `Embodying gratitude and the renewal of life, It moves across barren lands, leaving fields of flowers in its wake and restoring the vitality of nature, bringing growth and bloom to places long abandoned.`
+    lore: t('pkmn.shaymin.lore')
 }
 
 pkmn.shayminSky = {
@@ -10168,7 +10168,7 @@ pkmn.shayminSky = {
         spe: 170,
     },
     hiddenAbility: ability.verdify,
-    lore: `Embodying gratitude and the renewal of life, It moves across barren lands, leaving fields of flowers in its wake and restoring the vitality of nature, bringing growth and bloom to places long abandoned.`
+    lore: t('pkmn.shaymin.lore')
 }
 
 // 493 Arceus
@@ -10184,7 +10184,7 @@ pkmn.arceus = {
     },
     signature : move.judgment,
     hiddenAbility: ability.thousandArms,
-    lore: `Emerging from nothing, existence was created from its birth. Pillars that govern reality shaped by its will, and yet, only a vessel for the eye to see, and the mind to comprehend.`
+    lore: t('pkmn.arceus.lore')
 }
 
 /*
@@ -20230,16 +20230,16 @@ const ribbon = {}
 
 ribbon.souvenir ={
     name: `Souvenir Ribbon`,
-    description: `Awarded in special occasions`
+    description: t('ribbon.souvenir.description')
 }
 
 ribbon.tower1 ={
     name: `Endurance Ribbon`,
-    description: `Awarded for reaching floor 30 in the Battle Tower`
+    description: t('ribbon.tower1.description')
 }
 
 ribbon.smile ={
     name: `Smile Ribbon`,
-    description: `Awarded very rarely for spending a lot of time together`
+    description: t('ribbon.smile.description')
 }
 

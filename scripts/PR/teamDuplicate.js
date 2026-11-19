@@ -60,7 +60,7 @@
     const currentKey = saved.currentPreviewTeam;
     if (!targetKey || targetKey === currentKey) {
       const tooltipMid = document.getElementById("tooltipMid");
-      tooltipMid.innerHTML = "Pick a different team slot.";
+      tooltipMid.innerHTML = t('ui.pick_different_team_slot');
       return;
     }
 
@@ -75,8 +75,8 @@
 
   function showDuplicateConfirm(targetKey) {
     document.getElementById("tooltipTop").style.display = "none";
-    document.getElementById("tooltipTitle").innerHTML = "Overwrite Team?";
-    document.getElementById("tooltipMid").innerHTML = `This will replace ${getTeamName(targetKey)}.`;
+    document.getElementById("tooltipTitle").innerHTML = t('ui.overwrite_team');
+    document.getElementById("tooltipMid").innerHTML = t('ui.this_will_replace', { v: getTeamName(targetKey) });
 
     const tooltipBottom = document.getElementById("tooltipBottom");
     tooltipBottom.innerHTML = '<span id="prevent-tooltip-exit"></span>';
@@ -86,7 +86,7 @@
     container.style.gap = "0.75rem";
 
     const cancelButton = document.createElement("div");
-    cancelButton.textContent = "Cancel";
+    cancelButton.textContent = t('ui.cancel');
     cancelButton.style.cursor = "pointer";
     cancelButton.style.flex = "1";
     cancelButton.style.display = "flex";
@@ -103,7 +103,7 @@
 
     const confirmButton = document.createElement("div");
     confirmButton.className = "duplicate-build-confirm";
-    confirmButton.textContent = "Overwrite";
+    confirmButton.textContent = t('ui.overwrite');
     confirmButton.style.cursor = "pointer";
     confirmButton.style.flex = "1";
     confirmButton.style.display = "flex";
@@ -129,8 +129,8 @@
     const defaultTarget = options.find(option => option.value !== currentKey)?.value || currentKey;
 
     document.getElementById("tooltipTop").style.display = "none";
-    document.getElementById("tooltipTitle").innerHTML = "Copy Team"; //PR-EDIT
-    document.getElementById("tooltipMid").innerHTML = "Select the target team slot to overwrite.";
+    document.getElementById("tooltipTitle").innerHTML = t('ui.copy_team'); //PR-EDIT
+    document.getElementById("tooltipMid").innerHTML = t('ui.select_the_target_team_slot_to');
 
     const tooltipBottom = document.getElementById("tooltipBottom");
     tooltipBottom.innerHTML = '<span id="prevent-tooltip-exit"></span>';
@@ -158,7 +158,7 @@
 
     const duplicateButton = document.createElement("div");
     duplicateButton.className = "duplicate-build-confirm";
-    duplicateButton.textContent = "Duplicate Team";
+    duplicateButton.textContent = t('ui.duplicate_team');
     duplicateButton.style.cursor = "pointer";
     duplicateButton.style.fontSize = "1.3rem";
     duplicateButton.style.display = "flex";
@@ -178,7 +178,7 @@
     const selector = document.querySelector(".team-menu-selector-new");
     if (!selector || document.getElementById("team-duplicate-button")) return;
 
-    const button = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    const button = document.createElementNS(t('ui.http_www_org_svg'), "svg");
     button.setAttribute("viewBox", "0 0 24 24");
     button.setAttribute("width", "24");
     button.setAttribute("height", "24");
@@ -186,9 +186,9 @@
     button.style.marginLeft = "0";
     button.style.marginRight = "0";
     button.style.flexShrink = "0";
-    button.setAttribute("title", "Duplicate team");
+    button.setAttribute("title", t('ui.duplicate_team_2'));
 
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    const path = document.createElementNS(t('ui.http_www_org_svg'), "path");
     path.setAttribute("fill", "currentColor");
     path.setAttribute(
       "d",

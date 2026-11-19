@@ -12,57 +12,57 @@ const field = {}
 
 //positive
 field.simpleAura = {
-    info : function() { return `All of your Pokemon gain <strong data-ability="${ability.simple.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id, 'ability')}</strong></strong>`},
+    info : function() { return t('field.simpleAura.info', { v: `<strong data-ability="${ability.simple.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id, 'ability')}</strong></strong>` })},
     tier: 1
 }
 
 field.moodyAura = {
-    info : function() { return `All of your Pokemon gain <strong data-ability="${ability.moody.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id, 'ability')}</strong></strong>`},
+    info : function() { return t('field.simpleAura.info', { v: `<strong data-ability="${ability.moody.id}" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("normal")}">${format(ability.simple.id, 'ability')}</strong></strong>` })},
     tier: 1
 }
 
 field.serendipity = {
-    info : function() { return `Your hit effects are twice as likely to happen`},
+    info : function() { return t('field.serendipity.info')},
     tier: 1
 }
 
 field.harshSun = {
-    info : function() { return `Permanent <strong data-buff="sunny" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("fire")}">Sunny</strong></strong> weather`},
+    info : function() { return t('field.harshSun.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("fire")}">${t('ui.sunny')}</strong>` })},
     tier: 1
 }
 
 field.thickFog = {
-    info : function() { return `Permanent <strong data-buff="foggy" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("ghost")}">Foggy</strong></strong> weather`},
+    info : function() { return t('field.thickFog.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("ghost")}">${t('ui.foggy')}</strong>` })},
     tier: 1
 }
 
 field.fierceHail = {
-    info : function() { return `Permanent <strong data-buff="hail" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("ice")}">Hail</strong></strong> weather`},
+    info : function() { return t('field.fierceHail.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("ice")}">${t('ui.hail')}</strong>` })},
     tier: 1
 }
 
 field.coarseSandstorm = {
-    info : function() { return `Permanent <strong data-buff="sandstorm" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("ground")}">Sandstorm</strong></strong> weather`},
+    info : function() { return t('field.coarseSandstorm.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("ground")}">${t('ui.sandstorm')}</strong>` })},
     tier: 1
 }
 
 field.heavyRain = {
-    info : function() { return `Permanent <strong data-buff="rainy" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("water")}">Rainy</strong></strong> weather`},
+    info : function() { return t('field.heavyRain.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("water")}">${t('ui.rainy')}</strong>` })},
     tier: 1
 }
 
 field.mistyField = {
-    info : function() { return `Permanent <strong data-buff="mistyTerrain" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("psychic")}">Misty Terrain</strong></strong> weather`},
+    info : function() { return t('field.mistyField.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("psychic")}">${t('ui.misty_terrain')}</strong>` })},
     tier: 1
 }
 
 field.grassyField = {
-    info : function() { return `Permanent <strong data-buff="grassyTerrain" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("grass")}">Grassy Terrain</strong></strong> weather`},
+    info : function() { return t('field.grassyField.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("grass")}">${t('ui.grassy_terrain')}</strong>` })},
     tier: 1
 }
 
 field.electricField = {
-    info : function() { return `Permanent <strong data-buff="electricTerrain" ><strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("electric")}">Electric Terrain</strong></strong> weather`},
+    info : function() { return t('field.electricField.info', { v: `<strong  style="color:white;cursor:help;padding: 0.1rem 0.7rem; border-radius: 0.2rem; font-size:1.1rem; width: auto; background: ${returnTypeColor("electric")}">${t('ui.electric_terrain')}</strong>` })},
     tier: 1
 }
 
@@ -71,23 +71,23 @@ field.electricField = {
 
 //neutral, can be both negative, or positive depending on the user
 field.trickField = {
-    info : function() { return `Slower Pokemon become faster, faster Pokemon become slower`},
+    info : function() { return t('field.trickField.info')},
     tier: 2
 }
  
 field.reverseField = {
-    info : function() { return `Type weaknesses and strengths are reversed`},
+    info : function() { return t('field.reverseField.info')},
     tier: 2,
     chance: 0.5
 }
 
 field.averageTime = {
-    info : function() { return `All moves execute at the default speed (2s)`},
+    info : function() { return t('field.averageTime.info')},
     tier: 2
 }
 
 field.noMercy = {
-    info : function() { return `Type-immune damage is now resisted instead of ignored`},
+    info : function() { return t('field.noMercy.info')},
     tier: 2
 }
 
@@ -101,22 +101,22 @@ field.noMercy = {
 //negative, but not maiming enough to consider using other pokemon
 
 field.deltaStream = {
-    info : function() { return `Weather changes are disabled`},
+    info : function() { return t('field.deltaStream.info')},
     tier: 3
 }
 
 field.stealthRocks = {
-    info : function() { return `Switching Pokemon deal damage`},
+    info : function() { return t('field.stealthRocks.info')},
     tier: 3
 }
 
 field.heavyWeather = {
-    info : function() { return `If an active team Pokemon typing does not match the current Weather, deal periodic damage`},
+    info : function() { return t('field.heavyWeather.info')},
     tier: 3
 }
 
 field.ironBody = {
-    info : function() { return `Super-effective damage on the enemy Pokemon is reduced to neutral`},
+    info : function() { return t('field.ironBody.info')},
     tier: 3
 }
 
@@ -125,28 +125,28 @@ field.ironBody = {
 
 //negative, maiming enough to considering using other pokemon
 field.wonderWard = {
-    info : function() { return `Non super-effective damage dealt to the enemy is reduced by 80%`},
+    info : function() { return t('field.wonderWard.info')},
     tier: 4
 }
 
 field.neutralisingGas = {
-    info : function() { return `Abilities are disabled`},
+    info : function() { return t('field.neutralisingGas.info')},
     tier: 4
 }
 
 
 field.weakeningCurse = {
-    info : function() { return `Physical damage dealt to the enemy is halved`},
+    info : function() { return t('field.weakeningCurse.info')},
     tier: 4
 }
 
 field.fatiguingCurse = {
-    info : function() { return `Special damage dealt to the enemy is halved`},
+    info : function() { return t('field.fatiguingCurse.info')},
     tier: 4
 }
 
 field.unnerve = {
-    info : function() { return `Items are disabled`},
+    info : function() { return t('field.unnerve.info')},
     tier: 4
 }
 
@@ -161,109 +161,109 @@ field.unnerve = {
 
 
 field.firePledge = {
-    info : function() { return `Pokemon with no Fire-type can't participate`},
+    info : function() { return t('field.firePledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.fightingPledge = {
-    info : function() { return `Pokemon with no Fighting-type can't participate`},
+    info : function() { return t('field.fightingPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.darkPledge = {
-    info : function() { return `Pokemon with no Dark-type can't participate`},
+    info : function() { return t('field.darkPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.dragonPledge = {
-    info : function() { return `Pokemon with no Dragon-type can't participate`},
+    info : function() { return t('field.dragonPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.fairyPledge = {
-    info : function() { return `Pokemon with no Fairy-type can't participate`},
+    info : function() { return t('field.fairyPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.rockPledge = {
-    info : function() { return `Pokemon with no Rock-type can't participate`},
+    info : function() { return t('field.rockPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.electricPledge = {
-    info : function() { return `Pokemon with no Electric-type can't participate`},
+    info : function() { return t('field.electricPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.steelPledge = {
-    info : function() { return `Pokemon with no Steel-type can't participate`},
+    info : function() { return t('field.steelPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.grassPledge = {
-    info : function() { return `Pokemon with no Grass-type can't participate`},
+    info : function() { return t('field.grassPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.waterPledge = {
-    info : function() { return `Pokemon with no Water-type can't participate`},
+    info : function() { return t('field.waterPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.IcePledge = {
-    info : function() { return `Pokemon with no Ice-type can't participate`},
+    info : function() { return t('field.IcePledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.poisonPledge = {
-    info : function() { return `Pokemon with no Poison-type can't participate`},
+    info : function() { return t('field.poisonPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.flyingPledge = {
-    info : function() { return `Pokemon with no Flying-type can't participate`},
+    info : function() { return t('field.flyingPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.normalPledge = {
-    info : function() { return `Pokemon with no Normal-type can't participate`},
+    info : function() { return t('field.normalPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.bugPledge = {
-    info : function() { return `Pokemon with no Bug-type can't participate`},
+    info : function() { return t('field.bugPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.groundPledge = {
-    info : function() { return `Pokemon with no Ground-type can't participate`},
+    info : function() { return t('field.groundPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.ghostPledge = {
-    info : function() { return `Pokemon with no Ghost-type can't participate`},
+    info : function() { return t('field.ghostPledge.info')},
     tier: 4,
     chance: 0
 }
 
 field.psychicPledge = {
-    info : function() { return `Pokemon with no Psychic-type can't participate`},
+    info : function() { return t('field.psychicPledge.info')},
     tier: 4,
     chance: 0
 }
@@ -283,51 +283,51 @@ const skill = {}
 
 
 skill.ironWill = {
-    info : function() { return `Increase Defense by 100% for 15 turns`},
+    info : function() { return t('skill.ironWill.info')},
     effect : function () { moveBuff("wild","defup2",undefined,15) }
 }
 
 skill.ironSpirit = {
-    info : function() { return `Increase Special Defense by 100% for 15 turns`},
+    info : function() { return t('skill.ironSpirit.info')},
     effect : function () { moveBuff("wild","sdefup2",undefined,15) }
 }
 
 skill.omniboost = {
-    info : function() { return `Increase all Stats by 50% for 10 turns`},
+    info : function() { return t('skill.omniboost.info')},
     effect : function () { moveBuff("wild","defup1",undefined,10); moveBuff("wild","sdefup1",undefined,10); moveBuff("wild","speup1",undefined,10); moveBuff("wild","atkup1",undefined,10); moveBuff("wild","satkup1",undefined,10); }
 }
 
 
 
 skill.electroblast = {
-    info : function() { return `Inflict ${tagParalysis} on your entire team for 10 turns`},
+    info : function() { return t('skill.electroblast.info', { tagParalysis: tagParalysis })},
     effect : function () { moveBuff("wild",'paralysis',"team",10) }
 }
 
 skill.pyroblast = {
-    info : function() { return `Inflict ${tagBurn} on your entire team for 15 turns`},
+    info : function() { return t('skill.pyroblast.info', { tagBurn: tagBurn })},
     effect : function () { moveBuff("wild",'burn',"team",15) }
 }
 
 skill.cryoblast = {
-    info : function() { return `Inflict ${tagFreeze} on your entire team for 10 turns`},
+    info : function() { return t('skill.cryoblast.info', { tagFreeze: tagFreeze })},
     effect : function () { moveBuff("wild",'freeze',"team",15) }
 }
 
 skill.toxiblast = {
-    info : function() { return `Inflict ${tagPoisoned} on your entire team for 15 turns`},
+    info : function() { return t('skill.toxiblast.info', { tagPoisoned: tagPoisoned })},
     effect : function () { moveBuff("wild",'poisoned',"team",15) }
 }
 
 
 
 skill.suddenDeath = {
-    info : function() { return `Faints your currently active Pokemon`},
+    info : function() { return t('skill.suddenDeath.info')},
     effect : function () { pkmn[ team[exploreActiveMember].pkmn.id ].playerHp = 0; updateTeamPkmn() }
 }
 
 skill.demoralisingRoar = {
-    info : function() { return `Removes all team buffs`},
+    info : function() { return t('skill.demoralisingRoar.info')},
     effect : function () {
     for (const slot in team) {
     for (const i in team[slot].buffs){
@@ -1295,7 +1295,7 @@ areas.sinnohUndergroundI = {
     type: `dungeon`,
     background : `cave`,
     level : wildAreaLevel2,
-    unlockDescription : `Defeat Gym Leader Brock in VS to unlock`,
+    unlockDescription : t('area.sinnohUndergroundI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderBrock.defeated },
     icon: item.waterStone,
     spawns: {
@@ -1312,7 +1312,7 @@ areas.beginnerDojoI = {
     type: `dungeon`,
     background : `gym`,
     level : wildAreaLevel2,
-    unlockDescription : `Defeat Gym Leader Brock in VS to unlock`,
+    unlockDescription : t('area.sinnohUndergroundI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderBrock.defeated },
     icon: item.tmDummy,
     spawns: {
@@ -1328,7 +1328,7 @@ areas.advancedDojoI = {
     rotation : 1,
     type: `dungeon`,
     background : `gym`,
-    unlockDescription : `Defeat Gym Leader Misty in VS to unlock`,
+    unlockDescription : t('area.advancedDojoI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderMisty.defeated },
     level : wildAreaLevel3,
     icon: item.tmDummy,
@@ -1345,7 +1345,7 @@ areas.expertDojoI = {
     rotation : 1,
     type: `dungeon`,
     background : `gym`,
-    unlockDescription : `Defeat Gym Leader Phoebe in VS to unlock`,
+    unlockDescription : t('area.expertDojoI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderPhoebe.defeated },
     level : wildAreaLevel4,
     icon: item.tmDummy,
@@ -1363,7 +1363,7 @@ areas.victoryRoadI = {
     type: `dungeon`,
     background : `town`,
     level : wildAreaLevel5,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     icon: item.lightClay,
     spawns: {
@@ -1381,7 +1381,7 @@ areas.glisteringCaveI = {
     background : `iceCave`,
     level : 95,
     difficulty: 5,
-    unlockDescription : `Defeat Ultra Entity Lusamine in VS to unlock`,
+    unlockDescription : t('ui.defeat_ultra_entity_lusamine_in_vs'),
     unlockRequirement : function() { return areas.vsUltraEntityLusamine.defeated },
     icon: item.bugGem,
     spawns: {
@@ -1399,7 +1399,7 @@ areas.sunkenTempleI = {
     background : `trench`,
     level : 100,
     difficulty: 5,
-    unlockDescription : `Defeat Pokemon Professor Oak in VS to unlock`,
+    unlockDescription : t('area.sunkenTempleI.unlockDescription'),
     unlockRequirement : function() { return areas.vsPokemonProfessorOak.defeated },
     icon: item.darkiniumZ,
     spawns: {
@@ -1419,7 +1419,7 @@ areas.sinnohUndergroundII = {
     type: `dungeon`,
     background : `cave`,
     level : wildAreaLevel2,
-    unlockDescription : `Defeat Gym Leader Brock in VS to unlock`,
+    unlockDescription : t('area.sinnohUndergroundI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderBrock.defeated },
     icon: item.leafStone,
     spawns: {
@@ -1435,7 +1435,7 @@ areas.beginnerDojoII = {
     rotation : 2,
     type: `dungeon`,
     background : `gym`,
-    unlockDescription : `Defeat Gym Leader Brock in VS to unlock`,
+    unlockDescription : t('area.sinnohUndergroundI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderBrock.defeated },
     level : wildAreaLevel2,
     icon: item.tmDummy,
@@ -1453,7 +1453,7 @@ areas.advancedDojoII = {
     type: `dungeon`,
     background : `gym`,
     level : wildAreaLevel3,
-    unlockDescription : `Defeat Gym Leader Misty in VS to unlock`,
+    unlockDescription : t('area.advancedDojoI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderMisty.defeated },
     icon: item.tmDummy,
     spawns: {
@@ -1469,7 +1469,7 @@ areas.expertDojoII = {
     rotation : 2,
     type: `dungeon`,
     background : `gym`,
-    unlockDescription : `Defeat Gym Leader Phoebe in VS to unlock`,
+    unlockDescription : t('area.expertDojoI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderPhoebe.defeated },
     level : wildAreaLevel4,
     icon: item.tmDummy,
@@ -1487,7 +1487,7 @@ areas.victoryRoadII = {
     type: `dungeon`,
     background : `town`,
     level : wildAreaLevel5,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     icon: item.mentalHerb,
     spawns: {
@@ -1505,7 +1505,7 @@ areas.glisteringCaveII = {
     background : `iceCave`,
     level : 95,
     difficulty: 5,
-    unlockDescription : `Defeat Ultra Entity Lusamine in VS to unlock`,
+    unlockDescription : t('ui.defeat_ultra_entity_lusamine_in_vs'),
     unlockRequirement : function() { return areas.vsUltraEntityLusamine.defeated },
     icon: item.fireGem,
     spawns: {
@@ -1523,7 +1523,7 @@ areas.sunkenTempleII = {
     background : `trench`,
     level : 100,
     difficulty: 5,
-    unlockDescription : `Defeat Pokemon Professor Oak in VS to unlock`,
+    unlockDescription : t('area.sunkenTempleI.unlockDescription'),
     unlockRequirement : function() { return areas.vsPokemonProfessorOak.defeated },
     icon: item.flyiniumZ,
     spawns: {
@@ -1542,7 +1542,7 @@ areas.sinnohUndergroundIII = {
     type: `dungeon`,
     background : `cave`,
     level : wildAreaLevel2,
-    unlockDescription : `Defeat Gym Leader Brock in VS to unlock`,
+    unlockDescription : t('area.sinnohUndergroundI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderBrock.defeated },
     icon: item.fireStone,
     spawns: {
@@ -1558,7 +1558,7 @@ areas.beginnerDojoIII = {
     rotation : 3,
     type: `dungeon`,
     background : `gym`,
-    unlockDescription : `Defeat Gym Leader Brock in VS to unlock`,
+    unlockDescription : t('area.sinnohUndergroundI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderBrock.defeated },
     level : wildAreaLevel2,
     icon: item.tmDummy,
@@ -1575,7 +1575,7 @@ areas.advancedDojoIII = {
     rotation : 3,
     type: `dungeon`,
     background : `gym`,
-    unlockDescription : `Defeat Gym Leader Misty in VS to unlock`,
+    unlockDescription : t('area.advancedDojoI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderMisty.defeated },
     level : wildAreaLevel3,
     icon: item.tmDummy,
@@ -1593,7 +1593,7 @@ areas.expertDojoIII = {
     type: `dungeon`,
     background : `gym`,
     level : wildAreaLevel4,
-    unlockDescription : `Defeat Gym Leader Phoebe in VS to unlock`,
+    unlockDescription : t('area.expertDojoI.unlockDescription'),
     unlockRequirement : function() { return areas.vsGymLeaderPhoebe.defeated },
     icon: item.tmDummy,
     spawns: {
@@ -1611,7 +1611,7 @@ areas.victoryRoadIII = {
     type: `dungeon`,
     background : `town`,
     level : wildAreaLevel5,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     icon: item.eviolite,
     spawns: {
@@ -1629,7 +1629,7 @@ areas.glisteringCaveIII = {
     background : `iceCave`,
     level : 95,
     difficulty: 5,
-    unlockDescription : `Defeat Ultra Entity Lusamine in VS to unlock`,
+    unlockDescription : t('ui.defeat_ultra_entity_lusamine_in_vs'),
     unlockRequirement : function() { return areas.vsUltraEntityLusamine.defeated },
     icon: item.normalGem,
     spawns: {
@@ -1650,7 +1650,7 @@ areas.sunkenTempleIII = {
     background : `trench`,
     level : 100,
     difficulty: 5,
-    unlockDescription : `Defeat Pokemon Professor Oak in VS to unlock`,
+    unlockDescription : t('area.sunkenTempleI.unlockDescription'),
     unlockRequirement : function() { return areas.vsPokemonProfessorOak.defeated },
     icon: item.flyiniumZ,
     spawns: {
@@ -1725,7 +1725,7 @@ areas.summitOfSeasons = {
     level : 90,
     icon: pkmn.luxray,
     uncatchable: true,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     spawns: {
         common : [pkmn.luxray,pkmn.avalugg,pkmn.houndoom,pkmn.marowak],
@@ -1745,7 +1745,7 @@ areas.ceruleanCave = {
     icon: pkmn.golem,
     difficulty: 5,
     uncatchable: true,
-    unlockDescription : `Defeat Master Trainer Geeta in VS to unlock`,
+    unlockDescription : t('area.ceruleanCave.unlockDescription'),
     unlockRequirement : function() { return areas.vsMasterTrainerGeeta.defeated },
     spawns: {
         common : [pkmn.golem,pkmn.megaGarchomp,pkmn.crobat,pkmn.chansey],
@@ -1767,7 +1767,7 @@ areas.eventMegaBlastoise = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.pokeflute.got--},
-    unlockDescription : `Requires a <img src="img/items/pokeflute.png"> Pokeflute to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/pokeflute.png"> ${t('area.eventMegaBlastoise.unlockDescription_2')}`,
     unlockRequirement : function() { return item.pokeflute.got>0 },
     level : 100,
     team : {
@@ -1788,7 +1788,7 @@ areas.eventMegaCharizardY = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.pokeflute.got--},
-    unlockDescription : `Requires a <img src="img/items/pokeflute.png"> Pokeflute to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/pokeflute.png"> ${t('area.eventMegaBlastoise.unlockDescription_2')}`,
     unlockRequirement : function() { return item.pokeflute.got>0 },
     level : 100,
     team : {
@@ -1809,7 +1809,7 @@ areas.eventMegaVenusaur = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.pokeflute.got--},
-    unlockDescription : `Requires a <img src="img/items/pokeflute.png"> Pokeflute to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/pokeflute.png"> ${t('area.eventMegaBlastoise.unlockDescription_2')}`,
     unlockRequirement : function() { return item.pokeflute.got>0 },
     level : 100,
     team : {
@@ -1873,7 +1873,7 @@ areas.eventZapdos = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.epochFeather.got--},
-    unlockDescription : `Requires an <img src="img/items/epochFeather.png"> Epoch Feather to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/epochFeather.png"> ${t('area.eventZapdos.unlockDescription_2')}`,
     unlockRequirement : function() { return item.epochFeather.got>0 },
     level : 90,
     team : {
@@ -1894,7 +1894,7 @@ areas.eventArticuno = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.epochFeather.got--},
-    unlockDescription : `Requires an <img src="img/items/epochFeather.png"> Epoch Feather to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/epochFeather.png"> ${t('area.eventZapdos.unlockDescription_2')}`,
     unlockRequirement : function() { return item.epochFeather.got>0 },
     level : 90,
     team : {
@@ -1915,7 +1915,7 @@ areas.eventMoltres = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.epochFeather.got--},
-    unlockDescription : `Requires an <img src="img/items/epochFeather.png"> Epoch Feather to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/epochFeather.png"> ${t('area.eventZapdos.unlockDescription_2')}`,
     unlockRequirement : function() { return item.epochFeather.got>0 },
     level : 90,
     team : {
@@ -1936,7 +1936,7 @@ areas.eventMegaCamerupt = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.epochFeather.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/epochFeather.png"> Epoch Feathers to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/epochFeather.png"> ${t('area.eventMegaCamerupt.unlockDescription_2')}`,
     unlockRequirement : function() { return item.epochFeather.got>2 },
     level : 100,
     team : {
@@ -1957,7 +1957,7 @@ areas.eventMegaManectric = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.epochFeather.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/epochFeather.png"> Epoch Feathers to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/epochFeather.png"> ${t('area.eventMegaCamerupt.unlockDescription_2')}`,
     unlockRequirement : function() { return item.epochFeather.got>2 },
     level : 100,
     team : {
@@ -1978,7 +1978,7 @@ areas.eventMegaAbomasnow = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.epochFeather.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/epochFeather.png"> Epoch Feathers to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/epochFeather.png"> ${t('area.eventMegaCamerupt.unlockDescription_2')}`,
     unlockRequirement : function() { return item.epochFeather.got>2 },
     level : 100,
     team : {
@@ -2001,7 +2001,7 @@ areas.eventMegaRaichuX = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.pokeflute.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/pokeflute.png"> Pokeflutes to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/pokeflute.png"> ${t('area.eventMegaRaichuX.unlockDescription_2')}`,
     unlockRequirement : function() { return item.pokeflute.got>2 },
     level : 110,
     team : {
@@ -2022,7 +2022,7 @@ areas.eventMegaRaichuY = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.pokeflute.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/pokeflute.png"> Pokeflutes to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/pokeflute.png"> ${t('area.eventMegaRaichuX.unlockDescription_2')}`,
     unlockRequirement : function() { return item.pokeflute.got>2 },
     level : 110,
     team : {
@@ -2043,7 +2043,7 @@ areas.eventMegaCharizardX = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.pokeflute.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/pokeflute.png"> Pokeflutes to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/pokeflute.png"> ${t('area.eventMegaRaichuX.unlockDescription_2')}`,
     unlockRequirement : function() { return item.pokeflute.got>2 },
     level : 110,
     team : {
@@ -2083,7 +2083,7 @@ areas.primitiveGrove = {
     level : 90,
     icon: pkmn.yanmega,
     uncatchable: true,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     spawns: {
         common : [pkmn.haxorus,pkmn.aerodactyl,pkmn.rampardos,pkmn.yanmega],
@@ -2106,7 +2106,7 @@ areas.eventGreatTusk = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientOrchid.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientOrchid.png"> Ancient Orchid to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventGreatTusk.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>0 },
     level : 90,
     team : {
@@ -2127,7 +2127,7 @@ areas.eventScreamTail = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientOrchid.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientOrchid.png"> Ancient Orchid to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventGreatTusk.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>0 },
     level : 90,
     team : {
@@ -2149,7 +2149,7 @@ areas.eventSlitherWing = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientOrchid.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientOrchid.png"> Ancient Orchid to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventGreatTusk.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>0 },
     level : 90,
     team : {
@@ -2172,7 +2172,7 @@ areas.eventBruteBonnet = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientOrchid.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientOrchid.png"> Ancient Orchid to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventGreatTusk.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>0 },
     level : 90,
     team : {
@@ -2193,7 +2193,7 @@ areas.eventFlutterMane = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientOrchid.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientOrchid.png"> Ancient Orchid to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventGreatTusk.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>0 },
     level : 90,
     team : {
@@ -2214,7 +2214,7 @@ areas.eventSandyShocks = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientOrchid.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientOrchid.png"> Ancient Orchid to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventGreatTusk.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>0 },
     level : 90,
     team : {
@@ -2236,7 +2236,7 @@ areas.eventRoaringMoon = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.ancientOrchid.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/ancientOrchid.png"> Ancient Orchids to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventRoaringMoon.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>2 },
     level : 100,
     team : {
@@ -2258,7 +2258,7 @@ areas.eventMegaAerodactly = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.ancientOrchid.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/ancientOrchid.png"> Ancient Orchids to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventRoaringMoon.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>2 },
     level : 100,
     team : {
@@ -2279,7 +2279,7 @@ areas.eventMegaGyarados = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.ancientOrchid.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/ancientOrchid.png"> Ancient Orchids to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/ancientOrchid.png"> ${t('area.eventRoaringMoon.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientOrchid.got>2 },
     level : 100,
     team : {
@@ -2320,7 +2320,7 @@ areas.primalFissure = {
     icon: pkmn.salamence,
     difficulty: 5,
     uncatchable: true,
-    unlockDescription : `Defeat Master Trainer Geeta in VS to unlock`,
+    unlockDescription : t('area.ceruleanCave.unlockDescription'),
     unlockRequirement : function() { return areas.vsMasterTrainerGeeta.defeated },
     spawns: {
         common : [pkmn.tyranitar,pkmn.salamence,pkmn.garchomp,pkmn.heatran],
@@ -2343,7 +2343,7 @@ areas.eventMegaGarchomp = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.primalEarth.got--},
-    unlockDescription : `Requires a <img src="img/items/primalEarth.png"> Primal Earth to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/primalEarth.png"> ${t('area.eventMegaGarchomp.unlockDescription_2')}`,
     unlockRequirement : function() { return item.primalEarth.got>0 },
     level : 100,
     team : {
@@ -2364,7 +2364,7 @@ areas.eventMegaTyranitar = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.primalEarth.got--},
-    unlockDescription : `Requires a <img src="img/items/primalEarth.png"> Primal Earth to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/primalEarth.png"> ${t('area.eventMegaGarchomp.unlockDescription_2')}`,
     unlockRequirement : function() { return item.primalEarth.got>0 },
     level : 100,
     team : {
@@ -2385,7 +2385,7 @@ areas.eventTapuBulu = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.primalEarth.got--},
-    unlockDescription : `Requires a <img src="img/items/primalEarth.png"> Primal Earth to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/primalEarth.png"> ${t('area.eventMegaGarchomp.unlockDescription_2')}`,
     unlockRequirement : function() { return item.primalEarth.got>0 },
     level : 100,
     team : {
@@ -2408,7 +2408,7 @@ areas.eventMegaPinsir = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.primalEarth.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/primalEarth.png"> Primal Earths to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/primalEarth.png"> ${t('area.eventMegaPinsir.unlockDescription_2')}`,
     unlockRequirement : function() { return item.primalEarth.got>2 },
     level : 110,
     team : {
@@ -2429,7 +2429,7 @@ areas.eventGalarianZapdos = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.primalEarth.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/primalEarth.png"> Primal Earths to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/primalEarth.png"> ${t('area.eventMegaPinsir.unlockDescription_2')}`,
     unlockRequirement : function() { return item.primalEarth.got>2 },
     level : 110,
     team : {
@@ -2450,7 +2450,7 @@ areas.eventTingLu = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.primalEarth.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/primalEarth.png"> Primal Earths to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/primalEarth.png"> ${t('area.eventMegaPinsir.unlockDescription_2')}`,
     unlockRequirement : function() { return item.primalEarth.got>2 },
     level : 110,
     team : {
@@ -2507,7 +2507,7 @@ areas.ancientTomb = {
     level : 90,
     icon: pkmn.rhyperior,
     uncatchable: true,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     spawns: {
         common : [pkmn.tyranitar,pkmn.rhyperior,pkmn.flygon,pkmn.garchomp],
@@ -2527,7 +2527,7 @@ areas.steelTomb = {
     icon: pkmn.metagross,
     difficulty: 5,
     uncatchable: true,
-    unlockDescription : `Defeat Master Trainer Geeta in VS to unlock`,
+    unlockDescription : t('area.ceruleanCave.unlockDescription'),
     unlockRequirement : function() { return areas.vsMasterTrainerGeeta.defeated },
     spawns: {
         common : [pkmn.metagross,pkmn.bastiodon,pkmn.excadrill,pkmn.aggron],
@@ -2553,7 +2553,7 @@ areas.eventMegaSceptile = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.steelKeystone.got--},
-    unlockDescription : `Requires an <img src="img/items/steelKeystone.png"> Steel Keystone to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/steelKeystone.png"> ${t('area.eventMegaSceptile.unlockDescription_2')}`,
     unlockRequirement : function() { return item.steelKeystone.got>0 },
     level : 100,
     team : {
@@ -2574,7 +2574,7 @@ areas.eventMegaSwampert = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.steelKeystone.got--},
-    unlockDescription : `Requires an <img src="img/items/steelKeystone.png"> Steel Keystone to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/steelKeystone.png"> ${t('area.eventMegaSceptile.unlockDescription_2')}`,
     unlockRequirement : function() { return item.steelKeystone.got>0 },
     level : 100,
     team : {
@@ -2595,7 +2595,7 @@ areas.eventMegaBlaziken = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.steelKeystone.got--},
-    unlockDescription : `Requires an <img src="img/items/steelKeystone.png"> Steel Keystone to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/steelKeystone.png"> ${t('area.eventMegaSceptile.unlockDescription_2')}`,
     unlockRequirement : function() { return item.steelKeystone.got>0 },
     level : 100,
     team : {
@@ -2640,7 +2640,7 @@ areas.eventRegirock = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientKeystone.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientKeystone.png"> Ancient Keystone to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientKeystone.png"> ${t('area.eventRegirock.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientKeystone.got>0 },
     level : 90,
     team : {
@@ -2661,7 +2661,7 @@ areas.eventRegisteel = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientKeystone.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientKeystone.png"> Ancient Keystone to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientKeystone.png"> ${t('area.eventRegirock.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientKeystone.got>0 },
     level : 90,
     team : {
@@ -2682,7 +2682,7 @@ areas.eventRegice = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.ancientKeystone.got--},
-    unlockDescription : `Requires an <img src="img/items/ancientKeystone.png"> Ancient Keystone to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/ancientKeystone.png"> ${t('area.eventRegirock.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientKeystone.got>0 },
     level : 90,
     team : {
@@ -2703,7 +2703,7 @@ areas.eventMegaMawile = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.ancientKeystone.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/ancientKeystone.png"> Ancient Keystones to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/ancientKeystone.png"> ${t('area.eventMegaMawile.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientKeystone.got>2 },
     level : 100,
     team : {
@@ -2724,7 +2724,7 @@ areas.eventMegaGlalie = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.ancientKeystone.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/ancientKeystone.png"> Ancient Keystones to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/ancientKeystone.png"> ${t('area.eventMegaMawile.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientKeystone.got>2 },
     level : 100,
     team : {
@@ -2745,7 +2745,7 @@ areas.eventMegaSteelix = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.ancientKeystone.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/ancientKeystone.png"> Ancient Keystones to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/ancientKeystone.png"> ${t('area.eventMegaMawile.unlockDescription_2')}`,
     unlockRequirement : function() { return item.ancientKeystone.got>2 },
     level : 100,
     team : {
@@ -2768,7 +2768,7 @@ areas.eventRegieleki = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.steelKeystone.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/steelKeystone.png"> Steel Keystones to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/steelKeystone.png"> ${t('area.eventRegieleki.unlockDescription_2')}`,
     unlockRequirement : function() { return item.steelKeystone.got>2 },
     level : 110,
     team : {
@@ -2789,7 +2789,7 @@ areas.eventRegidrago = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.steelKeystone.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/steelKeystone.png"> Steel Keystones to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/steelKeystone.png"> ${t('area.eventRegieleki.unlockDescription_2')}`,
     unlockRequirement : function() { return item.steelKeystone.got>2 },
     level : 110,
     team : {
@@ -2810,7 +2810,7 @@ areas.eventGougingFire = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.steelKeystone.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/steelKeystone.png"> Steel Keystones to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/steelKeystone.png"> ${t('area.eventRegieleki.unlockDescription_2')}`,
     unlockRequirement : function() { return item.steelKeystone.got>2 },
     level : 110,
     team : {
@@ -2872,7 +2872,7 @@ areas.aetherHeadquarters = {
     level : 90,
     icon: pkmn.golisopod,
     uncatchable: true,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     spawns: {
         common : [pkmn.golisopod,pkmn.drampa,pkmn.kommoo,pkmn.crabominable],
@@ -2896,7 +2896,7 @@ areas.eventNaganadel = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.aetherKeycard.got--},
-    unlockDescription : `Requires an <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>0 },
     level : 90,
     team : {
@@ -2917,7 +2917,7 @@ areas.eventSilvally = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.aetherKeycard.got--},
-    unlockDescription : `Requires an <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>0 },
     level : 90,
     team : {
@@ -2938,7 +2938,7 @@ areas.eventCosmoem = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.aetherKeycard.got--},
-    unlockDescription : `Requires an <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventZapdos.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>0 },
     level : 90,
     team : {
@@ -2959,7 +2959,7 @@ areas.eventGuzzlord = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -2980,7 +2980,7 @@ areas.eventXurkitree = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -3001,7 +3001,7 @@ areas.eventNihilego = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -3022,7 +3022,7 @@ areas.eventKartana = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -3043,7 +3043,7 @@ areas.eventBuzzwole = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -3065,7 +3065,7 @@ areas.eventPheromosa = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -3086,7 +3086,7 @@ areas.eventBlacephalon = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.aetherKeycard.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/aetherKeycard.png"> Aether Keycard to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/aetherKeycard.png"> ${t('area.eventNaganadel.unlockDescription_2')}`,
     unlockRequirement : function() { return item.aetherKeycard.got>2 },
     level : 100,
     team : {
@@ -3107,7 +3107,7 @@ areas.wormholeSpace = {
     icon: pkmn.porygonZ,
     difficulty: 5,
     uncatchable: true,
-    unlockDescription : `Defeat Master Trainer Geeta in VS to unlock`,
+    unlockDescription : t('area.ceruleanCave.unlockDescription'),
     unlockRequirement : function() { return areas.vsMasterTrainerGeeta.defeated },
     spawns: {
         common : [pkmn.goodra,pkmn.porygonZ,pkmn.dusknoir,pkmn.starmie],
@@ -3131,7 +3131,7 @@ areas.eventMegaMetagross = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.wormholeResidue.got--},
-    unlockDescription : `Requires a <img src="img/items/wormholeResidue.png"> Wormhole Residue to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/wormholeResidue.png"> ${t('area.eventMegaMetagross.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wormholeResidue.got>0 },
     level : 100,
     team : {
@@ -3153,7 +3153,7 @@ areas.eventTapuFini = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.wormholeResidue.got--},
-    unlockDescription : `Requires a <img src="img/items/wormholeResidue.png"> Wormhole Residue to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/wormholeResidue.png"> ${t('area.eventMegaMetagross.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wormholeResidue.got>0 },
     level : 100,
     team : {
@@ -3174,7 +3174,7 @@ areas.eventTapuLele = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.wormholeResidue.got--},
-    unlockDescription : `Requires a <img src="img/items/wormholeResidue.png"> Wormhole Residue to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/wormholeResidue.png"> ${t('area.eventMegaMetagross.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wormholeResidue.got>0 },
     level : 100,
     team : {
@@ -3199,7 +3199,7 @@ areas.eventChienPao = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.wormholeResidue.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/wormholeResidue.png"> Wormhole Residues to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/wormholeResidue.png"> ${t('area.eventChienPao.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wormholeResidue.got>2 },
     level : 110,
     team : {
@@ -3220,7 +3220,7 @@ areas.eventMegaDragonite = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.wormholeResidue.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/wormholeResidue.png"> Wormhole Residues to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/wormholeResidue.png"> ${t('area.eventChienPao.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wormholeResidue.got>2 },
     level : 110,
     team : {
@@ -3241,7 +3241,7 @@ areas.eventGalarianMoltres = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.wormholeResidue.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/wormholeResidue.png"> Wormhole Residues to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/wormholeResidue.png"> ${t('area.eventChienPao.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wormholeResidue.got>2 },
     level : 110,
     team : {
@@ -3282,7 +3282,7 @@ areas.protonCity = {
     level : 90,
     icon: pkmn.porygonZ,
     uncatchable: true,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     spawns: {
         common : [pkmn.porygonZ,pkmn.klinklang,pkmn.magnezone,pkmn.garchomp],
@@ -3329,7 +3329,7 @@ areas.fusionPlant = {
     icon: pkmn.aggron,
     difficulty: 5,
     uncatchable: true,
-    unlockDescription : `Defeat Master Trainer Geeta in VS to unlock`,
+    unlockDescription : t('area.ceruleanCave.unlockDescription'),
     unlockRequirement : function() { return areas.vsMasterTrainerGeeta.defeated },
     spawns: {
         common : [pkmn.aggron,pkmn.megaManectric,pkmn.lucario,pkmn.bellibolt],
@@ -3353,7 +3353,7 @@ areas.eventMegaGengar = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.futureContraption.got--},
-    unlockDescription : `Requires a <img src="img/items/futureContraption.png"> Future Contraption to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureContraption.png"> ${t('area.eventMegaGengar.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureContraption.got>0 },
     level : 100,
     team : {
@@ -3376,7 +3376,7 @@ areas.eventThundurusTherian = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.futureContraption.got--},
-    unlockDescription : `Requires a <img src="img/items/futureContraption.png"> Future Contraption to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureContraption.png"> ${t('area.eventMegaGengar.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureContraption.got>0 },
     level : 100,
     team : {
@@ -3397,7 +3397,7 @@ areas.eventTapuKoko = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.futureContraption.got--},
-    unlockDescription : `Requires a <img src="img/items/futureContraption.png"> Future Contraption to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureContraption.png"> ${t('area.eventMegaGengar.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureContraption.got>0 },
     level : 100,
     team : {
@@ -3422,7 +3422,7 @@ areas.eventIronThorns = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.futureDisk.got--},
-    unlockDescription : `Requires a <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>0 },
     level : 90,
     team : {
@@ -3443,7 +3443,7 @@ areas.eventIronHands = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.futureDisk.got--},
-    unlockDescription : `Requires a <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>0 },
     level : 90,
     team : {
@@ -3464,7 +3464,7 @@ areas.eventIronJugulis = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.futureDisk.got--},
-    unlockDescription : `Requires a <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>0 },
     level : 90,
     team : {
@@ -3489,7 +3489,7 @@ areas.eventIronTreads = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.futureDisk.got--},
-    unlockDescription : `Requires a <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>0 },
     level : 90,
     team : {
@@ -3511,7 +3511,7 @@ areas.eventIronBundle = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.futureDisk.got--},
-    unlockDescription : `Requires a <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>0 },
     level : 90,
     team : {
@@ -3532,7 +3532,7 @@ areas.eventIronMoth = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.futureDisk.got--},
-    unlockDescription : `Requires a <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>0 },
     level : 90,
     team : {
@@ -3554,7 +3554,7 @@ areas.eventIronValiant = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.futureDisk.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>2 },
     level : 100,
     team : {
@@ -3577,7 +3577,7 @@ areas.eventMegaScizor = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.futureDisk.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>2 },
     level : 100,
     team : {
@@ -3599,7 +3599,7 @@ areas.eventMegaAggron = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.futureDisk.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/futureDisk.png"> Future Disk to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/futureDisk.png"> ${t('area.eventIronThorns.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureDisk.got>2 },
     level : 100,
     team : {
@@ -3626,7 +3626,7 @@ areas.eventMegaBaxcalibur = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.futureContraption.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/futureContraption.png"> Future Contraptions to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/futureContraption.png"> ${t('area.eventMegaBaxcalibur.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureContraption.got>2 },
     level : 110,
     team : {
@@ -3648,7 +3648,7 @@ areas.eventChiYu = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.futureContraption.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/futureContraption.png"> Future Contraptions to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/futureContraption.png"> ${t('area.eventMegaBaxcalibur.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureContraption.got>2 },
     level : 110,
     team : {
@@ -3669,7 +3669,7 @@ areas.eventGalarianArticuno = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.futureContraption.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/futureContraption.png"> Future Contraptions to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/futureContraption.png"> ${t('area.eventMegaBaxcalibur.unlockDescription_2')}`,
     unlockRequirement : function() { return item.futureContraption.got>2 },
     level : 110,
     team : {
@@ -3711,7 +3711,7 @@ areas.lakeValor = {
     level : 90,
     icon: pkmn.gyarados,
     uncatchable: true,
-    unlockDescription : `Defeat Elite Trainer Cynthia in VS to unlock`,
+    unlockDescription : t('area.victoryRoadI.unlockDescription'),
     unlockRequirement : function() { return areas.vsEliteTrainerCynthia.defeated },
     spawns: {
         common : [pkmn.gyarados,pkmn.staraptor,pkmn.froslass,pkmn.tangrowth],
@@ -3753,7 +3753,7 @@ areas.galacticHeadquarters = {
     icon: pkmn.purugly,
     difficulty: 5,
     uncatchable: true,
-    unlockDescription : `Defeat Master Trainer Geeta in VS to unlock`,
+    unlockDescription : t('area.ceruleanCave.unlockDescription'),
     unlockRequirement : function() { return areas.vsMasterTrainerGeeta.defeated },
     spawns: {
         common : [pkmn.gengar,pkmn.purugly,pkmn.bronzong,pkmn.megaBanette],
@@ -3777,7 +3777,7 @@ areas.eventMegaGallade = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.redChain.got--},
-    unlockDescription : `Requires a <img src="img/items/redChain.png"> Red Chain to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/redChain.png"> ${t('area.eventMegaGallade.unlockDescription_2')}`,
     unlockRequirement : function() { return item.redChain.got>0 },
     level : 100,
     team : {
@@ -3798,7 +3798,7 @@ areas.eventCresselia = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.redChain.got--},
-    unlockDescription : `Requires a <img src="img/items/redChain.png"> Red Chain to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/redChain.png"> ${t('area.eventMegaGallade.unlockDescription_2')}`,
     unlockRequirement : function() { return item.redChain.got>0 },
     level : 100,
     team : {
@@ -3819,7 +3819,7 @@ areas.eventHeatran = {
     encounter: true,
     difficulty: tier3difficulty,
     encounterEffect : function() {item.redChain.got--},
-    unlockDescription : `Requires a <img src="img/items/redChain.png"> Red Chain to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/redChain.png"> ${t('area.eventMegaGallade.unlockDescription_2')}`,
     unlockRequirement : function() { return item.redChain.got>0 },
     level : 100,
     team : {
@@ -3842,7 +3842,7 @@ areas.eventMegaLucario = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.redChain.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/redChain.png"> Red Chains to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/redChain.png"> ${t('area.eventMegaLucario.unlockDescription_2')}`,
     unlockRequirement : function() { return item.redChain.got>2 },
     level : 110,
     team : {
@@ -3863,7 +3863,7 @@ areas.eventMegaHeracross = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.redChain.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/redChain.png"> Red Chains to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/redChain.png"> ${t('area.eventMegaLucario.unlockDescription_2')}`,
     unlockRequirement : function() { return item.redChain.got>2 },
     level : 110,
     team : {
@@ -3884,7 +3884,7 @@ areas.eventWoChien = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.redChain.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/redChain.png"> Red Chains to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/redChain.png"> ${t('area.eventMegaLucario.unlockDescription_2')}`,
     unlockRequirement : function() { return item.redChain.got>2 },
     level : 110,
     team : {
@@ -3933,7 +3933,7 @@ areas.eventMesprit = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.wisdomPetal.got--},
-    unlockDescription : `Requires a <img src="img/items/wisdomPetal.png"> Wisdom Petal to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/wisdomPetal.png"> ${t('area.eventMesprit.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wisdomPetal.got>0 },
     level : 90,
     team : {
@@ -3954,7 +3954,7 @@ areas.eventAzelf = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.wisdomPetal.got--},
-    unlockDescription : `Requires a <img src="img/items/wisdomPetal.png"> Wisdom Petal to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/wisdomPetal.png"> ${t('area.eventMesprit.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wisdomPetal.got>0 },
     level : 90,
     team : {
@@ -3976,7 +3976,7 @@ areas.eventUxie = {
     encounter: true,
     difficulty: tier1difficulty,
     encounterEffect : function() {item.wisdomPetal.got--},
-    unlockDescription : `Requires a <img src="img/items/wisdomPetal.png"> Wisdom Petal to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/wisdomPetal.png"> ${t('area.eventMesprit.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wisdomPetal.got>0 },
     level : 90,
     team : {
@@ -3998,7 +3998,7 @@ areas.eventMegaPidgeot = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.wisdomPetal.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/wisdomPetal.png"> Wisdom Petals to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/wisdomPetal.png"> ${t('area.eventMegaPidgeot.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wisdomPetal.got>2 },
     level : 100,
     team : {
@@ -4019,7 +4019,7 @@ areas.eventMegaBeedrill = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.wisdomPetal.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/wisdomPetal.png"> Wisdom Petals to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/wisdomPetal.png"> ${t('area.eventMegaPidgeot.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wisdomPetal.got>2 },
     level : 100,
     team : {
@@ -4040,7 +4040,7 @@ areas.eventMegaAlakazam = {
     encounter: true,
     difficulty: tier2difficulty,
     encounterEffect : function() {item.wisdomPetal.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/wisdomPetal.png"> Wisdom Petals to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/wisdomPetal.png"> ${t('area.eventMegaPidgeot.unlockDescription_2')}`,
     unlockRequirement : function() { return item.wisdomPetal.got>2 },
     level : 100,
     team : {
@@ -4140,16 +4140,16 @@ areas.vsGymLeaderBrock = {
     itemReward: { 1 : { item: item.hardStone.id, amount: 1 }, 2 : { item: item.bottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >New Wild Area unlocked</div>
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Sinnoh Underground</div>
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Beginner Dojo</div>
-        <div style="filter:hue-rotate(50deg)" >Mystery Gift unlocked</div>
-        <div style="filter:hue-rotate(200deg)" >Export Reward unlocked</div>
-        <div style="filter:hue-rotate(300deg)" >Poke-Mart unlocked</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.new_wild_area_unlocked')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_sinnoh_underground')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_beginner_dojo')}</div>
+        <div style="filter:hue-rotate(50deg)" >${t('ui.mystery_gift_unlocked')}</div>
+        <div style="filter:hue-rotate(200deg)" >${t('ui.export_reward_unlocked')}</div>
+        <div style="filter:hue-rotate(300deg)" >${t('ui.poke_mart_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -4253,13 +4253,13 @@ areas.vsGymLeaderMisty = {
     itemReward: { 1 : { item: item.mysticWater.id, amount: 1 }, 2 : { item: item.fashionCase.id, amount: 3 }, 3 : { item: item.bottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >New Wild Area unlocked</div>
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Advanced Dojo</div>
-        <div style="filter:hue-rotate(300deg)" >Training unlocked</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.new_wild_area_unlocked')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_advanced_dojo')}</div>
+        <div style="filter:hue-rotate(300deg)" >${t('ui.training_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -4363,12 +4363,12 @@ areas.vsGymLeaderPhoebe = {
     itemReward: { 1 : { item: item.spellTag.id, amount: 1 }, 2 : { item: item.fashionCase.id, amount: 3 }, 3 : { item: item.bottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >New Wild Area unlocked</div>
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Expert Dojo</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.new_wild_area_unlocked')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_expert_dojo')}</div>
         </div>
         `
         openTooltip()
@@ -4474,13 +4474,13 @@ areas.vsEliteTrainerCynthia = {
     itemReward: { 1 : { item: item.dragonFang.id, amount: 1 }, 2 : { item: item.bottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >Tier I Event Raids unlocked</div>
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Victory Road</div>
-        <div style="filter:hue-rotate(50deg)" >Level Training unlocked</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.tier_event_raids_unlocked')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_victory_road')}</div>
+        <div style="filter:hue-rotate(50deg)" >${t('ui.level_training_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -4588,12 +4588,12 @@ areas.vsEliteFourLance = {
     itemReward: { 1 : { item: item.luckIncense.id, amount: 1 }, 2 : { item: item.bottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >Tier II Event Raids unlocked</div>
-        <div style="filter:hue-rotate(0deg)" >Genetics unlocked</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.tier_ii_event_raids_unlocked')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.genetics_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -4701,12 +4701,12 @@ areas.vsTeamLeaderGiovanni = {
     itemReward: { 1 : { item: item.abilityCapsule.id, amount: 3 }, 2 : { item: item.bottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(0deg)" >Battle Frontier unlocked</div>
-        <div style="filter:hue-rotate(100deg)" >Elite Event tab unlocked</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.battle_frontier_unlocked')}</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.elite_event_tab_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -4821,12 +4821,12 @@ areas.vsMasterTrainerGeeta = {
 
         encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >Tier III Event Raids unlocked</div>
-        <div style="filter:hue-rotate(200deg)" >Wonder trade unlocked</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.tier_iii_event_raids_unlocked')}</div>
+        <div style="filter:hue-rotate(200deg)" >${t('ui.wonder_trade_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -4938,13 +4938,13 @@ areas.vsUltraEntityLusamine = {
     itemReward: { 1 : { item: item.autoRefightTicket.id, amount: 1 }, 2 : { item: item.goldenBottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >Tier IV Event Raids unlocked</div>
-        <div style="filter:hue-rotate(300deg)" >Master League is now available in the Battle Frontier</div>
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Glistering Cave</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.tier_iv_event_raids_unlocked')}</div>
+        <div style="filter:hue-rotate(300deg)" >${t('ui.master_league_is_now_available_in')}</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_glistering_cave')}</div>
         </div>
         `
         openTooltip()
@@ -5056,14 +5056,14 @@ areas.vsLegendTrainerBrendan = {
     itemReward: { 1 : { item: item.autoRefightTicket.id, amount: 1 }, 2 : { item: item.goldenBottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(100deg)" >Apricorn exchange is now available in the Poke-Mart</div>
-        <div style="filter:hue-rotate(300deg)" >Restaurant is now available in the Poke-Mart</div>
-        <div style="filter:hue-rotate(200deg)" >Mega-Dimension unlocked</div>
-        <div style="filter:hue-rotate(50deg)" >Nature Training unlocked</div>
+        <div style="filter:hue-rotate(100deg)" >${t('ui.apricorn_exchange_is_now_available_in')}</div>
+        <div style="filter:hue-rotate(300deg)" >${t('ui.restaurant_is_now_available_in_the')}</div>
+        <div style="filter:hue-rotate(200deg)" >${t('ui.mega_dimension_unlocked')}</div>
+        <div style="filter:hue-rotate(50deg)" >${t('ui.nature_training_unlocked')}</div>
         </div>
         `
         openTooltip()
@@ -5175,11 +5175,11 @@ areas.vsPokemonProfessorOak = {
     itemReward: { 1 : { item: item.autoRefightTicket.id, amount: 1 }, 2 : { item: item.goldenBottleCap.id, amount: 10 }},
     encounterEffect: function() {
         document.getElementById("tooltipTop").style.display = `none`
-        document.getElementById("tooltipTitle").innerHTML = `New features unlocked!`
+        document.getElementById("tooltipTitle").innerHTML = t('ui.new_features_unlocked')
         document.getElementById("tooltipBottom").style.display = `none`
         document.getElementById("tooltipMid").innerHTML = `
         <div class="genetics-overview-tags" >
-        <div style="filter:hue-rotate(0deg)" >New Dungeon: Sunken Temple</div>
+        <div style="filter:hue-rotate(0deg)" >${t('ui.new_dungeon_sunken_temple')}</div>
         </div>
         `
         openTooltip()
@@ -5876,7 +5876,7 @@ areas.dimensionRaid1 = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.megaShard.got-=1},
-    unlockDescription : `Requires a <img src="img/items/megaShard.png"> Mega-Shard to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/megaShard.png"> ${t('area.dimensionRaid1.unlockDescription_2')}`,
     unlockRequirement : function() { return item.megaShard.got>0 },
     level : 100,
     team : {
@@ -5919,7 +5919,7 @@ areas.dimensionRaid2 = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.megaPiece.got-=1},
-    unlockDescription : `Requires a <img src="img/items/megaPiece.png"> Mega-Piece to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/megaPiece.png"> ${t('area.dimensionRaid2.unlockDescription_2')}`,
     unlockRequirement : function() { return item.megaPiece.got>0 },
     level : 100,
     team : {
@@ -5958,7 +5958,7 @@ areas.dimensionRaid3 = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.megaChunk.got-=1},
-    unlockDescription : `Requires a <img src="img/items/megaChunk.png"> Mega-Chunk to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/megaChunk.png"> ${t('area.dimensionRaid3.unlockDescription_2')}`,
     unlockRequirement : function() { return item.megaChunk.got>0 },
     level : 100,
     team : {
@@ -5997,7 +5997,7 @@ areas.dimensionRaid4 = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.megaCluster.got-=1},
-    unlockDescription : `Requires a <img src="img/items/megaCluster.png"> Mega-Cluster to enter`,
+    unlockDescription : `${t('area.eventMegaBlastoise.unlockDescription')} <img src="img/items/megaCluster.png"> ${t('area.dimensionRaid4.unlockDescription_2')}`,
     unlockRequirement : function() { return item.megaCluster.got>0 },
     level : 100,
     team : {
@@ -6375,7 +6375,7 @@ areas.seasonMarshadow = {
     encounter: true,
     difficulty: tier4difficulty,
     encounterEffect : function() {item.oldGateau.got-=3},
-    unlockDescription : `Requires x3 <img src="img/items/oldGateau.png"> Old Gateau to enter`,
+    unlockDescription : `${t('area.eventMegaCamerupt.unlockDescription')} <img src="img/items/oldGateau.png"> ${t('area.seasonMarshadow.unlockDescription_2')}`,
     unlockRequirement : function() { return item.oldGateau.got>2 },
     level : 90,
     team : {
@@ -6400,17 +6400,17 @@ for (const i in areas){
     if (areas[i].trainer) areas[i].defeated = false
 
     if (areas[i].type == "wild" && areas[i].level == wildAreaLevel2) {
-        areas[i].unlockDescription = `Defeat Gym Leader Brock in VS to unlock`
+        areas[i].unlockDescription = t('area.sinnohUndergroundI.unlockDescription')
         areas[i].unlockRequirement = function() { return areas.vsGymLeaderBrock.defeated }
     }
 
     if (areas[i].type == "wild" && areas[i].level == wildAreaLevel3) {
-        areas[i].unlockDescription = `Defeat Gym Leader Misty in VS to unlock`
+        areas[i].unlockDescription = t('area.advancedDojoI.unlockDescription')
         areas[i].unlockRequirement = function() { return areas.vsGymLeaderMisty.defeated }
     }
 
     if (areas[i].type == "wild" && areas[i].level == wildAreaLevel4) {
-        areas[i].unlockDescription = `Defeat Gym Leader Phoebe in VS to unlock`
+        areas[i].unlockDescription = t('area.expertDojoI.unlockDescription')
         areas[i].unlockRequirement = function() { return areas.vsGymLeaderPhoebe.defeated }
     }
 

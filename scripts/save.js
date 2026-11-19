@@ -198,7 +198,7 @@ function importData() {
 
         window.location.reload();
       } catch (err) {
-        alert("Error loading data.");
+        alert(t('ui.error_loading_data'));
       }
     };
 
@@ -227,13 +227,13 @@ function exportToText() {
 function loadFromText() {
   const input = document.getElementById("text-data-raw");
   if (!input) {
-    alert("Element with id 'text-data-raw' not found");
+    alert(t('ui.element_with_id_text_data_raw'));
     return;
   }
 
   const jsonData = input.value.trim();
   if (!jsonData) {
-    alert("No data found in the input");
+    alert(t('ui.no_data_found_in_the_input'));
     return;
   }
 
@@ -243,7 +243,7 @@ function loadFromText() {
     loadGame();
     window.location.reload();
   } catch (err) {
-    alert("Error loading data: " + err.message);
+    alert(`${t('ui.error_loading_data_2')} ` + err.message);
   }
 }
 
@@ -251,16 +251,16 @@ function loadFromText() {
 async function pasteFromClipboard() {
   const input = document.getElementById("text-data-raw");
   if (!input) {
-    alert("Element with id 'text-data-raw' not found");
+    alert(t('ui.element_with_id_text_data_raw'));
     return;
   }
 
   try {
     const text = await navigator.clipboard.readText();
     input.value = text;
-    alert("Data pasted successfully!");
+    alert(t('ui.data_pasted_successfully'));
   } catch (err) {
-    alert("Could not paste from clipboard. Please paste manually or grant clipboard permissions.");
+    alert(t('ui.could_not_paste_from_clipboard_please'));
   }
 }
 
@@ -273,7 +273,7 @@ function textData() {
 
   if (savedData) {
     document.getElementById("tooltipMid").innerHTML = `
-      This is your savefile code<br>You can copy or paste savefile codes here to export or import saves<br>
+      ${t('ui.this_is_your_savefile_code_you')}<br>
       <textarea id="text-data-raw" rows="10" style="width:95%; resize:vertical; font-family:monospace; font-size:0.9rem;"></textarea>
     `;
     
@@ -283,21 +283,21 @@ function textData() {
       <div style="display:flex;width:100%; align-items:center;justify-content:center; flex-wrap:wrap;">
         <div onClick='navigator.clipboard.writeText(document.getElementById("text-data-raw").value); alert("Data copied to the Clipboard!");' 
              style="cursor:pointer; font-size:2rem; width:33%; padding:10px;" id="prevent-tooltip-exit">
-          Copy
+          ${t('ui.copy')}
         </div>
         <div onClick='pasteFromClipboard()' 
              style="cursor:pointer; font-size:2rem; width:33%; padding:10px;" id="prevent-tooltip-exit">
-          Paste
+          ${t('ui.paste')}
         </div>
         <div onClick='loadFromText()' 
              style="cursor:pointer; font-size:2rem; width:33%; padding:10px;" id="prevent-tooltip-exit">
-          Load
+          ${t('ui.load')}
         </div>
       </div>
     `;
   } else {
     document.getElementById("tooltipMid").innerHTML = `
-      You can copy or paste savefile codes here to export or import saves<br>
+      ${t('ui.you_can_copy_or_paste_savefile')}<br>
       <textarea id="text-data-raw" rows="10" style="width:95%; resize:vertical; font-family:monospace; font-size:0.9rem;"></textarea>
     `;
 
@@ -305,11 +305,11 @@ function textData() {
       <div style="display:flex;width:100%; align-items:center;justify-content:center;">
         <div onClick='pasteFromClipboard()' 
              style="cursor:pointer; font-size:2rem; width:50%; padding:10px;" id="prevent-tooltip-exit">
-          Paste
+          ${t('ui.paste')}
         </div>
         <div onClick='loadFromText()' 
              style="cursor:pointer; font-size:2rem; width:50%; padding:10px;" id="prevent-tooltip-exit">
-          Load
+          ${t('ui.load')}
         </div>
       </div>
     `;
