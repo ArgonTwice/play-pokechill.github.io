@@ -18593,39 +18593,39 @@
  },
  {
   "en": "Hydration Memory",
-  "fr": "Mémoire Hydratation",
+  "fr": "ROM Hydratation",
   "categorie": "item",
   "cle": "hydratationMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sand Veil Memory",
-  "fr": "Mémoire Voile Sable",
+  "fr": "ROM Voile Sable",
   "categorie": "item",
   "cle": "sandVeilMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Snow Cloak Memory",
-  "fr": "Mémoire Rideau Neige",
+  "fr": "ROM Rideau Neige",
   "categorie": "item",
   "cle": "snowCloakMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Marvel Scale Memory",
-  "fr": "Mémoire Écaille Spéciale",
+  "fr": "ROM Écaille Spéciale",
   "categorie": "item",
   "cle": "marvelScaleMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Living Shield Memory",
-  "fr": "Mémoire Bouclier Vivant",
+  "fr": "ROM Bouclier Vivant",
   "categorie": "item",
   "cle": "livingShieldMemory",
   "source": "proposition",
@@ -18633,107 +18633,107 @@
  },
  {
   "en": "Big Pecks Memory",
-  "fr": "Mémoire Cœur de Coq",
+  "fr": "ROM Cœur de Coq",
   "categorie": "item",
   "cle": "bigPecksMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Hyper Cutter Memory",
-  "fr": "Mémoire Hyper Cutter",
+  "fr": "ROM Hyper Cutter",
   "categorie": "item",
   "cle": "hyperCutterMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Synchronize Memory",
-  "fr": "Mémoire Synchro",
+  "fr": "ROM Synchro",
   "categorie": "item",
   "cle": "synchronizeMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ice Body Memory",
-  "fr": "Mémoire Corps Gel",
+  "fr": "ROM Corps Gel",
   "categorie": "item",
   "cle": "iceBodyMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Rain Dish Memory",
-  "fr": "Mémoire Cuvette",
+  "fr": "ROM Cuvette",
   "categorie": "item",
   "cle": "rainDishMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Solar Power Memory",
-  "fr": "Mémoire Force Soleil",
+  "fr": "ROM Force Soleil",
   "categorie": "item",
   "cle": "solarPowerMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sand Force Memory",
-  "fr": "Mémoire Force Sable",
+  "fr": "ROM Force Sable",
   "categorie": "item",
   "cle": "sandForceMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Scrappy Memory",
-  "fr": "Mémoire Querelleur",
+  "fr": "ROM Querelleur",
   "categorie": "item",
   "cle": "scrappyMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strong Jaw Memory",
-  "fr": "Mémoire Prognathe",
+  "fr": "ROM Prognathe",
   "categorie": "item",
   "cle": "strongJawMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Tough Claws Memory",
-  "fr": "Mémoire Griffe Dure",
+  "fr": "ROM Griffe Dure",
   "categorie": "item",
   "cle": "toughClawsMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Iron Fist Memory",
-  "fr": "Mémoire Poing de Fer",
+  "fr": "ROM Poing de Fer",
   "categorie": "item",
   "cle": "ironFistMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Magic Guard Memory",
-  "fr": "Mémoire Garde Magik",
+  "fr": "ROM Garde Magik",
   "categorie": "item",
   "cle": "magicGuardMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Pick Pocket Memory",
-  "fr": "Mémoire Pickpocket",
+  "fr": "ROM Pickpocket",
   "categorie": "item",
   "cle": "pickPocketMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Blue Barrette",
@@ -19068,7 +19068,7 @@
   "fr": "Ombrelle Colorée",
   "categorie": "item",
   "cle": "coloredParasol",
-  "source": "proposition",
+  "source": "proposition (EN Colored Parasol = Parasol Coloré probable, mais prix 50 Magost ≠ Mangou ×30 : non confirmé)",
   "statut": "à valider"
  },
  {
@@ -19097,27 +19097,27 @@
  },
  {
   "en": "Black Specs",
-  "fr": "Lunettes Noires",
+  "fr": "Lunettes Soleil",
   "categorie": "item",
   "cle": "blackSpecs",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Wepear ×20 = Repoi ×20",
+  "statut": "ok"
  },
  {
   "en": "Googly Specs",
-  "fr": "Lunettes Rigolotes",
+  "fr": "Lunettes Bizarres",
   "categorie": "item",
   "cle": "googlySpecs",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Nomel ×20 = Tronci ×20",
+  "statut": "ok"
  },
  {
   "en": "Top Hat",
-  "fr": "Haut-de-Forme",
+  "fr": "Haut de Forme",
   "categorie": "item",
   "cle": "topHat",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Accessoire + bulbapedia Super Contest (Cool/Ultra = Sang-froid/Ultra) + serebii.net (nom EN)",
+  "statut": "ok"
  },
  {
   "en": "Gentleman Hat",
@@ -19164,31 +19164,31 @@
   "fr": "Note Fredonnée",
   "categorie": "item",
   "cle": "hummingNote",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+  "statut": "ok"
  },
  {
   "en": "Pretty Dewdrop",
-  "fr": "Jolie Rosée",
+  "fr": "Perle de Rosée",
   "categorie": "item",
   "cle": "prettyDewdrop",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+  "statut": "ok"
  },
  {
   "en": "Spotlight",
   "fr": "Projecteur",
   "categorie": "item",
   "cle": "spotlight",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Nomel ×80 = Tronci ×80",
+  "statut": "ok"
  },
  {
   "en": "Glitter Powder",
   "fr": "Poudre Pailletée",
   "categorie": "item",
   "cle": "glitterPowder",
-  "source": "proposition",
+  "source": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)",
   "statut": "à valider"
  },
  {
@@ -19196,8 +19196,8 @@
   "fr": "Confettis",
   "categorie": "item",
   "cle": "confetti",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Razz ×30 = Framby ×30",
+  "statut": "ok"
  },
  {
   "en": "Comet",
@@ -19209,11 +19209,11 @@
  },
  {
   "en": "Gorgeous Specs",
-  "fr": "Lunettes Somptueuses",
+  "fr": "Lunettes Star",
   "categorie": "item",
   "cle": "gorgeousSpecs",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Pinap ×40 = Nanana ×40",
+  "statut": "ok"
  },
  {
   "en": "Mystic Smoke",
@@ -19225,7 +19225,7 @@
  },
  {
   "en": "Flash Herba Memory",
-  "fr": "Mémoire Torche Herba",
+  "fr": "ROM Torche Herba",
   "categorie": "item",
   "cle": "flashHerbaMemory",
   "source": "proposition",
@@ -19233,7 +19233,7 @@
  },
  {
   "en": "Flash Fae Memory",
-  "fr": "Mémoire Torche Féerique",
+  "fr": "ROM Torche Féerique",
   "categorie": "item",
   "cle": "flashFaeMemory",
   "source": "proposition",
@@ -19241,7 +19241,7 @@
  },
  {
   "en": "Flash Psycha Memory",
-  "fr": "Mémoire Torche Psycho",
+  "fr": "ROM Torche Psycho",
   "categorie": "item",
   "cle": "flashPsychaMemory",
   "source": "proposition",
@@ -19249,7 +19249,7 @@
  },
  {
   "en": "Flash Cryo Memory",
-  "fr": "Mémoire Torche Cryo",
+  "fr": "ROM Torche Cryo",
   "categorie": "item",
   "cle": "flashCryoMemory",
   "source": "proposition",
@@ -19257,7 +19257,7 @@
  },
  {
   "en": "Flash Venum Memory",
-  "fr": "Mémoire Torche Venin",
+  "fr": "ROM Torche Venin",
   "categorie": "item",
   "cle": "flashVenumMemory",
   "source": "proposition",
@@ -19265,7 +19265,7 @@
  },
  {
   "en": "Flash Umbra Memory",
-  "fr": "Mémoire Torche Umbra",
+  "fr": "ROM Torche Umbra",
   "categorie": "item",
   "cle": "flashUmbraMemory",
   "source": "proposition",
@@ -19273,7 +19273,7 @@
  },
  {
   "en": "Flash Pyro Memory",
-  "fr": "Mémoire Torche Pyro",
+  "fr": "ROM Torche Pyro",
   "categorie": "item",
   "cle": "flashPyroMemory",
   "source": "proposition",
@@ -19281,7 +19281,7 @@
  },
  {
   "en": "Flash Aqua Memory",
-  "fr": "Mémoire Torche Aqua",
+  "fr": "ROM Torche Aqua",
   "categorie": "item",
   "cle": "flashAquaMemory",
   "source": "proposition",
@@ -19289,7 +19289,7 @@
  },
  {
   "en": "Flash Electro Memory",
-  "fr": "Mémoire Torche Électro",
+  "fr": "ROM Torche Électro",
   "categorie": "item",
   "cle": "flashElectroMemory",
   "source": "proposition",
@@ -19297,79 +19297,79 @@
  },
  {
   "en": "Libero Memory",
-  "fr": "Mémoire Libéro",
+  "fr": "ROM Libéro",
   "categorie": "item",
   "cle": "liberoMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Reckless Memory",
-  "fr": "Mémoire Téméraire",
+  "fr": "ROM Téméraire",
   "categorie": "item",
   "cle": "recklessMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Filter Memory",
-  "fr": "Mémoire Filtre",
+  "fr": "ROM Filtre",
   "categorie": "item",
   "cle": "filterMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Justified Memory",
-  "fr": "Mémoire Cœur Noble",
+  "fr": "ROM Cœur Noble",
   "categorie": "item",
   "cle": "justifiedMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Anger Point Memory",
-  "fr": "Mémoire Colérique",
+  "fr": "ROM Colérique",
   "categorie": "item",
   "cle": "angerPointMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sharpness Memory",
-  "fr": "Mémoire Incisif",
+  "fr": "ROM Incisif",
   "categorie": "item",
   "cle": "sharpnessMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Guts Memory",
-  "fr": "Mémoire Cran",
+  "fr": "ROM Cran",
   "categorie": "item",
   "cle": "gutsMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Multiscale Memory",
-  "fr": "Mémoire Multiécaille",
+  "fr": "ROM Multiécaille",
   "categorie": "item",
   "cle": "multiscaleMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "No Guard Memory",
-  "fr": "Mémoire Annule Garde",
+  "fr": "ROM Annule Garde",
   "categorie": "item",
   "cle": "noGuardMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Ambidextrous Memory",
-  "fr": "Mémoire Ambidextre",
+  "fr": "ROM Ambidextre",
   "categorie": "item",
   "cle": "ambidextrousMemory",
   "source": "proposition",
@@ -19377,39 +19377,39 @@
  },
  {
   "en": "Adaptability Memory",
-  "fr": "Mémoire Adaptabilité",
+  "fr": "ROM Adaptabilité",
   "categorie": "item",
   "cle": "adaptabilityMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Thick Fat Memory",
-  "fr": "Mémoire Isograisse",
+  "fr": "ROM Isograisse",
   "categorie": "item",
   "cle": "thickFatMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Levitate Memory",
-  "fr": "Mémoire Lévitation",
+  "fr": "ROM Lévitation",
   "categorie": "item",
   "cle": "levitateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sheer Force Memory",
-  "fr": "Mémoire Sans Limite",
+  "fr": "ROM Sans Limite",
   "categorie": "item",
   "cle": "sheerForceMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Strategist Memory",
-  "fr": "Mémoire Stratège",
+  "fr": "ROM Stratège",
   "categorie": "item",
   "cle": "strategistMemory",
   "source": "proposition",
@@ -19417,23 +19417,23 @@
  },
  {
   "en": "Moxie Memory",
-  "fr": "Mémoire Impudence",
+  "fr": "ROM Impudence",
   "categorie": "item",
   "cle": "moxieMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Unburden Memory",
-  "fr": "Mémoire Délestage",
+  "fr": "ROM Délestage",
   "categorie": "item",
   "cle": "unburdenMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Daunting Look Memory",
-  "fr": "Mémoire Regard Intimidant",
+  "fr": "ROM Regard Intimidant",
   "categorie": "item",
   "cle": "dauntingLookMemory",
   "source": "proposition",
@@ -19441,39 +19441,39 @@
  },
  {
   "en": "Intimidate Memory",
-  "fr": "Mémoire Intimidation",
+  "fr": "ROM Intimidation",
   "categorie": "item",
   "cle": "intimidateMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Sand Rush Memory",
-  "fr": "Mémoire Baigne Sable",
+  "fr": "ROM Baigne Sable",
   "categorie": "item",
   "cle": "sandRushMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Swift Swim Memory",
-  "fr": "Mémoire Glissade",
+  "fr": "ROM Glissade",
   "categorie": "item",
   "cle": "swiftSwimMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Slush Rush Memory",
-  "fr": "Mémoire Chasse-Neige",
+  "fr": "ROM Chasse-Neige",
   "categorie": "item",
   "cle": "slushRushMemory",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+  "statut": "ok"
  },
  {
   "en": "Molt Shed Memory",
-  "fr": "Mémoire Mue Express",
+  "fr": "ROM Mue Express",
   "categorie": "item",
   "cle": "moltShedMemory",
   "source": "proposition",
@@ -19481,7 +19481,7 @@
  },
  {
   "en": "Fae Rush Memory",
-  "fr": "Mémoire Ruée Féerique",
+  "fr": "ROM Ruée Féerique",
   "categorie": "item",
   "cle": "faeRushMemory",
   "source": "proposition",
@@ -19489,7 +19489,7 @@
  },
  {
   "en": "Hyperconductor Memory",
-  "fr": "Mémoire Hyperconducteur",
+  "fr": "ROM Hyperconducteur",
   "categorie": "item",
   "cle": "hyperconductorMemory",
   "source": "proposition",
@@ -19497,7 +19497,7 @@
  },
  {
   "en": "Intangible Memory",
-  "fr": "Mémoire Intangible",
+  "fr": "ROM Intangible",
   "categorie": "item",
   "cle": "intangibleMemory",
   "source": "proposition",
@@ -19505,7 +19505,7 @@
  },
  {
   "en": "Clima Tact Memory",
-  "fr": "Mémoire Tact Climatique",
+  "fr": "ROM Tact Climatique",
   "categorie": "item",
   "cle": "climaTactMemory",
   "source": "proposition",
@@ -19513,7 +19513,7 @@
  },
  {
   "en": "Spiky Pelt Memory",
-  "fr": "Mémoire Toison Hérissée",
+  "fr": "ROM Toison Hérissée",
   "categorie": "item",
   "cle": "spikyPeltMemory",
   "source": "proposition",
@@ -19521,7 +19521,7 @@
  },
  {
   "en": "Black Pelt Memory",
-  "fr": "Mémoire Toison Noire",
+  "fr": "ROM Toison Noire",
   "categorie": "item",
   "cle": "blackPeltMemory",
   "source": "proposition",
@@ -19529,7 +19529,7 @@
  },
  {
   "en": "Fuzzy Pelt Memory",
-  "fr": "Mémoire Toison Duveteuse",
+  "fr": "ROM Toison Duveteuse",
   "categorie": "item",
   "cle": "pixiePeltMemory",
   "source": "proposition",
@@ -19537,7 +19537,7 @@
  },
  {
   "en": "Fiery Pelt Memory",
-  "fr": "Mémoire Toison Ardente",
+  "fr": "ROM Toison Ardente",
   "categorie": "item",
   "cle": "fieryPeltMemory",
   "source": "proposition",
@@ -19545,7 +19545,7 @@
  },
  {
   "en": "Moist Pelt Memory",
-  "fr": "Mémoire Toison Humide",
+  "fr": "ROM Toison Humide",
   "categorie": "item",
   "cle": "moistPeltMemory",
   "source": "proposition",
@@ -19553,7 +19553,7 @@
  },
  {
   "en": "Icy Pelt Memory",
-  "fr": "Mémoire Toison Glacée",
+  "fr": "ROM Toison Glacée",
   "categorie": "item",
   "cle": "icyPeltMemory",
   "source": "proposition",
@@ -19561,7 +19561,7 @@
  },
  {
   "en": "Sandy Pelt Memory",
-  "fr": "Mémoire Toison Sableuse",
+  "fr": "ROM Toison Sableuse",
   "categorie": "item",
   "cle": "sandyPeltMemory",
   "source": "proposition",
@@ -19569,7 +19569,7 @@
  },
  {
   "en": "Grassy Pelt Memory",
-  "fr": "Mémoire Toison Herbue",
+  "fr": "ROM Toison Herbue",
   "categorie": "item",
   "cle": "grassyPeltMemory",
   "source": "proposition",
@@ -19577,7 +19577,7 @@
  },
  {
   "en": "Stoned Memory",
-  "fr": "Mémoire Pétrification",
+  "fr": "ROM Pétrification",
   "categorie": "item",
   "cle": "stonedMemory",
   "source": "proposition",
@@ -19585,7 +19585,7 @@
  },
  {
   "en": "Stamina Memory",
-  "fr": "Mémoire Endurance",
+  "fr": "ROM Endurance",
   "categorie": "item",
   "cle": "staminaMemory",
   "source": "proposition",
@@ -19593,7 +19593,7 @@
  },
  {
   "en": "Gooey Memory",
-  "fr": "Mémoire Poisseux",
+  "fr": "ROM Poisseux",
   "categorie": "item",
   "cle": "gooeyMemory",
   "source": "proposition",
@@ -19601,7 +19601,7 @@
  },
  {
   "en": "Shields Down Memory",
-  "fr": "Mémoire Bouclier-Carcan",
+  "fr": "ROM Bouclier-Carcan",
   "categorie": "item",
   "cle": "shieldsDownMemory",
   "source": "proposition",
@@ -19609,7 +19609,7 @@
  },
  {
   "en": "Costar Memory",
-  "fr": "Mémoire Collab",
+  "fr": "ROM Collab",
   "categorie": "item",
   "cle": "costarMemory",
   "source": "proposition",
@@ -19617,7 +19617,7 @@
  },
  {
   "en": "Purifying Salt Memory",
-  "fr": "Mémoire Sel Purificateur",
+  "fr": "ROM Sel Purificateur",
   "categorie": "item",
   "cle": "purifyingSaltMemory",
   "source": "proposition",
@@ -19625,7 +19625,7 @@
  },
  {
   "en": "Scorch Memory",
-  "fr": "Mémoire Calcination",
+  "fr": "ROM Calcination",
   "categorie": "item",
   "cle": "scorchMemory",
   "source": "proposition",
@@ -19633,7 +19633,7 @@
  },
  {
   "en": "Corrosion Memory",
-  "fr": "Mémoire Corrosion",
+  "fr": "ROM Corrosion",
   "categorie": "item",
   "cle": "corrosionMemory",
   "source": "proposition",
@@ -19641,7 +19641,7 @@
  },
  {
   "en": "M. Launcher Memory",
-  "fr": "Mémoire Méga Blaster",
+  "fr": "ROM Méga Blaster",
   "categorie": "item",
   "cle": "megaLauncherMemory",
   "source": "proposition",
@@ -19649,7 +19649,7 @@
  },
  {
   "en": "Metalhead Memory",
-  "fr": "Mémoire Tête de Métal",
+  "fr": "ROM Tête de Métal",
   "categorie": "item",
   "cle": "metalheadMemory",
   "source": "proposition",
@@ -19657,7 +19657,7 @@
  },
  {
   "en": "Moody Memory",
-  "fr": "Mémoire Lunatique",
+  "fr": "ROM Lunatique",
   "categorie": "item",
   "cle": "moodyMemory",
   "source": "proposition",
@@ -19665,7 +19665,7 @@
  },
  {
   "en": "Merciless Memory",
-  "fr": "Mémoire Cruauté",
+  "fr": "ROM Cruauté",
   "categorie": "item",
   "cle": "mercilessMemory",
   "source": "proposition",
@@ -19673,7 +19673,7 @@
  },
  {
   "en": "Color Spore Memory",
-  "fr": "Mémoire Spore Colorée",
+  "fr": "ROM Spore Colorée",
   "categorie": "item",
   "cle": "colorSporeMemory",
   "source": "proposition",
@@ -19681,7 +19681,7 @@
  },
  {
   "en": "Sand Stream Memory",
-  "fr": "Mémoire Sable Volant",
+  "fr": "ROM Sable Volant",
   "categorie": "item",
   "cle": "sandStreamMemory",
   "source": "proposition",
@@ -19689,7 +19689,7 @@
  },
  {
   "en": "Snow Warning Memory",
-  "fr": "Mémoire Alerte Neige",
+  "fr": "ROM Alerte Neige",
   "categorie": "item",
   "cle": "snowWarningMemory",
   "source": "proposition",
@@ -19697,7 +19697,7 @@
  },
  {
   "en": "Somber Field Memory",
-  "fr": "Mémoire Champ Sombre",
+  "fr": "ROM Champ Sombre",
   "categorie": "item",
   "cle": "somberFieldMemory",
   "source": "proposition",
@@ -19705,7 +19705,7 @@
  },
  {
   "en": "Dancer Memory",
-  "fr": "Mémoire Danseuse",
+  "fr": "ROM Danseuse",
   "categorie": "item",
   "cle": "dancerMemory",
   "source": "proposition",
@@ -19713,7 +19713,7 @@
  },
  {
   "en": "Cacophony Memory",
-  "fr": "Mémoire Cacophonie",
+  "fr": "ROM Cacophonie",
   "categorie": "item",
   "cle": "cacophonyMemory",
   "source": "proposition",
@@ -19721,7 +19721,7 @@
  },
  {
   "en": "Wind Rider Memory",
-  "fr": "Mémoire Aéroporté",
+  "fr": "ROM Aéroporté",
   "categorie": "item",
   "cle": "windRiderMemory",
   "source": "proposition",
@@ -19729,7 +19729,7 @@
  },
  {
   "en": "Gorilla Tactics Memory",
-  "fr": "Mémoire Entêtement",
+  "fr": "ROM Entêtement",
   "categorie": "item",
   "cle": "gorillaTacticsMemory",
   "source": "proposition",
@@ -19737,7 +19737,7 @@
  },
  {
   "en": "Imposter Memory",
-  "fr": "Mémoire Imposteur",
+  "fr": "ROM Imposteur",
   "categorie": "item",
   "cle": "imposterMemory",
   "source": "proposition",
@@ -19745,7 +19745,7 @@
  },
  {
   "en": "Drizzle Memory",
-  "fr": "Mémoire Crachin",
+  "fr": "ROM Crachin",
   "categorie": "item",
   "cle": "drizzleMemory",
   "source": "proposition",
@@ -19753,7 +19753,7 @@
  },
  {
   "en": "Drought Memory",
-  "fr": "Mémoire Sécheresse",
+  "fr": "ROM Sécheresse",
   "categorie": "item",
   "cle": "droughtMemory",
   "source": "proposition",
@@ -19761,7 +19761,7 @@
  },
  {
   "en": "Electric Surge Memory",
-  "fr": "Mémoire Créa-Élec",
+  "fr": "ROM Créa-Élec",
   "categorie": "item",
   "cle": "electricSurgeMemory",
   "source": "proposition",
@@ -19769,7 +19769,7 @@
  },
  {
   "en": "Grassy Surge Memory",
-  "fr": "Mémoire Créa-Herbe",
+  "fr": "ROM Créa-Herbe",
   "categorie": "item",
   "cle": "grassySurgeMemory",
   "source": "proposition",
@@ -19777,7 +19777,7 @@
  },
  {
   "en": "Misty Surge Memory",
-  "fr": "Mémoire Créa-Brume",
+  "fr": "ROM Créa-Brume",
   "categorie": "item",
   "cle": "mistySurgeMemory",
   "source": "proposition",
@@ -19785,7 +19785,7 @@
  },
  {
   "en": "Ferrilate Memory",
-  "fr": "Mémoire Peau Métallique",
+  "fr": "ROM Peau Métallique",
   "categorie": "item",
   "cle": "ferrilateMemory",
   "source": "proposition",
@@ -19793,7 +19793,7 @@
  },
  {
   "en": "Glaciate Memory",
-  "fr": "Mémoire Peau Gelée",
+  "fr": "ROM Peau Gelée",
   "categorie": "item",
   "cle": "glaciateMemory",
   "source": "proposition",
@@ -19801,7 +19801,7 @@
  },
  {
   "en": "Terralate Memory",
-  "fr": "Mémoire Peau Tellurique",
+  "fr": "ROM Peau Tellurique",
   "categorie": "item",
   "cle": "terralateMemory",
   "source": "proposition",
@@ -19809,7 +19809,7 @@
  },
  {
   "en": "Toxilate Memory",
-  "fr": "Mémoire Peau Toxique",
+  "fr": "ROM Peau Toxique",
   "categorie": "item",
   "cle": "toxilateMemory",
   "source": "proposition",
@@ -19817,7 +19817,7 @@
  },
  {
   "en": "Hydrolate Memory",
-  "fr": "Mémoire Peau Aqueuse",
+  "fr": "ROM Peau Aqueuse",
   "categorie": "item",
   "cle": "hydrolateMemory",
   "source": "proposition",
@@ -19825,7 +19825,7 @@
  },
  {
   "en": "Pyrolate Memory",
-  "fr": "Mémoire Peau Ardente",
+  "fr": "ROM Peau Ardente",
   "categorie": "item",
   "cle": "pyrolateMemory",
   "source": "proposition",
@@ -19833,7 +19833,7 @@
  },
  {
   "en": "Chrysilate Memory",
-  "fr": "Mémoire Peau Chrysalide",
+  "fr": "ROM Peau Chrysalide",
   "categorie": "item",
   "cle": "chrysilateMemory",
   "source": "proposition",
@@ -19841,7 +19841,7 @@
  },
  {
   "en": "Galvanize Memory",
-  "fr": "Mémoire Peau Électrique",
+  "fr": "ROM Peau Électrique",
   "categorie": "item",
   "cle": "galvanizeMemory",
   "source": "proposition",
@@ -19849,7 +19849,7 @@
  },
  {
   "en": "Gloomilate Memory",
-  "fr": "Mémoire Peau Ténébreuse",
+  "fr": "ROM Peau Ténébreuse",
   "categorie": "item",
   "cle": "gloomilateMemory",
   "source": "proposition",
@@ -19857,7 +19857,7 @@
  },
  {
   "en": "Espilate Memory",
-  "fr": "Mémoire Peau Psychique",
+  "fr": "ROM Peau Psychique",
   "categorie": "item",
   "cle": "espilateMemory",
   "source": "proposition",
@@ -19865,7 +19865,7 @@
  },
  {
   "en": "Aerilate Memory",
-  "fr": "Mémoire Peau Céleste",
+  "fr": "ROM Peau Céleste",
   "categorie": "item",
   "cle": "aerilateMemory",
   "source": "proposition",
@@ -19873,7 +19873,7 @@
  },
  {
   "en": "Pixilate Memory",
-  "fr": "Mémoire Peau Féérique",
+  "fr": "ROM Peau Féérique",
   "categorie": "item",
   "cle": "pixilateMemory",
   "source": "proposition",
@@ -19881,7 +19881,7 @@
  },
  {
   "en": "Verdify Memory",
-  "fr": "Mémoire Peau Végétale",
+  "fr": "ROM Peau Végétale",
   "categorie": "item",
   "cle": "verdifyMemory",
   "source": "proposition",
@@ -19889,7 +19889,7 @@
  },
  {
   "en": "Dragon Maw Memory",
-  "fr": "Mémoire Peau Draconique",
+  "fr": "ROM Peau Draconique",
   "categorie": "item",
   "cle": "dragonMawMemory",
   "source": "proposition",
@@ -19897,7 +19897,7 @@
  },
  {
   "en": "Iaido Memory",
-  "fr": "Mémoire Iaido",
+  "fr": "ROM Iaido",
   "categorie": "item",
   "cle": "iaidoMemory",
   "source": "proposition",
@@ -19905,11 +19905,11 @@
  },
  {
   "en": "Wealthy Coins",
-  "fr": "Pièces Fortunées",
+  "fr": "Tas de Pièces",
   "categorie": "item",
   "cle": "wealthyCoins",
-  "source": "proposition",
-  "statut": "à valider"
+  "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+  "statut": "ok"
  },
  {
   "en": "Witchy Hat",

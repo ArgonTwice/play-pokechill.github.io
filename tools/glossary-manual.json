@@ -881,9 +881,9 @@
     "statut": "ok"
    },
    "wealthyCoins": {
-    "fr": "Pièces Fortunées",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Tas de Pièces",
+    "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+    "statut": "ok"
    },
    "witchyHat": {
     "fr": "Chapeau de Sorcière",
@@ -1087,7 +1087,7 @@
    },
    "coloredParasol": {
     "fr": "Ombrelle Colorée",
-    "source": "proposition",
+    "source": "proposition (EN Colored Parasol = Parasol Coloré probable, mais prix 50 Magost ≠ Mangou ×30 : non confirmé)",
     "statut": "à valider"
    },
    "pokeballFlag": {
@@ -1106,19 +1106,19 @@
     "statut": "à valider"
    },
    "blackSpecs": {
-    "fr": "Lunettes Noires",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Lunettes Soleil",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Wepear ×20 = Repoi ×20",
+    "statut": "ok"
    },
    "googlySpecs": {
-    "fr": "Lunettes Rigolotes",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Lunettes Bizarres",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Nomel ×20 = Tronci ×20",
+    "statut": "ok"
    },
    "topHat": {
-    "fr": "Haut-de-Forme",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Haut de Forme",
+    "source": "web:pokepedia.fr/Accessoire + bulbapedia Super Contest (Cool/Ultra = Sang-froid/Ultra) + serebii.net (nom EN)",
+    "statut": "ok"
    },
    "gentlemanHat": {
     "fr": "Chapeau de Gentleman",
@@ -1147,28 +1147,28 @@
    },
    "hummingNote": {
     "fr": "Note Fredonnée",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+    "statut": "ok"
    },
    "prettyDewdrop": {
-    "fr": "Jolie Rosée",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Perle de Rosée",
+    "source": "web:pokepedia.fr/Accessoire (lot massage Voilaroc) + serebii.net/diamondpearl/massage.shtml (seul équivalent du lot)",
+    "statut": "ok"
    },
    "spotlight": {
     "fr": "Projecteur",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Nomel ×80 = Tronci ×80",
+    "statut": "ok"
    },
    "glitterPowder": {
     "fr": "Poudre Pailletée",
-    "source": "proposition",
+    "source": "proposition (Glitter/Shiny Powder ↔ Poudre Luisante/Brillante : correspondance non prouvée)",
     "statut": "à valider"
    },
    "confetti": {
     "fr": "Confettis",
-    "source": "proposition",
-    "statut": "à valider"
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Razz ×30 = Framby ×30",
+    "statut": "ok"
    },
    "comet": {
     "fr": "Comète",
@@ -1176,9 +1176,9 @@
     "statut": "à valider"
    },
    "gorgeousSpecs": {
-    "fr": "Lunettes Somptueuses",
-    "source": "proposition",
-    "statut": "à valider"
+    "fr": "Lunettes Star",
+    "source": "web:pokepedia.fr/Floraville + ludo.guide/guide/pokemon-diamond-and-pearl/the-floraroma-flower-shop + pokemon-archive.fandom.com/wiki/Floaroma_Town (même prix en baies) + serebii.net (nom EN) — Pinap ×40 = Nanana ×40",
+    "statut": "ok"
    },
    "mysticSmoke": {
     "fr": "Fumée Mystique",
@@ -1218,6 +1218,186 @@
    "weirdRoomTm": {
     "fr": "CT Zone Bizarre",
     "source": "motif:CT validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "hydratationMemory": {
+    "fr": "ROM Hydratation",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandVeilMemory": {
+    "fr": "ROM Voile Sable",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "snowCloakMemory": {
+    "fr": "ROM Rideau Neige",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "marvelScaleMemory": {
+    "fr": "ROM Écaille Spéciale",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "bigPecksMemory": {
+    "fr": "ROM Cœur de Coq",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "hyperCutterMemory": {
+    "fr": "ROM Hyper Cutter",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "synchronizeMemory": {
+    "fr": "ROM Synchro",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "iceBodyMemory": {
+    "fr": "ROM Corps Gel",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "rainDishMemory": {
+    "fr": "ROM Cuvette",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "solarPowerMemory": {
+    "fr": "ROM Force Soleil",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandForceMemory": {
+    "fr": "ROM Force Sable",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "scrappyMemory": {
+    "fr": "ROM Querelleur",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "strongJawMemory": {
+    "fr": "ROM Prognathe",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "toughClawsMemory": {
+    "fr": "ROM Griffe Dure",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "ironFistMemory": {
+    "fr": "ROM Poing de Fer",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "magicGuardMemory": {
+    "fr": "ROM Garde Magik",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "pickPocketMemory": {
+    "fr": "ROM Pickpocket",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "liberoMemory": {
+    "fr": "ROM Libéro",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "recklessMemory": {
+    "fr": "ROM Téméraire",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "filterMemory": {
+    "fr": "ROM Filtre",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "justifiedMemory": {
+    "fr": "ROM Cœur Noble",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "angerPointMemory": {
+    "fr": "ROM Colérique",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sharpnessMemory": {
+    "fr": "ROM Incisif",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "gutsMemory": {
+    "fr": "ROM Cran",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "multiscaleMemory": {
+    "fr": "ROM Multiécaille",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "noGuardMemory": {
+    "fr": "ROM Annule Garde",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "adaptabilityMemory": {
+    "fr": "ROM Adaptabilité",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "thickFatMemory": {
+    "fr": "ROM Isograisse",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "levitateMemory": {
+    "fr": "ROM Lévitation",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sheerForceMemory": {
+    "fr": "ROM Sans Limite",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "moxieMemory": {
+    "fr": "ROM Impudence",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "unburdenMemory": {
+    "fr": "ROM Délestage",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "intimidateMemory": {
+    "fr": "ROM Intimidation",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "sandRushMemory": {
+    "fr": "ROM Baigne Sable",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "swiftSwimMemory": {
+    "fr": "ROM Glissade",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
+    "statut": "ok"
+   },
+   "slushRushMemory": {
+    "fr": "ROM Chasse-Neige",
+    "source": "motif ROM <talent> (pokepedia.fr/ROM_Plante + veekun.com) validé par l’utilisateur",
     "statut": "ok"
    }
   },
@@ -3161,7 +3341,7 @@
    }
   }
  },
- "memoryPrefix": "Mémoire ",
+ "memoryPrefix": "ROM ",
  "apiAlias": {
   "pkmn": {
    "zygarde100": "zygarde-complete",
