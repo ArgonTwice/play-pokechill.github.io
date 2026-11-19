@@ -5389,8 +5389,8 @@ if (document.getElementById("pokedex-search").value!="") {
         if (memoryToTeach != undefined) {
 
         //filter pokemon by being able to learn
-        if (item[memoryToTeach+t('ui.memory')].typings == undefined && !ability[memoryToTeach].type.includes("all") &&  !ability[memoryToTeach].type.some(t => pkmn[i].type.includes(t))) continue;
-        if (item[memoryToTeach+t('ui.memory')].typings != undefined && !item[memoryToTeach+t('ui.memory')].typings.some(t => pkmn[i].type.includes(t))) continue;
+        if (item[memoryToTeach+"Memory"].typings == undefined && !ability[memoryToTeach].type.includes("all") &&  !ability[memoryToTeach].type.some(t => pkmn[i].type.includes(t))) continue;
+        if (item[memoryToTeach+"Memory"].typings != undefined && !item[memoryToTeach+"Memory"].typings.some(t => pkmn[i].type.includes(t))) continue;
 
         //filter pokemon out that already have the move
         if (pkmn[i].ability == memoryToTeach) continue;
@@ -5398,7 +5398,7 @@ if (document.getElementById("pokedex-search").value!="") {
 
             div.addEventListener("click", e => { 
                 pkmn[i].ability = memoryToTeach
-                item[memoryToTeach+t('ui.memory')].got--
+                item[memoryToTeach+"Memory"].got--
                 updateItemBag()
                 exitTmTeaching()
             })
@@ -10111,7 +10111,7 @@ function renamePokemon(){
         pkmn[currentEditedPkmn].nickname = document.getElementById("team-name-field").value
 
 
-        if (currentEditedPkmn == pkmn.onix.id && ["crystal", t('ui.crystal'), t('ui.crystal_onix'), t('ui.crystal_onix_2')].includes(document.getElementById("team-name-field").value)){
+        if (currentEditedPkmn == pkmn.onix.id && ["crystal", "Crystal", "crystal onix", "Crystal Onix", t('ui.crystal'), t('ui.crystal_onix'), t('ui.crystal_onix_2')].includes(document.getElementById("team-name-field").value)){
                 secretFight(areas.secretOnix.id);
                 document.getElementById("pkmn-editor").style.display = "none"
                 document.getElementById("pokedex-menu").style.display = "none"
