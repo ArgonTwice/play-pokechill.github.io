@@ -10,7 +10,9 @@ const NS = ['ui', 'msg', 'pkmn', 'move', 'ability', 'item', 'area', 'type', 'fie
 const FORMAT_NS = new Set([...NS, 'raw']);
 const errors = {}; const err = (cat, msg) => (errors[cat] = errors[cat] || []).push(msg);
 const vars = s => [...String(s).matchAll(/\{(\w+)\}/g)].map(m => m[1]).sort().join(',');
-const strip = s => String(s).replace(/<[^>]*>/g, ' ').replace(/\{\w+\}/g, ' ');
+const strip = s => String(s).replace(/<[^>]*>/g, ' ').replace(/\{\w+\}/g, 'X');
+const allowFile = path.join(__dirname, 'check-allow.json');
+const allow = fs.existsSync(allowFile) ? JSON.parse(fs.readFileSync(allowFile, 'utf8')) : {};
 
 // 1-2. Clés EN sans FR, variables divergentes, octets/encodage
 for (const [f, txt] of [['en', 'lang/en.json'], ['fr', 'lang/fr.json']]) {
@@ -29,7 +31,8 @@ for (const k of Object.keys(fr)) if (en[k] === undefined) err('clé FR orpheline
 // 3. Typographie FR (hors balises et variables)
 for (const [k, v] of Object.entries(fr)) {
   if (k.split('.')[0] !== 'ui' && !k.includes('.', k.indexOf('.') + 1)) continue; // noms : graphie officielle
-  const p = strip(v);
+  if (v === en[k] || allow.typographie?.[k]) continue; // code / sigle recopié, ou exception justifiée
+  const p = String(v).replace(/<[^>]*>/g, '').replace(/\{\w+\}/g, 'X');
   if (/[^ \s][!?;»]|[^ \s\d]:(\s|$)|« |«(?! )/.test(p)) err('typographie (insécable)', `${k} : ${v}`);
   if (/ [!?;:»]/.test(p)) err('typographie (espace simple avant ponctuation)', `${k} : ${v}`);
   if (/\.\.\.|"|'/.test(p)) err('typographie (… « » ’)', `${k} : ${v}`);
@@ -48,8 +51,10 @@ for (const g of glossary) {
 const named = glossary.filter(g => g.fr && ['type', 'status', 'move', 'ability', 'item', 'pkmn'].includes(g.categorie) && g.en.length >= 4 && /^[A-Z]/.test(g.en) && g.en !== g.fr);
 const byEn = {}; for (const g of named) (byEn[g.en] = byEn[g.en] || new Set()).add(g.fr);
 for (const [k, v] of Object.entries(en)) {
-  if (!/\.(info|lore|unlockDescription|subtitle)(_\d+)?$|^ui\./.test(k) || !fr[k]) continue;
+  if (!/\.(info|lore|unlockDescription|subtitle)(_\d+)?$|^ui\./.test(k) || !fr[k] || allow['terme FR hors glossaire']?.[k]) continue;
+  const found = Object.keys(byEn).filter(term => strip(v).includes(term));
   for (const [term, frs] of Object.entries(byEn)) {
+    if (found.some(o => o !== term && o.includes(term))) continue; // inclus dans un terme plus long (Electric → Electric Terrain)
     if (!new RegExp(`(^|[^\\w-])${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=-type|-Type|[^\\w-]|$)`).test(strip(v))) continue;
     if (![...frs].some(f => fr[k].includes(f))) err('terme FR hors glossaire', `${k} : « ${term} » attendu « ${[...frs].join(' / ')} » — ${fr[k]}`);
   }

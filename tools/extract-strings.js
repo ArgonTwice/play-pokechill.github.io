@@ -37,8 +37,10 @@ const words = s => (s.replace(/<[^>]*>/g, ' ').replace(new RegExp(M0 + '\\d+' + 
 function translatable(text, loose) {
   const plain = text.replace(/<[^>]*>/g, ' ').replace(new RegExp(M0 + '\\d+' + M1, 'g'), ' ');
   if (/^\s*\w+=\w+\s*$/.test(plain)) return false;
+  // techniques : classes kebab-case, MIME/chemins, URL, CSS, var(), attributs, propriétés .id
+  if (/\$\{/.test(text) || /^\s*([a-z]+(-[a-z]+)*-?\s*)+$/.test(plain) && /-/.test(plain) || /^\s*[a-z]{2}-[A-Z]{2}\s*$|^\s*[\w.+-]+(\/[\w.+{}-]*)+\s*$|^\s*https?:|\{[^}]*:[^}]*;|^\s*var\(|^\s*[\w-]+="|^\s*\w+\.id\s*$/.test(plain)) return false;
   if (/\.(png|gif|jpe?g|svg|json|js|css|mp3|ogg)\b|url\(|^\s*#[0-9a-f]{3,8}\s*$|^\s*[\w-]+\s*:\s*[^:]*;\s*$/i.test(plain)) return false;
-  if (/^\s*[-\w]+\s*:\s*[-\w#.%() ,]+(;\s*[-\w]+\s*:\s*[-\w#.%() ,]+)*;?\s*$/.test(plain)) return false; // CSS
+  if (/^\s*[a-z-]+\s*:\s*[-\w#.%() ,]+(;\s*[a-z-]+\s*:\s*[-\w#.%() ,]+)*;\s*$|^\s*[a-z-]+\s*:\s*[^\s;]+\s*$/.test(plain)) return false; // CSS
   const w = words(text);
   if (!w.length) return false;
   if (loose) return true;
@@ -135,7 +137,7 @@ function rewriteJs(src, fileLabel, q = "'") {
     }
     if (parent.type === 'Property' && !parent.computed) {
       const k = parent.key.name || parent.key.value;
-      if (SKIP_PROPS.has(k)) return;
+      if (SKIP_PROPS.has(k) && !(k === 'name' && !fileLabel.includes('areasDictionary'))) return; // name des zones : glossaire
     }
     if (parent.type === 'AssignmentExpression' && parent.right === node || (parent.type === 'BinaryExpression' && parent.operator === '+' && gp?.type === 'AssignmentExpression')) {
       const asg = parent.type === 'AssignmentExpression' ? parent : gp;
@@ -207,7 +209,7 @@ function rewriteHtml(src) {
           const q = m[2] === '"' ? "'" : '"';
           const js = rewriteJs(m[3], 'index.html#' + a.name, q);
           if (js !== m[3]) edits.push({ start: loc.startOffset, end: loc.endOffset, rep: m[1] + m[2] + js + m[2] });
-        } else if (ATTRS.includes(a.name) && translatable(a.value, true) && !skip) {
+        } else if (ATTRS.includes(a.name) && translatable(a.value, true) && !skip && !n.attrs.some(x => x.name === 'data-i18n-' + a.name)) {
           const k = keyFor(a.value); total++; candidates.push({ key: k, en: a.value });
           edits.push({ start: loc.endOffset, end: loc.endOffset, rep: ` data-i18n-${a.name}="${k}"` });
         }
@@ -217,7 +219,9 @@ function rewriteHtml(src) {
       const kids = n.childNodes, hasIdChild = (x) => x.childNodes?.some(c => c.attrs?.some(a => a.name === 'id') || hasIdChild(c));
       const onlyInline = kids.every(c => c.nodeName === '#text' || c.nodeName === '#comment' || (INLINE.has(c.nodeName) && !c.attrs?.some(a => a.name === 'id' || /^on/.test(a.name)) && c.childNodes.every(cc => cc.nodeName === '#text')));
       const textKids = kids.filter(c => c.nodeName === '#text' && translatable(c.value, true));
-      if (textKids.length && onlyInline && !hasIdChild(n) &&n.sourceCodeLocation?.startTag) {
+      const st0 = n.sourceCodeLocation?.startTag, et0 = n.sourceCodeLocation?.endTag;
+      if (onlyInline && st0 && et0 && src.slice(st0.endOffset, et0.startOffset).includes('${')) return; // gabarit JS stocké dans le HTML
+      if (textKids.length && onlyInline && !hasIdChild(n) && n.sourceCodeLocation?.startTag) {
         const st = n.sourceCodeLocation.startTag, et = n.sourceCodeLocation.endTag;
         const inner = src.slice(st.endOffset, et ? et.startOffset : st.endOffset).trim();
         const k = keyFor(inner.replace(/\s+/g, ' ')); total++; candidates.push({ key: k, en: inner });
@@ -228,7 +232,8 @@ function rewriteHtml(src) {
         const k = keyFor(core.replace(/\s+/g, ' ')); total++; candidates.push({ key: k, en: core });
         edits.push({ start: loc.startOffset, end: loc.endOffset, rep: `${lead}<span data-i18n="${k}">${core}</span>${trail}` });
       }
-      for (const c of kids) visit(c, skip);
+      const tagged = textKids.length && onlyInline && !hasIdChild(n); // déjà couvert par data-i18n : pas de clé imbriquée
+      for (const c of kids) visit(c, skip || tagged);
     } else if (n.childNodes) for (const c of n.childNodes) visit(c, skip || inSkip);
   };
   visit(doc, false);

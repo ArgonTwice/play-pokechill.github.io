@@ -6,19 +6,23 @@ const read = f => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {
 const glossary = read(path.join(T, 'glossary-fr.json'));
 const sEn = read(path.join(T, 'strings', 'en.json')), sFr = read(path.join(T, 'strings', 'fr.json'));
 
-// Typographie française hors balises HTML et hors {variables} : insécable avant ! ? ; : » et après «
+// Typographie française hors balises HTML, {variables} et URL : insécable avant ! ? ; : » et après «
+// Balises/variables/URL sont masquées par un caractère opaque pour que la ponctuation qui les suit soit traitée.
 const NB = ' ';
 function typoFr(s) {
-  return s.split(/(<[^>]*>|\{\w+\}|https?:\/\/\S+)/).map((p, i) => {
-    if (i % 2) return p;
-    return p
-      .replace(/'/g, '’')
-      .replace(/"([^"]*)"/g, '«' + NB + '$1' + NB + '»')
-      .replace(/«[  ]*/g, '«' + NB).replace(/[  ]*»/g, NB + '»')
-      .replace(/(\S)[  ]*([!?;])/g, (m, a, b) => (/[!? ]/.test(a) ? a + b : a + NB + b))
-      .replace(/([^\s\d ])[  ]*:(?!\/\/)(?=\s|$)/g, '$1' + NB + ':')
-      .replace(/\.\.\./g, '…');
-  }).join('');
+  const kept = [];
+  let p = s.replace(/<[^>]*>|\{\w+\}|https?:\/\/\S+/g, m => { kept.push(m); return '' + (kept.length - 1) + ''; });
+  p = p
+    .replace(/'/g, '’')
+    .replace(/"([^"]*)"/g, '«' + NB + '$1' + NB + '»')
+    .replace(/«[  ]*/g, '«' + NB).replace(/[  ]*»/g, NB + '»')
+    // collé à du texte : insécable ; après une balise/variable : seulement si une espace existait (« <br>![mot] » reste intact)
+    .replace(/([^\s !?])[  ]*([!?;])/g, '$1' + NB + '$2')
+    .replace(/()[  ]+([!?;])/g, '$1' + NB + '$2')
+    .replace(/([^\s\d ])[  ]*:(?=[\s(]|$)/g, '$1' + NB + ':')
+    .replace(/()[  ]+:(?=[\s(]|$)/g, '$1' + NB + ':')
+    .replace(/\.\.\./g, '…');
+  return p.replace(/(\d+)/g, (m, i) => kept[i]);
 }
 
 function build() {
@@ -29,7 +33,8 @@ for (const g of glossary) {
   if (g.fr) fr[k] = g.fr;
 }
 for (const [k, v] of Object.entries(sEn)) en[k] = v;
-for (const [k, v] of Object.entries(sFr)) if (k in sEn && v) fr[k] = typoFr(v);
+// valeur identique à l'anglais (code, sigle, nom propre) : recopiée telle quelle, sans retouche typographique
+for (const [k, v] of Object.entries(sFr)) if (k in sEn && v) fr[k] = v === sEn[k] ? v : typoFr(v);
 
 fs.mkdirSync(path.join(R, 'lang'), { recursive: true });
 const out = o => JSON.stringify(Object.fromEntries(Object.entries(o).sort(([a], [b]) => a.localeCompare(b))), null, 1) + '\n';
