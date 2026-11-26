@@ -3286,7 +3286,7 @@ function returnTypeMultipliers(pkmn) {
             border-radius:4px;
             display:inline-block;
         ">
-            ${type} x${multiplier}
+            ${format(type, 'type')} x${multiplier.toLocaleString(numLocale())}
         </div>`;
     }).join('');
 }
@@ -8641,7 +8641,7 @@ if (pkmn[saved.geneticHost].shiny) shinyChance = 0
 }
 
 
-document.getElementById("genetics-data-shiny").innerHTML = `${(  shinyChance*100  ).toFixed(0)}%`
+document.getElementById("genetics-data-shiny").innerHTML = `${fmtPct(shinyChance*100)}`
 
 
 let moveChance = 0.05
@@ -8650,7 +8650,7 @@ if ( compability == 3) moveChance = 0.50
 if ( compability == 4) moveChance = 0.50
 if ( compability == 0) moveChance = 0
 
-document.getElementById("genetics-data-moves").innerHTML = `${(  moveChance*100  ).toFixed(0)}%`
+document.getElementById("genetics-data-moves").innerHTML = `${fmtPct(moveChance*100)}`
 
 
 let ivChance = 1/50
@@ -8659,12 +8659,12 @@ if ( compability == 3) ivChance = 1/6.5
 if ( compability == 4) ivChance = 1/2
 if ( compability == 0) ivChance = 0
 
-document.getElementById("genetics-data-hp").innerHTML = `${(  ivChance*100  ).toFixed(0)}%`
-document.getElementById("genetics-data-atk").innerHTML = `${(  ivChance*100  ).toFixed(0)}%`
-document.getElementById("genetics-data-def").innerHTML = `${(  ivChance*100  ).toFixed(0)}%`
-document.getElementById("genetics-data-satk").innerHTML = `${(  ivChance*100  ).toFixed(0)}%`
-document.getElementById("genetics-data-sdef").innerHTML = `${(  ivChance*100  ).toFixed(0)}%`
-document.getElementById("genetics-data-spe").innerHTML = `${(  ivChance*100  ).toFixed(0)}%`
+document.getElementById("genetics-data-hp").innerHTML = `${fmtPct(ivChance*100)}`
+document.getElementById("genetics-data-atk").innerHTML = `${fmtPct(ivChance*100)}`
+document.getElementById("genetics-data-def").innerHTML = `${fmtPct(ivChance*100)}`
+document.getElementById("genetics-data-satk").innerHTML = `${fmtPct(ivChance*100)}`
+document.getElementById("genetics-data-sdef").innerHTML = `${fmtPct(ivChance*100)}`
+document.getElementById("genetics-data-spe").innerHTML = `${fmtPct(ivChance*100)}`
 
 if (mod==="start"){
     afkSecondsGenetics = 0
@@ -9393,7 +9393,7 @@ for (const item of indexedTeam){
     document.getElementById("battle-summary-flex").appendChild(div);
     const percent = (team[i].damageDealt / totalDamageDealt) * 100;
     document.getElementById(`battle-summary-bar-${i}`).style.width = percent+"%"
-    document.getElementById(`battle-summary-bar-${i}`).innerHTML = `<text>${Math.round(team[i].damageDealt).toLocaleString(lang === 'en' ? 'es-ES' : numLocale())} (${percent.toFixed(0)}%)</text>`
+    document.getElementById(`battle-summary-bar-${i}`).innerHTML = `<text>${Math.round(team[i].damageDealt).toLocaleString(lang === 'en' ? 'es-ES' : numLocale())} (${fmtPct(percent)})</text>`
 }
     openTooltip()
 

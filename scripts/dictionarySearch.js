@@ -377,7 +377,7 @@ function getAbilityPoolByTier(poke) {
     const hidden = poke.hiddenAbility?.id;
 
     const raritySplit = [0.736, 0.2, 0.064];
-    const pct = n => (n * 100).toFixed(1) + "%";
+    const pct = n => fmtPct(n * 100, 1);
 
     const buckets = { 1: [], 2: [], 3: [] };
 
