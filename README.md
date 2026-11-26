@@ -26,6 +26,8 @@ Le jeu s’installe comme une application (icône sur l’écran d’accueil, pl
 
 Une fois ouvert, il reste jouable sans réseau pour ce qui a déjà été chargé. Chaque nouvelle version publiée est récupérée automatiquement, et une bannière la signale en jeu. L’appui long remplace le clic droit.
 
+Réglages propres à chaque appareil (*Paramètres*) : **Rotation automatique** (désactivée par défaut, l’écran reste en portrait ; le blocage fonctionne dans l’appli installée ou en plein écran sur Android, pas sur iPhone, où l’on utilise le verrou de rotation d’iOS) et **Garder l’écran allumé**.
+
 ## Sauvegarde cloud (PC ↔ téléphone)
 
 Chaque appareil garde sa propre sauvegarde. Pour jouer à la même partie partout, *Paramètres → Sauvegarde cloud* :

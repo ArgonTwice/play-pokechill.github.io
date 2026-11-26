@@ -3600,6 +3600,7 @@
  "ui.auto_refight_tickets": "Tickets de Recombat auto)",
  "ui.auto_refight_tickets_remaining_click_to": "Tickets de Recombat auto restants)</span> Clique pour le désactiver",
  "ui.auto_refight_wont_use": "Recombat auto <span> (N’utilisera pas de",
+ "ui.auto_rotate": "Rotation automatique :",
  "ui.automatically_hides_got_pokemon_that_are": "Masque automatiquement après un combat les Pokémon obtenus qui ne sont pas nouveaux. Sont exclus de ce paramètre : les nouveaux Pokémon, les hausses d’IV et les Pokémon chromatiques",
  "ui.available_decor_will_rotate_in": "Les décors disponibles changeront dans <font style=\"margin-left:0.3rem\" class=\"time-counter-event\">…",
  "ui.available_items_will_rotate_in": "Les objets disponibles changeront dans <font style=\"margin-left:0.3rem\" class=\"time-counter-daily\">…",

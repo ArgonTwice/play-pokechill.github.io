@@ -1461,5 +1461,6 @@
  "ui.data_copied_to_clipboard": "Données copiées dans le presse-papiers !",
  "ui.cloud_restore_backup": "Restaurer la copie de secours ({date})",
  "ui.cloud_restore_confirm": "Remplacer ta sauvegarde actuelle par la copie de secours du {date} ? Ta sauvegarde actuelle deviendra la nouvelle copie de secours : tu pourras revenir en arrière.",
- "ui.keep_screen_on": "Garder l’écran allumé :"
+ "ui.keep_screen_on": "Garder l’écran allumé :",
+ "ui.auto_rotate": "Rotation automatique :"
 }
