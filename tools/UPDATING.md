@@ -83,6 +83,8 @@ Fichiers qui n'existent pas dans le projet d'origine : `mobile.css`, `sw.js`, `m
 
 Autres écarts volontaires avec le projet d'origine : `scripts/PR/updateCheck.js` surveille le dépôt du fork (`ArgonTwice/…`) ; correctifs `assignPokerus` (`scripts/explore.js`) et `item.oldGateau.info` (`scripts/itemDictionary.js`).
 
-**Service worker** : il récupère toujours le réseau en premier, donc une publication est prise en compte sans rien faire de plus. Changer `CACHE = "pokechill-vN"` dans `sw.js` seulement si la liste `PRECACHE` change (fichier renommé ou supprimé), pour purger l'ancien cache.
+**Service worker** : il récupère toujours le réseau en premier, donc une publication est prise en compte sans rien faire de plus. Changer `CACHE = "pokechill-vN"` dans `sw.js` seulement pour purger un cache corrompu : cela efface aussi les images déjà mises en cache, qui seront retéléchargées. Ajouter un fichier à `PRECACHE` ne demande pas de changer le nom : toute modification de `sw.js` relance l'installation.
+
+**Textes** : `node tools/build-lang.js` génère aussi `lang/en.js` et `lang/fr.js`, chargés par `<script>` avant `scripts/i18n.js`. Un `XMLHttpRequest` synchrone échappe au service worker (textes périmés jusqu'à 10 min après publication, absents hors ligne). Toujours commiter les `.js` avec les `.json`.
 
 **Sauvegarde cloud** : ne pas modifier le format de `gameData` sans prévoir la reprise des anciennes sauvegardes. Le Gist stocke `{ savedAt, device, data }`, où `data` est la chaîne `gameData` telle quelle.

@@ -41,6 +41,14 @@ const out = o => JSON.stringify(Object.fromEntries(Object.entries(o).sort(([a], 
 fs.writeFileSync(path.join(R, 'lang', 'en.json'), out(en));
 // En-tête de métadonnées (hors namespace : jamais lu par t())
 fs.writeFileSync(path.join(R, 'lang', 'fr.json'), out(fr).replace(/^\{\n/, '{\n "translator": "AmicusSoft",\n'));
+// Copies en .js chargées par <script> : contrairement à un XMLHttpRequest synchrone, un script passe par
+// le service worker (version à jour après publication, disponible hors ligne). Le .json reste la référence.
+for (const code of ['en', 'fr']) {
+  const json = fs.readFileSync(path.join(R, 'lang', `${code}.json`), 'utf8').trimEnd();
+  fs.writeFileSync(path.join(R, 'lang', `${code}.js`),
+    `// Généré par tools/build-lang.js depuis lang/${code}.json : ne pas modifier à la main.\n` +
+    `(window.POKECHILL_LANG = window.POKECHILL_LANG || {})[${JSON.stringify(code)}] = ${json};\n`);
+}
 console.log(`en: ${Object.keys(en).length} clés, fr: ${Object.keys(fr).length} clés`);
 }
 if (require.main === module) build();

@@ -8,7 +8,10 @@ if (!LANGS[lang]) lang = (navigator.language || '').toLowerCase().startsWith('fr
 document.documentElement.lang = lang;
 
 // Chargement synchrone : le jeu construit son interface dès le chargement des scripts.
+// Source principale : lang/<code>.js, chargé par <script> dans index.html avant ce fichier.
+// Repli : le .json en XMLHttpRequest synchrone (qui, lui, échappe au service worker et ne marche pas hors ligne).
 function loadLangFile(code) {
+    if (window.POKECHILL_LANG?.[code]) return window.POKECHILL_LANG[code];
     try {
         const xhr = new XMLHttpRequest();
         xhr.open('GET', `lang/${code}.json`, false);

@@ -1,7 +1,7 @@
 // Service worker : rend le jeu installable et jouable hors ligne.
 // Stratégie « réseau d'abord » : en ligne, on sert toujours la dernière version publiée
 // sur GitHub Pages ; hors ligne, on retombe sur la copie mise en cache.
-const CACHE = "pokechill-v1";
+const CACHE = "pokechill-v1"; // garder le même nom : en changer purge aussi les images déjà mises en cache
 
 const PRECACHE = [
   "./",
@@ -9,8 +9,8 @@ const PRECACHE = [
   "styles.css",
   "mobile.css",
   "manifest.webmanifest",
-  "lang/en.json",
-  "lang/fr.json",
+  "lang/en.js",
+  "lang/fr.js",
   "img/icons/icon.png",
   "img/icons/app-192.png",
   "img/icons/app-512.png",
