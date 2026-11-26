@@ -57,6 +57,12 @@ function localizeAreaNames() {
 
 function numLocale() { return lang === 'fr' ? 'fr-FR' : 'en-US'; }
 
+// Pourcentage affiché selon la langue : 1.8% (en) / 1,8 % (fr, espace fine insécable). value est déjà en %.
+function fmtPct(value, digits = 0) {
+    const s = Number(value).toLocaleString(numLocale(), { minimumFractionDigits: digits, maximumFractionDigits: digits });
+    return lang === 'fr' ? s + ' %' : s + '%';
+}
+
 // Texte indexé par la recherche (Fuse) : id interne + noms EN et FR (+ variante sans accents), quelle que soit la langue.
 let i18nFr = lang === 'fr' ? i18nCur : null;
 const stripAccents = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
