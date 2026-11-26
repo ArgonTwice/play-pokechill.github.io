@@ -286,6 +286,7 @@ function cloudSaveMenu() {
     document.getElementById("tooltipTitle").innerHTML = t("ui.cloud_save");
     document.getElementById("tooltipMid").innerHTML = `<div id="cloud-menu"></div>`;
     document.getElementById("tooltipBottom").innerHTML = "";
+    document.getElementById("tooltipBottom").style.display = "none"; // closeTooltip() le réaffiche
     cloudRefreshMenu();
     openTooltip();
 }
