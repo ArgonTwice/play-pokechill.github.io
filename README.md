@@ -7,7 +7,7 @@ Traduction FR : AmicusSoft.
 
 Le jeu est disponible en **anglais** et en **français**. La langue se choisit dans *Paramètres → Langue (Language)* ; au premier lancement, elle suit celle du navigateur. Le choix est enregistré séparément de la sauvegarde (clé `pokechill_lang`), qui n’est jamais modifiée.
 
-- Textes : `lang/en.json`, `lang/fr.json` (générés par `node tools/build-lang.js`).
+- Textes : `lang/en.json`, `lang/fr.json`, et leurs copies `lang/en.js`, `lang/fr.js` chargées par le jeu (tous générés par `node tools/build-lang.js`).
 - Noms du jeu (Pokémon, capacités, talents, objets, types, lieux…) : `tools/glossary-fr.json`, avec la source de chaque terme (nom officiel, motif officiel ou traduction validée) et, pour le contenu propre à Pokechill, une note de justification. Tous les termes sont relus et validés.
 - Recherche : le Pokédex et le dictionnaire trouvent un Pokémon, une capacité, un talent ou un objet par son nom français comme par son nom anglais.
 - Contrôle : `node tools/check-i18n.js` (installer d’abord les outils : `cd tools && npm install`).
