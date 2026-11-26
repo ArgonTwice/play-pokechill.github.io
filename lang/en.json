@@ -4123,7 +4123,7 @@
  "ui.right_click_long_press_to_see": "Right Click/Long Press to see keywords",
  "ui.right_click_long_press_to_see_2": "Right Click/Long press to see the details",
  "ui.right_click_long_tap_pokemon_in": "Right click/long tap a pokemon in your team to set their moves, you can also do this while in battle. Press the + symbol next to the Pokemon to assign items<br>Once you are ready, press Save and Go! at the top of the screen",
- "ui.right_click_to_see_keywords": "Right Click to see keywords",
+ "ui.right_click_to_see_keywords": "Right click / long tap for keywords",
  "ui.rock": "rock",
  "ui.rookie_trainer": "Rookie Trainer",
  "ui.rotation_currentwildrotation_rotationwildmax": "Rotation {currentWildRotation}/{rotationWildMax}",
