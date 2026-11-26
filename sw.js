@@ -37,8 +37,13 @@ self.addEventListener("fetch", (event) => {
   // Seulement les GET de notre propre site (l'API GitHub de updateCheck passe en direct)
   if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
 
+  // GitHub Pages laisse le navigateur garder chaque fichier 10 min (max-age=600) : pour le code et les textes,
+  // on force une revalidation (réponse 304 légère si rien n'a changé) afin qu'une publication s'applique au
+  // prochain chargement, sans mélange ancienne/nouvelle version. Les images gardent le cache normal.
+  const isCode = req.mode === "navigate" || /\.(html|js|css|json|webmanifest)$/.test(new URL(req.url).pathname);
+
   event.respondWith(
-    fetch(req)
+    fetch(isCode ? new Request(req, { cache: "no-cache" }) : req)
       .then((res) => {
         if (res.ok) {
           const copy = res.clone();
