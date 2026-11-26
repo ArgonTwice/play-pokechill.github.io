@@ -1,3 +1,4 @@
+let exitSaveBlocked = false // vrai juste avant un rechargement qui remplace ou efface la sauvegarde
 saved.firstTimePlaying = true //esta flag se tiene que quitar cuando seleccione el pkmn, es lo que hace que no puedas guardar
 
 
@@ -169,14 +170,26 @@ function exportData() {
   if (!raw) return;
 
   const blob = new Blob([raw], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
+  const fileName = `Pokechill-${new Date().toISOString().split("T")[0]}.json`;
 
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `Pokechill-${new Date().toISOString().split("T")[0]}.json`;
-  a.click();
+  const download = () => {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = fileName;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
 
-  URL.revokeObjectURL(url);
+  // Sur téléphone : menu Partager (Fichiers, Drive, message…), plus pratique qu'un téléchargement
+  const file = new File([blob], fileName, { type: "application/json" });
+  const touch = matchMedia("(pointer: coarse)").matches;
+  if (touch && navigator.canShare && navigator.canShare({ files: [file] })) {
+    navigator.share({ files: [file], title: fileName })
+      .catch((err) => { if (err.name !== "AbortError") download(); }); // annulation = rien, autre échec = téléchargement
+    return;
+  }
+  download();
 }
 
 function importData() {
@@ -196,6 +209,7 @@ function importData() {
 
         loadGame();
 
+        exitSaveBlocked = true; // la sauvegarde importée ne doit pas être réécrite à la fermeture (scripts/mobile.js)
         window.location.reload();
       } catch (err) {
         alert(t('ui.error_loading_data'));
@@ -241,6 +255,7 @@ function loadFromText() {
     const data = JSON.parse(jsonData);
     localStorage.setItem("gameData", JSON.stringify(data));
     loadGame();
+    exitSaveBlocked = true;
     window.location.reload();
   } catch (err) {
     alert(`${t('ui.error_loading_data_2')} ` + err.message);
@@ -331,6 +346,7 @@ document.addEventListener("keydown", (ev) => {
 });
 
 function clearData() {
+  exitSaveBlocked = true; // sinon l'enregistrement à la fermeture recréerait la partie effacée
   localStorage.clear();
   window.location.reload();
 }

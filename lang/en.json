@@ -3918,6 +3918,7 @@
  "ui.join_all": "all",
  "ui.join_and": "and",
  "ui.join_or": "or",
+ "ui.keep_screen_on": "Keep screen on:",
  "ui.key": "Key",
  "ui.keywords": "Keywords",
  "ui.language": "Language:",
