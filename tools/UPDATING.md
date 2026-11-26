@@ -71,3 +71,18 @@ Puis commit avec des chemins explicites (`git add <fichiers>`, jamais `-A`) et p
 - **Texte traduit utilisé comme logique** : un texte affiché ne doit jamais servir de clé, de comparaison ou d'identifiant. Exemples corrigés : `item[x + t('ui.memory')]`, `textContent == "Abort"`, `sort.replace(t('ui.bst'), "")`, `itemName == "No item"`. `check-i18n.js` signale `t()`/`format()`/`tName()` dans un accès `obj[...]` ; les comparaisons (`==`, `includes`, `switch`) sur du texte affiché se vérifient à la relecture.
 - **Fins de ligne** : les fichiers du jeu sont en CRLF. Ne pas utiliser `sed -i` (Git Bash convertit en LF) ; éditer avec un outil qui préserve les fins de ligne.
 - **Noms de zones** : ils servent aussi d'identifiants DOM ; ils sont traduits en mémoire par `localizeAreaNames()`, jamais dans la sauvegarde.
+
+## Ajouts propres au fork (à préserver lors d'une fusion)
+
+Fichiers qui n'existent pas dans le projet d'origine : `mobile.css`, `sw.js`, `manifest.webmanifest`, `img/icons/app-*.png`, `scripts/cloudSave.js`. Dans `index.html`, garder :
+
+- dans `<head>` : `viewport-fit=cover`, le lien vers le manifest, les balises `theme-color` / `apple-mobile-web-app-*`, l'icône `apple-touch-icon` et `mobile.css` **après** `styles.css` ;
+- en fin de `<body>` : `scripts/cloudSave.js` **après** `save.js`, puis le script d'enregistrement du service worker (avec le masquage du bouton Plein écran) ;
+- dans les Paramètres : l'entrée `cloudSaveMenu()` (Sauvegarde cloud) ;
+- le bouton Plein écran protégé : `requestFullscreen?.()?.catch(…)`.
+
+Autres écarts volontaires avec le projet d'origine : `scripts/PR/updateCheck.js` surveille le dépôt du fork (`ArgonTwice/…`) ; correctifs `assignPokerus` (`scripts/explore.js`) et `item.oldGateau.info` (`scripts/itemDictionary.js`).
+
+**Service worker** : il récupère toujours le réseau en premier, donc une publication est prise en compte sans rien faire de plus. Changer `CACHE = "pokechill-vN"` dans `sw.js` seulement si la liste `PRECACHE` change (fichier renommé ou supprimé), pour purger l'ancien cache.
+
+**Sauvegarde cloud** : ne pas modifier le format de `gameData` sans prévoir la reprise des anciennes sauvegardes. Le Gist stocke `{ savedAt, device, data }`, où `data` est la chaîne `gameData` telle quelle.

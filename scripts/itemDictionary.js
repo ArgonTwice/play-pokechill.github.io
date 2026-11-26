@@ -915,7 +915,8 @@ item.pokeflute = {
 item.oldGateau = {
     type: "key",
     event: `halloween`,
-    info: function() {return t('item.oldGateau.info', { v: season[saved.currentSeason].end.month, v2: season[saved.currentSeason].end.day })},
+    // Hors saison (fiche du Dictionnaire), on affiche la fin de la saison d'Halloween au lieu de planter
+    info: function() { const s = season[saved.currentSeason] ?? season.halloween; return t('item.oldGateau.info', { v: s.end.month, v2: s.end.day }) },
 }
 
 
