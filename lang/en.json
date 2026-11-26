@@ -3599,6 +3599,7 @@
  "ui.auto_refight_tickets": "Auto-Refight Tickets)",
  "ui.auto_refight_tickets_remaining_click_to": "Auto-Refight Tickets remaining)</span> Click to disable it",
  "ui.auto_refight_wont_use": "Auto-Refight <span> (Wont use",
+ "ui.auto_rotate": "Auto-rotate:",
  "ui.automatically_hides_got_pokemon_that_are": "Automatically hides got Pokemon that are not new after a battle. Excluded from this setting are: New Pokemon, Iv's Ups and Shiny Pokemon",
  "ui.available_decor_will_rotate_in": "Available decor will rotate in <font style=\"margin-left:0.3rem\" class=\"time-counter-event\">...",
  "ui.available_items_will_rotate_in": "Available items will rotate in <font style=\"margin-left:0.3rem\" class=\"time-counter-daily\">...",

@@ -1461,5 +1461,6 @@
  "ui.data_copied_to_clipboard": "Data copied to the Clipboard!",
  "ui.cloud_restore_backup": "Restore backup ({date})",
  "ui.cloud_restore_confirm": "Replace your current save with the backup from {date}? Your current save will become the new backup, so you can switch back.",
- "ui.keep_screen_on": "Keep screen on:"
+ "ui.keep_screen_on": "Keep screen on:",
+ "ui.auto_rotate": "Auto-rotate:"
 }

@@ -49,3 +49,30 @@ async function wakeLockApply() {
     document.addEventListener("visibilitychange", wakeLockApply);
     wakeLockApply();
 })();
+
+// 4. Rotation de l'écran : bloquée en portrait par défaut, option « Rotation automatique » pour la libérer.
+//    Réglage propre à l'appareil. Le blocage n'est possible que dans l'appli installée ou en plein écran
+//    (Android) ; l'iPhone ne le permet pas aux sites web (utiliser le verrou de rotation d'iOS).
+const ROTATION_KEY = "pokechill_autorotate";
+
+function rotationApply() {
+    if (!screen.orientation?.lock) return;
+    const free = localStorage.getItem(ROTATION_KEY) === "true";
+    // Libre : unlock() rend la main au réglage « rotation auto » du téléphone (lock("any") l'ignorerait)
+    if (free) screen.orientation.unlock?.();
+    else screen.orientation.lock("portrait").catch(() => {}); // refusé hors appli/plein écran : sans effet
+}
+
+(function initRotationSetting() {
+    const row = document.getElementById("settings-rotation-row");
+    const select = document.getElementById("settings-rotation");
+    // Inutile sur PC (souris) et là où l'API n'existe pas
+    if (!screen.orientation?.lock || !matchMedia("(pointer: coarse)").matches) { row.style.display = "none"; return; }
+    select.value = localStorage.getItem(ROTATION_KEY) === "true" ? "true" : "false";
+    select.addEventListener("change", () => {
+        localStorage.setItem(ROTATION_KEY, select.value);
+        rotationApply();
+    });
+    document.addEventListener("fullscreenchange", rotationApply); // bouton Plein écran dans le navigateur
+    rotationApply();
+})();
