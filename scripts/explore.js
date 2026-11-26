@@ -8505,7 +8505,8 @@ function assignPokerus(){
     // pick 1 per 100 pokes you have
     const pickCount = Math.max(1, Math.floor(eligiblePokemon.length / 100));
 
-    const selectedPokemon= arrayPick(eligiblePokemon, pickCount)
+    // arrayPick renvoie un élément seul quand n === 1 : on normalise en tableau
+    const selectedPokemon = [].concat(arrayPick(eligiblePokemon, pickCount) ?? [])
 
     if (selectedPokemon.length==0) return
 

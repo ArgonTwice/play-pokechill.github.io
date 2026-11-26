@@ -12,7 +12,8 @@ let updateInterval = null;
 async function getLatestCommit() {
   try {
     const res = await fetch(
-      "https://api.github.com/repos/play-pokechill/play-pokechill.github.io/commits/main",
+      // Fork maintenu : on surveille notre propre dépôt (l'upstream n'est plus mis à jour)
+      "https://api.github.com/repos/ArgonTwice/play-pokechill.github.io/commits/main",
       { cache: 'no-cache' }
     );
 
