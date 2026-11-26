@@ -281,7 +281,7 @@ function textData() {
 
     document.getElementById("tooltipBottom").innerHTML = `
       <div style="display:flex;width:100%; align-items:center;justify-content:center; flex-wrap:wrap;">
-        <div onClick='navigator.clipboard.writeText(document.getElementById("text-data-raw").value); alert("Data copied to the Clipboard!");' 
+        <div onClick='navigator.clipboard.writeText(document.getElementById("text-data-raw").value); alert(t("ui.data_copied_to_clipboard"));' 
              style="cursor:pointer; font-size:2rem; width:33%; padding:10px;" id="prevent-tooltip-exit">
           ${t('ui.copy')}
         </div>

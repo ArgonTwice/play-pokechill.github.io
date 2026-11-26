@@ -8,6 +8,12 @@ body {
     overscroll-behavior-y: none; /* évite le « tirer pour rafraîchir » qui recharge le jeu */
 }
 
+/* Le jeu bloque la sélection de texte partout ; Safari iOS empêche alors de coller dans un champ */
+input, textarea {
+    -webkit-user-select: text;
+    user-select: text;
+}
+
 @media (max-width: 600px) {
     /* En-tête d'équipe : « Retour » et « Enregistrer et partir ! » se chevauchaient */
     .team-menu-header > span {
