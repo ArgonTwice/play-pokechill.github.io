@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Pokechill</title>
     <link rel="icon" type="image/x-icon" href="img/icons/icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#36342F">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Pokechill">
+    <link rel="apple-touch-icon" href="img/icons/app-192.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
 
 
 
@@ -1571,7 +1579,7 @@
             <span data-i18n="ui.settings">Settings</span>
         </div>
 
-        <div class="menu-item" id="menu-item-fullscreen" onclick="document.documentElement.requestFullscreen(); openMenu()">
+        <div class="menu-item" id="menu-item-fullscreen" onclick="document.documentElement.requestFullscreen?.()?.catch(() => {}); openMenu()">
             <img src="img/items/wideLens.png">
             <span data-i18n="ui.full_screen">Full Screen</span>
         </div>
@@ -1739,6 +1747,16 @@
     <script src="scripts/decor.js"></script>
 
     <script src="scripts/save.js"></script>
+    <script>
+        // Appli installable + hors ligne (voir sw.js)
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+        }
+        // Bouton « Plein écran » inutile sur iPhone (API absente) et dans l'appli installée
+        if (!document.documentElement.requestFullscreen || matchMedia("(display-mode: standalone)").matches) {
+            document.getElementById("menu-item-fullscreen").style.display = "none";
+        }
+    </script>
 </body>
 </html>
 

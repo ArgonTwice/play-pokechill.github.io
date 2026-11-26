@@ -1,0 +1,16 @@
+{
+  "name": "Pokechill",
+  "short_name": "Pokechill",
+  "description": "Pokechill — version FR/EN maintenue",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#36342F",
+  "theme_color": "#36342F",
+  "icons": [
+    { "src": "img/icons/app-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icons/app-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/icons/app-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
