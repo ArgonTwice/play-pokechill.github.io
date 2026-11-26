@@ -1460,5 +1460,6 @@
  "ui.cloud_conflict_auto": "Automatic sync paused: the cloud save was changed on another device. Choose Upload or Download.",
  "ui.data_copied_to_clipboard": "Data copied to the Clipboard!",
  "ui.cloud_restore_backup": "Restore backup ({date})",
- "ui.cloud_restore_confirm": "Replace your current save with the backup from {date}? Your current save will become the new backup, so you can switch back."
+ "ui.cloud_restore_confirm": "Replace your current save with the backup from {date}? Your current save will become the new backup, so you can switch back.",
+ "ui.keep_screen_on": "Keep screen on:"
 }

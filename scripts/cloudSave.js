@@ -115,7 +115,7 @@ async function cloudWriteRemote(payload) {
 
 // Envoie la sauvegarde locale. interactive = action du joueur (confirmations possibles)
 async function cloudUpload(interactive) {
-    if (cloudBusy || !cloudConf().token) return;
+    if (cloudBusy || exitSaveBlocked || !cloudConf().token) return;
     saveGame();
     const data = localStorage.getItem("gameData");
     if (!data) { if (interactive) cloudStatus(t("ui.cloud_no_local")); return; }
@@ -191,6 +191,7 @@ function cloudBackupDate() {
 }
 
 function cloudReload() {
+    exitSaveBlocked = true;        // idem pour l'enregistrement à la fermeture (scripts/mobile.js)
     saved.firstTimePlaying = true; // empêche saveGame() de réécrire l'ancienne partie avant le rechargement
     afkSeconds = 0;                // évite la boîte « Quitter la page ? » d'un combat en cours
     window.location.reload();

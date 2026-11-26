@@ -494,6 +494,11 @@
                 <option value="fr" data-i18n="ui.fran_ais">Français</option>
             </select></div>
 
+            <div id="settings-wakelock-row"><span data-i18n="ui.keep_screen_on">Keep screen on:</span> <select id="settings-wakelock">
+                <option value="false" data-i18n="ui.disabled">disabled</option>
+                <option value="true" data-i18n="ui.enabled">enabled</option>
+            </select></div>
+
             <div data-help="settingsNewPkmn" style="cursor: help;"><span data-i18n="ui.hide_non_new_pokemon_got_in">Hide non-new Pokemon got in summary:</span> <select id="settings-hide-got">
                 <option value="false" data-i18n="ui.disabled">disabled</option>
                 <option value="true" data-i18n="ui.enabled">enabled</option>
@@ -1748,6 +1753,7 @@
     <script src="scripts/decor.js"></script>
 
     <script src="scripts/save.js"></script>
+    <script src="scripts/mobile.js"></script>
     <script src="scripts/cloudSave.js"></script>
     <script>
         // Appli installable + hors ligne (voir sw.js)
