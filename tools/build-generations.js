@@ -21,7 +21,6 @@ species.sort((a, b) => b.key.length - a.key.length); // nom le plus long d'abord
 const pkmn = require('./load-game.js')().pkmn;
 const out = {}, unknown = [];
 for (const id in pkmn) {
-  if (pkmn[id].hidden) continue;
   const k = norm(id);
   const hit = species.find(s => k.includes(s.key));
   if (hit) out[id] = genOf(hit.n); else unknown.push(id);
