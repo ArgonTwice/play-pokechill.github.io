@@ -15,10 +15,9 @@ function statsDuration(seconds) {
     return h > 0 ? `${h.toLocaleString(numLocale())} h ${String(m).padStart(2, "0")} min` : `${m} min`;
 }
 
-// Mêmes règles que le compteur du Pokédex : on ignore les Pokémon cachés et ceux impossibles à obtenir non capturés
+// Même règle que le compteur du Pokédex : on ignore seulement ceux impossibles à obtenir et pas encore capturés
 function statsCountable(id) {
     const p = pkmn[id];
-    if (p.hidden) return false;
     if (p.caught == 0 && p.tagObtainedIn == "unobtainable") return false;
     return true;
 }
@@ -76,8 +75,8 @@ function statsRender(openGen) {
         ${line(t("ui.stats_total_caught", { v: s.catches.toLocaleString(numLocale()) }))}
         ${line(t("ui.stats_shiny", { v: s.shiny.toLocaleString(numLocale()) }))}
         ${line(t("ui.stats_trainers", { v: s.vsWon, v2: s.vsTotal }))}
-        ${line(`${areas.frontierSpiralingTower.name} — ${t("ui.highest_floor_maxspiralfloor", { maxSpiralFloor: saved.maxSpiralFloor ?? 1 })}`)}
-        ${line(`${areas.frontierBattleFactory.name} — ${t("ui.highest_score_maxfactoryscore", { maxFactoryScore: saved.maxFactoryScore ?? 0 })}`)}
+        ${line(`${format("frontierSpiralingTower", "area")} — ${t("ui.highest_floor_maxspiralfloor", { maxSpiralFloor: saved.maxSpiralFloor ?? 1 })}`)}
+        ${line(`${format("frontierBattleFactory", "area")} — ${t("ui.highest_score_maxfactoryscore", { maxFactoryScore: saved.maxFactoryScore ?? 0 })}`)}
         <div style="margin:0.8rem 0 0.3rem; font-weight:bold">${t("ui.stats_by_generation")}</div>
         <div style="opacity:0.75; font-size:0.85rem; margin-bottom:0.4rem">${t("ui.stats_missing_hint")}</div>`;
 
@@ -92,7 +91,7 @@ function statsRender(openGen) {
         if (openGen === g && gen.missing.length) {
             html += `<div style="display:flex; flex-wrap:wrap; gap:0.3rem; padding:0.3rem 0 0.6rem">` +
                 gen.missing.map((id) => `<div onclick="statsShowPkmn('${id}')" style="cursor:pointer; display:flex; flex-direction:column; align-items:center; width:4.2rem; font-size:0.7rem; text-align:center">
-                    <img src="img/pkmn/sprite/${id}.png" style="width:3rem; height:3rem; image-rendering:pixelated; filter:brightness(0.15)" loading="lazy">
+                    <img src="img/pkmn/sprite/${id}.png" style="width:3rem; height:3rem; image-rendering:pixelated" loading="lazy">
                     <span>${format(id, "pkmn")}</span></div>`).join("") +
                 `</div>`;
         }
