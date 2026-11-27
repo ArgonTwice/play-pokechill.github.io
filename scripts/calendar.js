@@ -43,7 +43,9 @@ function calAreas(type, r, category) {
         const missing = calMissing(areas[i]);
         const icon = areas[i].icon && areas[i].icon.id;
         out.push(`<span style="display:inline-flex; align-items:center; gap:0.15rem; margin:0.1rem 0.5rem 0.1rem 0">
-            ${icon ? `<img src="img/pkmn/sprite/${icon}.png" style="width:1.6rem; height:1.6rem; image-rendering:pixelated" loading="lazy">` : ""}
+            ${!icon ? "" : pkmn[icon] // icône Pokémon (zones sauvages, événements) ou objet (donjons)
+                ? `<img src="img/pkmn/sprite/${icon}.png" style="width:2.6rem; height:2.6rem; margin:-0.5rem -0.3rem; image-rendering:pixelated" loading="lazy">`
+                : `<img src="img/items/${icon}.png" style="width:1.6rem; height:1.6rem; image-rendering:pixelated" loading="lazy">`}
             ${format(i, "area")}${missing ? ` <span style="opacity:0.7; font-size:0.8rem">(${t("ui.calendar_to_catch", { v: missing })})</span>` : ""}</span>`);
     }
     return { html: out.join(""), count: out.length };
