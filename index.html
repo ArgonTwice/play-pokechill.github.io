@@ -479,6 +479,7 @@
             <div onclick="textData()" data-i18n="ui.data_to_text">Data to Text</div>
             <div onclick="cloudSaveMenu()" data-i18n="ui.cloud_save">Cloud Save</div>
             <div onclick="openStats()" data-i18n="ui.stats_title">Statistics</div>
+            <div onclick="openCalendar()" data-i18n="ui.calendar_title">Rotation calendar</div>
             <div onclick="backupMenu()" data-i18n="ui.backup_title">Backups</div>
             <div onclick="newsMenu()" data-i18n="ui.news_title">What's new</div>
 
@@ -510,6 +511,11 @@
             </select></div>
 
             <div id="settings-wakelock-row"><span data-i18n="ui.keep_screen_on">Keep screen on:</span> <select id="settings-wakelock">
+                <option value="false" data-i18n="ui.disabled">disabled</option>
+                <option value="true" data-i18n="ui.enabled">enabled</option>
+            </select></div>
+
+            <div><span data-i18n="ui.battery_saver">Battery saver:</span> <select id="settings-batterysaver">
                 <option value="false" data-i18n="ui.disabled">disabled</option>
                 <option value="true" data-i18n="ui.enabled">enabled</option>
             </select></div>
@@ -1769,6 +1775,7 @@
     <script src="scripts/tooltip.js"></script>
     <script src="scripts/pkmnGenerations.js"></script>
     <script src="scripts/stats.js"></script>
+    <script src="scripts/calendar.js"></script>
     <script src="scripts/decor.js"></script>
 
     <script src="scripts/save.js"></script>

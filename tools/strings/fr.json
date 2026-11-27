@@ -1499,5 +1499,14 @@
  "ui.news_20261127_stats": "<b>Statistiques</b> : temps de jeu, records et progression du Pokédex par génération, avec les Pokémon manquants (Paramètres, ou toucher le compteur du Pokédex).",
  "ui.news_20261127_mobile": "<b>Téléphone</b> : appli installable, jeu hors ligne, enregistrement en quittant l’appli, réglages de rotation automatique et d’écran allumé, vibration à l’appui long (Android).",
  "ui.news_20261127_cloud": "<b>Sauvegarde cloud</b> entre tes appareils grâce à un Gist GitHub privé (Paramètres → Sauvegarde cloud).",
- "ui.news_20261127_fixes": "Corrections : plantage du Pokérus, Vieux Gâteau dans le Dictionnaire, noms des types et pourcentages en français."
+ "ui.news_20261127_fixes": "Corrections : plantage du Pokérus, Vieux Gâteau dans le Dictionnaire, noms des types et pourcentages en français.",
+ "ui.calendar_title": "Calendrier des rotations",
+ "ui.calendar_hint": "Heures affichées dans ton fuseau horaire. Touche le minuteur d’une rotation pour ouvrir ce calendrier.",
+ "ui.calendar_now": "En cours (fin : {v})",
+ "ui.calendar_rotation": "Rotation {v}/{v2}",
+ "ui.calendar_to_catch": "{v} à capturer",
+ "ui.calendar_group": "{v} · {v2} zones",
+ "ui.battery_saver": "Économie de batterie :",
+ "ui.news_20261127_battery": "<b>Économie de batterie</b> dans les Paramètres : affichage limité à 30 images/s et animations coupées. La vitesse du jeu ne change pas.",
+ "ui.news_20261127_calendar": "<b>Calendrier des rotations</b> dans les Paramètres (ou en touchant le minuteur d’une rotation) : zones sauvages, donjons, événements et Zone de Combat à venir, avec les Pokémon qu’il te reste à capturer."
 }

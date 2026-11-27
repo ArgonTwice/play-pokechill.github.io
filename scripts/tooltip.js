@@ -81,6 +81,7 @@ function tooltipData(category, ttdata){
     tooltipStack.push({ category, ttdata });
 
     if (category == "statsPanel") { statsRender(ttdata); return } // écran Statistiques (scripts/stats.js)
+    if (category == "calendarPanel") { calendarRender(); return } // calendrier des rotations (scripts/calendar.js)
 
     if (category == "area") {
 

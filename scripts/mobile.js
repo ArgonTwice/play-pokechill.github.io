@@ -97,3 +97,38 @@ function textSizeApply() {
     });
     textSizeApply();
 })();
+
+// 6. Économie de batterie : affichage limité à 30 images/s et animations décoratives coupées.
+//    Le combat avance par pas fixes de 1/60 s rattrapés par un accumulateur (gameLoop, explore.js) :
+//    moins d'images ne change donc pas la vitesse du jeu. Ne pas descendre sous ~20 i/s : loop() compte
+//    tout écart > 0,1 s comme temps AFK, qui s'ajouterait au rattrapage normal.
+//    Réglage propre à l'appareil.
+const BATTERY_KEY = "pokechill_batterysaver";
+const BATTERY_FRAME_MS = 1000 / 30;
+let batterySaver = localStorage.getItem(BATTERY_KEY) === "true";
+
+(function wrapAnimationFrame() {
+    const nativeRAF = window.requestAnimationFrame.bind(window);
+    const lastRun = new Map(); // dernier passage de chaque boucle (gameLoop, loop…)
+    window.requestAnimationFrame = (cb) => nativeRAF(function tick(ts) {
+        // 2 ms de marge : sur un écran 60 Hz, une image sur deux passe
+        if (batterySaver && ts - (lastRun.get(cb) ?? -Infinity) < BATTERY_FRAME_MS - 2) return nativeRAF(tick);
+        lastRun.set(cb, ts);
+        cb(ts);
+    });
+})();
+
+function batterySaverApply() {
+    document.body.classList.toggle("battery-saver", batterySaver);
+}
+
+(function initBatterySaverSetting() {
+    const select = document.getElementById("settings-batterysaver");
+    select.value = batterySaver ? "true" : "false";
+    select.addEventListener("change", () => {
+        localStorage.setItem(BATTERY_KEY, select.value);
+        batterySaver = select.value === "true";
+        batterySaverApply();
+    });
+    batterySaverApply();
+})();
