@@ -76,3 +76,24 @@ function rotationApply() {
     document.addEventListener("fullscreenchange", rotationApply); // bouton Plein écran dans le navigateur
     rotationApply();
 })();
+
+// 5. Taille du texte : petit / normal / grand. Le jeu est dimensionné en rem : on agit sur la taille racine.
+//    Réglage propre à l'appareil (un PC et un téléphone n'ont pas les mêmes besoins).
+const TEXT_SIZE_KEY = "pokechill_textsize";
+const TEXT_SIZES = { small: "90%", normal: "", large: "110%" };
+
+function textSizeApply() {
+    const size = localStorage.getItem(TEXT_SIZE_KEY);
+    document.documentElement.style.fontSize = TEXT_SIZES[size] ?? "";
+}
+
+(function initTextSizeSetting() {
+    const select = document.getElementById("settings-textsize");
+    const size = localStorage.getItem(TEXT_SIZE_KEY);
+    select.value = size in TEXT_SIZES ? size : "normal";
+    select.addEventListener("change", () => {
+        localStorage.setItem(TEXT_SIZE_KEY, select.value);
+        textSizeApply();
+    });
+    textSizeApply();
+})();
