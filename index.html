@@ -14,6 +14,7 @@
     <link rel="apple-touch-icon" href="img/icons/app-192.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
+    <script>/* taille du texte appliquée avant l'affichage (réglage : scripts/mobile.js) */ document.documentElement.style.fontSize = { small: "90%", large: "110%" }[localStorage.getItem("pokechill_textsize")] || "";</script>
 
 
 
@@ -478,6 +479,8 @@
             <div onclick="textData()" data-i18n="ui.data_to_text">Data to Text</div>
             <div onclick="cloudSaveMenu()" data-i18n="ui.cloud_save">Cloud Save</div>
             <div onclick="openStats()" data-i18n="ui.stats_title">Statistics</div>
+            <div onclick="backupMenu()" data-i18n="ui.backup_title">Backups</div>
+            <div onclick="newsMenu()" data-i18n="ui.news_title">What's new</div>
 
             <div><span data-i18n="ui.theme">Theme:</span> <select id="settings-theme">
                 <option value="default" data-i18n="ui.default">default</option>
@@ -493,6 +496,12 @@
             <div><span data-i18n="ui.language">Language:</span> <select id="settings-lang">
                 <option value="en" data-i18n="ui.english">English</option>
                 <option value="fr" data-i18n="ui.fran_ais">Français</option>
+            </select></div>
+
+            <div><span data-i18n="ui.text_size">Text size:</span> <select id="settings-textsize">
+                <option value="small" data-i18n="ui.text_size_small">small</option>
+                <option value="normal" data-i18n="ui.text_size_normal">normal</option>
+                <option value="large" data-i18n="ui.text_size_large">large</option>
             </select></div>
 
             <div id="settings-rotation-row"><span data-i18n="ui.auto_rotate">Auto-rotate:</span> <select id="settings-rotation">
@@ -1765,6 +1774,8 @@
     <script src="scripts/save.js"></script>
     <script src="scripts/mobile.js"></script>
     <script src="scripts/cloudSave.js"></script>
+    <script src="scripts/backups.js"></script>
+    <script src="scripts/news.js"></script>
     <script>
         // Appli installable + hors ligne (voir sw.js)
         if ("serviceWorker" in navigator) {
