@@ -33,3 +33,17 @@ input, textarea {
         margin: 0 0.4rem !important;
     }
 }
+
+/* Économie de batterie (scripts/mobile.js) : animations terminées aussitôt, sans transitions ni flous.
+   Durée 0 plutôt que « animation: none » : les animations à état final (fill-mode forwards) affichent
+   leur dernière image au lieu de rester invisibles. Aucun code du jeu n'attend animationend/transitionend.
+   Exclus : Échange Miracle (révélation minutée) et bannière de mise à jour (doit rester visible 10 s). */
+body.battery-saver *:not(.update-banner):not(#wonder-ball):not(#wonder-pkmn):not(#wonder-text),
+body.battery-saver *::before, body.battery-saver *::after {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    transition: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+body.battery-saver .update-banner::before { animation: none !important; }

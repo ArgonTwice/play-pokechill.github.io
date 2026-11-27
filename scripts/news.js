@@ -4,6 +4,10 @@
 
 const NEWS = [
     {
+        id: "2026-11-27-2", // 2e publication du jour : seule la date (3 premiers nombres) est affichée
+        items: () => [t("ui.news_20261127_calendar"), t("ui.news_20261127_battery")],
+    },
+    {
         id: "2026-11-27",
         items: () => [
             t("ui.news_20261127_backups"),

@@ -1499,5 +1499,14 @@
  "ui.news_20261127_stats": "<b>Statistics</b>: play time, records and Pokédex progress by generation, with the missing Pokémon (Settings, or tap the Pokédex counter).",
  "ui.news_20261127_mobile": "<b>Phone</b>: installable app, offline play, save when leaving the app, auto-rotate and keep-screen-on settings, vibration on long press (Android).",
  "ui.news_20261127_cloud": "<b>Cloud save</b> between your devices through a private GitHub Gist (Settings → Cloud Save).",
- "ui.news_20261127_fixes": "Fixes: crash with Pokérus, Old Gateau in the Dictionary, type names and percentages in French."
+ "ui.news_20261127_fixes": "Fixes: crash with Pokérus, Old Gateau in the Dictionary, type names and percentages in French.",
+ "ui.calendar_title": "Rotation calendar",
+ "ui.calendar_hint": "Times are shown in your time zone. Tap a rotation timer to open this calendar.",
+ "ui.calendar_now": "Now (ends {v})",
+ "ui.calendar_rotation": "Rotation {v}/{v2}",
+ "ui.calendar_to_catch": "{v} to catch",
+ "ui.calendar_group": "{v} · {v2} areas",
+ "ui.battery_saver": "Battery saver:",
+ "ui.news_20261127_battery": "<b>Battery saver</b> in Settings: display capped at 30 frames/s and animations turned off. Game speed is unchanged.",
+ "ui.news_20261127_calendar": "<b>Rotation calendar</b> in Settings (or tap a rotation timer): upcoming wild areas, dungeons, events and Battle Frontier, with the Pokémon you still need to catch."
 }
